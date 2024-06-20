@@ -1,0 +1,13 @@
+id: "cerulean"
+title: "Cerulean GTIF project catalog"
+description: "Catalog providing description to available datasets to the Cerulean GTIF project"
+endpoint: "https://gtif-cerulean.github.io/catalog/cerulean/"
+default_base_layers: "layers/baselayers"
+default_overlay_layers: "layers/overlays"
+assets_endpoint: "https://raw.githubusercontent.com/gtif-cerulean/assets/main/"
+collections:
+  - Polar_contributing_from_race
+  - Polar_demo_collections
+  - TOPAZ5_polar
+  - TOPAZ4_polar
+  - 4D_Greenland
