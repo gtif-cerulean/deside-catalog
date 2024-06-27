@@ -6,8 +6,35 @@ default_base_layers: "layers/baselayers"
 default_overlay_layers: "layers/overlays"
 assets_endpoint: "https://raw.githubusercontent.com/gtif-cerulean/assets/main/"
 collections:
-  - Polar_contributing_from_race
-  - Polar_demo_collections
-  - TOPAZ5_polar
-  - TOPAZ4_polar
-  - 4D_Greenland
+  - 4D_Greenland_Duration
+  - 4D_Greenland_Melt_Onset
+  - 4D_Greenland_Melt_Season_End
+  - 4D_Greenland_Meltmap
+  - CDS1_temperature
+  - CDS3_wind_10m_u
+  - CDS4_wind_10m_v
+  - N12_1_sea_ice_concentration_arctic
+  - Polartep_RCM_demo
+  - Polartep_S1_dedl_demo
+  - Polartep_S1_demo
+  - Polartep_SeaIce_demo
+  - Polartep_SeaIceCharts_demo
+  - Polartep_SeaIceDetection_tif_demo
+  - Polartep_Snow_specific_surface_area_demo
+  - Polartep_Snowgrain_diameter_demo
+  - SITI_IS2SITMOGR4-cog
+  - TOPAZ4_P1D_SICONC
+  - TOPAZ4_P1D_SISNTHICK
+  - TOPAZ4_P1D_SITHICK
+  - TOPAZ4_P1D_VXO
+  - TOPAZ4_P1D_VXSI
+  - TOPAZ4_P1D_VYO
+  - TOPAZ4_P1D_VYSI
+  - TOPAZ5_P1D_SIAGE
+  - TOPAZ5_P1D_SICONC
+  - TOPAZ5_P1D_SISNTHICK
+  - TOPAZ5_P1D_SITHICK
+  - TOPAZ5_P1D_VXO
+  - TOPAZ5_P1D_VXSI
+  - TOPAZ5_P1D_VYO
+  - TOPAZ5_P1D_VYSI
