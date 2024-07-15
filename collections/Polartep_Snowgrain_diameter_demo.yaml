@@ -15,6 +15,11 @@ Agency:
 # Legend: Polartep_Snowgrain_diameter_demo/cm_legend.png
 Image: Polartep_Snowgrain_diameter_demo/thumbnail.png
 Resources:
-  - Name: Collection-only
-    EndPoint: Collection-only
-    OverwriteBBox: [-25.7, 62.4, -11.3, 67.1]
+  - Name: COG source
+    Style: Polartep_Snowgrain_diameter_demo/cog_style.json
+    Bbox: [-25.7, 62.4, -11.3, 67.1]
+    TimeEntries:
+      - Time: "20240715"
+        Assets:
+          - Identifier: "Snowgrain diameter demo"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/snow_grain_diameter_COG_3857.tif

@@ -15,6 +15,28 @@ Agency:
 # Legend: Polartep_S1_demo/cm_legend.png
 Image: Polartep_S1_demo/thumbnail.png
 Resources:
-  - Name: Collection-only
-    EndPoint: Collection-only
-    OverwriteBBox: [-12.15, 61.1, 7.2, 70.3]
+  - Name: COG source
+    Style: Polartep_S1_demo/cog_style.json
+    Bbox: [-12.15, 61.1, 7.2, 70.3]
+    TimeEntries:
+      - Time: "20230524T04:55:52Z"
+        Assets:
+          - Identifier: "Sentinel-1 IW VH 20230524T04:55:52Z"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vh-20230524t045552-20230524t045619-048671-05da94-002_COG.tiff
+      - Time: "20230524T17:52:21Z"
+        Assets:
+          - Identifier: "Sentinel-1 IW VV 20230524T04:55:52Z"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vv-20230524t175221-20230524t175248-048679-05dad0-001_COG.tiff
+      - Time: "20230524T17:52:21Z"
+        Assets:
+          - Identifier: "Sentinel-1 IW VH 20230524T17:52:21Z"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vh-20230524t175221-20230524t175248-048679-05dad0-002_COG.tiff
+      - Time: "20230524T17:53:20Z"
+        Assets:
+          - Identifier: "Sentinel-1 IW VV 20230524T04:55:52Z"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vv-20230524t175320-20230524t175344-048679-05dad0-001_COG.tiff
+      - Time: "20230524T17:53:20Z"
+        Assets:
+          - Identifier: "Sentinel-1 IW VH 20230524T17:53:20Z"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vh-20230524t175320-20230524t175344-048679-05dad0-002_COG.tiff
+

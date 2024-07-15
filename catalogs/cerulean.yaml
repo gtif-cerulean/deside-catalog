@@ -4,7 +4,7 @@ description: "Catalog providing description to available datasets to the Cerulea
 endpoint: "https://gtif-cerulean.github.io/catalog/cerulean/"
 default_base_layers: "layers/baselayers"
 default_overlay_layers: "layers/overlays"
-assets_endpoint: "https://raw.githubusercontent.com/gtif-cerulean/assets/main/"
+assets_endpoint: "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections"
 collections:
   - 4D_Greenland_Duration
   - 4D_Greenland_Melt_Onset
@@ -15,6 +15,7 @@ collections:
   - CDS4_wind_10m_v
   - N12_1_sea_ice_concentration_arctic
   - Polartep_RCM_demo
+  - Polartep_S2_segmentation_demo
   - Polartep_S1_dedl_demo
   - Polartep_S1_demo
   - Polartep_SeaIce_demo

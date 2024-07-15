@@ -1,6 +1,6 @@
 Name: TOPAZ5_P1D_SIAGE
-Title: Age of sea ice
-EodashIdentifier: TOPAZ5_P1D_SIAGE
+Title: Age of sea ice TOPAZ5
+EodashIdentifier: TOPAZ5_P1D_SIAGE 
 Description: TOPAZ5_P1D_SIAGE/TOPAZ5_P1D_SIAGE.md
 Themes:
   - cryosphere

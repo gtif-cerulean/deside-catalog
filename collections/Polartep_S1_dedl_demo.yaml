@@ -15,6 +15,15 @@ Agency:
 # Legend: Polartep_S1_dedl_demo/cm_legend.png
 Image: Polartep_S1_dedl_demo/thumbnail.png
 Resources:
-  - Name: Collection-only
-    EndPoint: Collection-only
-    OverwriteBBox: [-4, 59.5, 0.5, 61.3]
+  - Name: COG source
+    Style: Polartep_S1_dedl_demo/cog_style.json
+    Bbox: [-4, 59.5, 0.5, 61.3]
+    TimeEntries:
+      - Time: "20230524T17:52:21Z"
+        Assets:
+          - Identifier: "Sentinel-1 IW VV 20230524T17:52:21Z"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vv-20230524t175221-20230524t175248-048679-05dad0-001_COG.tiff
+      - Time: "20230524T17:52:21Z"
+        Assets:
+          - Identifier: "Sentinel-1 IW VV 20230524T17:52:21Z"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s1a-iw-grd-vh-20230524t175221-20230524t175248-048679-05dad0-002_COG.tiff

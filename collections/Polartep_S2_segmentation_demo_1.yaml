@@ -1,0 +1,26 @@
+Name: Polartep_S2_segmentation_demo_1
+Title: Binary S2 Segmentation results - source image
+EodashIdentifier: Polartep_S2_segmentation_demo_1
+Description: ""
+Themes:
+  - cryosphere
+Tags:
+  - Copernicus
+DataSource:
+  Spaceborne:
+    Satellite:
+      - Sentinel-2
+    Sensor:
+      - MSI
+Agency:
+  - ESA
+Image: Polartep_S2_segmentation_demo/Polartep_S2_segmentation.jpeg
+Resources:
+  - Name: COG source
+    # Style: Polartep_Snowgrain_diameter_demo/cog_style.json
+    Bbox: [-123.4, 49.1, -123.2, 49.25]
+    TimeEntries:
+      - Time: "20240715"
+        Assets:
+          - Identifier: "source image"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/input-cog.tif

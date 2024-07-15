@@ -15,6 +15,11 @@ Agency:
 # Legend: Polartep_SeaIce_demo/cm_legend.png
 Image: Polartep_SeaIce_demo/thumbnail.png
 Resources:
-  - Name: Collection-only
-    EndPoint: Collection-only
-    OverwriteBBox: [-66.6, 59.7, -28.3, 74.3]
+  - Name: GeoJSON source
+    Style: Polartep_SeaIce_demo/style.json
+    Bbox: [-66.6, 59.7, -28.3, 74.3]
+    TimeEntries:
+      - Time: "20240715"
+        Assets:
+          - Identifier: "Sea Ice Concentration"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/s411_seaice_concentration.geojson

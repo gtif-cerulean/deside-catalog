@@ -15,11 +15,19 @@ Agency:
 Legend: Polartep_SeaIceCharts_demo/legend.png
 Image: Polartep_SeaIceCharts_demo/thumbnail.png
 Resources:
-  - Name: Collection-only
-    EndPoint: Collection-only
-    OverwriteBBox: [-50, 59, -39, 65]
-    Type: OverwriteTimes
-    Times:
-      - "2024-01-16"
-      - "2024-01-18"
-      - "2024-01-19"
+  - Name: GeoJSON source
+    Style: Polartep_SeaIceCharts_demo/style.json
+    Bbox: [-50, 59, -39, 65]
+    TimeEntries:
+      - Time: "20240116"
+        Assets:
+          - Identifier: "Sea Ice Charts"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/cape_farewell_2024_01_16.geojson
+      - Time: "20240118"
+        Assets:
+          - Identifier: "Sea Ice Charts"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/cape_farewell_2024_01_18.geojson
+      - Time: "20240119"
+        Assets:
+          - Identifier: "Sea Ice Charts"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/cape_farewell_2024_01_19.geojson
