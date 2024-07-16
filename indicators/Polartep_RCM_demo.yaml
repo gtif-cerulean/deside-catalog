@@ -1,0 +1,8 @@
+Name: Polartep_RCM_demo
+Title: Radarsat Constellation Mission Sigma0
+EodashIdentifier: Polartep_RCM_demo
+Description: ''
+Collections:
+  - Polartep_RCM_demo_1
+  - Polartep_RCM_demo_2
+  - Polartep_RCM_demo_3

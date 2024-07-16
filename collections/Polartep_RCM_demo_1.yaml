@@ -1,6 +1,6 @@
-Name: Polartep_RCM_demo
-Title: Radarsat Constellation Mission Sigma0
-EodashIdentifier: Polartep_RCM_demo
+Name: Polartep_RCM_demo_1
+Title: RCM HH HV RATIO RGB SIGMA0 Visualisation
+EodashIdentifier: Polartep_RCM_demo_1
 Description: ''
 Themes:
   - cryosphere
@@ -15,10 +15,11 @@ Agency:
 # Legend: Polartep_RCM_demo/legend.png
 Image: Polartep_RCM_demo/thumbnail.png
 Resources:
-  - Name: Collection-only
-    EndPoint: Collection-only
-    OverwriteBBox: [-112, 45, -11, 75]
+  - EndPoint: https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID_POLARTEP}
+    Name: WMS
     Type: OverwriteTimes
+    LayerId: "5-HH-HV-RATIO-RGB-SIGMA0"
+    OverwriteBBox: [-112, 45, -11, 75]
     Times:
       - '2021-05-01'
       - '2021-05-04'
@@ -35,3 +36,4 @@ Resources:
       - '2021-05-22'
       - '2021-05-23'
       - '2021-05-25'
+
