@@ -34,6 +34,7 @@ jobs:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
           SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
           SH_CLIENT_SECRET: ${{ secrets.SH_CLIENT_SECRET }}
+          SH_INSTANCE_ID_POLARTEP: ${{ secrets.SH_INSTANCE_ID_POLARTEP}}
         run: eodash_catalog
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
