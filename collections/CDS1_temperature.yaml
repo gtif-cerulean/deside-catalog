@@ -3,6 +3,7 @@ Title: Global temperature
 EodashIdentifier: CDS1_temperature
 Subtitle: Global temperature description
 Description: CDS1_temperature/CDS1_temperature.md
+CollectionGroup: 'Contributing datasets from eodashboard'
 Themes:
   - air
 Tags:

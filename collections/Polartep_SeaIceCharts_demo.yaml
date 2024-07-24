@@ -2,6 +2,7 @@ Name: Polartep_SeaIceCharts_demo
 Title: Sea Ice Charts Geometries
 EodashIdentifier: Polartep_SeaIceCharts_demo
 Description: ''
+CollectionGroup: 'Polar TEP demo datasets'
 Themes:
   - cryosphere
 Tags:

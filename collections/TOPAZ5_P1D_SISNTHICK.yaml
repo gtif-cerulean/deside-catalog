@@ -2,6 +2,7 @@ Name: TOPAZ5_P1D_SISNTHICK
 Title: Surface snow thickness TOPAZ5
 EodashIdentifier: TOPAZ5_P1D_SISNTHICK
 Description: TOPAZ5_P1D_SIAGE/TOPAZ5_P1D_SIAGE.md
+CollectionGroup: 'TOPAZ5 - Arctic Ocean Physics Analysis and Forecast'
 Themes:
   - cryosphere
 Satellite:

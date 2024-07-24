@@ -2,6 +2,7 @@ Name: Polartep_RCM_demo
 Title: Radarsat Constellation Mission Sigma0
 EodashIdentifier: Polartep_RCM_demo
 Description: ''
+CollectionGroup: 'Polar TEP demo datasets'
 Collections:
   - Polartep_RCM_demo_1
   - Polartep_RCM_demo_2

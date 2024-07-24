@@ -2,6 +2,7 @@ Name: TOPAZ4_P1D_VXO
 Title: Eastward Sea water velocity TOPAZ4
 EodashIdentifier: TOPAZ4_P1D_VXO
 Description: TOPAZ4_P1D_VXSI/TOPAZ4_P1D_VXSI.md
+CollectionGroup: 'TOPAZ4b - Arctic Ocean Physics Reanalysis'
 Themes:
   - cryosphere
 Satellite:

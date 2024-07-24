@@ -2,6 +2,7 @@ Name: Polartep_S1_demo
 Title: Sentinel 1
 EodashIdentifier: Polartep_S1_demo
 Description: ''
+CollectionGroup: 'Polar TEP demo datasets'
 Themes:
   - cryosphere
 Tags:

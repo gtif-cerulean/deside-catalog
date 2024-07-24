@@ -2,6 +2,7 @@ Name: SITI_IS2SITMOGR4-cog
 Title: Sea Ice Thickness (ICESat-2)
 EodashIdentifier: SITI
 Description: SITI_IS2SITMOGR4-cog/SITI.md
+CollectionGroup: 'Contributing datasets from eodashboard'
 Themes:
   - cryosphere
 Tags:

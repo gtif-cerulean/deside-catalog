@@ -2,6 +2,7 @@ Name: Polartep_S1_dedl_demo
 Title: Destination Earth Data Lake Sentinel 1 GRD
 EodashIdentifier: Polartep_S1_dedl_demo
 Description: ''
+CollectionGroup: 'Polar TEP demo datasets'
 Themes:
   - cryosphere
 Tags:

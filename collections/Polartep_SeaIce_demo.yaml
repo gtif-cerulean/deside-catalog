@@ -2,6 +2,7 @@ Name: Polartep_SeaIce_demo
 Title: Sea Ice Concentration Geometries
 EodashIdentifier: Polartep_SeaIce_demo
 Description: ''
+CollectionGroup: 'Polar TEP demo datasets'
 Themes:
   - cryosphere
 Tags:

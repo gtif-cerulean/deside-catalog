@@ -2,6 +2,7 @@ Name: N12_1_sea_ice_concentration_arctic
 Title: Sea ice concentration GCOM-W - Arctic
 EodashIdentifier: N12_1_sea_ice_concentration_arctic
 Description: N12_sea_ice_concentration/N12.md
+CollectionGroup: 'Contributing datasets from eodashboard'
 Themes:
   - cryosphere
 Tags:

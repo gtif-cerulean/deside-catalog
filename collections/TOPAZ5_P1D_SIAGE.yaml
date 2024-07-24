@@ -2,6 +2,7 @@ Name: TOPAZ5_P1D_SIAGE
 Title: Age of sea ice TOPAZ5
 EodashIdentifier: TOPAZ5_P1D_SIAGE 
 Description: TOPAZ5_P1D_SIAGE/TOPAZ5_P1D_SIAGE.md
+CollectionGroup: 'TOPAZ5 - Arctic Ocean Physics Analysis and Forecast'
 Themes:
   - cryosphere
 Satellite:

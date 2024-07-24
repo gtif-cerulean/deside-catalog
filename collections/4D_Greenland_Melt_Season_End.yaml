@@ -15,6 +15,7 @@ Agency:
   - ESA
 Provider:
   - Name: Sentinel-Hub
+CollectionGroup: '4D Greenland Datasets'
 Resources:
   - EndPoint: https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}
     LayerId: VIS_4D_GREENLAND_END
