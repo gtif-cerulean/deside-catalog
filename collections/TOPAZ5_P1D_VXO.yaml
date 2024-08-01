@@ -35,3 +35,6 @@ Citation:
   Publication:
     - Citation: "Sakov, P., Counillon, F., Bertino, L., Lisæter, K. A., Oke, P. R. and Korablev, A.: TOPAZ4: an ocean-sea ice data assimilation system for the North Atlantic and Arctic, Ocean Sci., 8(4), 633–656, doi:10.5194/os-8-633-2012, 2012. Melsom, A., Counillon, F., LaCasce, J. H. and Bertino, L.: Forecasting search areas using ensemble ocean circulation modeling, Ocean Dyn., 62(8), 1245–1257, doi:10.1007/s10236-012-0561-5, 2012."
       DOI: 10.48670/moi-00001
+MapProjection:
+  name: 'ORTHO:680500'
+  def: '+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs'

@@ -24,3 +24,6 @@ Resources:
     CollectionId: 6868b841-2c93-4a7d-bf0b-2f11c24bf9dd
 Image: 4D_Greenland_Melt_Duration/thumbnail.png
 Legend: 4D_Greenland_Melt_Duration/legend.png
+MapProjection:
+  name: 'ORTHO:680500'
+  def: '+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs'

@@ -33,5 +33,9 @@ Resources:
     DateTimeInterval:
       Start: "2020-01-01T00:00:00"
       End: "2024-06-30T00:00:00"
+      Interval: 7
 Legend: N12_sea_ice_concentration/cm_legend.png
 Image: N12_sea_ice_concentration/Arctic-N12_1.png
+MapProjection:
+  name: 'ORTHO:680500'
+  def: '+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs'

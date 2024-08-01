@@ -29,5 +29,9 @@ Resources:
       # so can not be used directly to get dates and filter
       Start: "2018-01-01T00:00:00"
       End: "2021-12-28T00:00:00"
+      Interval: 7
 Image: 4D_Greenland_Meltmap/thumbnail.png
 Legend: 4D_Greenland_Meltmap/legend.png
+MapProjection:
+  name: 'ORTHO:680500'
+  def: '+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs'
