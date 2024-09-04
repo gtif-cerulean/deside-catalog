@@ -1,7 +1,7 @@
 Name: Polartep_SeaIceDetection_tif_demo
 Title: Sea Ice Concentration Detection Model
 EodashIdentifier: Polartep_SeaIceDetection_tif_demo
-Description: 'Sea Ice Concentration Detection Model Demo Results'
+Description: Polartep_SeaIceDetection_tif_demo/Polartep_SeaIceDetection_tif_demo.md
 CollectionGroup: 'Polar TEP demo datasets'
 Collections:
   - Polartep_SeaIceDetection_tif_demo_1
