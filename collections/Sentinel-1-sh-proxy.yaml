@@ -24,7 +24,7 @@ Resources:
     CollectionId: sentinel-1-grd
     LayerId: SENTINEL_1_IW_VV
     DateTimeInterval:
-      Start: "2021-01-01"
+      Start: "2021-01-01T00:00:00Z"
       End: "today"
 Provider:
   - Name: Copernicus

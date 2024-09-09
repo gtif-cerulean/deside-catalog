@@ -1,6 +1,6 @@
-Name: Polartep_RCM_demo_3
-Title: RCM HV Linear Sigma0
-EodashIdentifier: Polartep_RCM_demo_3
+Name: Polartep_RCM_demo_4
+Title: RCM HV Decibel Sigma0
+EodashIdentifier: Polartep_RCM_demo_4
 Description: ''
 Themes:
   - cryosphere
@@ -20,4 +20,4 @@ Resources:
     Type: byoc
     CollectionId: c1c45264-d369-45b2-9d78-e9955580baa5
     CustomSHEnvId: POLARTEP
-    LayerId: "3-HV-LINEAR-SIGMA0"
+    LayerId: "4-HV-DECIBEL-SIGMA0"

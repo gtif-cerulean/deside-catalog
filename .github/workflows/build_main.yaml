@@ -30,13 +30,15 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -U pip
-          pip install eodash_catalog
+          pip install eodash_catalog==0.0.32
       - name: Build
         env:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
           SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
           SH_CLIENT_SECRET: ${{ secrets.SH_CLIENT_SECRET }}
-          SH_INSTANCE_ID_POLARTEP: ${{ secrets.SH_INSTANCE_ID_POLARTEP}}
+          SH_INSTANCE_ID_POLARTEP: ${{ secrets.SH_INSTANCE_ID_POLARTEP }}
+          SH_CLIENT_ID_POLARTEP: ${{ secrets.SH_CLIENT_ID_POLARTEP }}
+          SH_CLIENT_SECRET_POLARTEP: ${{ secrets.SH_CLIENT_SECRET_POLARTEP }}
         run: eodash_catalog
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

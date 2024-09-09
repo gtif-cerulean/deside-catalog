@@ -27,8 +27,8 @@ Resources:
       # we just show a subset for demonstration purposes
       # SH STAC Endpoint only lists dates 1.1. of each year
       # so can not be used directly to get dates and filter
-      Start: "2018-01-01T00:00:00"
-      End: "2021-12-28T00:00:00"
+      Start: "2018-01-01T00:00:00Z"
+      End: "2021-12-28T00:00:00Z"
       Interval: 7
 Image: 4D_Greenland_Meltmap/thumbnail.png
 Legend: 4D_Greenland_Meltmap/legend.png
