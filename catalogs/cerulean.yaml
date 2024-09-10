@@ -43,5 +43,3 @@ collections:
   - TOPAZ5_P1D_VYSI
   - Sentinel-1-sh-proxy
   - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siage
-  # - test_wms_no_time
-  # - test_projections
