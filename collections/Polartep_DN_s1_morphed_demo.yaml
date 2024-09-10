@@ -1,0 +1,58 @@
+Name: Polartep_DN_s1_morphed_demo
+Title: Morphed Sentinel-1 demo
+EodashIdentifier: Polartep_DN_s1_morphed_demo
+Description: ''
+CollectionGroup: 'Polar TEP demo datasets'
+Themes:
+  - cryosphere
+Tags:
+  - placeholder
+Satellite:
+  - placeholder
+Sensor:
+  - placeholder
+Agency:
+  - ESA
+# Legend: Polartep_Snow_specific_surface_area_demo/cm_legend.png
+# Image: Polartep_Harshness_map_demo/thumbnail.png
+Resources:
+  - Name: COG source
+    Style: "https://api.npoint.io/02cd941bed84f7e30e6d"
+    Bbox: [-142, 65, -110, 85]
+    TimeEntries:
+      - Time: "20240831"
+        Assets:
+          - Identifier: "Harshness map demo prediction 06 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240831/S1A_EW_GRDM_1SDH_sub_20240831T155929_20240831T155929_000000_xxxxxx_4F94_roi_forecast_48_06_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 12 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240831/S1A_EW_GRDM_1SDH_sub_20240831T155929_20240831T155929_000000_xxxxxx_4F94_roi_forecast_48_12_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 18 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240831/S1A_EW_GRDM_1SDH_sub_20240831T155929_20240831T155929_000000_xxxxxx_4F94_roi_forecast_48_18_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 24 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240831/S1A_EW_GRDM_1SDH_sub_20240831T155929_20240831T155929_000000_xxxxxx_4F94_roi_forecast_48_24_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 30 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240831/S1A_EW_GRDM_1SDH_sub_20240831T155929_20240831T155929_000000_xxxxxx_4F94_roi_forecast_48_30_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 36 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240831/S1A_EW_GRDM_1SDH_sub_20240831T155929_20240831T155929_000000_xxxxxx_4F94_roi_forecast_48_36_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 42 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240831/S1A_EW_GRDM_1SDH_sub_20240831T155929_20240831T155929_000000_xxxxxx_4F94_roi_forecast_48_42_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 48 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240831/S1A_EW_GRDM_1SDH_sub_20240831T155929_20240831T155929_000000_xxxxxx_4F94_roi_forecast_48_48_NEXTSIM_mpl_cog.tif
+      - Time: "20240902"
+        Assets:
+          - Identifier: "Harshness map demo prediction 06 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240902/S1A_EW_GRDM_1SDH_sub_20240902T154303_20240902T154303_000000_xxxxxx_27FB_roi_forecast_48_06_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 12 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240902/S1A_EW_GRDM_1SDH_sub_20240902T154303_20240902T154303_000000_xxxxxx_27FB_roi_forecast_48_12_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 18 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240902/S1A_EW_GRDM_1SDH_sub_20240902T154303_20240902T154303_000000_xxxxxx_27FB_roi_forecast_48_18_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 24 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240902/S1A_EW_GRDM_1SDH_sub_20240902T154303_20240902T154303_000000_xxxxxx_27FB_roi_forecast_48_24_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 30 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240902/S1A_EW_GRDM_1SDH_sub_20240902T154303_20240902T154303_000000_xxxxxx_27FB_roi_forecast_48_30_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 36 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240902/S1A_EW_GRDM_1SDH_sub_20240902T154303_20240902T154303_000000_xxxxxx_27FB_roi_forecast_48_36_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 42 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240902/S1A_EW_GRDM_1SDH_sub_20240902T154303_20240902T154303_000000_xxxxxx_27FB_roi_forecast_48_42_NEXTSIM_mpl_cog.tif
+          - Identifier: "Harshness map demo prediction 48 hours"
+            File: https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/S1_morphed/20240902/S1A_EW_GRDM_1SDH_sub_20240902T154303_20240902T154303_000000_xxxxxx_27FB_roi_forecast_48_48_NEXTSIM_mpl_cog.tif
