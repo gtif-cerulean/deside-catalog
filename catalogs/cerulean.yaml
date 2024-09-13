@@ -14,7 +14,8 @@ collections:
   - CDS3_wind_10m_u
   - CDS4_wind_10m_v
   - N12_1_sea_ice_concentration_arctic
-  - Polartep_RCM_demo
+  # - Polartep_RCM_demo
+  - Polartep_RCM_demo_old
   - Polartep_S2_segmentation_demo
   - Polartep_S1_dedl_demo
   - Polartep_S1_demo
