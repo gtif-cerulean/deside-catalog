@@ -30,7 +30,6 @@ jobs:
         run: |
           pip install -U pip
           pip install eodash_catalog==0.0.32
-        run: eodash_catalog
       - if: github.event.action != 'closed' && (github.event.pull_request.body == 'all' || github.event.pull_request.body == '')
         name: Build all collections
         env:

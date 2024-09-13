@@ -1,4 +1,4 @@
-# catalog configuration
+# Catalog configuration
 Catalog configuration point for GTIF cerulean project
 
 Catalog is available under:
