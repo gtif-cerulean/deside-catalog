@@ -25,6 +25,7 @@ collections:
   - Polartep_Snow_specific_surface_area_demo
   - Polartep_Snowgrain_diameter_demo
   - Polartep_Harshness_map_demo
+  - Polartep_DN_s1_morphed_demo
   - SITI_IS2SITMOGR4-cog
   - TOPAZ4_P1D_SICONC
   - TOPAZ4_P1D_SISNTHICK

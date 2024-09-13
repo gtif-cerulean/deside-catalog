@@ -20,6 +20,7 @@ jobs:
     permissions:
       contents: write
       pages: write
+      pull-requests: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
