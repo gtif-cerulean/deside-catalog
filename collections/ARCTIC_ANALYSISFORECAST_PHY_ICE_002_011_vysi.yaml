@@ -1,6 +1,6 @@
-Name: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siage
-Title: Age of Sea Ice PHY_ICE_002_011_P1m
-EodashIdentifier: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siage
+Name: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vysi
+Title: Eastward sea ice velocity PHY_ICE_002_011_P1m
+EodashIdentifier: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vysi
 Description: ''
 CollectionGroup: 'Arctic Ocean Sea Ice Analysis and Forecast'
 Themes:
@@ -18,12 +18,12 @@ Resources:
     DataProjection: 4326 # also needs definition - see eodash/eodash_catalog/issues/15
     Type: WMTSCapabilities
     Name: marinedatastore
-    LayerId: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011/cmems_mod_arc_phy_anfc_nextsim_P1M-m_202311/siage
+    LayerId: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011/cmems_mod_arc_phy_anfc_nextsim_P1M-m_202311/vysi
     Dimensions:
       elevation: 0
-      style: 'cmap:viridis,range:1/1800,noClamp'
-Legend: TOPAZ5_P1D_SIAGE/cm_legend.png
-Image: TOPAZ5_P1D_SIAGE/thumbnail.png
+      style: 'cmap:delta,range:-0.3/0.3,noClamp'
+Legend: TOPAZ4_P1D_VYSI/cm_legend.png
+Image: TOPAZ4_P1D_VYSI/thumbnail.png
 
 Provider:
   - Name: E.U. Copernicus Marine Service Information (CMEMS)
