@@ -1,7 +1,7 @@
-Name: Sentinel1-SH
-Title: Sentinel 1 IW VV from Sentinel Hub
-EodashIdentifier: Sentinel1-SH
-Description: "SENTINEL_1_IW_VV"
+Name: Sentinel2-L2A-SH
+Title: Sentinel 2 L2A True Color from Sentinel Hub
+EodashIdentifier: Sentinel2-L2A-SH
+Description: "SENTINEL_2_L2A-SH"
 CollectionGroup: 'Contributing datasets from eodashboard'
 Themes:
   - cryosphere
@@ -11,17 +11,16 @@ Tags:
 DataSource:
   Spaceborne:
     Satellite:
-    - Sentinel-1
+    - Sentinel-2
     Sensor:
-    - C-SAR
+    - MSI
 Agency:
-  - European Commission
   - ESA
 Image: Lakes_Sentinel1/thumbnail.png
 Resources:
   - EndPoint: https://services.sentinel-hub.com
     Name: Sentinel Hub WMS
-    LayerId: SENTINEL_1_IW_VV
+    LayerId: SENTINEL-2-L2A-TRUE-COLOR
     DateTimeInterval:
       Start: "2022-01-01T00:00:00Z"
       End: "today"
