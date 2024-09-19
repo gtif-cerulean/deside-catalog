@@ -43,6 +43,7 @@ collections:
   - TOPAZ5_P1D_VYO
   - TOPAZ5_P1D_VYSI
   - Sentinel-1-sh-proxy
+  - Sentinel-2-sh-proxy
   - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siage
   - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_si_ridge_ratio
   - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb
