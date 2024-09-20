@@ -20,7 +20,7 @@ Resources:
     LayerId: ARCTIC_ANALYSISFORECAST_PHY_002_001/cmems_mod_arc_phy_anfc_6km_detided_P1D-m_202311/sea_water_velocity
     Dimensions:
       elevation: 0
-      style: 'cmap:speed,range:0/2,noClamp,vectorStyle:solidAndVector'Legend: TOPAZ5_P1D_VXO/cm_legend.png
+      style: 'cmap:speed,range:0/2,noClamp,vectorStyle:solidAndVector'
 Image: TOPAZ4_P1D_VXO/thumbnail.png
 Legend: TOPAZ4_P1D_VXO/cm_legend.png
 
