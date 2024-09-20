@@ -15,7 +15,6 @@ collections:
   - CDS4_wind_10m_v
   - N12_1_sea_ice_concentration_arctic
   - Polartep_RCM_demo
-  # - Polartep_RCM_demo_old
   - Polartep_S2_segmentation_demo
   - Polartep_S1_dedl_demo
   - Polartep_S1_demo
@@ -30,18 +29,14 @@ collections:
   - TOPAZ4_P1D_SICONC
   - TOPAZ4_P1D_SISNTHICK
   - TOPAZ4_P1D_SITHICK
-  - TOPAZ4_P1D_VXO
-  - TOPAZ4_P1D_VXSI
-  - TOPAZ4_P1D_VYO
-  - TOPAZ4_P1D_VYSI
+  - TOPAZ4_P1D_VSI_vector
+  - TOPAZ4_P1D_VO_vector
   - TOPAZ5_P1D_SIAGE
   - TOPAZ5_P1D_SICONC
   - TOPAZ5_P1D_SISNTHICK
   - TOPAZ5_P1D_SITHICK
-  - TOPAZ5_P1D_VXO
-  - TOPAZ5_P1D_VXSI
-  - TOPAZ5_P1D_VYO
-  - TOPAZ5_P1D_VYSI
+  - TOPAZ5_P1D_VO_vector
+  - TOPAZ5_P1D_VSI_vector
   - Sentinel-1-sh-proxy
   - Sentinel-2-sh-proxy
   - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siage
@@ -52,5 +47,5 @@ collections:
   - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siconc
   - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sisnthick
   - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sithick
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vxsi
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vysi
+  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vsi_vector
+  
