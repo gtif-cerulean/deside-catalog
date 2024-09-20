@@ -24,7 +24,7 @@ Resources:
       End: "2022-12-31T00:00:00"
     Dimensions:
       elevation: 0
-      style: 'cmap:delta,range:-0.3/0.3,noClamp,vectorStyle:solidAndVector'
+      style: 'cmap:speed,range:0/0.5,noClamp,vectorStyle:solidAndVector'
 Legend: TOPAZ4_P1D_VXO/cm_legend.png
 Image: TOPAZ4_P1D_VXO/thumbnail.png
 Provider:
