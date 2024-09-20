@@ -23,7 +23,7 @@ Resources:
       elevation: 0
       style: 'cmap:viridis,range:0/1,noClamp'
 Legend: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_si_ridge_ratio/cm_legend.png
-# Image: TOPAZ5_P1D_SIAGE/thumbnail.png
+Image: TOPAZ4_P1D_SIAGE/thumbnail.png
 
 Provider:
   - Name: E.U. Copernicus Marine Service Information (CMEMS)
