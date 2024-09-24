@@ -21,8 +21,8 @@ Resources:
     Dimensions:
       elevation: 0
       style: 'cmap:ice,range:0.001/4,noClamp'
-Legend: TOPAZ5_P1D_SITHICK/cm_legend.png
-Image: TOPAZ5_P1D_SITHICK/thumbnail.png
+Legend: TOPAZ4_P1D_SITHICK/cm_legend.png
+Image: TOPAZ4_P1D_SITHICK/thumbnail.png
 
 Provider:
   - Name: E.U. Copernicus Marine Service Information (CMEMS)

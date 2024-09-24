@@ -1,8 +1,8 @@
-Name: TOPAZ4_P1D_VXO
-Title: Eastward Sea water velocity TOPAZ4
-EodashIdentifier: TOPAZ4_P1D_VXO
-Description: TOPAZ4_P1D_VXSI/TOPAZ4_P1D_VXSI.md
-CollectionGroup: 'TOPAZ4b - Arctic Ocean Physics Reanalysis'
+Name: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vsi_vector
+Title: Sea ice velocity vector PHY_ICE_002_011_P1m
+EodashIdentifier: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vsi_vector
+Description: ''
+CollectionGroup: 'Arctic Ocean Sea Ice Analysis and Forecast'
 Themes:
   - cryosphere
 Satellite:
@@ -14,19 +14,16 @@ Agency:
 Tags:
   - model
 Resources:
-  - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/ARCTIC_MULTIYEAR_PHY_002_003/cmems_mod_arc_phy_my_topaz4_P1D-m_202211
+  - EndPoint: https://wmts.marine.copernicus.eu/teroWmts/ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011/cmems_mod_arc_phy_anfc_nextsim_P1M-m_202311
+    DataProjection: 4326 # also needs definition - see eodash/eodash_catalog/issues/15
     Type: WMTSCapabilities
     Name: marinedatastore
-    LayerId: ARCTIC_MULTIYEAR_PHY_002_003/cmems_mod_arc_phy_my_topaz4_P1D-m_202211/vxo
-    Query:
-      # original dataset goes from 1.1.1991 but we manually only show last 5 years
-      Start: "2018-01-01T00:00:00"
-      End: "2022-12-31T00:00:00"
+    LayerId: ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011/cmems_mod_arc_phy_anfc_nextsim_P1M-m_202311/sea_ice_velocity
     Dimensions:
       elevation: 0
-      style: 'cmap:delta,range:-0.3/0.3,noClamp'
-Legend: TOPAZ4_P1D_VXO/cm_legend.png
-Image: TOPAZ4_P1D_VXO/thumbnail.png
+      style: 'cmap:speed,range:0/0.5,noClamp,vectorStyle:solidAndVector'
+Legend: TOPAZ4_P1D_VXSI/cm_legend.png
+Image: TOPAZ4_P1D_VXSI/thumbnail.png
 
 Provider:
   - Name: E.U. Copernicus Marine Service Information (CMEMS)
@@ -35,9 +32,10 @@ Provider:
     Roles: 
       - producer
 Citation:
-  Citation: TOPAZ4b - Arctic Ocean Physics Reanalysis; ARCTIC_MULTIYEAR_PHY_002_003; E.U. Copernicus Marine Service Information (CMEMS), Marine Data Store (MDS).
+  Citation: Arctic Ocean Physics Analysis and Forecast; ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011; E.U. Copernicus Marine Service Information (CMEMS), Marine Data Store (MDS).
   Publication:
-    - DOI: 10.48670/moi-00007
+    - Citation: "Williams, T., Korosov, A., Rampal, P., and Ólason, E.: Presentation and evaluation of the Arctic sea ice forecasting system neXtSIM-F, The Cryosphere, 15, 3207–3227, https://doi.org/10.5194/tc-15-3207-2021, 2021."
+      DOI: 10.48670/moi-00004
 MapProjection:
   name: 'ORTHO:680500'
   def: '+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs'
