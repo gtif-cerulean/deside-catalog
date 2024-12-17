@@ -6,45 +6,4 @@ default_base_layers: "layers/baselayers"
 default_overlay_layers: "layers/overlays"
 assets_endpoint: "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections"
 collections:
-  - 4D_Greenland_Duration
-  - 4D_Greenland_Melt_Onset
-  - 4D_Greenland_Melt_Season_End
-  - 4D_Greenland_Meltmap
-  - CDS1_temperature
-  - CDS3_wind_10m_u
-  - CDS4_wind_10m_v
-  - N12_1_sea_ice_concentration_arctic
-  - Polartep_RCM_demo
-  - Polartep_S2_segmentation_demo
-  - Polartep_S1_dedl_demo
-  - Polartep_S1_demo
-  - Polartep_SeaIce_demo
-  - Polartep_SeaIceCharts_demo
-  - Polartep_SeaIceDetection_tif_demo
-  - Polartep_Snow_specific_surface_area_demo
-  - Polartep_Snowgrain_diameter_demo
-  - Polartep_Harshness_map_demo
-  - Polartep_DN_s1_morphed_demo
-  - SITI_IS2SITMOGR4-cog
-  - TOPAZ4_P1D_SICONC
-  - TOPAZ4_P1D_SISNTHICK
-  - TOPAZ4_P1D_SITHICK
-  - TOPAZ4_P1D_VSI_vector
-  - TOPAZ4_P1D_VO_vector
-  - TOPAZ5_P1D_SIAGE
-  - TOPAZ5_P1D_SICONC
-  - TOPAZ5_P1D_SISNTHICK
-  - TOPAZ5_P1D_SITHICK
-  - TOPAZ5_P1D_VO_vector
-  - TOPAZ5_P1D_VSI_vector
-  - Sentinel-1-sh-proxy
-  - Sentinel-2-sh-proxy
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siage
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_si_ridge_ratio
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sialb
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siconc_my
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siconc_young
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_siconc
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sisnthick
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_sithick
-  - ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_vsi_vector
+  - harshness

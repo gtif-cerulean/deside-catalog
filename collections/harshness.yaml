@@ -1,0 +1,31 @@
+Name: harshness
+Title: Harshness capability
+EodashIdentifier: harshness
+Description: This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.
+Themes:
+  - ice
+Tags:
+  - processing
+  - capability
+Satellite:
+  - multiple
+Sensor:
+  - multiple
+Agency:
+  - ESA
+Resources:
+  - Name: Collection-only
+    EndPoint: Collection-only
+    OverwriteBBox: [-180, 90, 180, -90]
+Process:
+  Name: harshness
+  JsonForm: https://harshness-map.gtif.eox.at/process_example/definitions/harshness_form.json
+  EndPoints:
+    - Identifier: harshnesscollection
+      Url: https://harshness-map.gtif.eox.at/processes/execute-create-harshness/execution
+      Method: POST
+      EndPoint: eoxhub_workspaces
+      Body: https://santilland.github.io/process_example/definitions/harshness_body.json
+      Type: image/tiff
+      Flatstyle: https://santilland.github.io/process_example/definitions/harshness_style.json
+      
