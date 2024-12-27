@@ -17,7 +17,7 @@ Image: Polartep_SeaIceCharts_demo/thumbnail.png
 Resources:
   - Name: GeoJSON source
     Style: Polartep_SeaIceCharts_demo/style.json
-    Bbox: [-90, 83, 18, 56]
+    Bbox: [-90, 56, 18, 83]
     TimeEntries:
       - Time: "20240915T0810"
         Assets:
