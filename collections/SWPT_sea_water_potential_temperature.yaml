@@ -3,7 +3,7 @@ Title: Sea water potential temperature
 EodashIdentifier: SWPT
 Description: |
   Example datasets from CMEMS with statistical access.
-  Sea water potential temperature is a measure of the temperature of the water in the ocean, which is calculated from the temperature of the water and the pressure at which it is found. This is a model output from the Copernicus Marine Environment Monitoring Service (CMEMS) and is part of the TOPAZ4b - Arctic Ocean Physics Reanalysis dataset.
+  Sea water potential temperature is a measure of the temperature of the water in the ocean, which is calculated from the temperature of the water and the pressure at which it is found. This is a model output from the Copernicus Marine Environment Monitoring Service (CMEMS).
 Themes:
   - cryosphere
 Satellite:
