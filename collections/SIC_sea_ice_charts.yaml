@@ -1,0 +1,841 @@
+Name: sea_ice_charts
+Title: Sea Ice Charts Geometries
+EodashIdentifier: SIC_sea_ice_charts
+Description: Sea Ice Charts geometries demonstration collection from various sources, such as DMI
+Themes:
+  - cryosphere
+Tags:
+  - placeholder
+Satellite:
+  - placeholder
+Sensor:
+  - placeholder
+Agency:
+  - ESA
+Legend: Polartep_SeaIceCharts_demo/legend.png
+Image: Polartep_SeaIceCharts_demo/thumbnail.png
+Resources:
+  - Name: GeoJSON source
+    Style: Polartep_SeaIceCharts_demo/style.json
+    Bbox: [-50, 59, -39, 65]
+    TimeEntries:
+      - Time: "20240915T0810"
+        Assets:
+          - Identifier: "20240915T0810"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409150810_NorthEast_RIC/202409150810_NorthEast_RIC.geojson
+      - Time: "20240915T0950"
+        Assets:
+          - Identifier: "20240915T0950"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409150950_CentralWest_RIC/202409150950_CentralWest_RIC.geojson
+      - Time: "20240915T1800"
+        Assets:
+          - Identifier: "20240915T1800"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409151800_NorthEast_RIC/202409151800_NorthEast_RIC.geojson
+      - Time: "20240915T2115"
+        Assets:
+          - Identifier: "20240915T2115"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409152115_NorthWest_RIC/202409152115_NorthWest_RIC.geojson
+      - Time: "20240916T0855"
+        Assets:
+          - Identifier: "20240916T0855"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409160855_SouthEast_RIC/202409160855_SouthEast_RIC.geojson
+      - Time: "20240916T1210"
+        Assets:
+          - Identifier: "20240916T1210"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409161210_Qaanaaq_RIC/202409161210_Qaanaaq_RIC.geojson
+      - Time: "20240916T1915"
+        Assets:
+          - Identifier: "20240916T1915"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409161915_CentralEast_RIC/202409161915_CentralEast_RIC.geojson
+      - Time: "20240917T2100"
+        Assets:
+          - Identifier: "20240917T2100"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409172100_CapeFarewell_RIC/202409172100_CapeFarewell_RIC.geojson
+      - Time: "20240918T0825"
+        Assets:
+          - Identifier: "20240918T0825"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409180825_NorthEast_RIC/202409180825_NorthEast_RIC.geojson
+      - Time: "20240918T1955"
+        Assets:
+          - Identifier: "20240918T1955"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409181955_SouthEast_RIC/202409181955_SouthEast_RIC.geojson
+      - Time: "20240918T2140"
+        Assets:
+          - Identifier: "20240918T2140"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409182140_CentralWest_RIC/202409182140_CentralWest_RIC.geojson
+      - Time: "20240919T1055"
+        Assets:
+          - Identifier: "20240919T1055"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409191055_NorthWest_RIC/202409191055_NorthWest_RIC.geojson
+      - Time: "20240920T0815"
+        Assets:
+          - Identifier: "20240920T0815"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409200815_North_RIC/202409200815_North_RIC.geojson
+      - Time: "20240920T0820"
+        Assets:
+          - Identifier: "20240920T0820"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409200820_CentralEast_RIC/202409200820_CentralEast_RIC.geojson
+      - Time: "20240920T0945"
+        Assets:
+          - Identifier: "20240920T0945"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409200945_SouthWest_RIC/202409200945_SouthWest_RIC.geojson
+      - Time: "20240920T2050"
+        Assets:
+          - Identifier: "20240920T2050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409202050_CentralWest_RIC/202409202050_CentralWest_RIC.geojson
+      - Time: "20240921T2030"
+        Assets:
+          - Identifier: "20240921T2030"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409212030_CapeFarewell_RIC/202409212030_CapeFarewell_RIC.geojson
+      - Time: "20240922T2105"
+        Assets:
+          - Identifier: "20240922T2105"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409222105_NorthWest_RIC/202409222105_NorthWest_RIC.geojson
+      - Time: "20240928T2015"
+        Assets:
+          - Identifier: "20240928T2015"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409282015_SouthEast_RIC/202409282015_SouthEast_RIC.geojson
+      - Time: "20240928T2045"
+        Assets:
+          - Identifier: "20240928T2045"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409282045_CapeFarewell_RIC/202409282045_CapeFarewell_RIC.geojson
+      - Time: "20240929T0755"
+        Assets:
+          - Identifier: "20240929T0755"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409290755_CentralEast_RIC/202409290755_CentralEast_RIC.geojson
+      - Time: "20240929T2055"
+        Assets:
+          - Identifier: "20240929T2055"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409292055_SouthWest_RIC/202409292055_SouthWest_RIC.geojson
+      - Time: "20240930T0830"
+        Assets:
+          - Identifier: "20240930T0830"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409300830_North_RIC/202409300830_North_RIC.geojson
+      - Time: "20240930T0835"
+        Assets:
+          - Identifier: "20240930T0835"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409300835_NorthEast_RIC/202409300835_NorthEast_RIC.geojson
+      - Time: "20240930T1350"
+        Assets:
+          - Identifier: "20240930T1350"
+            File: https://tyna-bucket.s3.eox.at/dmi/202409301350_CentralEast_RIC/202409301350_CentralEast_RIC.geojson
+      - Time: "20241001T0920"
+        Assets:
+          - Identifier: "20241001T0920"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410010920_CapeFarewell_RIC/202410010920_CapeFarewell_RIC.geojson
+      - Time: "20241001T1055"
+        Assets:
+          - Identifier: "20241001T1055"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410011055_NorthWest_RIC/202410011055_NorthWest_RIC.geojson
+      - Time: "20241002T0820"
+        Assets:
+          - Identifier: "20241002T0820"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410020820_CentralEast_RIC/202410020820_CentralEast_RIC.geojson
+      - Time: "20241002T1000"
+        Assets:
+          - Identifier: "20241002T1000"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410021000_CentralWest_RIC/202410021000_CentralWest_RIC.geojson
+      - Time: "20241002T2050"
+        Assets:
+          - Identifier: "20241002T2050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410022050_NorthWest_RIC/202410022050_NorthWest_RIC.geojson
+      - Time: "20241006T0930"
+        Assets:
+          - Identifier: "20241006T0930"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410060930_CapeFarewell_RIC/202410060930_CapeFarewell_RIC.geojson
+      - Time: "20241006T2050"
+        Assets:
+          - Identifier: "20241006T2050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410062050_CentralWest_RIC/202410062050_CentralWest_RIC.geojson
+      - Time: "20241006T2050"
+        Assets:
+          - Identifier: "20241006T2050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410062050_NorthWest_RIC/202410062050_NorthWest_RIC.geojson
+      - Time: "20241007T0825"
+        Assets:
+          - Identifier: "20241007T0825"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410070825_North_RIC/202410070825_North_RIC.geojson
+      - Time: "20241007T0830"
+        Assets:
+          - Identifier: "20241007T0830"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410070830_NorthEast_RIC/202410070830_NorthEast_RIC.geojson
+      - Time: "20241007T1145"
+        Assets:
+          - Identifier: "20241007T1145"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410071145_Qaanaaq_RIC/202410071145_Qaanaaq_RIC.geojson
+      - Time: "20241008T0915"
+        Assets:
+          - Identifier: "20241008T0915"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410080915_CapeFarewell_RIC/202410080915_CapeFarewell_RIC.geojson
+      - Time: "20241009T0810"
+        Assets:
+          - Identifier: "20241009T0810"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410090810_NorthEast_RIC/202410090810_NorthEast_RIC.geojson
+      - Time: "20241009T0815"
+        Assets:
+          - Identifier: "20241009T0815"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410090815_CentralEast_RIC/202410090815_CentralEast_RIC.geojson
+      - Time: "20241010T0825"
+        Assets:
+          - Identifier: "20241010T0825"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410100825_North_RIC/202410100825_North_RIC.geojson
+      - Time: "20241010T0855"
+        Assets:
+          - Identifier: "20241010T0855"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410100855_SouthEast_RIC/202410100855_SouthEast_RIC.geojson
+      - Time: "20241010T2050"
+        Assets:
+          - Identifier: "20241010T2050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410102050_CentralWest_RIC/202410102050_CentralWest_RIC.geojson
+      - Time: "20241011T0940"
+        Assets:
+          - Identifier: "20241011T0940"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410110940_CapeFarewell_RIC/202410110940_CapeFarewell_RIC.geojson
+      - Time: "20241011T1115"
+        Assets:
+          - Identifier: "20241011T1115"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410111115_NorthWest_RIC/202410111115_NorthWest_RIC.geojson
+      - Time: "20241011T2025"
+        Assets:
+          - Identifier: "20241011T2025"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410112025_SouthEast_RIC/202410112025_SouthEast_RIC.geojson
+      - Time: "20241012T0835"
+        Assets:
+          - Identifier: "20241012T0835"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410120835_North_RIC/202410120835_North_RIC.geojson
+      - Time: "20241012T1015"
+        Assets:
+          - Identifier: "20241012T1015"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410121015_CentralWest_RIC/202410121015_CentralWest_RIC.geojson
+      - Time: "20241012T2100"
+        Assets:
+          - Identifier: "20241012T2100"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410122100_CapeFarewell_RIC/202410122100_CapeFarewell_RIC.geojson
+      - Time: "20241013T2150"
+        Assets:
+          - Identifier: "20241013T2150"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410132150_Qaanaaq_RIC/202410132150_Qaanaaq_RIC.geojson
+      - Time: "20241014T0815"
+        Assets:
+          - Identifier: "20241014T0815"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410140815_North_RIC/202410140815_North_RIC.geojson
+      - Time: "20241014T0820"
+        Assets:
+          - Identifier: "20241014T0820"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410140820_NorthEast_RIC/202410140820_NorthEast_RIC.geojson
+      - Time: "20241014T0825"
+        Assets:
+          - Identifier: "20241014T0825"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410140825_CentralEast_RIC/202410140825_CentralEast_RIC.geojson
+      - Time: "20241014T1000"
+        Assets:
+          - Identifier: "20241014T1000"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410141000_CentralWest_RIC/202410141000_CentralWest_RIC.geojson
+      - Time: "20241014T2015"
+        Assets:
+          - Identifier: "20241014T2015"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410142015_SouthEast_RIC/202410142015_SouthEast_RIC.geojson
+      - Time: "20241014T2120"
+        Assets:
+          - Identifier: "20241014T2120"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410142120_SouthWest_RIC/202410142120_SouthWest_RIC.geojson
+      - Time: "20241015T0905"
+        Assets:
+          - Identifier: "20241015T0905"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410150905_CapeFarewell_RIC/202410150905_CapeFarewell_RIC.geojson
+      - Time: "20241015T1040"
+        Assets:
+          - Identifier: "20241015T1040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410151040_NorthWest_RIC/202410151040_NorthWest_RIC.geojson
+      - Time: "20241016T0805"
+        Assets:
+          - Identifier: "20241016T0805"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410160805_CentralEast_RIC/202410160805_CentralEast_RIC.geojson
+      - Time: "20241016T0825"
+        Assets:
+          - Identifier: "20241016T0825"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410160825_NorthEast_RIC/202410160825_NorthEast_RIC.geojson
+      - Time: "20241017T0845"
+        Assets:
+          - Identifier: "20241017T0845"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410170845_SouthEast_RIC/202410170845_SouthEast_RIC.geojson
+      - Time: "20241017T1200"
+        Assets:
+          - Identifier: "20241017T1200"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410171200_Qaanaaq_RIC/202410171200_Qaanaaq_RIC.geojson
+      - Time: "20241017T1520"
+        Assets:
+          - Identifier: "20241017T1520"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410171520_CentralWest_RIC/202410171520_CentralWest_RIC.geojson
+      - Time: "20241019T1425"
+        Assets:
+          - Identifier: "20241019T1425"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410191425_SouthEast_RIC/202410191425_SouthEast_RIC.geojson
+      - Time: "20241019T2100"
+        Assets:
+          - Identifier: "20241019T2100"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410192100_CentralWest_RIC/202410192100_CentralWest_RIC.geojson
+      - Time: "20241020T0930"
+        Assets:
+          - Identifier: "20241020T0930"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410200930_CapeFarewell_RIC/202410200930_CapeFarewell_RIC.geojson
+      - Time: "20241021T0810"
+        Assets:
+          - Identifier: "20241021T0810"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410210810_NorthEast_RIC/202410210810_NorthEast_RIC.geojson
+      - Time: "20241021T0815"
+        Assets:
+          - Identifier: "20241021T0815"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410210815_CentralEast_RIC/202410210815_CentralEast_RIC.geojson
+      - Time: "20241023T0755"
+        Assets:
+          - Identifier: "20241023T0755"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410230755_North_RIC/202410230755_North_RIC.geojson
+      - Time: "20241025T2040"
+        Assets:
+          - Identifier: "20241025T2040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410252040_CentralWest_RIC/202410252040_CentralWest_RIC.geojson
+      - Time: "20241026T0820"
+        Assets:
+          - Identifier: "20241026T0820"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410260820_CentralEast_RIC/202410260820_CentralEast_RIC.geojson
+      - Time: "20241026T2155"
+        Assets:
+          - Identifier: "20241026T2155"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410262155_Qaanaaq_RIC/202410262155_Qaanaaq_RIC.geojson
+      - Time: "20241027T0905"
+        Assets:
+          - Identifier: "20241027T0905"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410270905_CapeFarewell_RIC/202410270905_CapeFarewell_RIC.geojson
+      - Time: "20241028T0800"
+        Assets:
+          - Identifier: "20241028T0800"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410280800_North_RIC/202410280800_North_RIC.geojson
+      - Time: "20241028T0820"
+        Assets:
+          - Identifier: "20241028T0820"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410280820_NorthEast_RIC/202410280820_NorthEast_RIC.geojson
+      - Time: "20241028T1010"
+        Assets:
+          - Identifier: "20241028T1010"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410281010_CentralWest_RIC/202410281010_CentralWest_RIC.geojson
+      - Time: "20241028T2140"
+        Assets:
+          - Identifier: "20241028T2140"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410282140_Qaanaaq_RIC/202410282140_Qaanaaq_RIC.geojson
+      - Time: "20241029T0905"
+        Assets:
+          - Identifier: "20241029T0905"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410290905_SouthEast_RIC/202410290905_SouthEast_RIC.geojson
+      - Time: "20241029T1025"
+        Assets:
+          - Identifier: "20241029T1025"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410291025_CentralWest_RIC/202410291025_CentralWest_RIC.geojson
+      - Time: "20241030T0745"
+        Assets:
+          - Identifier: "20241030T0745"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410300745_NorthEast_RIC/202410300745_NorthEast_RIC.geojson
+      - Time: "20241030T0750"
+        Assets:
+          - Identifier: "20241030T0750"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410300750_CentralEast_RIC/202410300750_CentralEast_RIC.geojson
+      - Time: "20241030T1415"
+        Assets:
+          - Identifier: "20241030T1415"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410301415_SouthWest_RIC/202410301415_SouthWest_RIC.geojson
+      - Time: "20241030T2035"
+        Assets:
+          - Identifier: "20241030T2035"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410302035_CapeFarewell_RIC/202410302035_CapeFarewell_RIC.geojson
+      - Time: "20241031T0825"
+        Assets:
+          - Identifier: "20241031T0825"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410310825_North_RIC/202410310825_North_RIC.geojson
+      - Time: "20241031T1010"
+        Assets:
+          - Identifier: "20241031T1010"
+            File: https://tyna-bucket.s3.eox.at/dmi/202410311010_CentralWest_RIC/202410311010_CentralWest_RIC.geojson
+      - Time: "20241101T1050"
+        Assets:
+          - Identifier: "20241101T1050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411011050_NorthWest_RIC/202411011050_NorthWest_RIC.geojson
+      - Time: "20241101T2120"
+        Assets:
+          - Identifier: "20241101T2120"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411012120_NorthWest_RIC/202411012120_NorthWest_RIC.geojson
+      - Time: "20241102T1010"
+        Assets:
+          - Identifier: "20241102T1010"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411021010_CentralWest_RIC/202411021010_CentralWest_RIC.geojson
+      - Time: "20241102T2045"
+        Assets:
+          - Identifier: "20241102T2045"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411022045_CapeFarewell_RIC/202411022045_CapeFarewell_RIC.geojson
+      - Time: "20241103T0855"
+        Assets:
+          - Identifier: "20241103T0855"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411030855_SouthEast_RIC/202411030855_SouthEast_RIC.geojson
+      - Time: "20241103T1025"
+        Assets:
+          - Identifier: "20241103T1025"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411031025_NorthWest_RIC/202411031025_NorthWest_RIC.geojson
+      - Time: "20241104T0755"
+        Assets:
+          - Identifier: "20241104T0755"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411040755_NorthEast_RIC/202411040755_NorthEast_RIC.geojson
+      - Time: "20241104T1250"
+        Assets:
+          - Identifier: "20241104T1250"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411041250_Qaanaaq_RIC/202411041250_Qaanaaq_RIC.geojson
+      - Time: "20241105T0835"
+        Assets:
+          - Identifier: "20241105T0835"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411050835_North_RIC/202411050835_North_RIC.geojson
+      - Time: "20241105T1015"
+        Assets:
+          - Identifier: "20241105T1015"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411051015_CentralWest_RIC/202411051015_CentralWest_RIC.geojson
+      - Time: "20241106T0920"
+        Assets:
+          - Identifier: "20241106T0920"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411060920_CapeFarewell_RIC/202411060920_CapeFarewell_RIC.geojson
+      - Time: "20241107T0825"
+        Assets:
+          - Identifier: "20241107T0825"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411070825_CentralEast_RIC/202411070825_CentralEast_RIC.geojson
+      - Time: "20241107T0955"
+        Assets:
+          - Identifier: "20241107T0955"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411070955_CentralWest_RIC/202411070955_CentralWest_RIC.geojson
+      - Time: "20241107T1000"
+        Assets:
+          - Identifier: "20241107T1000"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411071000_SouthWest_RIC/202411071000_SouthWest_RIC.geojson
+      - Time: "20241108T0900"
+        Assets:
+          - Identifier: "20241108T0900"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411080900_SouthEast_RIC/202411080900_SouthEast_RIC.geojson
+      - Time: "20241108T0905"
+        Assets:
+          - Identifier: "20241108T0905"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411080905_CapeFarewell_RIC/202411080905_CapeFarewell_RIC.geojson
+      - Time: "20241108T1040"
+        Assets:
+          - Identifier: "20241108T1040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411081040_NorthWest_RIC/202411081040_NorthWest_RIC.geojson
+      - Time: "20241109T0805"
+        Assets:
+          - Identifier: "20241109T0805"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411090805_NorthEast_RIC/202411090805_NorthEast_RIC.geojson
+      - Time: "20241109T0810"
+        Assets:
+          - Identifier: "20241109T0810"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411090810_CentralEast_RIC/202411090810_CentralEast_RIC.geojson
+      - Time: "20241109T2040"
+        Assets:
+          - Identifier: "20241109T2040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411092040_CapeFarewell_RIC/202411092040_CapeFarewell_RIC.geojson
+      - Time: "20241110T1025"
+        Assets:
+          - Identifier: "20241110T1025"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411101025_CentralWest_RIC/202411101025_CentralWest_RIC.geojson
+      - Time: "20241110T2005"
+        Assets:
+          - Identifier: "20241110T2005"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411102005_SouthEast_RIC/202411102005_SouthEast_RIC.geojson
+      - Time: "20241111T0745"
+        Assets:
+          - Identifier: "20241111T0745"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411110745_North_RIC/202411110745_North_RIC.geojson
+      - Time: "20241111T0750"
+        Assets:
+          - Identifier: "20241111T0750"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411110750_NorthEast_RIC/202411110750_NorthEast_RIC.geojson
+      - Time: "20241112T0830"
+        Assets:
+          - Identifier: "20241112T0830"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411120830_CentralEast_RIC/202411120830_CentralEast_RIC.geojson
+      - Time: "20241112T1025"
+        Assets:
+          - Identifier: "20241112T1025"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411121025_CentralWest_RIC/202411121025_CentralWest_RIC.geojson
+      - Time: "20241113T0910"
+        Assets:
+          - Identifier: "20241113T0910"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411130910_SouthEast_RIC/202411130910_SouthEast_RIC.geojson
+      - Time: "20241113T1105"
+        Assets:
+          - Identifier: "20241113T1105"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411131105_NorthWest_RIC/202411131105_NorthWest_RIC.geojson
+      - Time: "20241114T0810"
+        Assets:
+          - Identifier: "20241114T0810"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411140810_North_RIC/202411140810_North_RIC.geojson
+      - Time: "20241114T0815"
+        Assets:
+          - Identifier: "20241114T0815"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411140815_NorthEast_RIC/202411140815_NorthEast_RIC.geojson
+      - Time: "20241114T0950"
+        Assets:
+          - Identifier: "20241114T0950"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411140950_CentralWest_RIC/202411140950_CentralWest_RIC.geojson
+      - Time: "20241114T2110"
+        Assets:
+          - Identifier: "20241114T2110"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411142110_SouthWest_RIC/202411142110_SouthWest_RIC.geojson
+      - Time: "20241114T2115"
+        Assets:
+          - Identifier: "20241114T2115"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411142115_NorthWest_RIC/202411142115_NorthWest_RIC.geojson
+      - Time: "20241115T1210"
+        Assets:
+          - Identifier: "20241115T1210"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411151210_Qaanaaq_RIC/202411151210_Qaanaaq_RIC.geojson
+      - Time: "20241116T0815"
+        Assets:
+          - Identifier: "20241116T0815"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411160815_CentralEast_RIC/202411160815_CentralEast_RIC.geojson
+      - Time: "20241116T2040"
+        Assets:
+          - Identifier: "20241116T2040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411162040_CapeFarewell_RIC/202411162040_CapeFarewell_RIC.geojson
+      - Time: "20241117T1015"
+        Assets:
+          - Identifier: "20241117T1015"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411171015_CentralWest_RIC/202411171015_CentralWest_RIC.geojson
+      - Time: "20241117T1020"
+        Assets:
+          - Identifier: "20241117T1020"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411171020_SouthWest_RIC/202411171020_SouthWest_RIC.geojson
+      - Time: "20241118T0830"
+        Assets:
+          - Identifier: "20241118T0830"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411180830_North_RIC/202411180830_North_RIC.geojson
+      - Time: "20241118T2040"
+        Assets:
+          - Identifier: "20241118T2040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411182040_CapeFarewell_RIC/202411182040_CapeFarewell_RIC.geojson
+      - Time: "20241119T0820"
+        Assets:
+          - Identifier: "20241119T0820"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411190820_NorthEast_RIC/202411190820_NorthEast_RIC.geojson
+      - Time: "20241119T0825"
+        Assets:
+          - Identifier: "20241119T0825"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411190825_CentralEast_RIC/202411190825_CentralEast_RIC.geojson
+      - Time: "20241119T1135"
+        Assets:
+          - Identifier: "20241119T1135"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411191135_Qaanaaq_RIC/202411191135_Qaanaaq_RIC.geojson
+      - Time: "20241119T2120"
+        Assets:
+          - Identifier: "20241119T2120"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411192120_CentralWest_RIC/202411192120_CentralWest_RIC.geojson
+      - Time: "20241120T0905"
+        Assets:
+          - Identifier: "20241120T0905"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411200905_SouthEast_RIC/202411200905_SouthEast_RIC.geojson
+      - Time: "20241120T1040"
+        Assets:
+          - Identifier: "20241120T1040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411201040_NorthWest_RIC/202411201040_NorthWest_RIC.geojson
+      - Time: "20241120T1045"
+        Assets:
+          - Identifier: "20241120T1045"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411201045_SouthWest_RIC/202411201045_SouthWest_RIC.geojson
+      - Time: "20241120T2025"
+        Assets:
+          - Identifier: "20241120T2025"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411202025_CapeFarewell_RIC/202411202025_CapeFarewell_RIC.geojson
+      - Time: "20241121T0800"
+        Assets:
+          - Identifier: "20241121T0800"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411210800_North_RIC/202411210800_North_RIC.geojson
+      - Time: "20241121T0805"
+        Assets:
+          - Identifier: "20241121T0805"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411210805_CentralEast_RIC/202411210805_CentralEast_RIC.geojson
+      - Time: "20241121T0945"
+        Assets:
+          - Identifier: "20241121T0945"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411210945_SouthWest_RIC/202411210945_SouthWest_RIC.geojson
+      - Time: "20241121T2135"
+        Assets:
+          - Identifier: "20241121T2135"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411212135_NorthWest_RIC/202411212135_NorthWest_RIC.geojson
+      - Time: "20241122T2005"
+        Assets:
+          - Identifier: "20241122T2005"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411222005_SouthEast_RIC/202411222005_SouthEast_RIC.geojson
+      - Time: "20241125T0730"
+        Assets:
+          - Identifier: "20241125T0730"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411250730_NorthEast_RIC/202411250730_NorthEast_RIC.geojson
+      - Time: "20241125T0750"
+        Assets:
+          - Identifier: "20241125T0750"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411250750_CentralEast_RIC/202411250750_CentralEast_RIC.geojson
+      - Time: "20241125T0900"
+        Assets:
+          - Identifier: "20241125T0900"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411250900_SouthEast_RIC/202411250900_SouthEast_RIC.geojson
+      - Time: "20241125T2030"
+        Assets:
+          - Identifier: "20241125T2030"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411252030_CapeFarewell_RIC/202411252030_CapeFarewell_RIC.geojson
+      - Time: "20241126T0955"
+        Assets:
+          - Identifier: "20241126T0955"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411260955_SouthWest_RIC/202411260955_SouthWest_RIC.geojson
+      - Time: "20241126T1040"
+        Assets:
+          - Identifier: "20241126T1040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411261040_CentralWest_RIC/202411261040_CentralWest_RIC.geojson
+      - Time: "20241127T0855"
+        Assets:
+          - Identifier: "20241127T0855"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411270855_SouthEast_RIC/202411270855_SouthEast_RIC.geojson
+      - Time: "20241127T1000"
+        Assets:
+          - Identifier: "20241127T1000"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411271000_CentralWest_RIC/202411271000_CentralWest_RIC.geojson
+      - Time: "20241128T0800"
+        Assets:
+          - Identifier: "20241128T0800"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411280800_CentralEast_RIC/202411280800_CentralEast_RIC.geojson
+      - Time: "20241128T1115"
+        Assets:
+          - Identifier: "20241128T1115"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411281115_Qaanaaq_RIC/202411281115_Qaanaaq_RIC.geojson
+      - Time: "20241129T0930"
+        Assets:
+          - Identifier: "20241129T0930"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411290930_CapeFarewell_RIC/202411290930_CapeFarewell_RIC.geojson
+      - Time: "20241130T2030"
+        Assets:
+          - Identifier: "20241130T2030"
+            File: https://tyna-bucket.s3.eox.at/dmi/202411302030_CapeFarewell_RIC/202411302030_CapeFarewell_RIC.geojson
+      - Time: "20241201T1015"
+        Assets:
+          - Identifier: "20241201T1015"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412011015_CentralWest_RIC/202412011015_CentralWest_RIC.geojson
+      - Time: "20241201T1050"
+        Assets:
+          - Identifier: "20241201T1050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412011050_NorthWest_RIC/202412011050_NorthWest_RIC.geojson
+      - Time: "20241201T2050"
+        Assets:
+          - Identifier: "20241201T2050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412012050_CentralWest_RIC/202412012050_CentralWest_RIC.geojson
+      - Time: "20241202T0905"
+        Assets:
+          - Identifier: "20241202T0905"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412020905_SouthEast_RIC/202412020905_SouthEast_RIC.geojson
+      - Time: "20241202T1040"
+        Assets:
+          - Identifier: "20241202T1040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412021040_NorthWest_RIC/202412021040_NorthWest_RIC.geojson
+      - Time: "20241203T0800"
+        Assets:
+          - Identifier: "20241203T0800"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412030800_NorthEast_RIC/202412030800_NorthEast_RIC.geojson
+      - Time: "20241203T1000"
+        Assets:
+          - Identifier: "20241203T1000"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412031000_CentralWest_RIC/202412031000_CentralWest_RIC.geojson
+      - Time: "20241204T1020"
+        Assets:
+          - Identifier: "20241204T1020"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412041020_CentralWest_RIC/202412041020_CentralWest_RIC.geojson
+      - Time: "20241204T1025"
+        Assets:
+          - Identifier: "20241204T1025"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412041025_SouthWest_RIC/202412041025_SouthWest_RIC.geojson
+      - Time: "20241204T2005"
+        Assets:
+          - Identifier: "20241204T2005"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412042005_SouthEast_RIC/202412042005_SouthEast_RIC.geojson
+      - Time: "20241205T0740"
+        Assets:
+          - Identifier: "20241205T0740"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412050740_North_RIC/202412050740_North_RIC.geojson
+      - Time: "20241205T0750"
+        Assets:
+          - Identifier: "20241205T0750"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412050750_CentralEast_RIC/202412050750_CentralEast_RIC.geojson
+      - Time: "20241205T1105"
+        Assets:
+          - Identifier: "20241205T1105"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412051105_Qaanaaq_RIC/202412051105_Qaanaaq_RIC.geojson
+      - Time: "20241205T2045"
+        Assets:
+          - Identifier: "20241205T2045"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412052045_CapeFarewell_RIC/202412052045_CapeFarewell_RIC.geojson
+      - Time: "20241206T0830"
+        Assets:
+          - Identifier: "20241206T0830"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412060830_NorthEast_RIC/202412060830_NorthEast_RIC.geojson
+      - Time: "20241206T1010"
+        Assets:
+          - Identifier: "20241206T1010"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412061010_CentralWest_RIC/202412061010_CentralWest_RIC.geojson
+      - Time: "20241207T0910"
+        Assets:
+          - Identifier: "20241207T0910"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412070910_SouthEast_RIC/202412070910_SouthEast_RIC.geojson
+      - Time: "20241208T2110"
+        Assets:
+          - Identifier: "20241208T2110"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412082110_SouthWest_RIC/202412082110_SouthWest_RIC.geojson
+      - Time: "20241209T0915"
+        Assets:
+          - Identifier: "20241209T0915"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412090915_CentralWest_RIC/202412090915_CentralWest_RIC.geojson
+      - Time: "20241209T1050"
+        Assets:
+          - Identifier: "20241209T1050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412091050_NorthWest_RIC/202412091050_NorthWest_RIC.geojson
+      - Time: "20241209T1835"
+        Assets:
+          - Identifier: "20241209T1835"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412091835_CentralEast_RIC/202412091835_CentralEast_RIC.geojson
+      - Time: "20241210T0950"
+        Assets:
+          - Identifier: "20241210T0950"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412100950_CentralWest_RIC/202412100950_CentralWest_RIC.geojson
+      - Time: "20241210T2035"
+        Assets:
+          - Identifier: "20241210T2035"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412102035_CapeFarewell_RIC/202412102035_CapeFarewell_RIC.geojson
+      - Time: "20241211T1015"
+        Assets:
+          - Identifier: "20241211T1015"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412111015_CentralWest_RIC/202412111015_CentralWest_RIC.geojson
+      - Time: "20241212T1055"
+        Assets:
+          - Identifier: "20241212T1055"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412121055_NorthWest_RIC/202412121055_NorthWest_RIC.geojson
+      - Time: "20241213T1000"
+        Assets:
+          - Identifier: "20241213T1000"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412131000_CentralWest_RIC/202412131000_CentralWest_RIC.geojson
+      - Time: "20241213T2050"
+        Assets:
+          - Identifier: "20241213T2050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412132050_CentralWest_RIC/202412132050_CentralWest_RIC.geojson
+      - Time: "20241214T0905"
+        Assets:
+          - Identifier: "20241214T0905"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412140905_SouthEast_RIC/202412140905_SouthEast_RIC.geojson
+      - Time: "20241214T1040"
+        Assets:
+          - Identifier: "20241214T1040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412141040_NorthWest_RIC/202412141040_NorthWest_RIC.geojson
+      - Time: "20241214T2020"
+        Assets:
+          - Identifier: "20241214T2020"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412142020_CapeFarewell_RIC/202412142020_CapeFarewell_RIC.geojson
+      - Time: "20241215T1000"
+        Assets:
+          - Identifier: "20241215T1000"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412151000_CentralWest_RIC/202412151000_CentralWest_RIC.geojson
+      - Time: "20241215T2105"
+        Assets:
+          - Identifier: "20241215T2105"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412152105_SouthWest_RIC/202412152105_SouthWest_RIC.geojson
+      - Time: "20241216T0845"
+        Assets:
+          - Identifier: "20241216T0845"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412160845_NorthEast_RIC/202412160845_NorthEast_RIC.geojson
+      - Time: "20241216T1025"
+        Assets:
+          - Identifier: "20241216T1025"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412161025_CentralWest_RIC/202412161025_CentralWest_RIC.geojson
+      - Time: "20241216T2105"
+        Assets:
+          - Identifier: "20241216T2105"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412162105_CentralWest_RIC/202412162105_CentralWest_RIC.geojson
+      - Time: "20241217T0745"
+        Assets:
+          - Identifier: "20241217T0745"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412170745_North_RIC/202412170745_North_RIC.geojson
+      - Time: "20241217T0840"
+        Assets:
+          - Identifier: "20241217T0840"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412170840_SouthEast_RIC/202412170840_SouthEast_RIC.geojson
+      - Time: "20241218T0830"
+        Assets:
+          - Identifier: "20241218T0830"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412180830_CentralEast_RIC/202412180830_CentralEast_RIC.geojson
+      - Time: "20241218T1025"
+        Assets:
+          - Identifier: "20241218T1025"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412181025_CentralWest_RIC/202412181025_CentralWest_RIC.geojson
+      - Time: "20241218T2100"
+        Assets:
+          - Identifier: "20241218T2100"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412182100_CentralWest_RIC/202412182100_CentralWest_RIC.geojson
+      - Time: "20241219T0730"
+        Assets:
+          - Identifier: "20241219T0730"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412190730_NorthEast_RIC/202412190730_NorthEast_RIC.geojson
+      - Time: "20241219T1005"
+        Assets:
+          - Identifier: "20241219T1005"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412191005_SouthWest_RIC/202412191005_SouthWest_RIC.geojson
+      - Time: "20241219T1050"
+        Assets:
+          - Identifier: "20241219T1050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412191050_NorthWest_RIC/202412191050_NorthWest_RIC.geojson
+      - Time: "20241220T0950"
+        Assets:
+          - Identifier: "20241220T0950"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412200950_CentralWest_RIC/202412200950_CentralWest_RIC.geojson
+      - Time: "20241220T2115"
+        Assets:
+          - Identifier: "20241220T2115"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412202115_NorthWest_RIC/202412202115_NorthWest_RIC.geojson
+      - Time: "20241221T1015"
+        Assets:
+          - Identifier: "20241221T1015"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412211015_CentralWest_RIC/202412211015_CentralWest_RIC.geojson
+      - Time: "20241222T0950"
+        Assets:
+          - Identifier: "20241222T0950"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412220950_CentralWest_RIC/202412220950_CentralWest_RIC.geojson
+      - Time: "20241222T2205"
+        Assets:
+          - Identifier: "20241222T2205"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412222205_Qaanaaq_RIC/202412222205_Qaanaaq_RIC.geojson
+      - Time: "20241223T0820"
+        Assets:
+          - Identifier: "20241223T0820"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412230820_NorthEast_RIC/202412230820_NorthEast_RIC.geojson
+      - Time: "20241223T0820"
+        Assets:
+          - Identifier: "20241223T0820"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412230820_North_RIC/202412230820_North_RIC.geojson
+      - Time: "20241223T1015"
+        Assets:
+          - Identifier: "20241223T1015"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412231015_CentralWest_RIC/202412231015_CentralWest_RIC.geojson
+      - Time: "20241223T2100"
+        Assets:
+          - Identifier: "20241223T2100"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412232100_CentralWest_RIC/202412232100_CentralWest_RIC.geojson
+      - Time: "20241225T1050"
+        Assets:
+          - Identifier: "20241225T1050"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412251050_CentralWest_RIC/202412251050_CentralWest_RIC.geojson
+      - Time: "20241225T2120"
+        Assets:
+          - Identifier: "20241225T2120"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412252120_SouthWest_RIC/202412252120_SouthWest_RIC.geojson
+      - Time: "20241226T1040"
+        Assets:
+          - Identifier: "20241226T1040"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412261040_NorthWest_RIC/202412261040_NorthWest_RIC.geojson
+      - Time: "20241226T1045"
+        Assets:
+          - Identifier: "20241226T1045"
+            File: https://tyna-bucket.s3.eox.at/dmi/202412261045_CentralWest_RIC/202412261045_CentralWest_RIC.geojson
