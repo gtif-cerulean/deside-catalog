@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "2024-11-09T08:05:00Z",
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -50,
+                59
+              ],
+              [
+                -39,
+                59
+              ],
+              [
+                -39,
+                65
+              ],
+              [
+                -50,
+                65
+              ],
+              [
+                -50,
+                59
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "bbox": [
+    -50,
+    59,
+    -39,
+    65
+  ],
+  "properties": {
+    "datetime": "2024-11-09T08:05:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "20241109T0805"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Charts Geometries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Charts Geometries"
+    }
+  ],
+  "assets": {
+    "20241109T0805": {
+      "href": "https://tyna-bucket.s3.eox.at/dmi/202411090805_NorthEast_RIC/202411090805_NorthEast_RIC.geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "sea_ice_charts"
+}

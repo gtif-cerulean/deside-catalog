@@ -1,0 +1,47 @@
+{
+  "type": "Catalog",
+  "id": "deside",
+  "stac_version": "1.0.0",
+  "description": "Catalog providing description to available datasets to the DESIDE project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_charts/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Charts Geometries",
+      "code": "SIC_sea_ice_charts",
+      "id": "sea_ice_charts",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "SIC_sea_ice_charts",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "DESIDE project catalog"
+}
