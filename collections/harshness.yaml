@@ -19,7 +19,7 @@ Resources:
     OverwriteBBox: [-180, 90, 180, -90]
 Process:
   Name: harshness
-  JsonForm: https://harshness-map.gtif.eox.at/process_example/definitions/harshness_form.json
+  JsonForm: https://santilland.github.io/process_example/definitions/harshness_form.json
   EndPoints:
     - Identifier: harshnesscollection
       Url: https://harshness-map.gtif.eox.at/processes/execute-create-harshness/execution
