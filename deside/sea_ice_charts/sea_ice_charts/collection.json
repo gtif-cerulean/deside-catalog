@@ -1785,73 +1785,33 @@
     },
     {
       "rel": "item",
-      "href": "./sea_ice_charts/2024/2024-12-23T08:20:00Z.json",
+      "href": "./sea_ice_charts/2024/2024-12-23T00:00:00Z.json",
       "type": "application/json",
-      "datetime": "2024-12-23T08:20:00Z",
+      "datetime": "2024-12-23T00:00:00Z",
       "assets": [
-        "https://tyna-bucket.s3.eox.at/dmi/202412230820_NorthEast_RIC/202412230820_NorthEast_RIC.geojson"
-      ]
-    },
-    {
-      "rel": "item",
-      "href": "./sea_ice_charts/2024/2024-12-23T08:20:00Z.json",
-      "type": "application/json",
-      "datetime": "2024-12-23T08:20:00Z",
-      "assets": [
-        "https://tyna-bucket.s3.eox.at/dmi/202412230820_North_RIC/202412230820_North_RIC.geojson"
-      ]
-    },
-    {
-      "rel": "item",
-      "href": "./sea_ice_charts/2024/2024-12-23T10:15:00Z.json",
-      "type": "application/json",
-      "datetime": "2024-12-23T10:15:00Z",
-      "assets": [
-        "https://tyna-bucket.s3.eox.at/dmi/202412231015_CentralWest_RIC/202412231015_CentralWest_RIC.geojson"
-      ]
-    },
-    {
-      "rel": "item",
-      "href": "./sea_ice_charts/2024/2024-12-23T21:00:00Z.json",
-      "type": "application/json",
-      "datetime": "2024-12-23T21:00:00Z",
-      "assets": [
+        "https://tyna-bucket.s3.eox.at/dmi/202412230820_NorthEast_RIC/202412230820_NorthEast_RIC.geojson",
+        "https://tyna-bucket.s3.eox.at/dmi/202412230820_North_RIC/202412230820_North_RIC.geojson",
+        "https://tyna-bucket.s3.eox.at/dmi/202412231015_CentralWest_RIC/202412231015_CentralWest_RIC.geojson",
         "https://tyna-bucket.s3.eox.at/dmi/202412232100_CentralWest_RIC/202412232100_CentralWest_RIC.geojson"
       ]
     },
     {
       "rel": "item",
-      "href": "./sea_ice_charts/2024/2024-12-25T10:50:00Z.json",
+      "href": "./sea_ice_charts/2024/2024-12-25T00:00:00Z.json",
       "type": "application/json",
-      "datetime": "2024-12-25T10:50:00Z",
+      "datetime": "2024-12-25T00:00:00Z",
       "assets": [
-        "https://tyna-bucket.s3.eox.at/dmi/202412251050_CentralWest_RIC/202412251050_CentralWest_RIC.geojson"
-      ]
-    },
-    {
-      "rel": "item",
-      "href": "./sea_ice_charts/2024/2024-12-25T21:20:00Z.json",
-      "type": "application/json",
-      "datetime": "2024-12-25T21:20:00Z",
-      "assets": [
+        "https://tyna-bucket.s3.eox.at/dmi/202412251050_CentralWest_RIC/202412251050_CentralWest_RIC.geojson",
         "https://tyna-bucket.s3.eox.at/dmi/202412252120_SouthWest_RIC/202412252120_SouthWest_RIC.geojson"
       ]
     },
     {
       "rel": "item",
-      "href": "./sea_ice_charts/2024/2024-12-26T10:40:00Z.json",
+      "href": "./sea_ice_charts/2024/2024-12-26T00:00:00Z.json",
       "type": "application/json",
-      "datetime": "2024-12-26T10:40:00Z",
+      "datetime": "2024-12-26T00:00:00Z",
       "assets": [
-        "https://tyna-bucket.s3.eox.at/dmi/202412261040_NorthWest_RIC/202412261040_NorthWest_RIC.geojson"
-      ]
-    },
-    {
-      "rel": "item",
-      "href": "./sea_ice_charts/2024/2024-12-26T10:45:00Z.json",
-      "type": "application/json",
-      "datetime": "2024-12-26T10:45:00Z",
-      "assets": [
+        "https://tyna-bucket.s3.eox.at/dmi/202412261040_NorthWest_RIC/202412261040_NorthWest_RIC.geojson",
         "https://tyna-bucket.s3.eox.at/dmi/202412261045_CentralWest_RIC/202412261045_CentralWest_RIC.geojson"
       ]
     },
@@ -1860,6 +1820,7 @@
       "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
+        "20241226T1040",
         "20241226T1045"
       ]
     },
@@ -1904,7 +1865,7 @@
       "interval": [
         [
           "2024-09-15T08:10:00Z",
-          "2024-12-26T10:45:00Z"
+          "2024-12-26T00:00:00Z"
         ]
       ]
     }

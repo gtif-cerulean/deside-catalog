@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "2024-12-26T10:45:00Z",
+  "id": "2024-12-23T00:00:00Z",
   "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -46,7 +46,7 @@
     83
   ],
   "properties": {
-    "datetime": "2024-12-26T10:45:00Z"
+    "datetime": "2024-12-23T00:00:00Z"
   },
   "links": [
     {
@@ -54,7 +54,9 @@
       "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "20241226T1045"
+        "20241223T0820",
+        "20241223T1015",
+        "20241223T2100"
       ]
     },
     {
@@ -77,8 +79,22 @@
     }
   ],
   "assets": {
-    "20241226T1045": {
-      "href": "https://tyna-bucket.s3.eox.at/dmi/202412261045_CentralWest_RIC/202412261045_CentralWest_RIC.geojson",
+    "20241223T0820": {
+      "href": "https://tyna-bucket.s3.eox.at/dmi/202412230820_North_RIC/202412230820_North_RIC.geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "20241223T1015": {
+      "href": "https://tyna-bucket.s3.eox.at/dmi/202412231015_CentralWest_RIC/202412231015_CentralWest_RIC.geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "20241223T2100": {
+      "href": "https://tyna-bucket.s3.eox.at/dmi/202412232100_CentralWest_RIC/202412232100_CentralWest_RIC.geojson",
       "type": "application/geo+json",
       "roles": [
         "data"
