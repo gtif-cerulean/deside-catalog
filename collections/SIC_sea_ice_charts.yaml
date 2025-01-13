@@ -807,35 +807,25 @@ Resources:
         Assets:
           - Identifier: "20241222T2205"
             File: https://tyna-bucket.s3.eox.at/dmi/202412222205_Qaanaaq_RIC/202412222205_Qaanaaq_RIC.geojson
-      - Time: "20241223T0820"
+      - Time: "20241223"
         Assets:
           - Identifier: "20241223T0820"
             File: https://tyna-bucket.s3.eox.at/dmi/202412230820_NorthEast_RIC/202412230820_NorthEast_RIC.geojson
-      - Time: "20241223T0820"
-        Assets:
           - Identifier: "20241223T0820"
             File: https://tyna-bucket.s3.eox.at/dmi/202412230820_North_RIC/202412230820_North_RIC.geojson
-      - Time: "20241223T1015"
-        Assets:
           - Identifier: "20241223T1015"
             File: https://tyna-bucket.s3.eox.at/dmi/202412231015_CentralWest_RIC/202412231015_CentralWest_RIC.geojson
-      - Time: "20241223T2100"
-        Assets:
           - Identifier: "20241223T2100"
             File: https://tyna-bucket.s3.eox.at/dmi/202412232100_CentralWest_RIC/202412232100_CentralWest_RIC.geojson
-      - Time: "20241225T1050"
+      - Time: "20241225"
         Assets:
           - Identifier: "20241225T1050"
             File: https://tyna-bucket.s3.eox.at/dmi/202412251050_CentralWest_RIC/202412251050_CentralWest_RIC.geojson
-      - Time: "20241225T2120"
-        Assets:
           - Identifier: "20241225T2120"
             File: https://tyna-bucket.s3.eox.at/dmi/202412252120_SouthWest_RIC/202412252120_SouthWest_RIC.geojson
-      - Time: "20241226T1040"
+      - Time: "20241226"
         Assets:
           - Identifier: "20241226T1040"
             File: https://tyna-bucket.s3.eox.at/dmi/202412261040_NorthWest_RIC/202412261040_NorthWest_RIC.geojson
-      - Time: "20241226T1045"
-        Assets:
           - Identifier: "20241226T1045"
             File: https://tyna-bucket.s3.eox.at/dmi/202412261045_CentralWest_RIC/202412261045_CentralWest_RIC.geojson
