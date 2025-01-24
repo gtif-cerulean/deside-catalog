@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "sea_ice_charts",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Sea Ice Charts geometries demonstration collection from various sources, such as DMI",
   "links": [
     {
@@ -151,7 +151,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
       "SIC_sea_ice_charts"
