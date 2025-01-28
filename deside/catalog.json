@@ -38,6 +38,45 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./Polaris_algorithm_dmi_demo/collection.json",
+      "type": "application/json",
+      "title": "POLARIS",
+      "code": "Polaris_algorithm_dmi_demo",
+      "id": "Polaris_algorithm_dmi_demo",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "Polaris_algorithm_dmi_demo",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./polaris_sentinel1/collection.json",
+      "type": "application/json",
+      "title": "POLARIS combined",
+      "code": "POS1",
+      "id": "polaris_sentinel1",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "POS1",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json",
       "type": "application/json"
