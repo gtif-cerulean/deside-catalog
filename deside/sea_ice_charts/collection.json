@@ -33,7 +33,8 @@
       "agency": [
         "ESA"
       ],
-      "subcode": "SIC_sea_ice_charts"
+      "subcode": "SIC_sea_ice_charts",
+      "collection_group": "Sea Ice"
     },
     {
       "rel": "xyz",
@@ -124,6 +125,7 @@
     "ESA"
   ],
   "subcode": "SIC_sea_ice_charts",
+  "collection_group": "Sea Ice",
   "title": "Sea Ice Charts Geometries",
   "extent": {
     "spatial": {

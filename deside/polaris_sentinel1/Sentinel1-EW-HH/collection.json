@@ -6756,7 +6756,7 @@
     },
     {
       "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/",
+      "href": "https://services.sentinel-hub.com/ogc/wms/b8c37569-fa44-4f8d-9cfc-0b535ba4e4c3",
       "type": "image/png",
       "title": "Sentinel1-EW-HH",
       "wms:layers": [

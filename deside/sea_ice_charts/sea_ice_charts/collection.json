@@ -1848,6 +1848,7 @@
     "ESA"
   ],
   "subcode": "SIC_sea_ice_charts",
+  "collection_group": "Sea Ice",
   "endpointtype": "GeoJSON source",
   "title": "Sea Ice Charts Geometries",
   "extent": {
