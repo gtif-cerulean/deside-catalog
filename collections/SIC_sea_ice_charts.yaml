@@ -1,6 +1,7 @@
 Name: sea_ice_charts
 Title: Sea Ice Charts Geometries
 EodashIdentifier: SIC_sea_ice_charts
+CollectionGroup: Sea Ice
 Description: Sea Ice Charts geometries demonstration collection from various sources, such as DMI
 Themes:
   - cryosphere
