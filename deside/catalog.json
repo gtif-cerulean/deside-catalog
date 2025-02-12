@@ -78,6 +78,720 @@
       "collection_group": "Capabilities"
     },
     {
+      "rel": "child",
+      "href": "./iceberg_concentration/collection.json",
+      "type": "application/json",
+      "title": "Iceberg concentration",
+      "code": "IBC",
+      "id": "iceberg_concentration",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "IBC",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Icebergs"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature",
+      "code": "IST",
+      "id": "sea_ice_surface_temperature",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "IST",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./mean_sea_ice_age/collection.json",
+      "type": "application/json",
+      "title": "Mean sea ice age",
+      "code": "MSIA",
+      "id": "mean_sea_ice_age",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "MSIA",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Ice concentration",
+      "code": "SICONC",
+      "id": "ice_concentration",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "SICONC",
+      "sensor": [
+        "Numerical model"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness",
+      "code": "SIT",
+      "id": "sea_ice_thickness",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "SIT",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_speed/collection.json",
+      "type": "application/json",
+      "title": "Sea ice speed",
+      "code": "SIVELO",
+      "id": "sea_ice_speed",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "SIVELO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_eastward_velocity/collection.json",
+      "type": "application/json",
+      "title": "Sea ice eastward velocity",
+      "code": "USI",
+      "id": "sea_ice_eastward_velocity",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "USI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_northward_velocity/collection.json",
+      "type": "application/json",
+      "title": "Sea ice northward velocity",
+      "code": "VSI",
+      "id": "sea_ice_northward_velocity",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "VSI",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_detections/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Detections",
+      "code": "SID",
+      "id": "sea_ice_detections",
+      "themes": [
+        "shipping"
+      ],
+      "subcode": "SID",
+      "agency": [
+        "placeholder"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_water_potential_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature",
+      "code": "SWPT",
+      "id": "sea_water_potential_temperature",
+      "themes": [
+        "Energy",
+        "Aquaculture"
+      ],
+      "subcode": "SWPT",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./maximum_crest_wave/collection.json",
+      "type": "application/json",
+      "title": "Maximum crest trough wave height",
+      "code": "VCMX",
+      "id": "maximum_crest_wave",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "VCMX",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Waves"
+    },
+    {
+      "rel": "child",
+      "href": "./wave_significant_height/collection.json",
+      "type": "application/json",
+      "title": "Spectral significant wave height",
+      "code": "VHM0",
+      "id": "wave_significant_height",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "subcode": "VHM0",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Waves"
+    },
+    {
+      "rel": "child",
+      "href": "./mean_wave_direction/collection.json",
+      "type": "application/json",
+      "title": "Mean wave direction",
+      "code": "VMDR",
+      "id": "mean_wave_direction",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "VMDR",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Waves"
+    },
+    {
+      "rel": "child",
+      "href": "./spectral_moments_wave_period/collection.json",
+      "type": "application/json",
+      "title": "Spectral moments primary swell wave period",
+      "code": "VTM01",
+      "id": "spectral_moments_wave_period",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "VTM01",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Waves"
+    },
+    {
+      "rel": "child",
+      "href": "./eastward_wind/collection.json",
+      "type": "application/json",
+      "title": "Stress-equivalent wind eastward component",
+      "code": "EWW",
+      "id": "eastward_wind",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "EWW",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./northward_wind/collection.json",
+      "type": "application/json",
+      "title": "Stress-equivalent wind northward component",
+      "code": "NWW",
+      "id": "northward_wind",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "NWW",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./wind_stress_eastward/collection.json",
+      "type": "application/json",
+      "title": "Surface wind stress eastward component",
+      "code": "WSE",
+      "id": "wind_stress_eastward",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "WSE",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./wind_stress_northward/collection.json",
+      "type": "application/json",
+      "title": "Surface wind stress northward component",
+      "code": "WSN",
+      "id": "wind_stress_northward",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "WSN",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./curl_of_stress_equivalent_wind/collection.json",
+      "type": "application/json",
+      "title": "Curl of stress-equivalent wind",
+      "code": "WCS",
+      "id": "curl_of_stress_equivalent_wind",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "WCS",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./air_density/collection.json",
+      "type": "application/json",
+      "title": "Air density",
+      "code": "AD",
+      "id": "air_density",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "AD",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Wind"
+    },
+    {
+      "rel": "child",
+      "href": "./surface_snow_thickness/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness",
+      "code": "SST",
+      "id": "surface_snow_thickness",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "SST",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_surface_temperature_anomaly/collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature anomaly",
+      "code": "SSTA",
+      "id": "sea_surface_temperature_anomaly",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "SSTA",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./eastward_tide_velocity/collection.json",
+      "type": "application/json",
+      "title": "Eastward tide-induced velocity",
+      "code": "UOTIDE",
+      "id": "eastward_tide_velocity",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "UOTIDE",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./northwad_tide_velocity/collection.json",
+      "type": "application/json",
+      "title": "Northward tide-induced velocity",
+      "code": "VOTIDE",
+      "id": "northwad_tide_velocity",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "VOTIDE",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./eastward_velocity/collection.json",
+      "type": "application/json",
+      "title": "Eastward velocity",
+      "code": "UO",
+      "id": "eastward_velocity",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "UO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./northward_velocity/collection.json",
+      "type": "application/json",
+      "title": "Northward velocity",
+      "code": "VO",
+      "id": "northward_velocity",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "VO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./salinity/collection.json",
+      "type": "application/json",
+      "title": "Salinity",
+      "code": "SO",
+      "id": "salinity",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "SO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json",
       "type": "application/json"

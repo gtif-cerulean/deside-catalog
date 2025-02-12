@@ -1,0 +1,191 @@
+{
+  "type": "Collection",
+  "id": "sea_ice_northward_velocity",
+  "stac_version": "1.1.0",
+  "description": "N/A\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_northward_velocity/collection.json",
+      "type": "application/json",
+      "title": "Sea ice northward velocity",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "code": "VSI",
+      "id": "sea_ice_northward_velocity",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "tags": [
+        "model"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "subcode": "VSI",
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "service",
+      "href": "https://statelix.hub-int.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=vsi&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "type": "application/json",
+      "id": "process_cmems",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2022",
+      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+    },
+    {
+      "rel": "wms",
+      "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    }
+  ],
+  "themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "tags": [
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "VSI",
+  "collection_group": "Sea Ice",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/vsi.json",
+  "title": "Sea ice northward velocity",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
+        ],
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2025-01-26T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "url": "https://data.marine.copernicus.eu/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "VSI"
+    ],
+    "themes": [
+      "Shipping",
+      "Energy",
+      "Aquaculture"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  }
+}
