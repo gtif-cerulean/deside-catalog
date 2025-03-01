@@ -2243,6 +2243,120 @@
       "datetime": "2025-01-07T05:43:00Z"
     },
     {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-08T04:45:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-08T04:45:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-09T05:26:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-09T05:26:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-10T04:29:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-10T04:29:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-11T05:10:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-11T05:10:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-12T04:12:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-12T04:12:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-13T04:53:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-13T04:53:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-14T03:56:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-14T03:56:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-15T04:36:59Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-15T04:36:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-16T05:18:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-16T05:18:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-17T04:20:59Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-17T04:20:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-18T05:02:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-18T05:02:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-19T05:43:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-19T05:43:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-20T17:47:59Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-20T17:47:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-21T07:08:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-21T07:08:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-22T07:49:59Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-22T07:49:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-23T05:10:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-23T05:10:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-24T04:12:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-24T04:12:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-25T04:53:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-25T04:53:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-01-26T03:56:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-26T03:56:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS",
       "type": "image/png",
@@ -2311,7 +2425,7 @@
       "interval": [
         [
           "2024-01-01T05:43:00Z",
-          "2025-01-07T05:43:00Z"
+          "2025-01-26T03:56:00Z"
         ]
       ]
     }
