@@ -189,8 +189,8 @@
     ],
     "themes": [
       "Shipping",
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "sensor": [
       "Numerical model"
