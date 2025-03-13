@@ -182,7 +182,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-03-12T00:00:00Z"
+          "2025-03-13T00:00:00Z"
         ]
       ]
     }
@@ -190,8 +190,8 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SID",
       "SHS1",
+      "SID",
       "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
