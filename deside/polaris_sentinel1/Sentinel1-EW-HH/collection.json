@@ -7133,6 +7133,12 @@
       "datetime": "2025-04-01T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./Sentinel1-EW-HH/2025/2025-04-02T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-04-02T00:00:00Z"
+    },
+    {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/b8c37569-fa44-4f8d-9cfc-0b535ba4e4c3",
       "type": "image/png",
@@ -7187,7 +7193,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-04-01T00:00:00Z"
+          "2025-04-02T00:00:00Z"
         ]
       ]
     }
