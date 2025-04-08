@@ -197,9 +197,9 @@
       "WCS"
     ],
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "satellite": [
       "placeholder"
