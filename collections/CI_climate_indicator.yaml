@@ -22,7 +22,7 @@ Resources:
     # OverwriteBBox: [11, 46.5, 15.5, 48.9]
 Process:
   Name: netcdf_extract
-  JsonForm: http://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/climate_indicator.json
+  JsonForm: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/climate_indicator.json
   VegaDefinition: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/climate_indicator.json
   EndPoints:
     - Identifier: process_cmems
