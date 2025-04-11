@@ -1,0 +1,67 @@
+{
+  "type": "Collection",
+  "id": "climate_indicator",
+  "stac_version": "1.1.0",
+  "description": "N/A\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./climate_indicator/1970/c34dc3cb-c182-4782-9c34-919cbde6bc7f.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Climate indicator"
+    }
+  ],
+  "themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "tags": [
+    "model"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "CI",
+  "collection_group": "Capability",
+  "endpointtype": "Collection-only",
+  "title": "Climate indicator",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-04-11T14:10:29.645124Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

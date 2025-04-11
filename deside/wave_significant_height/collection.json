@@ -40,7 +40,7 @@
     },
     {
       "rel": "service",
-      "href": "https://statelix.hub-int.eox.at/cmems?dataset_id=cmems_mod_glo_wav_anfc_0.083deg_PT3H-i&variables=VHM0&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_wav_anfc_0.083deg_PT3H-i&variables=VHM0&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
       "type": "application/json",
       "id": "process_cmems",
       "method": "GET"

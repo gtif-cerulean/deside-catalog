@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "sea_ice_northward_velocity",
+  "id": "climate_indicator",
   "stac_version": "1.1.0",
   "description": "N/A\n",
   "links": [
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./sea_ice_northward_velocity/collection.json",
+      "href": "./climate_indicator/collection.json",
       "type": "application/json",
-      "title": "Sea ice northward velocity",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "VSI",
-      "id": "sea_ice_northward_velocity",
+      "title": "Climate indicator",
+      "endpointtype": "Collection-only",
+      "code": "CI",
+      "id": "climate_indicator",
       "themes": [
         "Aquaculture",
         "Energy",
@@ -35,12 +35,12 @@
       "agency": [
         "CMEMS"
       ],
-      "subcode": "VSI",
-      "collection_group": "Sea Ice"
+      "subcode": "CI",
+      "collection_group": "Capability"
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=vsi&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+      "href": "https://hub-otc.eox.at/services/eoxhub-gateway/cif/netcdf-to-json/data/thredds/fileServer/metusers/steingod/deside/climmodseaice-yearlymaxmin/siextentn/{{source}}_sea_ice/Monthly/ssp{{ssp}}/siextentn_SImon_{{source}}_ssp{{ssp}}_r1i1p1f1_2015_2100.nc",
       "type": "application/json",
       "id": "process_cmems",
       "method": "GET"
@@ -134,24 +134,24 @@
   "agency": [
     "CMEMS"
   ],
-  "subcode": "VSI",
-  "collection_group": "Sea Ice",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/vsi.json",
-  "title": "Sea ice northward velocity",
+  "subcode": "CI",
+  "collection_group": "Capability",
+  "eodash:jsonform": "http://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/climate_indicator.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/climate_indicator.json",
+  "title": "Climate indicator",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -80.0,
-          179.91668701171875,
-          90.0
+          -180,
+          -85,
+          180,
+          85
         ],
         [
           -180.0,
-          -80.0,
-          179.91668701171875,
+          -90.0,
+          180.0,
           90.0
         ]
       ]
@@ -159,22 +159,16 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2025-01-26T00:00:00Z"
+          "1970-01-01T00:00:00Z",
+          "2025-04-11T14:10:29.645251Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
     "subcode": [
-      "VSI"
+      "CI"
     ],
     "themes": [
       "Energy",
