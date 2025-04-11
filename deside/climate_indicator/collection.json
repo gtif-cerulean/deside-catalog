@@ -36,11 +36,11 @@
         "CMEMS"
       ],
       "subcode": "CI",
-      "collection_group": "Capability"
+      "collection_group": "Capabilities"
     },
     {
       "rel": "service",
-      "href": "https://hub-otc.eox.at/services/eoxhub-gateway/cif/netcdf-to-json/data/thredds/fileServer/metusers/steingod/deside/climmodseaice-yearlymaxmin/siextentn/{{source}}_sea_ice/Monthly/ssp{{ssp}}/siextentn_SImon_{{source}}_ssp{{ssp}}_r1i1p1f1_2015_2100.nc",
+      "href": "https://netcdf-to-json.gtif.eox.at/data/thredds/fileServer/metusers/steingod/deside/climmodseaice-yearlymaxmin/siextentn/{{source}}_sea_ice/Monthly/ssp{{ssp}}/siextentn_SImon_{{source}}_ssp{{ssp}}_r1i1p1f1_2015_2100.nc",
       "type": "application/json",
       "id": "process_cmems",
       "method": "GET"
@@ -135,8 +135,8 @@
     "CMEMS"
   ],
   "subcode": "CI",
-  "collection_group": "Capability",
-  "eodash:jsonform": "http://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/climate_indicator.json",
+  "collection_group": "Capabilities",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/climate_indicator.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/climate_indicator.json",
   "title": "Climate indicator",
   "extent": {
@@ -160,7 +160,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-04-11T14:10:29.645251Z"
+          "2025-04-11T14:58:59.830464Z"
         ]
       ]
     }

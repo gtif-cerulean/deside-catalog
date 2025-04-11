@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./climate_indicator/1970/c34dc3cb-c182-4782-9c34-919cbde6bc7f.json",
+      "href": "./climate_indicator/1970/cc4e8bf9-6717-459f-adf1-c824feb77a93.json",
       "type": "application/geo+json"
     },
     {
@@ -40,7 +40,7 @@
     "CMEMS"
   ],
   "subcode": "CI",
-  "collection_group": "Capability",
+  "collection_group": "Capabilities",
   "endpointtype": "Collection-only",
   "title": "Climate indicator",
   "extent": {
@@ -57,7 +57,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-04-11T14:10:29.645124Z",
+          "2025-04-11T14:58:59.830326Z",
           null
         ]
       ]
