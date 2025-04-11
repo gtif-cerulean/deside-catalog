@@ -26,6 +26,6 @@ Process:
   VegaDefinition: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/climate_indicator.json
   EndPoints:
     - Identifier: process_cmems
-      Url: "https://hub-otc.eox.at/services/eoxhub-gateway/cif/netcdf-to-json/data/thredds/fileServer/metusers/steingod/deside/climmodseaice-yearlymaxmin/siextentn/{{source}}_sea_ice/Monthly/ssp{{ssp}}/siextentn_SImon_{{source}}_ssp{{ssp}}_r1i1p1f1_2015_2100.nc"
+      Url: "https://netcdf-to-json.gtif.eox.at/data/thredds/fileServer/metusers/steingod/deside/climmodseaice-yearlymaxmin/siextentn/{{source}}_sea_ice/Monthly/ssp{{ssp}}/siextentn_SImon_{{source}}_ssp{{ssp}}_r1i1p1f1_2015_2100.nc"
       Type: application/json
       
