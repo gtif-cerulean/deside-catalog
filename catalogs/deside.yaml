@@ -36,3 +36,4 @@ collections:
   - UO_eastward_velocity
   - VO_northward_velocity
   - SO_salinity
+  - CI_climate_indicator
