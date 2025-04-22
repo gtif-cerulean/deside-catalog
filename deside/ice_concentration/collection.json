@@ -188,9 +188,9 @@
       "SICONC"
     ],
     "themes": [
+      "Shipping",
       "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "sensor": [
       "Numerical model"
