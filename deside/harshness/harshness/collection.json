@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "climate_indicator",
+  "id": "harshness",
   "stac_version": "1.1.0",
-  "description": "N/A\n",
+  "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
   "links": [
     {
       "rel": "root",
@@ -12,52 +12,51 @@
     },
     {
       "rel": "item",
-      "href": "./climate_indicator/1970/b5eb0ff3-c3aa-4f4f-9730-157ad3ab16d3.json",
+      "href": "./harshness/1970/1d137a79-f439-4b3b-bd9f-13600bb6a212.json",
       "type": "application/geo+json"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Climate indicator"
+      "title": "Harshness capability"
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
-    "Shipping"
+    "ice"
   ],
   "tags": [
-    "model"
+    "processing",
+    "capability"
   ],
   "satellite": [
-    "placeholder"
+    "multiple"
   ],
   "sensor": [
-    "placeholder"
+    "multiple"
   ],
   "agency": [
-    "CMEMS"
+    "ESA"
   ],
-  "subcode": "CI",
+  "subcode": "harshness",
   "collection_group": "Capabilities",
   "endpointtype": "Collection-only",
-  "title": "Climate indicator",
+  "title": "Harshness capability",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          90,
+          180,
+          -90
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-04-23T13:10:07.203998Z",
+          "2025-04-23T13:10:07.247019Z",
           null
         ]
       ]

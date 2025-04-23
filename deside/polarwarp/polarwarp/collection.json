@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "climate_indicator",
+  "id": "polarwarp",
   "stac_version": "1.1.0",
-  "description": "N/A\n",
+  "description": "This is an example of how the polar warp  capability can be triggered and visualized within the dashboard.",
   "links": [
     {
       "rel": "root",
@@ -12,52 +12,55 @@
     },
     {
       "rel": "item",
-      "href": "./climate_indicator/1970/b5eb0ff3-c3aa-4f4f-9730-157ad3ab16d3.json",
+      "href": "./polarwarp/1970/ec0e4986-e0b3-4a53-a296-a0e609bc98f9.json",
       "type": "application/geo+json"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Climate indicator"
+      "title": "Polar warp capability"
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
-    "Shipping"
+    "ice"
   ],
   "tags": [
-    "model"
+    "processing",
+    "capability"
   ],
   "satellite": [
-    "placeholder"
+    "multiple"
   ],
   "sensor": [
-    "placeholder"
+    "multiple"
   ],
   "agency": [
-    "CMEMS"
+    "ESA"
   ],
-  "subcode": "CI",
+  "subcode": "harshness",
   "collection_group": "Capabilities",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "endpointtype": "Collection-only",
-  "title": "Climate indicator",
+  "title": "Polar warp capability",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          90,
+          180,
+          -90
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-04-23T13:10:07.203998Z",
+          "2025-04-23T13:10:07.293123Z",
           null
         ]
       ]

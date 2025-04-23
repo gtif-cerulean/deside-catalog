@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "mean_wave_direction",
+  "id": "polarwarp",
   "stac_version": "1.1.0",
-  "description": "N/A\n",
+  "description": "This is an example of how the polar warp  capability can be triggered and visualized within the dashboard.",
   "links": [
     {
       "rel": "root",
@@ -12,38 +12,44 @@
     },
     {
       "rel": "child",
-      "href": "./mean_wave_direction/collection.json",
+      "href": "./polarwarp/collection.json",
       "type": "application/json",
-      "title": "Mean wave direction",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "code": "VMDR",
-      "id": "mean_wave_direction",
+      "title": "Polar warp capability",
+      "endpointtype": "Collection-only",
+      "code": "harshness",
+      "id": "polarwarp",
       "themes": [
-        "Aquaculture",
-        "Energy",
-        "Shipping"
+        "ice"
       ],
       "tags": [
-        "model"
+        "processing",
+        "capability"
       ],
       "satellite": [
-        "placeholder"
+        "multiple"
       ],
       "sensor": [
-        "placeholder"
+        "multiple"
       ],
       "agency": [
-        "CMEMS"
+        "ESA"
       ],
-      "subcode": "VMDR",
-      "collection_group": "Waves"
+      "subcode": "harshness",
+      "collection_group": "Capabilities",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "service",
-      "href": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_wav_anfc_0.083deg_PT3H-i&variables=VMDR&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
-      "type": "application/json",
-      "id": "process_cmems",
-      "method": "GET"
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-polarwarp/execution",
+      "type": "image/tiff",
+      "id": "harshnesscollection",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polarwarp.json",
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polarwarp.json"
     },
     {
       "rel": "xyz",
@@ -118,74 +124,68 @@
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
-    "Shipping"
+    "ice"
   ],
   "tags": [
-    "model"
+    "processing",
+    "capability"
   ],
   "satellite": [
-    "placeholder"
+    "multiple"
   ],
   "sensor": [
-    "placeholder"
+    "multiple"
   ],
   "agency": [
-    "CMEMS"
+    "ESA"
   ],
-  "subcode": "VMDR",
-  "collection_group": "Waves",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VMDR.json",
-  "title": "Mean wave direction",
+  "subcode": "harshness",
+  "collection_group": "Capabilities",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polarwarp.json",
+  "title": "Polar warp capability",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -80.0,
-          179.91666666666663,
-          90.0
+          -180,
+          -85,
+          180,
+          85
         ],
         [
-          -180.0,
-          -80.0,
-          179.91666666666663,
-          90.0
+          -180,
+          90,
+          180,
+          -90
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-12-01T00:00:00Z",
-          "2025-01-26T21:00:00Z"
+          "1970-01-01T00:00:00Z",
+          "2025-04-23T13:10:07.293247Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
     "subcode": [
-      "VMDR"
+      "harshness"
     ],
     "themes": [
-      "Energy",
-      "Shipping",
-      "Aquaculture"
+      "ice"
     ],
     "satellite": [
-      "placeholder"
+      "multiple"
     ],
     "sensor": [
-      "placeholder"
+      "multiple"
     ]
   }
 }
