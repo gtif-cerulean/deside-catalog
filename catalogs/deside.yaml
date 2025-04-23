@@ -37,3 +37,5 @@ collections:
   - VO_northward_velocity
   - SO_salinity
   - CI_climate_indicator
+  - harshness
+  - polarwarp
