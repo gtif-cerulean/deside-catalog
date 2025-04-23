@@ -1,0 +1,35 @@
+Name: polarwarp
+Title: Polar warp capability
+EodashIdentifier: harshness
+CollectionGroup: Capabilities
+Description: This is an example of how the polar warp capability can be triggered and visualized within the dashboard.
+Themes:
+  - ice
+Tags:
+  - processing
+  - capability
+Satellite:
+  - multiple
+Sensor:
+  - multiple
+Agency:
+  - ESA
+MapProjection:
+  name: EPSG:3413
+  def: '+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs'
+Resources:
+  - Name: Collection-only
+    EndPoint: Collection-only
+    OverwriteBBox: [-180, 90, 180, -90]
+Process:
+  Name: harshness
+  JsonForm: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polarwarp.json
+  EndPoints:
+    - Identifier: harshnesscollection
+      Url: https://harshness-map.gtif.eox.at/processes/execute-polarwarp/execution
+      Method: POST
+      EndPoint: eoxhub_workspaces
+      Body: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polarwarp.json
+      Type: image/tiff
+      Flatstyle: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polarwarp.json
+      
