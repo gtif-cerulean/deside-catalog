@@ -2,7 +2,7 @@ Name: polarwarp
 Title: Polar warp capability
 EodashIdentifier: harshness
 CollectionGroup: Capabilities
-Description: This is an example of how the polar warp capability can be triggered and visualized within the dashboard.
+Description: This is an example of how the polar warp  capability can be triggered and visualized within the dashboard.
 Themes:
   - ice
 Tags:
@@ -16,7 +16,7 @@ Agency:
   - ESA
 MapProjection:
   name: EPSG:3413
-  def: '+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs'
+  def: "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
 Resources:
   - Name: Collection-only
     EndPoint: Collection-only
@@ -32,4 +32,3 @@ Process:
       Body: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polarwarp.json
       Type: image/tiff
       Flatstyle: https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polarwarp.json
-      
