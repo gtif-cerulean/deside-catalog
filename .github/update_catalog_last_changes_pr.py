@@ -5,7 +5,7 @@ collections_path = "collections/"
 
 indicators_path = "indicators/"
 
-catalog_path = "catalogs/decide.json"
+catalog_path = "catalogs/deside.json"
 
 ALL_CHANGED_FILES = os.environ.get("ALL_CHANGED_FILES")
 changed_files = ALL_CHANGED_FILES.split(" ")
