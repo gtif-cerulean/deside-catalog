@@ -1,0 +1,66 @@
+{
+  "type": "Collection",
+  "id": "harshness",
+  "stac_version": "1.1.0",
+  "description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./harshness/1970/f5cc56f7-503d-49e3-b09c-92547462d612.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harshness capability"
+    }
+  ],
+  "themes": [
+    "ice"
+  ],
+  "tags": [
+    "processing",
+    "capability"
+  ],
+  "satellite": [
+    "multiple"
+  ],
+  "sensor": [
+    "multiple"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "harshness",
+  "collection_group": "Capabilities",
+  "endpointtype": "Collection-only",
+  "title": "Harshness capability",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          90,
+          180,
+          -90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-04-28T08:25:05.938606Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2024-09-19T10:55:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -90,
+          56
+        ],
+        [
+          18,
+          56
+        ],
+        [
+          18,
+          83
+        ],
+        [
+          -90,
+          83
+        ],
+        [
+          -90,
+          56
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -90,
+    56,
+    18,
+    83
+  ],
+  "properties": {
+    "datetime": "2024-09-19T10:55:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "20240919T1055"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Charts Geometries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Charts Geometries"
+    }
+  ],
+  "assets": {
+    "20240919T1055": {
+      "href": "https://tyna-bucket.s3.eox.at/dmi/202409191055_NorthWest_RIC/202409191055_NorthWest_RIC.geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "sea_ice_charts"
+}
