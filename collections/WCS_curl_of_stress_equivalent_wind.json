@@ -1,0 +1,78 @@
+{
+  "Name": "curl_of_stress_equivalent_wind",
+  "Title": "Curl of stress-equivalent wind",
+  "EodashIdentifier": "WCS",
+  "Description": "N/A\n",
+  "Themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "CollectionGroup": "Wind",
+  "Satellite": [
+    "placeholder"
+  ],
+  "Sensor": [
+    "placeholder"
+  ],
+  "Agency": [
+    "CMEMS"
+  ],
+  "Tags": [
+    "model"
+  ],
+  "Colorlegend": {
+    "title": "Curl of stress-equivalent [s-1]",
+    "range": [
+      "rgba(68, 1, 84, 1)",
+      "rgba(72, 35, 116, 1)",
+      "rgba(64, 67, 135, 1)",
+      "rgba(52, 94, 141, 1)",
+      "rgba(41, 120, 142, 1)",
+      "rgba(32, 144, 140, 1)",
+      "rgba(34, 167, 132, 1)",
+      "rgba(68, 190, 112, 1)",
+      "rgba(121, 209, 81, 1)",
+      "rgba(189, 223, 38, 1)",
+      "rgba(253, 231, 37, 1)"
+    ],
+    "domain": [
+      -9.23e-05,
+      8.68e-05
+    ]
+  },
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207",
+      "Type": "WMTSCapabilities",
+      "Name": "marinedatastore",
+      "LayerId": "WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207/wind_curl",
+      "Query": {
+        "Start": "2024-12-01T00:00:00Z",
+        "End": "2025-01-27T00:00:00Z"
+      },
+      "Dimensions": {
+        "elevation": 0,
+        "style": "cmap:viridis"
+      }
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "Url": "https://data.marine.copernicus.eu/"
+    }
+  ],
+  "Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/wind_curl.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H&variables=wind_curl&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  }
+}

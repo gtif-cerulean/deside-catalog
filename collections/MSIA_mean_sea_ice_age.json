@@ -1,0 +1,78 @@
+{
+  "Name": "mean_sea_ice_age",
+  "Title": "Mean sea ice age",
+  "EodashIdentifier": "MSIA",
+  "Description": "N/A\n",
+  "Themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "CollectionGroup": "Sea Ice",
+  "Satellite": [
+    "placeholder"
+  ],
+  "Sensor": [
+    "placeholder"
+  ],
+  "Agency": [
+    "CMEMS"
+  ],
+  "Tags": [
+    "model"
+  ],
+  "Colorlegend": {
+    "title": "Mean sea ice age [years]",
+    "range": [
+      "rgba(68, 1, 84, 1)",
+      "rgba(72, 35, 116, 1)",
+      "rgba(64, 67, 135, 1)",
+      "rgba(52, 94, 141, 1)",
+      "rgba(41, 120, 142, 1)",
+      "rgba(32, 144, 140, 1)",
+      "rgba(34, 167, 132, 1)",
+      "rgba(68, 190, 112, 1)",
+      "rgba(121, 209, 81, 1)",
+      "rgba(189, 223, 38, 1)",
+      "rgba(253, 231, 37, 1)"
+    ],
+    "domain": [
+      0,
+      0.52
+    ]
+  },
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
+      "Type": "WMTSCapabilities",
+      "Name": "marinedatastore",
+      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siage",
+      "Query": {
+        "Start": "2024-01-01T00:00:00Z",
+        "End": "2025-01-27T00:00:00Z"
+      },
+      "Dimensions": {
+        "elevation": 0,
+        "style": "cmap:viridis"
+      }
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "Url": "https://data.marine.copernicus.eu/"
+    }
+  ],
+  "Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siage.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=siage&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  }
+}

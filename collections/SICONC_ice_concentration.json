@@ -1,0 +1,84 @@
+{
+  "Name": "ice_concentration",
+  "Title": "Ice concentration",
+  "EodashIdentifier": "SICONC",
+  "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year\u2019s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "Themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "CollectionGroup": "Sea Ice",
+  "DataSource": {
+    "Spaceborne": {
+      "Sensor": [
+        "Numerical model"
+      ]
+    }
+  },
+  "Agency": [
+    "CMEMS"
+  ],
+  "Tags": [
+    "model"
+  ],
+  "Colorlegend": {
+    "title": "Ice concentration",
+    "range": [
+      "rgb(4, 6, 21)",
+      "rgb(69, 123, 185)",
+      "rgb(229, 248, 252)"
+    ],
+    "domain": [
+      0,
+      1
+    ]
+  },
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
+      "Type": "WMTSCapabilities",
+      "Name": "marinedatastore",
+      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siconc",
+      "Query": {
+        "Start": "2024-01-01T00:00:00Z",
+        "End": "2025-01-27T00:00:00Z"
+      },
+      "Dimensions": {
+        "elevation": 0,
+        "style": "cmap:ice"
+      }
+    }
+  ],
+  "Citation": {
+    "DOI": "10.48670/moi-00016"
+  },
+  "References": [
+    {
+      "Name": "CMEMS Data Description",
+      "Url": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description"
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "Mercator Oc\u00e9an International",
+      "Url": "https://www.mercator-ocean.eu/"
+    },
+    {
+      "Name": "E.U. Copernicus Marine Service Information (CMEMS)",
+      "Url": "https://data.marine.copernicus.eu/"
+    }
+  ],
+  "Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=siconc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  }
+}
