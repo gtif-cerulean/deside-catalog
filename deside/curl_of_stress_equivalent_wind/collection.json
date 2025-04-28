@@ -152,8 +152,8 @@
       "rgba(253, 231, 37, 1)"
     ],
     "domain": [
-      -9.23e-05,
-      8.68e-05
+      -0.0000923,
+      0.0000868
     ]
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
@@ -197,9 +197,9 @@
       "WCS"
     ],
     "themes": [
-      "Aquaculture",
+      "Energy",
       "Shipping",
-      "Energy"
+      "Aquaculture"
     ],
     "satellite": [
       "placeholder"

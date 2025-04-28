@@ -4,39 +4,30 @@
   "stac_extensions": [],
   "id": "2025-01-18T10:00:00Z",
   "geometry": {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                -120,
-                14
-              ],
-              [
-                70,
-                14
-              ],
-              [
-                70,
-                85
-              ],
-              [
-                -120,
-                85
-              ],
-              [
-                -120,
-                14
-              ]
-            ]
-          ]
-        },
-        "properties": {}
-      }
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120,
+          14
+        ],
+        [
+          70,
+          14
+        ],
+        [
+          70,
+          85
+        ],
+        [
+          -120,
+          85
+        ],
+        [
+          -120,
+          14
+        ]
+      ]
     ]
   },
   "bbox": [
