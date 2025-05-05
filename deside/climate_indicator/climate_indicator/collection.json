@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./climate_indicator/1970/71c52055-6295-4eac-9311-e94e77d90d16.json",
+      "href": "./climate_indicator/1970/1b1b24ea-38fb-4a77-ad67-2046e1769f4f.json",
       "type": "application/geo+json"
     },
     {
@@ -57,7 +57,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-04T04:00:37.195463Z",
+          "2025-05-05T03:59:17.650846Z",
           null
         ]
       ]
