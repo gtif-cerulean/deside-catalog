@@ -42,7 +42,7 @@
     "EndPoints": [
       {
         "Identifier": "harshnesscollection",
-        "Url": "https://harshness-map.gtif.eox.at/processes/execute-polarwarp/execution",
+        "Url": "https://harshness-map.gtif.eox.at/processes/execute-polarwarp-gcps/execution",
         "Method": "POST",
         "EndPoint": "eoxhub_workspaces",
         "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polarwarp.json",
