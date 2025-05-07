@@ -39,6 +39,6 @@
     "SO_salinity",
     "CI_climate_indicator",
     "harshness",
-    "polarwarp"
+    "polarwarp_indicator"
   ]
 }
