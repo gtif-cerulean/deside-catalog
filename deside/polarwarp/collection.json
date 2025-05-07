@@ -43,7 +43,7 @@
     },
     {
       "rel": "service",
-      "href": "https://harshness-map.gtif.eox.at/processes/execute-polarwarp/execution",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-polarwarp-gcps/execution",
       "type": "image/tiff",
       "id": "harshnesscollection",
       "method": "POST",
@@ -168,7 +168,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-05-07T03:58:17.952568Z"
+          "2025-05-07T08:32:51.076163Z"
         ]
       ]
     }
