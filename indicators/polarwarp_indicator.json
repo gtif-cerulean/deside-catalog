@@ -1,11 +1,11 @@
 {
-    "Name": "polaris_sentinel1",
-    "Title": "POLARIS combined",
-    "EodashIdentifier": "POS1",
-    "Description": "",
+    "Name": "polarwarp_sentinel1",
+    "Title": "Polar warp capability",
+    "EodashIdentifier": "polarwarp_sentinel1",
+    "Description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
     "CollectionGroup": "Capabilities",
     "Themes": [
-      "Shipping"
+      "ice"
     ],
     "Collections": [
       "polarwarp",
