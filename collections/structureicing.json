@@ -1,0 +1,53 @@
+{
+  "Name": "structureicing",
+  "Title": "Icing Predictor Index",
+  "EodashIdentifier": "structureicing",
+  "CollectionGroup": "Capabilities",
+  "Description": "structureicing/structureicing.md",
+  "Themes": [
+    "ice"
+  ],
+  "Tags": [
+    "processing",
+    "capability"
+  ],
+  "Satellite": [
+    "multiple"
+  ],
+  "Sensor": [
+    "multiple"
+  ],
+  "Agency": [
+    "GHRSST",
+    "CMEMS",
+    "CDS",
+    "Met Office"
+  ],
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -180,
+        90,
+        180,
+        -90
+      ]
+    }
+  ],
+  "Process": {
+    "Name": "structureicing",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/structureicing.json",
+    "EndPoints": [
+      {
+        "Identifier": "structureicing",
+        "Url": "https://harshness-map.gtif.eox.at/processes/execute-structure-icing-0.5/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/structureicing.json",
+        "Type": "image/tiff",
+        "Flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/structureicing.json"
+      }
+    ]
+  }
+}
