@@ -33,9 +33,9 @@
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/climate_indicator.json",
     "EndPoints": [
       {
-        "Identifier": "process_cmems",
-        "Url": "https://netcdf-to-json.gtif.eox.at/data/thredds/fileServer/metusers/steingod/deside/climmodseaice-yearlymaxmin/siextentn/{{source}}_sea_ice/Monthly/ssp{{ssp}}/siextentn_SImon_{{source}}_ssp{{ssp}}_r1i1p1f1_2015_2100.nc",
-        "Type": "application/json"
+        "Identifier": "climate_indicator",
+        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/CIF/Combined_monthly_siarean_siextentn_timeseries_OSISAF.csv",
+        "Type": "text/csv"
       }
     ]
   }
