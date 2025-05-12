@@ -40,9 +40,9 @@
     },
     {
       "rel": "service",
-      "href": "https://netcdf-to-json.gtif.eox.at/data/thredds/fileServer/metusers/steingod/deside/climmodseaice-yearlymaxmin/siextentn/{{source}}_sea_ice/Monthly/ssp{{ssp}}/siextentn_SImon_{{source}}_ssp{{ssp}}_r1i1p1f1_2015_2100.nc",
-      "type": "application/json",
-      "id": "process_cmems",
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/CIF/Combined_monthly_siarean_siextentn_timeseries_OSISAF.csv",
+      "type": "text/csv",
+      "id": "climate_indicator",
       "method": "GET"
     },
     {
@@ -160,7 +160,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-05-12T04:00:39.255203Z"
+          "2025-05-12T16:53:39.169782Z"
         ]
       ]
     }
@@ -171,9 +171,9 @@
       "CI"
     ],
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ],
     "satellite": [
       "placeholder"
