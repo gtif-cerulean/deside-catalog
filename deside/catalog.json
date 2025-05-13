@@ -856,8 +856,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
@@ -870,6 +870,35 @@
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
       }
+    },
+    {
+      "rel": "child",
+      "href": "./structureicing/collection.json",
+      "type": "application/json",
+      "title": "Icing Predictor Index",
+      "code": "structureicing",
+      "id": "structureicing",
+      "themes": [
+        "ice"
+      ],
+      "subcode": "structureicing",
+      "satellite": [
+        "multiple"
+      ],
+      "sensor": [
+        "multiple"
+      ],
+      "tags": [
+        "processing",
+        "capability"
+      ],
+      "agency": [
+        "GHRSST",
+        "CMEMS",
+        "CDS",
+        "Met Office"
+      ],
+      "collection_group": "Capabilities"
     },
     {
       "rel": "self",
