@@ -25,10 +25,10 @@
       "Name": "Collection-only",
       "EndPoint": "Collection-only",
       "OverwriteBBox": [
-        -180,
-        90,
-        180,
-        -90
+        -179,
+        55,
+        179,
+        89
       ]
     }
   ],
