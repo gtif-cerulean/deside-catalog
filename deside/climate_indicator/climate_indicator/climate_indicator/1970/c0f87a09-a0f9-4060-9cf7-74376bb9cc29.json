@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "61f73420-b7b6-4542-bfe3-fcd2ea225c79",
+  "id": "c0f87a09-a0f9-4060-9cf7-74376bb9cc29",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-12T16:53:39.250171Z",
+    "end_datetime": "2025-05-13T03:59:19.957705Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Polar warp capability"
+      "title": "Climate indicator"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Polar warp capability"
+      "title": "Climate indicator"
     }
   ],
   "assets": {},
-  "collection": "polarwarp"
+  "collection": "climate_indicator"
 }
