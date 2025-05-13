@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "2d66978f-70dc-4c26-b519-64c278a739c9",
+  "id": "a7be92b6-5968-4e14-a617-bcaec8bff8f3",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-13T07:41:44.671344Z",
+    "end_datetime": "2025-05-13T16:32:06.908270Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Icing Predictor Index"
+      "title": "Polar warp capability"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Icing Predictor Index"
+      "title": "Polar warp capability"
     }
   ],
   "assets": {},
-  "collection": "structureicing"
+  "collection": "polarwarp"
 }

@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./harshness/1970/1d9bf972-9a2c-4ca3-82be-5083e9d1a458.json",
+      "href": "./harshness/1970/d6fd5ef6-d5fd-4f6d-804e-485865cc2775.json",
       "type": "application/geo+json"
     },
     {
@@ -46,17 +46,17 @@
     "spatial": {
       "bbox": [
         [
-          -180,
-          90,
-          180,
-          -90
+          -179,
+          55,
+          179,
+          89
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-05-13T07:41:44.023253Z",
+          "2025-05-13T16:32:06.860747Z",
           null
         ]
       ]
