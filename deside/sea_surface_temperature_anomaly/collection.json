@@ -197,9 +197,9 @@
       "SSTA"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "placeholder"
