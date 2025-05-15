@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./structureicing/1970/a4d16673-a891-45f3-b6e6-c9a987d5a7bf.json",
+      "href": "./structureicing/1970/5c6948f9-8b37-4b82-8a0b-1d91fb5e86a0.json",
       "type": "application/geo+json"
     },
     {
@@ -59,7 +59,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-14T03:58:39.918471Z",
+          "2025-05-15T03:58:15.217192Z",
           null
         ]
       ]

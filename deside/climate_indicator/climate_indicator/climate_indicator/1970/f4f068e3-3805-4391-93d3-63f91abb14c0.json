@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "a4d16673-a891-45f3-b6e6-c9a987d5a7bf",
+  "id": "f4f068e3-3805-4391-93d3-63f91abb14c0",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-14T03:58:39.956704Z",
+    "end_datetime": "2025-05-15T03:58:14.625142Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Icing Predictor Index"
+      "title": "Climate indicator"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Icing Predictor Index"
+      "title": "Climate indicator"
     }
   ],
   "assets": {},
-  "collection": "structureicing"
+  "collection": "climate_indicator"
 }
