@@ -1,0 +1,49 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2025-04-23T05:59:00Z",
+  "geometry": null,
+  "properties": {
+    "datetime": "2025-04-23T05:59:00Z"
+  },
+  "links": [
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS/ibc",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "time": "2025-04-23T05:59:00Z",
+        "elevation": 0,
+        "style": "cmap:ice,range:0/1"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Iceberg concentration"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Iceberg concentration"
+    }
+  ],
+  "assets": {},
+  "collection": "iceberg_concentration"
+}

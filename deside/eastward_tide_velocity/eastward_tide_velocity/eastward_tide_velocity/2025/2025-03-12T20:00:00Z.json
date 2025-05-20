@@ -1,0 +1,49 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2025-03-12T20:00:00Z",
+  "geometry": null,
+  "properties": {
+    "datetime": "2025-03-12T20:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_merged-uv_PT1H-i_202211",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_merged-uv_PT1H-i_202211/utide",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "time": "2025-03-12T20:00:00Z",
+        "elevation": 0,
+        "style": "cmap:viridis"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Eastward tide-induced velocity"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Eastward tide-induced velocity"
+    }
+  ],
+  "assets": {},
+  "collection": "eastward_tide_velocity"
+}
