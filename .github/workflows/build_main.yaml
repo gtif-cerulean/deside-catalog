@@ -21,15 +21,12 @@ jobs:
       contents: write
       pages: write
       pull-requests: write
+      packages: read
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install dependencies
-        run: |
-          pip install -U pip
-          pip install eodash_catalog==0.1.9
       - name: Build
         env:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
@@ -39,7 +36,9 @@ jobs:
           SH_CLIENT_ID_POLARTEP: ${{ secrets.SH_CLIENT_ID_POLARTEP }}
           SH_CLIENT_SECRET_POLARTEP: ${{ secrets.SH_CLIENT_SECRET_POLARTEP }}
         # actually run the catalog generation
-        run: eodash_catalog
+        run: |
+          docker pull ghcr.io/eodash/eodash_catalog:latest
+          docker run -v "$PWD:/workspace" -w "/workspace" ghcr.io/eodash/eodash_catalog:latest eodash_catalog
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
