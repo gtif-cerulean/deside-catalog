@@ -49,7 +49,7 @@
       "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/ist",
       "Query": {
         "Start": "2024-01-01T00:00:00Z",
-        "End": "2025-01-27T00:00:00Z"
+        "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
         "elevation": 0,

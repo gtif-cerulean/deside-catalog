@@ -41,7 +41,7 @@
       "LayerId": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS/ibc",
       "Query": {
         "Start": "2024-01-01T00:00:00Z",
-        "End": "2025-01-27T00:00:00Z"
+        "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
         "elevation": 0,

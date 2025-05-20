@@ -29,7 +29,7 @@
       "LayerId": "GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411/VHM0",
       "Query": {
         "Start": "2024-01-01T00:00:00Z",
-        "End": "2025-01-27T00:00:00Z"
+        "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
         "elevation": 0,
