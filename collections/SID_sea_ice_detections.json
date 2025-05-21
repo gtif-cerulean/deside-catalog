@@ -1,0 +1,216 @@
+{
+  "Name": "sea_ice_detections",
+  "Title": "Sea Ice Detections",
+  "EodashIdentifier": "SID",
+  "CollectionGroup": "Sea Ice",
+  "Description": "",
+  "Themes": [
+    "shipping"
+  ],
+  "Agency": [
+    "placeholder"
+  ],
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/sea_ice_detections.json",
+      "Bbox": [
+        -120,
+        14,
+        70,
+        85
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20250101T0600",
+          "Assets": [
+            {
+              "Identifier": "202501010600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501010600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250102T0600",
+          "Assets": [
+            {
+              "Identifier": "202501020600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501020600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250103T0600",
+          "Assets": [
+            {
+              "Identifier": "202501030600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501030600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250104T0600",
+          "Assets": [
+            {
+              "Identifier": "202501040600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501040600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250105T0600",
+          "Assets": [
+            {
+              "Identifier": "202501050600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501050600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250106T0600",
+          "Assets": [
+            {
+              "Identifier": "202501060600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501060600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250107T0600",
+          "Assets": [
+            {
+              "Identifier": "202501070600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501070600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250108T0600",
+          "Assets": [
+            {
+              "Identifier": "202501080600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501080600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250109T0600",
+          "Assets": [
+            {
+              "Identifier": "202501090600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501090600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250110T0600",
+          "Assets": [
+            {
+              "Identifier": "202501100600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501100600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250111T0600",
+          "Assets": [
+            {
+              "Identifier": "202501110600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501110600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250112T0600",
+          "Assets": [
+            {
+              "Identifier": "202501120600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501120600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250113T0600",
+          "Assets": [
+            {
+              "Identifier": "202501130600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501130600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250114T0600",
+          "Assets": [
+            {
+              "Identifier": "202501140600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501140600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250115T0600",
+          "Assets": [
+            {
+              "Identifier": "202501150600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501150600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250116T0600",
+          "Assets": [
+            {
+              "Identifier": "202501160600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501160600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250117T0600",
+          "Assets": [
+            {
+              "Identifier": "202501170600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501170600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250118T0600",
+          "Assets": [
+            {
+              "Identifier": "202501180600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501180600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250119T0600",
+          "Assets": [
+            {
+              "Identifier": "202501190600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501190600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250120T0600",
+          "Assets": [
+            {
+              "Identifier": "202501200600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501200600.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20250121T0600",
+          "Assets": [
+            {
+              "Identifier": "202501210600",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/sea_ice_concentration/multisensorSeaIce_202501210600.tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

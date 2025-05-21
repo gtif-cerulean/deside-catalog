@@ -1,0 +1,42 @@
+{
+  "Name": "climate_indicator",
+  "Title": "Climate indicator",
+  "EodashIdentifier": "CI",
+  "Description": "N/A\n",
+  "Themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "CollectionGroup": "Capabilities",
+  "Satellite": [
+    "placeholder"
+  ],
+  "Sensor": [
+    "placeholder"
+  ],
+  "Agency": [
+    "CMEMS"
+  ],
+  "Tags": [
+    "model"
+  ],
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only"
+    }
+  ],
+  "Process": {
+    "Name": "netcdf_extract",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/climate_indicator.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/climate_indicator.json",
+    "EndPoints": [
+      {
+        "Identifier": "climate_indicator",
+        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/CIF/Combined_monthly_siarean_siextentn_timeseries_OSISAF.csv",
+        "Type": "text/csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Name": "polaris_sentinel1",
+  "Title": "POLARIS combined",
+  "EodashIdentifier": "POS1",
+  "Description": "",
+  "CollectionGroup": "Capabilities",
+  "Themes": [
+    "Shipping"
+  ],
+  "Collections": [
+    "polaris",
+    "SHS1_sentinel1_ew_hh",
+    "SID_sea_ice_detections"
+  ]
+}

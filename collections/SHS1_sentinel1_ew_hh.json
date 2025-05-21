@@ -1,0 +1,48 @@
+{
+  "Name": "Sentinel1-EW-HH",
+  "Title": "Sentinel 1 EW HH",
+  "EodashIdentifier": "SHS1",
+  "Description": "SENTINEL_1_IW_VV",
+  "CollectionGroup": "Other data",
+  "Themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "Tags": [
+    "Sentinel",
+    "Open data"
+  ],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-1"
+      ]
+    }
+  },
+  "Agency": [
+    "European Commission",
+    "ESA"
+  ],
+  "Image": "Lakes_Sentinel1/thumbnail.png",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
+      "Name": "Sentinel Hub WMS",
+      "LayerId": "EW_HH_DB",
+      "DateTimeInterval": {
+        "Start": "2022-01-01T00:00:00Z",
+        "End": "today"
+      }
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "Copernicus",
+      "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "Name": "Sentinel-Hub"
+    }
+  ]
+}

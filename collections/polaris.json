@@ -1,0 +1,289 @@
+{
+  "Name": "Polaris_algorithm_dmi_demo",
+  "Title": "POLARIS",
+  "EodashIdentifier": "Polaris_algorithm_dmi_demo",
+  "Description": "",
+  "CollectionGroup": "Capabilities",
+  "Themes": [
+    "Shipping"
+  ],
+  "Agency": [
+    "DMI"
+  ],
+  "Image": "Polartep_SeaIceCharts_demo/thumbnail.png",
+  "Resources": [
+    {
+      "Name": "FlatGeobuf source",
+      "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polaris_algorithm_dmi_demo/style.json",
+      "Bbox": [
+        -120,
+        14,
+        70,
+        85
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20250101T1005",
+          "Assets": [
+            {
+              "Identifier": "20250101T1005",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501011005_CentralWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250110T0930",
+          "Assets": [
+            {
+              "Identifier": "20250110T0930",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501100930_CapeFarewell_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250111T1005",
+          "Assets": [
+            {
+              "Identifier": "20250111T1005",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501111005_SouthWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250111T1010",
+          "Assets": [
+            {
+              "Identifier": "20250111T1010",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501111010_CentralWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250112T0910",
+          "Assets": [
+            {
+              "Identifier": "20250112T0910",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501120910_SouthEast_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250112T0915",
+          "Assets": [
+            {
+              "Identifier": "20250112T0915",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501120915_CapeFarewell_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250112T2030",
+          "Assets": [
+            {
+              "Identifier": "20250112T2030",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501122030_CapeFarewell_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250113T0810",
+          "Assets": [
+            {
+              "Identifier": "20250113T0810",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501130810_NorthEast_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250113T0815",
+          "Assets": [
+            {
+              "Identifier": "20250113T0815",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501130815_CentralEast_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250113T0950",
+          "Assets": [
+            {
+              "Identifier": "20250113T0950",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501130950_CentralWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250113T1130",
+          "Assets": [
+            {
+              "Identifier": "20250113T1130",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501131130_Qaanaaq_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250113T2115",
+          "Assets": [
+            {
+              "Identifier": "20250113T2115",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501132115_NorthWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250114T2015",
+          "Assets": [
+            {
+              "Identifier": "20250114T2015",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501142015_SouthEast_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250115T0755",
+          "Assets": [
+            {
+              "Identifier": "20250115T0755",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501150755_North_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250115T1300",
+          "Assets": [
+            {
+              "Identifier": "20250115T1300",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501151300_CapeFarewell_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250115T2100",
+          "Assets": [
+            {
+              "Identifier": "20250115T2100",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501152100_NorthWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250116T1015",
+          "Assets": [
+            {
+              "Identifier": "20250116T1015",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501161015_CentralWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250116T1020",
+          "Assets": [
+            {
+              "Identifier": "20250116T1020",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501161020_SouthWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250116T1955",
+          "Assets": [
+            {
+              "Identifier": "20250116T1955",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501161955_SouthEast_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250117T0920",
+          "Assets": [
+            {
+              "Identifier": "20250117T0920",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501170920_CapeFarewell_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250117T2035",
+          "Assets": [
+            {
+              "Identifier": "20250117T2035",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501172035_CapeFarewell_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250117T2040",
+          "Assets": [
+            {
+              "Identifier": "20250117T2040",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501172040_CentralWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250118T1000",
+          "Assets": [
+            {
+              "Identifier": "20250118T1000",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501181000_SouthWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250118T2050",
+          "Assets": [
+            {
+              "Identifier": "20250118T2050",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501182050_CentralWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250119T0925",
+          "Assets": [
+            {
+              "Identifier": "20250119T0925",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501190925_CapeFarewell_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250119T1025",
+          "Assets": [
+            {
+              "Identifier": "20250119T1025",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501191025_SouthWest_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250119T2020",
+          "Assets": [
+            {
+              "Identifier": "20250119T2020",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501192020_CapeFarewell_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250120T0805",
+          "Assets": [
+            {
+              "Identifier": "20250120T0805",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501200805_CentralEast_RIC-processed.fgb"
+            }
+          ]
+        },
+        {
+          "Time": "20250120T0900",
+          "Assets": [
+            {
+              "Identifier": "20250120T0900",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-data-cerulean1/output-polaris/202501200900_SouthEast_RIC-processed.fgb"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
