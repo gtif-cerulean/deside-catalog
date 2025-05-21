@@ -7427,6 +7427,12 @@
       "datetime": "2025-05-20T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./Sentinel1-EW-HH/2025/2025-05-21T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-21T00:00:00Z"
+    },
+    {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/None",
       "type": "image/png",
@@ -7481,7 +7487,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-05-20T00:00:00Z"
+          "2025-05-21T00:00:00Z"
         ]
       ]
     }
