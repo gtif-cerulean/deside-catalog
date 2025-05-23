@@ -172,7 +172,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-05-30T00:00:00Z"
+          "2025-05-31T00:00:00Z"
         ]
       ]
     }
@@ -189,8 +189,8 @@
       "SIT"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ],
     "satellite": [
