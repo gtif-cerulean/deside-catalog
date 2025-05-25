@@ -172,7 +172,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-01T00:00:00Z"
+          "2025-06-02T00:00:00Z"
         ]
       ]
     }
@@ -189,9 +189,9 @@
       "SST"
     ],
     "themes": [
-      "Shipping",
+      "Energy",
       "Aquaculture",
-      "Energy"
+      "Shipping"
     ],
     "satellite": [
       "placeholder"

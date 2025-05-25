@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./polarwarp/1970/b6f86f64-b2fb-486a-bf78-0376c7bb6d99.json",
+      "href": "./polarwarp/1970/b050d7b5-ac56-4be4-a143-96b8cb793bcb.json",
       "type": "application/geo+json"
     },
     {
@@ -60,7 +60,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-05-24T03:55:11.610161Z",
+          "2025-05-25T04:03:21.688784Z",
           null
         ]
       ]
