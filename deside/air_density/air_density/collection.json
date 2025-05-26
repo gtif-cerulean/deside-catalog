@@ -25067,6 +25067,150 @@
       "datetime": "2025-05-23T23:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T01:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T01:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T02:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T02:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T03:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T03:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T04:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T04:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T05:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T05:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T06:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T06:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T07:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T07:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T08:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T08:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T09:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T09:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T10:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T10:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T11:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T11:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T12:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T12:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T13:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T13:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T14:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T14:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T15:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T15:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T16:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T16:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T17:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T17:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T18:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T18:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T19:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T19:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T20:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T20:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T21:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T21:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T22:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T22:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./air_density/2025/2025-05-24T23:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T23:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207",
       "type": "image/png",
@@ -25143,7 +25287,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-05-23T23:00:00Z"
+          "2025-05-24T23:00:00Z"
         ]
       ]
     }
