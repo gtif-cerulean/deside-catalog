@@ -25499,6 +25499,150 @@
       "datetime": "2025-05-26T23:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T01:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T01:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T02:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T02:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T03:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T03:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T04:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T04:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T05:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T05:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T06:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T06:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T07:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T07:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T08:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T08:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T09:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T09:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T10:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T10:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T11:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T11:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T12:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T12:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T13:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T13:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T14:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T14:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T15:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T15:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T16:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T16:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T17:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T17:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T18:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T18:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T19:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T19:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T20:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T20:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T21:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T21:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T22:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T22:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_stress_northward/2025/2025-05-27T23:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T23:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207",
       "type": "image/png",
@@ -25569,7 +25713,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-05-26T23:00:00Z"
+          "2025-05-27T23:00:00Z"
         ]
       ]
     }
