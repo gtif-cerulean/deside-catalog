@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "65001b78-f765-49b4-a768-241981bcd89e",
+  "id": "81074cd5-cca1-4c46-b1a2-f5b17c73197f",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-05-30T03:59:33.219222Z",
+    "end_datetime": "2025-05-31T03:58:58.666837Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Harshness capability"
+      "title": "Climate indicator"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Harshness capability"
+      "title": "Climate indicator"
     }
   ],
   "assets": {},
-  "collection": "harshness"
+  "collection": "climate_indicator"
 }
