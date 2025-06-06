@@ -3191,6 +3191,12 @@
       "datetime": "2025-06-13T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./sea_surface_temperature_anomaly/2025/2025-06-14T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-14T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg-sst-anomaly_P1D-m_202411",
       "type": "image/png",
@@ -3267,7 +3273,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-13T00:00:00Z"
+          "2025-06-14T00:00:00Z"
         ]
       ]
     }

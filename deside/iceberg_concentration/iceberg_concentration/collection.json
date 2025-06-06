@@ -3131,6 +3131,12 @@
       "datetime": "2025-06-04T05:10:00Z"
     },
     {
+      "rel": "item",
+      "href": "./iceberg_concentration/2025/2025-06-05T04:12:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-05T04:12:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS",
       "type": "image/png",
@@ -3199,7 +3205,7 @@
       "interval": [
         [
           "2024-01-01T05:43:00Z",
-          "2025-06-04T05:10:00Z"
+          "2025-06-05T04:12:00Z"
         ]
       ]
     }
