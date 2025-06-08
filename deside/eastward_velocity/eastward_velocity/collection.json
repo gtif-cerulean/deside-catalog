@@ -3203,6 +3203,12 @@
       "datetime": "2025-06-15T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./eastward_velocity/2025/2025-06-16T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-16T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-cur_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
@@ -3273,7 +3279,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-15T00:00:00Z"
+          "2025-06-16T00:00:00Z"
         ]
       ]
     }
