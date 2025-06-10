@@ -172,7 +172,7 @@
       "interval": [
         [
           "2024-01-01T05:43:00Z",
-          "2025-06-08T04:36:59Z"
+          "2025-06-09T05:18:00Z"
         ]
       ]
     }
@@ -189,8 +189,8 @@
       "IBC"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
+      "Aquaculture",
       "Energy"
     ],
     "satellite": [

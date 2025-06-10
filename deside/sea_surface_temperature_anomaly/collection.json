@@ -180,7 +180,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-17T00:00:00Z"
+          "2025-06-18T00:00:00Z"
         ]
       ]
     }
@@ -197,8 +197,8 @@
       "SSTA"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
+      "Aquaculture",
       "Energy"
     ],
     "satellite": [
