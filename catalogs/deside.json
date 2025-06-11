@@ -40,6 +40,8 @@
     "CI_climate_indicator",
     "harshness",
     "polarwarp_indicator",
-    "structureicing"
+    "structureicing",
+    "cmems_baltic_data",
+    "cmems_baltic_ice_thickness"
   ]
 }
