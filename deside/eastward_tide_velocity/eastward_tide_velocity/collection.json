@@ -28955,6 +28955,150 @@
       "datetime": "2025-06-19T23:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T01:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T01:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T02:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T02:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T03:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T03:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T04:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T04:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T05:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T05:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T06:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T06:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T07:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T07:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T08:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T08:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T09:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T09:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T10:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T10:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T11:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T11:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T12:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T12:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T13:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T13:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T14:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T14:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T15:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T15:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T16:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T16:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T17:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T17:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T18:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T18:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T19:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T19:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T20:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T20:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T21:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T21:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T22:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T22:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./eastward_tide_velocity/2025/2025-06-20T23:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T23:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_merged-uv_PT1H-i_202211",
       "type": "image/png",
@@ -29031,7 +29175,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-06-19T23:00:00Z"
+          "2025-06-20T23:00:00Z"
         ]
       ]
     }

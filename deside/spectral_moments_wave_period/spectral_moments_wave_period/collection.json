@@ -14033,6 +14033,54 @@
       "datetime": "2025-06-20T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./spectral_moments_wave_period/2025/2025-06-20T03:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T03:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./spectral_moments_wave_period/2025/2025-06-20T06:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T06:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./spectral_moments_wave_period/2025/2025-06-20T09:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T09:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./spectral_moments_wave_period/2025/2025-06-20T12:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T12:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./spectral_moments_wave_period/2025/2025-06-20T15:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T15:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./spectral_moments_wave_period/2025/2025-06-20T18:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T18:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./spectral_moments_wave_period/2025/2025-06-20T21:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T21:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./spectral_moments_wave_period/2025/2025-06-21T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-21T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411",
       "type": "image/png",
@@ -14089,7 +14137,7 @@
       "interval": [
         [
           "2024-09-01T00:00:00Z",
-          "2025-06-20T00:00:00Z"
+          "2025-06-21T00:00:00Z"
         ]
       ]
     }
