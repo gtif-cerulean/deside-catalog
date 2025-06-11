@@ -1,0 +1,47 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2024-07-05T00:00:00Z",
+  "geometry": null,
+  "properties": {
+    "datetime": "2024-07-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/uo",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "time": "2024-07-05T00:00:00Z"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Baltic Water Velocity Eastward"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Baltic Water Velocity Eastward"
+    }
+  ],
+  "assets": {},
+  "collection": "cmems_baltic_water_velocity_east"
+}

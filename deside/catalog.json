@@ -72,8 +72,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -899,6 +899,135 @@
         "Met Office"
       ],
       "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_balitic_ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Concentration",
+      "code": "cmems_baltic_ice_concentration",
+      "id": "cmems_balitic_ice_concentration",
+      "subcode": "cmems_baltic_ice_concentration",
+      "collection_group": "Baltic"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Thickness",
+      "code": "cmems_baltic_ice_thickness",
+      "id": "cmems_baltic_ice_thickness",
+      "themes": [
+        "Shipping",
+        "Energy"
+      ],
+      "subcode": "cmems_baltic_ice_thickness",
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_water_pot_temp/collection.json",
+      "type": "application/json",
+      "title": "Baltic Water Potential Temperature",
+      "code": "cmems_baltic_water_pot_temp",
+      "id": "cmems_baltic_water_pot_temp",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "subcode": "cmems_baltic_water_pot_temp",
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_water_salinity/collection.json",
+      "type": "application/json",
+      "title": "Baltic Water Salinity",
+      "code": "cmems_baltic_water_salinity",
+      "id": "cmems_baltic_water_salinity",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "subcode": "cmems_baltic_water_salinity",
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_water_velocity_east/collection.json",
+      "type": "application/json",
+      "title": "Baltic Water Velocity Eastward",
+      "code": "cmems_baltic_water_velocity_east",
+      "id": "cmems_baltic_water_velocity_east",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "subcode": "cmems_baltic_water_velocity_east",
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_water_velocity_north/collection.json",
+      "type": "application/json",
+      "title": "Baltic Water Velocity North",
+      "code": "cmems_baltic_water_velocity_north",
+      "id": "cmems_baltic_water_velocity_north",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "subcode": "cmems_baltic_water_velocity_north",
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
     },
     {
       "rel": "self",
