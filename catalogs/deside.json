@@ -46,6 +46,10 @@
     "cmems_baltic_water_pot_temp",
     "cmems_baltic_water_salinity",
     "cmems_baltic_water_velocity_east",
-    "cmems_baltic_water_velocity_north"
+    "cmems_baltic_water_velocity_north",
+    "cmems_baltic_ice_thickness_chart",
+    "cmems_baltic_ice_concentration_chart",
+    "cmems_baltic_wave_height",
+    "cmems_baltic_wave_direction"
   ]
 }
