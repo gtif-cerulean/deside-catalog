@@ -160,7 +160,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-06-21T00:00:00Z"
+          "2025-06-22T00:00:00Z"
         ]
       ]
     }
@@ -177,9 +177,9 @@
       "VMDR"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ],
     "satellite": [
       "placeholder"
