@@ -44,6 +44,10 @@
       "Name": "marinedatastore",
       "Type": "WMTSCapabilities",
       "LayerId": "BALTICSEA_ANALYSISFORECAST_WAV_003_010/cmems_mod_bal_wav_anfc_PT1H-i_202311/VMDR",
+      "Query": {
+        "Start": "2024-01-01T00:00:00Z",
+        "End": "2030-01-01T00:00:00Z"
+      },
       "Variable": "",
       "Dimensions": {}
     }
