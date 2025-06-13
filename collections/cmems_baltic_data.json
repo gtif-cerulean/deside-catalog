@@ -31,15 +31,12 @@
       "Name": "marinedatastore",
       "Type": "WMTSCapabilities",
       "LayerId": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/siconc",
-       "Query": {
+      "Query": {
         "Start": "2024-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
       "Dimensions": {},
-      "Query": {
-        "Start": "2024-01-01T00:00:00Z"
-      }
     }
   ],
   "Services": [],
