@@ -856,8 +856,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
@@ -1018,6 +1018,100 @@
         "Aquaculture"
       ],
       "subcode": "cmems_baltic_water_velocity_north",
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_ice_thickness_chart/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Chart Thickness",
+      "code": "cmems_baltic_ice_thickness_chart",
+      "id": "cmems_baltic_ice_thickness_chart",
+      "themes": [
+        "Shipping",
+        "Energy"
+      ],
+      "subcode": "cmems_baltic_ice_thickness_chart",
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_ice_concentration_chart/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Chart Concentration",
+      "code": "cmems_baltic_ice_concentration_chart",
+      "id": "cmems_baltic_ice_concentration_chart",
+      "themes": [
+        "Shipping",
+        "Energy"
+      ],
+      "subcode": "cmems_baltic_ice_concentration_chart",
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_wave_height/collection.json",
+      "type": "application/json",
+      "title": "Baltic Wave Height",
+      "code": "cmems_baltic_wave_height",
+      "id": "cmems_baltic_wave_height",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "subcode": "cmems_baltic_wave_height",
+      "tags": [
+        "Model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Baltic",
+      "otherSources": [
+        "Numerical Model"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_wave_directon/collection.json",
+      "type": "application/json",
+      "title": "Baltic Wave Direction",
+      "code": "cmems_baltic_wave_directon",
+      "id": "cmems_baltic_wave_directon",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "subcode": "cmems_baltic_wave_directon",
       "tags": [
         "Model"
       ],
