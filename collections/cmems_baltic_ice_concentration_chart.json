@@ -43,6 +43,10 @@
       "Name": "marinedatastore",
       "Type": "WMTSCapabilities",
       "LayerId": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_CONC-L4-NRT-OBS/ice_concentration",
+       "Query": {
+        "Start": "2024-01-01T00:00:00Z",
+        "End": "2030-01-01T00:00:00Z"
+      },
       "Variable": "",
       "Dimensions": {}
     }
