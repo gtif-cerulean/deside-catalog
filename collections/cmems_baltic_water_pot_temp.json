@@ -43,6 +43,10 @@
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "Name": "marinedatastore",
       "Type": "WMTSCapabilities",
+      "Query": {
+        "Start": "2024-01-01T00:00:00Z",
+        "End": "2030-01-01T00:00:00Z"
+      },
       "LayerId": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/thetao",
       "Variable": "",
       "Dimensions": {}
