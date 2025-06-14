@@ -54,7 +54,7 @@
   "Services": [],
   "CollectionGroup": "Baltic",
   "Colorlegend": {
-    "title": "Chart Sea Ice Thickness [m]",
+    "title": "Chart Sea Ice Thickness [cm]",
     "range": [
       "#040615",
       "#457bfc",
