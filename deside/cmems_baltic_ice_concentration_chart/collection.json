@@ -130,15 +130,15 @@
     "Numerical Model"
   ],
   "eox:colorlegend": {
-    "title": "Chart Sea Ice Thickness [m]",
+    "title": "Chart Sea Ice Concentration [%]",
     "range": [
       "#040615",
       "#457bfc",
       "#e5f8fc"
     ],
     "domain": [
-      -59,
-      98
+      0,
+      100
     ]
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
@@ -186,8 +186,8 @@
       "cmems_baltic_ice_concentration_chart"
     ],
     "themes": [
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ]
   }
 }

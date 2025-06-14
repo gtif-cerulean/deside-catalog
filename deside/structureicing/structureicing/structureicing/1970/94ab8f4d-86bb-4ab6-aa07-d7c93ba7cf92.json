@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "61e04ff9-5c46-42e2-b5a4-0153c7e3b770",
+  "id": "94ab8f4d-86bb-4ab6-aa07-d7c93ba7cf92",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-06-14T03:59:39.450129Z",
+    "end_datetime": "2025-06-14T14:48:13.544963Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Harshness capability"
+      "title": "Icing Predictor Index"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Harshness capability"
+      "title": "Icing Predictor Index"
     }
   ],
   "assets": {},
-  "collection": "harshness"
+  "collection": "structureicing"
 }

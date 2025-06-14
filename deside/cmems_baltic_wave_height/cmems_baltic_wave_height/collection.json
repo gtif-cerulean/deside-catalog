@@ -77129,6 +77129,78 @@
       "datetime": "2025-06-19T12:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T13:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T13:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T14:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T14:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T15:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T15:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T16:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T16:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T17:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T17:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T18:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T18:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T19:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T19:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T20:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T20:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T21:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T21:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T22:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T22:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-19T23:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T23:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_height/2025/2025-06-20T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-20T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_WAV_003_010/cmems_mod_bal_wav_anfc_PT1H-i_202311",
       "type": "image/png",
@@ -77191,7 +77263,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-19T12:00:00Z"
+          "2025-06-20T00:00:00Z"
         ]
       ]
     }
