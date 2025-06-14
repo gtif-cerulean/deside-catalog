@@ -3033,7 +3033,7 @@
       "title": "Baltic Sea Ice Chart Thickness"
     }
   ],
-  "sci:doi": "https://doi.org/10.48670/moi-00010",
+  "sci:doi": "https://doi.org/10.48670/moi-00132",
   "themes": [
     "Shipping",
     "Energy"
@@ -3050,14 +3050,14 @@
     "Numerical Model"
   ],
   "eox:colorlegend": {
-    "title": "Chart Sea Ice Thickness [m]",
+    "title": "Chart Sea Ice Thickness [cm]",
     "range": [
       "#040615",
       "#457bfc",
       "#e5f8fc"
     ],
     "domain": [
-      -59,
+      0,
       40
     ]
   },
