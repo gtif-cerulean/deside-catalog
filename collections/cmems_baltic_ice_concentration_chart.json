@@ -54,15 +54,15 @@
   "Services": [],
   "CollectionGroup": "Baltic",
   "Colorlegend": {
-    "title": "Chart Sea Ice Thickness [m]",
+    "title": "Chart Sea Ice Concentration [%]",
     "range": [
       "#040615",
       "#457bfc",
       "#e5f8fc"
     ],
     "domain": [
-      -59,
-      98
+      0,
+      100
     ]
   },
   "Process": {
