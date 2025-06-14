@@ -167,7 +167,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-19T00:00:00Z"
+          "2025-06-19T12:00:00Z"
         ]
       ]
     }
@@ -188,8 +188,8 @@
       "cmems_baltic_wave_directon"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
+      "Aquaculture",
       "Shipping"
     ]
   }

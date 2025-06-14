@@ -167,7 +167,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-17T00:00:00Z"
+          "2025-06-18T00:00:00Z"
         ]
       ]
     }
@@ -188,8 +188,8 @@
       "cmems_baltic_water_salinity"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
+      "Aquaculture",
       "Shipping"
     ]
   }
