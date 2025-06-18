@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3ef87698-ca40-4da7-aa95-209c4a6350c8",
+  "geometry": null,
+  "properties": {
+    "start_datetime": "1970-01-01T00:00:00Z",
+    "end_datetime": "2025-06-18T04:04:44.878104Z",
+    "datetime": "1970-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harshness capability"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harshness capability"
+    }
+  ],
+  "assets": {},
+  "collection": "harshness"
+}
