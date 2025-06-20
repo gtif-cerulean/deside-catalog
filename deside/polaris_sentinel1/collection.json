@@ -153,22 +153,16 @@
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
           -120,
           14,
           70,
           85
-        ],
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
         ],
         [
           -120,
@@ -182,7 +176,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-06-19T00:00:00Z"
+          "2025-06-20T00:00:00Z"
         ]
       ]
     }
@@ -190,22 +184,22 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "Polaris_algorithm_dmi_demo",
+      "SID",
       "SHS1",
-      "SID"
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
       "Aquaculture",
+      "Shipping",
       "shipping",
-      "Energy",
-      "Shipping"
+      "Energy"
     ],
     "satellite": [
       "Sentinel-1"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   }
 }
