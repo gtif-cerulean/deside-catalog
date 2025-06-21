@@ -28811,6 +28811,150 @@
       "datetime": "2025-06-18T23:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T01:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T01:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T02:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T02:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T03:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T03:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T04:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T04:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T05:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T05:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T06:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T06:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T07:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T07:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T08:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T08:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T09:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T09:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T10:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T10:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T11:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T11:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T12:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T12:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T13:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T13:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T14:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T14:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T15:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T15:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T16:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T16:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T17:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T17:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T18:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T18:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T19:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T19:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T20:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T20:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T21:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T21:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T22:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T22:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./northward_wind/2025/2025-06-19T23:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-19T23:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207",
       "type": "image/png",
@@ -28881,7 +29025,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-06-18T23:00:00Z"
+          "2025-06-19T23:00:00Z"
         ]
       ]
     }
