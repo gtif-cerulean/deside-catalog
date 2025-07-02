@@ -174,7 +174,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-29T00:00:00Z"
+          "2025-07-11T00:00:00Z"
         ]
       ]
     }
@@ -191,8 +191,8 @@
       "MSIA"
     ],
     "themes": [
-      "Energy",
       "Shipping",
+      "Energy",
       "Aquaculture"
     ],
     "satellite": [
