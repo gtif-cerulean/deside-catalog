@@ -79865,6 +79865,150 @@
       "datetime": "2025-07-08T12:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T13:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T13:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T14:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T14:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T15:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T15:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T16:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T16:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T17:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T17:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T18:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T18:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T19:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T19:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T20:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T20:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T21:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T21:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T22:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T22:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-08T23:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-08T23:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T01:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T01:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T02:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T02:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T03:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T03:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T04:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T04:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T05:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T05:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T06:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T06:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T07:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T07:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T08:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T08:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T09:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T09:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T10:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T10:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T11:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T11:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_wave_directon/2025/2025-07-09T12:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-09T12:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_WAV_003_010/cmems_mod_bal_wav_anfc_PT1H-i_202311",
       "type": "image/png",
@@ -79927,7 +80071,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-07-08T12:00:00Z"
+          "2025-07-09T12:00:00Z"
         ]
       ]
     }
