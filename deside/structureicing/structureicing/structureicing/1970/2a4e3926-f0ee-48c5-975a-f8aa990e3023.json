@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2a4e3926-f0ee-48c5-975a-f8aa990e3023",
+  "geometry": null,
+  "properties": {
+    "start_datetime": "1970-01-01T00:00:00Z",
+    "end_datetime": "2025-07-05T04:01:53.605310Z",
+    "datetime": "1970-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Icing Predictor Index"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Icing Predictor Index"
+    }
+  ],
+  "assets": {},
+  "collection": "structureicing"
+}

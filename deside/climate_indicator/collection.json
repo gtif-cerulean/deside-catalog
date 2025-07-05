@@ -154,7 +154,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-07-04T04:05:54.596647Z"
+          "2025-07-05T04:01:52.756124Z"
         ]
       ]
     }
@@ -165,9 +165,9 @@
       "CI"
     ],
     "themes": [
+      "Aquaculture",
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Energy"
     ],
     "satellite": [
       "placeholder"
