@@ -159,7 +159,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-07-10T00:00:00Z"
+          "2025-07-11T00:00:00Z"
         ]
       ]
     }
@@ -180,8 +180,8 @@
       "cmems_baltic_ice_thickness"
     ],
     "themes": [
-      "Energy",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ]
   }
 }
