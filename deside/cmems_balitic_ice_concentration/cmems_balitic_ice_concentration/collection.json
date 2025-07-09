@@ -3365,6 +3365,12 @@
       "datetime": "2025-07-12T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./cmems_balitic_ice_concentration/2025/2025-07-13T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-13T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
@@ -3409,7 +3415,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-07-12T00:00:00Z"
+          "2025-07-13T00:00:00Z"
         ]
       ]
     }
