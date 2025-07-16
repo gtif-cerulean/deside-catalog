@@ -2,8 +2,8 @@
   "Name": "cmems_balitic_ice_concentration",
   "Title": "Baltic Sea Ice Concentration",
   "EodashIdentifier": "cmems_baltic_ice_concentration",
-  "Description": "Baltic Sea Ice Concentration",
-  "Themes": [],
+  "Description": "This Baltic Sea physical model product provides forecasts for the physical conditions in the Baltic Sea. The Baltic forecast is updated twice daily from a 00Z production proving a 10 days forecast and from a 12Z production providing a 6 days forecast. Several datasets are provided: One with hourly instantaneous values, one with daily mean values and one with monthly mean values, all containing these parameters: sea level variations, ice concentration and thickness at the surface, and temperature, salinity and horizontal and vertical velocities for the 3D field. Additionally a dataset with 15 minutes (instantaneous) surface values are provided for the sea level variation and the surface horizontal currents, as well as detided daily values. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. This product is provided at the models native grid with a resolution of 1 nautical mile in the horizontal, and with up to 56 vertical depth levels. The area covers the Baltic Sea including the transition area towards the North Sea (i.e. the Danish Belts, the Kattegat and Skagerrak). The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product (BALTICSEA_ANALYSISFORECAST_WAV_003_010). Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
+  "Themes": [Baltic],
   "Tags": [],
   "DataSource": {
     "Spaceborne": {
@@ -13,12 +13,12 @@
     "InSitu": [],
     "Other": []
   },
-  "Agency": [],
+  "Agency": [SMHI],
   "License": "",
   "Locations": [],
   "Provider": [],
   "Citation": {
-    "DOI": "",
+    "DOI": "https://doi.org/10.48670/moi-00010",
     "Citation": "",
     "Publications": []
   },
@@ -42,7 +42,7 @@
   "Services": [],
   "References": [],
   "Colorlegend": {
-    "title": "",
+    "title": "Sea Ice Concentration [%]",
     "range": [],
     "domain": [],
     "tickFormat": "",
