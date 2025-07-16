@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "cmems_baltic_ice_concentration_chart",
   "stac_version": "1.1.0",
-  "description": "For the Baltic Sea- The operational sea ice service at FMI provides ice parameters over the Baltic Sea. The parameters are based on ice chart produced on daily basis during the Baltic Sea ice season and show the ice concentration in a 1 km grid. Ice thickness chart (ITC) is a product based on the most recent available ice chart (IC) and a SAR image. The SAR data is used to update the ice information in the IC. The ice regions in the IC are updated according to a SAR segmentation and new ice thickness values are assigned to each SAR segment based on the SAR backscattering and the ice IC thickness range at that location.",
+  "description": "The operational sea ice service at FMI provides ice parameters over the Baltic Sea. The parameters are based on ice chart produced on daily basis during the Baltic Sea ice season and show the ice concentration in a 1 km grid. Ice thickness chart (ITC) is a product based on the most recent available ice chart (IC) and a SAR image. The SAR data is used to update the ice information in the IC. The ice regions in the IC are updated according to a SAR segmentation and new ice thickness values are assigned to each SAR segment based on the SAR backscattering and the ice IC thickness range at that location.",
   "links": [
     {
       "rel": "root",
@@ -3035,8 +3035,7 @@
   ],
   "sci:doi": "https://doi.org/10.48670/moi-00132",
   "themes": [
-    "Shipping",
-    "Energy"
+    "Baltic"
   ],
   "tags": [
     "Model"
@@ -3047,7 +3046,7 @@
   "subcode": "cmems_baltic_ice_concentration_chart",
   "collection_group": "Baltic",
   "otherSources": [
-    "Numerical Model"
+    "Satellite observations"
   ],
   "eox:colorlegend": {
     "title": "Chart Sea Ice Concentration [%]",
@@ -3086,8 +3085,8 @@
   "license": "other",
   "providers": [
     {
-      "name": "Mercator Océan International",
-      "url": "https://www.mercator-ocean.eu/"
+      "name": "Finnish Meteorological Institute",
+      "url": "https://en.ilmatieteenlaitos.fi/"
     },
     {
       "name": "Copernicus Marine Service (CMEMS)",

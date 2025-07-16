@@ -856,8 +856,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
@@ -1060,8 +1060,7 @@
       "code": "cmems_baltic_ice_concentration_chart",
       "id": "cmems_baltic_ice_concentration_chart",
       "themes": [
-        "Shipping",
-        "Energy"
+        "Baltic"
       ],
       "subcode": "cmems_baltic_ice_concentration_chart",
       "tags": [
@@ -1072,7 +1071,7 @@
       ],
       "collection_group": "Baltic",
       "otherSources": [
-        "Numerical Model"
+        "Satellite observations"
       ]
     },
     {
