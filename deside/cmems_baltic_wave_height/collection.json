@@ -182,9 +182,9 @@
       "cmems_baltic_wave_height"
     ],
     "themes": [
-      "Energy",
       "Shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy"
     ]
   }
 }
