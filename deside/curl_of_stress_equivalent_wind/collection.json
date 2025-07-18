@@ -174,7 +174,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-07-15T23:00:00Z"
+          "2025-07-16T23:00:00Z"
         ]
       ]
     }
@@ -191,8 +191,8 @@
       "WCS"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ],
     "satellite": [

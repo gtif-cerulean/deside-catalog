@@ -11393,6 +11393,54 @@
       "datetime": "2025-07-26T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./maximum_crest_wave/2025/2025-07-26T03:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-26T03:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./maximum_crest_wave/2025/2025-07-26T06:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-26T06:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./maximum_crest_wave/2025/2025-07-26T09:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-26T09:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./maximum_crest_wave/2025/2025-07-26T12:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-26T12:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./maximum_crest_wave/2025/2025-07-26T15:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-26T15:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./maximum_crest_wave/2025/2025-07-26T18:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-26T18:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./maximum_crest_wave/2025/2025-07-26T21:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-26T21:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./maximum_crest_wave/2025/2025-07-27T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-27T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411",
       "type": "image/png",
@@ -11449,7 +11497,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-07-26T00:00:00Z"
+          "2025-07-27T00:00:00Z"
         ]
       ]
     }

@@ -154,7 +154,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-07-25T00:00:00Z"
+          "2025-07-27T00:00:00Z"
         ]
       ]
     }
@@ -171,8 +171,8 @@
       "USI"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ],
     "satellite": [
