@@ -27569,6 +27569,54 @@
       "datetime": "2025-07-28T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./wave_significant_height/2025/2025-07-28T03:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-28T03:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wave_significant_height/2025/2025-07-28T06:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-28T06:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wave_significant_height/2025/2025-07-28T09:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-28T09:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wave_significant_height/2025/2025-07-28T12:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-28T12:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wave_significant_height/2025/2025-07-28T15:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-28T15:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wave_significant_height/2025/2025-07-28T18:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-28T18:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wave_significant_height/2025/2025-07-28T21:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-28T21:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./wave_significant_height/2025/2025-07-29T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-29T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411",
       "type": "image/png",
@@ -27625,7 +27673,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-07-28T00:00:00Z"
+          "2025-07-29T00:00:00Z"
         ]
       ]
     }
