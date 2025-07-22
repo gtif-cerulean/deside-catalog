@@ -11,11 +11,6 @@
       "title": "DESIDE project catalog"
     },
     {
-      "rel": "item",
-      "href": "./harshness/1970/da347c31-b914-4324-b658-fbc77435c7c3.json",
-      "type": "application/geo+json"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -56,7 +51,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-22T04:25:42.950041Z",
+          "2025-07-22T08:33:57.416370Z",
           null
         ]
       ]

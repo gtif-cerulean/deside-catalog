@@ -145,6 +145,12 @@
           -80.0,
           179.91668701171875,
           90.0
+        ],
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
         ]
       ]
     },
@@ -169,8 +175,8 @@
       "SWPT"
     ],
     "themes": [
-      "Aquaculture",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ],
     "satellite": [
       "placeholder"

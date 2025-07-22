@@ -167,6 +167,12 @@
           -89.9375,
           179.9375,
           89.9375
+        ],
+        [
+          -179.9375,
+          -89.9375,
+          179.9375,
+          89.9375
         ]
       ]
     },
@@ -191,9 +197,9 @@
       "AD"
     ],
     "themes": [
+      "Energy",
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Shipping"
     ],
     "satellite": [
       "placeholder"

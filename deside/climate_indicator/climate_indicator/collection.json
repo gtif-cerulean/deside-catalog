@@ -11,11 +11,6 @@
       "title": "DESIDE project catalog"
     },
     {
-      "rel": "item",
-      "href": "./climate_indicator/1970/ded57236-031b-4bb1-9a6b-9980c3d4cc21.json",
-      "type": "application/geo+json"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -57,8 +52,8 @@
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2025-07-22T04:25:42.845833Z"
+          "2025-07-22T08:33:57.412184Z",
+          null
         ]
       ]
     }

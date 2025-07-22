@@ -11,11 +11,6 @@
       "title": "DESIDE project catalog"
     },
     {
-      "rel": "item",
-      "href": "./structureicing/1970/b95d3fb2-714b-42ff-99dc-cf89905c1c3c.json",
-      "type": "application/geo+json"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -59,7 +54,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-22T04:25:43.748964Z",
+          "2025-07-22T08:33:57.721161Z",
           null
         ]
       ]
