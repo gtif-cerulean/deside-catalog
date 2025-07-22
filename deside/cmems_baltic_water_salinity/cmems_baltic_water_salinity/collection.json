@@ -3437,6 +3437,18 @@
       "datetime": "2025-07-24T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./cmems_baltic_water_salinity/2025/2025-07-25T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./cmems_baltic_water_salinity/2025/2025-07-26T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-26T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
@@ -3499,7 +3511,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-07-24T00:00:00Z"
+          "2025-07-26T00:00:00Z"
         ]
       ]
     }
