@@ -50,6 +50,7 @@
     "cmems_baltic_ice_thickness_chart",
     "cmems_baltic_ice_concentration_chart",
     "cmems_baltic_wave_height",
-    "cmems_baltic_wave_direction"
+    "cmems_baltic_wave_direction",
+    "DMI_Icecharts"
   ]
 }

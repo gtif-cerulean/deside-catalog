@@ -1,0 +1,54 @@
+{
+  "Name": "DMI_Icecharts",
+  "Title": "DMI Ice charts",
+  "Subtitle": "",
+  "Description": "Collection of Danish Meteorological Institute Ice Charts since start of 2025",
+  "CollectionGroup": "Sea Ice",
+  "Themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "Tags": [
+  ],
+  "Other": [
+  ],
+  "Agency": [
+    "DMI"
+  ],
+  "Provider": [
+    {
+        "Name": "Danish Meteorological Institute (DMI)",
+        "Url": "https://www.dmi.dk/"
+    },
+    {
+      "Name": "EOX",
+      "Url": "https://eox.at/"
+    }
+  ],
+  "Colorlegend": {
+    "title": "Total Sea Ice Concentration",
+    "range": [
+      "#96C8FF",
+      "#8CFFA0",
+      "#FFFF00",
+      "#FF7D06",
+      "#FF0000"
+    ],
+    "domain": [
+      "Open Water",
+      "Very open drift ice",
+      "Open Drift Ice",
+      "Close Drift Ice",
+      "Very Close Drift Ice"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
+  "Resources": [
+    {
+      "Name": "FlatGeobuf source",
+      "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/dmi-ice-charts/flatgeobuf/daily_items.parquet"
+    }
+  ]
+}
