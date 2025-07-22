@@ -1,10 +1,10 @@
-- id: cloudless-2022
-  name: EOxCloudless 2022
-  url: '//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg'
+- id: cloudless-2024
+  name: EOxCloudless 2024
+  url: '//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg'
   media_type: image/jpeg
   protocol: 'xyz'
   visible: true
-  Attribution: '{ EOxCloudless 2022: <a href="//s2maps.eu" target="_blank">Sentinel-2 cloudless - s2maps.eu</a> by <a href="//eox.at" target="_blank">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }'
+  Attribution: '{ EOxCloudless 2024: <a href="//s2maps.eu" target="_blank">Sentinel-2 cloudless - s2maps.eu</a> by <a href="//eox.at" target="_blank">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }'
 - id: sx-cat_ortho680500
   name: Terrain Light Stereographic North
   url: '//sxcat-demo.eox.at/sxcat_maps/wms'
