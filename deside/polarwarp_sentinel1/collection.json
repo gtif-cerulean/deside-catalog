@@ -188,7 +188,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-07-24T04:25:35.830800Z"
+          "2025-07-25T04:25:05.150249Z"
         ]
       ]
     }
@@ -206,8 +206,8 @@
       "ice"
     ],
     "satellite": [
-      "Sentinel-1",
-      "multiple"
+      "multiple",
+      "Sentinel-1"
     ],
     "sensor": [
       "multiple"
