@@ -180,7 +180,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-08-09T23:00:00Z"
+          "2025-08-10T23:00:00Z"
         ]
       ]
     }
@@ -197,8 +197,8 @@
       "UOTIDE"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ],
     "satellite": [
