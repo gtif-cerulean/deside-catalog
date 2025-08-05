@@ -1,0 +1,74 @@
+{
+  "type": "Catalog",
+  "id": "deside",
+  "stac_version": "1.1.0",
+  "description": "Catalog providing description to available datasets to the DESIDE project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./surface_snow_thickness/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness",
+      "code": "SST",
+      "id": "surface_snow_thickness",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "SST",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./salinity/collection.json",
+      "type": "application/json",
+      "title": "Salinity",
+      "code": "SO",
+      "id": "salinity",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "subcode": "SO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "model"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "Sea Water"
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "DESIDE project catalog"
+}
