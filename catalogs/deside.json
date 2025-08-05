@@ -36,7 +36,7 @@
     "VOTIDE_northward_tide_velocity",
     "UO_eastward_velocity",
     "VO_northward_velocity",
-    "SO_salinity",
+    "SO_SALINITY",
     "CI_climate_indicator",
     "harshness",
     "polarwarp_indicator",
