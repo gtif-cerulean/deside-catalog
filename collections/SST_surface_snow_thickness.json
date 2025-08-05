@@ -2,7 +2,7 @@
   "Name": "surface_snow_thickness",
   "Title": "Surface snow thickness",
   "EodashIdentifier": "SST",
-  "Description": "N/A\n",
+  "Description": "Surface snow thickness from CMEMS",
   "Themes": [
     "Aquaculture",
     "Energy",
