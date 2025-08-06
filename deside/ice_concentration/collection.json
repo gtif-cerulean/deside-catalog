@@ -167,7 +167,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-08-13T00:00:00Z"
+          "2025-08-14T00:00:00Z"
         ]
       ]
     }
@@ -188,9 +188,9 @@
       "SICONC"
     ],
     "themes": [
-      "Energy",
+      "Aquaculture",
       "Shipping",
-      "Aquaculture"
+      "Energy"
     ],
     "sensor": [
       "Numerical model"
