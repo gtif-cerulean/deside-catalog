@@ -180,7 +180,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-08-16T23:00:00Z"
+          "2025-08-17T23:00:00Z"
         ]
       ]
     }
@@ -197,9 +197,9 @@
       "VOTIDE"
     ],
     "themes": [
+      "Energy",
       "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Shipping"
     ],
     "satellite": [
       "placeholder"
