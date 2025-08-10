@@ -160,7 +160,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2025-08-18T00:00:00Z"
+          "2025-08-19T00:00:00Z"
         ]
       ]
     }
@@ -177,9 +177,9 @@
       "VCMX"
     ],
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ],
     "satellite": [
       "placeholder"
