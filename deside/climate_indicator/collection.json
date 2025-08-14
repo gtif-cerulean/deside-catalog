@@ -153,8 +153,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-08-13T04:05:56.964572Z",
-          "2025-08-13T04:05:56.964572Z"
+          "2025-08-14T04:06:36.461359Z",
+          "2025-08-14T04:06:36.461359Z"
         ]
       ]
     }
@@ -165,9 +165,9 @@
       "CI"
     ],
     "themes": [
+      "Aquaculture",
       "Shipping",
-      "Energy",
-      "Aquaculture"
+      "Energy"
     ],
     "satellite": [
       "placeholder"
