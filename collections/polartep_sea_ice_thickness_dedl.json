@@ -1,0 +1,35 @@
+{
+    "Name": "Polartep_sea_ice_thickness_dedl",
+    "Title": "Sea Ice Thickness from DestinE",
+    "EodashIdentifier": "polartep_sea_ice_thickness_dedl",
+    "CollectionGroup": "Polar TEP demo datasets",
+    "Description": "",
+    "Themes": [
+        "Shipping"
+    ],
+    "Agency": [
+        ""
+    ],
+    "MapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+    },
+    "Image": "Polartep_SeaIceCharts_demo/thumbnail.png",
+    "Resources": [
+        {
+            "Name": "COG source",
+            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_Sea_Ice_Thickness_dedl/cog_style.json",
+            "TimeEntries": [
+                {
+                    "Time": "20231001",
+                    "Assets": [
+                        {
+                            "Identifier": "Sea Ice Thickness 01-10-2023",
+                            "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/sea_ice_thickness_3413_2023-10-01_dedl_gdal.tif"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
