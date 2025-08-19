@@ -14,7 +14,7 @@
     "Resources": [
         {
             "Name": "COG source",
-            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_RCM_demo/cog_style.json",
+            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_S1_dedl_demo/cog_style.json",
             "Bbox": [
                 -50,
                 59,
