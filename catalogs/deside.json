@@ -52,6 +52,7 @@
     "cmems_baltic_wave_height",
     "cmems_baltic_wave_direction",
     "DMI_Icecharts",
-    "polartep_rcm"
+    "polartep_rcm",
+    "polartep_sea_ice_thickness_dedl"
   ]
 }
