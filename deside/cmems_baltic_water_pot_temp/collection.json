@@ -167,7 +167,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-08-22T00:00:00Z"
+          "2025-08-23T00:00:00Z"
         ]
       ]
     }
@@ -188,8 +188,8 @@
       "cmems_baltic_water_pot_temp"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
+      "Aquaculture",
       "Energy"
     ]
   }
