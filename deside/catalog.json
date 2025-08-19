@@ -72,8 +72,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -1142,6 +1142,25 @@
         "DMI"
       ],
       "collection_group": "Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_RCM/collection.json",
+      "type": "application/json",
+      "title": "RADARSAT constellation mission (RCM)",
+      "code": "polartep_rcm",
+      "id": "Polartep_RCM",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "polartep_rcm",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "agency": [
+        ""
+      ],
+      "collection_group": "Polar TEP demo datasets"
     },
     {
       "rel": "self",

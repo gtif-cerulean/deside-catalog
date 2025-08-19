@@ -188,9 +188,9 @@
       "cmems_baltic_water_velocity_east"
     ],
     "themes": [
-      "Shipping",
       "Aquaculture",
-      "Energy"
+      "Energy",
+      "Shipping"
     ]
   }
 }
