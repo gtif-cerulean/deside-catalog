@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Polartep_sea_ice_thickness_dedl_on_demand",
+  "id": "Polartep_sea_ice_thickness_dedl_on_demand_indicator",
   "stac_version": "1.1.0",
   "description": "Sea Ice Thickness from DestinE visualized On Demand. Important note: Displayed is only first time slice of the requested time interval at the moment.",
   "links": [
@@ -39,6 +39,16 @@
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
       }
+    },
+    {
+      "rel": "service",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-dedl-data/execution",
+      "type": "image/tiff",
+      "id": "Polartep_sea_ice_thickness_dedl_collection",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/sea_ice_thickness_dedl.json",
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_Sea_Ice_Thickness_dedl/cog_style.json"
     },
     {
       "rel": "xyz",
@@ -134,6 +144,7 @@
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/sea_ice_thickness_dedl_jsonform.json",
   "title": "Sea Ice Thickness from DestinE On Demand",
   "extent": {
     "spatial": {
@@ -149,8 +160,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-08-21T09:35:06.358020Z",
-          "2025-08-21T09:35:06.358020Z"
+          "2025-08-21T09:35:06.362402Z",
+          "2025-08-21T09:35:06.362402Z"
         ]
       ]
     }
