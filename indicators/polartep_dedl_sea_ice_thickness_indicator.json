@@ -1,0 +1,45 @@
+{
+    "Name": "Polartep_sea_ice_thickness_dedl_on_demand_indicator",
+    "Title": "Sea Ice Thickness from DestinE On Demand",
+    "Description": "Sea Ice Thickness from DestinE visualized On Demand. Important note: Displayed is only first time slice of the requested time interval at the moment.",
+    "CollectionGroup": "Capabilities",
+    "Themes": [
+        "Shipping",
+        "Energy"
+    ],
+    "Tags": [
+        "processing",
+        "capability"
+    ],
+    "Satellite": [
+        "multiple"
+    ],
+    "Sensor": [
+        "multiple"
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Collections": [
+        "Polartep_sea_ice_thickness_dedl"
+    ],
+    "MapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+    },
+    "Process": {
+        "Name": "Polartep_sea_ice_thickness_dedl",
+        "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/sea_ice_thickness_dedl_jsonform.json",
+        "EndPoints": [
+            {
+                "Identifier": "Polartep_sea_ice_thickness_dedl_collection",
+                "Url": "https://harshness-map.gtif.eox.at/processes/execute-dedl-data/execution",
+                "Method": "POST",
+                "EndPoint": "eoxhub_workspaces",
+                "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/sea_ice_thickness_dedl.json",
+                "Type": "image/tiff",
+                "Flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_Sea_Ice_Thickness_dedl/cog_style.json"
+            }
+        ]
+    }
+}
