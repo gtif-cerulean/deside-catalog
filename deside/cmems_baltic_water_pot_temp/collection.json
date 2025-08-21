@@ -188,9 +188,9 @@
       "cmems_baltic_water_pot_temp"
     ],
     "themes": [
+      "Aquaculture",
       "Energy",
-      "Shipping",
-      "Aquaculture"
+      "Shipping"
     ]
   }
 }
