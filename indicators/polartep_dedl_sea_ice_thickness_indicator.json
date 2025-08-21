@@ -21,7 +21,7 @@
         "ESA"
     ],
     "Collections": [
-        "Polartep_sea_ice_thickness_dedl"
+        "polartep_dedl_sea_ice_thickness"
     ],
     "MapProjection": {
         "name": "EPSG:3413",
