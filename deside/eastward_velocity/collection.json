@@ -174,7 +174,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-08-31T00:00:00Z"
+          "2025-09-01T00:00:00Z"
         ]
       ]
     }
@@ -191,9 +191,9 @@
       "UO"
     ],
     "themes": [
-      "Shipping",
       "Energy",
-      "Aquaculture"
+      "Aquaculture",
+      "Shipping"
     ],
     "satellite": [
       "placeholder"
