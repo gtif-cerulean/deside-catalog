@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Polartep_RCM",
+  "id": "RCM_data",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,20 +12,39 @@
     },
     {
       "rel": "child",
-      "href": "./Polartep_RCM/collection.json",
+      "href": "./Polartep_RCM_on_demand/collection.json",
       "type": "application/json",
       "title": "RADARSAT constellation mission (RCM)",
-      "endpointtype": "COG source",
-      "code": "polartep_rcm",
-      "id": "Polartep_RCM",
+      "endpointtype": "Collection-only",
+      "code": "polartep_rcm_on_demand",
+      "id": "Polartep_RCM_on_demand",
       "themes": [
         "Shipping"
       ],
       "agency": [
         ""
       ],
-      "subcode": "polartep_rcm",
-      "collection_group": "Polar TEP demo datasets"
+      "subcode": "polartep_rcm_on_demand",
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "service",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-rcm-data-processor/execution",
+      "type": "text/plain",
+      "id": "rcm_processor",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polartep_rcm.json",
+      "eox:flatstyle": [
+        {
+          "id": "output_HH_rcm_tif",
+          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_RCM_demo/cog_style.json"
+        },
+        {
+          "id": "output_HV_rcm_tif",
+          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_RCM_demo/cog_style.json"
+        }
+      ]
     },
     {
       "rel": "xyz",
@@ -99,38 +118,31 @@
       "title": "DESIDE project catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
   "themes": [
-    "Shipping"
+    "Shipping",
+    "Aquaculture",
+    "Energy"
   ],
-  "agency": [
-    ""
-  ],
-  "subcode": "polartep_rcm",
-  "collection_group": "Polar TEP demo datasets",
+  "subcode": "rcm",
+  "collection_group": "Capabilities",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polartep_rcm.json",
   "title": "RADARSAT constellation mission (RCM)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -50.0,
-          59.0,
-          -39.0,
-          65.0
-        ],
-        [
-          -50.0,
-          59.0,
-          -39.0,
-          65.0
+          -179,
+          55,
+          179,
+          89
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-08-14T20:47:43Z",
-          "2025-08-14T20:48:43Z"
+          "2025-08-28T12:16:26.938940Z",
+          "2025-08-28T12:16:26.938940Z"
         ]
       ]
     }
@@ -138,7 +150,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "polartep_rcm"
+      "polartep_rcm_on_demand"
     ],
     "themes": [
       "Shipping"
@@ -146,14 +158,5 @@
     "thumbnail": [
       "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
-  },
-  "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }

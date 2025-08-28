@@ -27,6 +27,43 @@
       "agency": [
         ""
       ],
+      "collection_group": "Polar TEP demo datasets"
+    },
+    {
+      "rel": "child",
+      "href": "./Polartep_RCM_on_demand/collection.json",
+      "type": "application/json",
+      "title": "RADARSAT constellation mission (RCM)",
+      "code": "polartep_rcm_on_demand",
+      "id": "Polartep_RCM_on_demand",
+      "themes": [
+        "Shipping"
+      ],
+      "subcode": "polartep_rcm_on_demand",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
+      "agency": [
+        ""
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
+      "href": "./RCM_data/collection.json",
+      "type": "application/json",
+      "title": "RADARSAT constellation mission (RCM)",
+      "code": "rcm",
+      "id": "RCM_data",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "subcode": "rcm",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
       "collection_group": "Capabilities"
     },
     {
