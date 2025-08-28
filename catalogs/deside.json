@@ -54,6 +54,7 @@
     "DMI_Icecharts",
     "polartep_rcm",
     "polartep_sea_ice_thickness_dedl",
-    "polartep_dedl_sea_ice_thickness_indicator"
+    "polartep_dedl_sea_ice_thickness_indicator",
+    "polartep_rcm_indicator"
   ]
 }

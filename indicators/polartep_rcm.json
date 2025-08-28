@@ -1,0 +1,37 @@
+{
+    "Name": "RCM_data",
+    "Title": "RADARSAT constellation mission (RCM)",
+    "EodashIdentifier": "rcm",
+    "Description": "",
+    "CollectionGroup": "Capabilities",
+    "Themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+    ],
+    "Collections": [],
+    "Process": {
+        "Name": "rcm_processor",
+        "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polartep_rcm.json",
+        "EndPoints": [
+            {
+                "Identifier": "rcm_processor",
+                "Url": "https://harshness-map.gtif.eox.at/processes/execute-rcm-data-processor/execution",
+                "Method": "POST",
+                "EndPoint": "eoxhub_workspaces",
+                "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polartep_rcm.json",
+                "Type": "text/plain",
+                "Flatstyle": [
+                    {
+                        "Identifier": "output_HH_rcm_tif",
+                        "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_RCM_demo/cog_style.json"
+                    },
+                    {
+                        "Identifier": "output_HV_rcm_tif",
+                        "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_RCM_demo/cog_style.json"
+                    }
+                ]
+            }
+        ]
+    }
+}

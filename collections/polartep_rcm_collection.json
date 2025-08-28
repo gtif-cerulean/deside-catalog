@@ -1,0 +1,26 @@
+{
+    "Name": "Polartep_RCM",
+    "Title": "RADARSAT constellation mission (RCM)",
+    "EodashIdentifier": "polartep_rcm",
+    "CollectionGroup": "Capabilities",
+    "Description": "",
+    "Themes": [
+        "Shipping"
+    ],
+    "Agency": [
+        ""
+    ],
+    "Image": "Polartep_SeaIceCharts_demo/thumbnail.png",
+    "Resources": [
+        {
+            "Name": "Collection-only",
+            "EndPoint": "Collection-only",
+            "OverwriteBBox": [
+                -179,
+                55,
+                179,
+                89
+            ]
+        }
+    ]
+}
