@@ -1,0 +1,46 @@
+{
+    "Name": "Polartep_RCM",
+    "Title": "RADARSAT constellation mission (RCM)",
+    "EodashIdentifier": "polartep_rcm",
+    "CollectionGroup": "Polar TEP demo datasets",
+    "Description": "",
+    "Themes": [
+        "Shipping"
+    ],
+    "Agency": [
+        ""
+    ],
+    "Image": "Polartep_SeaIceCharts_demo/thumbnail.png",
+    "Resources": [
+        {
+            "Name": "COG source",
+            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_RCM_demo/cog_style.json",
+            "Bbox": [
+                -50,
+                59,
+                -39,
+                65
+            ], 
+            "TimeEntries": [
+                {
+                    "Time": "20250814T20:47:43Z",
+                    "Assets": [
+                        {
+                            "Identifier": "RCM3 HH 20250814T20:47:43Z",
+                            "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/RCM/RCM3_OK3457306_PK3748749_2_SCLNA_20250814_204743_ARD_HH.tif"
+                        }
+                    ]
+                },
+                {
+                    "Time": "20250814T20:48:43Z",
+                    "Assets": [
+                        {
+                            "Identifier": "RCM3 HV 20250814T20:47:43Z",
+                            "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/RCM/RCM3_OK3457306_PK3748749_2_SCLNA_20250814_204743_ARD_HV.tif"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
