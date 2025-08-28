@@ -9,7 +9,9 @@
         "Aquaculture",
         "Energy"
     ],
-    "Collections": [],
+    "Collections": [
+        "polartep_rcm"
+    ],
     "Process": {
         "Name": "rcm_processor",
         "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polartep_rcm.json",

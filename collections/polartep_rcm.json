@@ -1,7 +1,7 @@
 {
-    "Name": "Polartep_RCM",
+    "Name": "Polartep_RCM_on_demand",
     "Title": "RADARSAT constellation mission (RCM)",
-    "EodashIdentifier": "polartep_rcm",
+    "EodashIdentifier": "polartep_rcm_on_demand",
     "CollectionGroup": "Capabilities",
     "Description": "",
     "Themes": [
