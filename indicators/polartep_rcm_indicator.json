@@ -1,6 +1,6 @@
 {
     "Name": "RCM_data",
-    "Title": "RADARSAT constellation mission (RCM)",
+    "Title": "RADARSAT constellation mission (RCM) ",
     "EodashIdentifier": "rcm",
     "Description": "",
     "CollectionGroup": "Capabilities",
