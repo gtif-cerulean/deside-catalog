@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "RADARSAT constellation mission (RCM)"
+      "title": "RADARSAT constellation mission (RCM) "
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
@@ -42,7 +42,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-08-28T12:16:26.938940Z",
+          "2025-08-28T13:39:08.664673Z",
           null
         ]
       ]

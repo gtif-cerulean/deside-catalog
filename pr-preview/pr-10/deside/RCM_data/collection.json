@@ -126,7 +126,7 @@
   "subcode": "rcm",
   "collection_group": "Capabilities",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polartep_rcm.json",
-  "title": "RADARSAT constellation mission (RCM)",
+  "title": "RADARSAT constellation mission (RCM) ",
   "extent": {
     "spatial": {
       "bbox": [
@@ -141,8 +141,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-08-28T12:16:26.938940Z",
-          "2025-08-28T12:16:26.938940Z"
+          "2025-08-28T13:39:08.664673Z",
+          "2025-08-28T13:39:08.664673Z"
         ]
       ]
     }

@@ -52,7 +52,7 @@
       "rel": "child",
       "href": "./RCM_data/collection.json",
       "type": "application/json",
-      "title": "RADARSAT constellation mission (RCM)",
+      "title": "RADARSAT constellation mission (RCM) ",
       "code": "rcm",
       "id": "RCM_data",
       "themes": [
