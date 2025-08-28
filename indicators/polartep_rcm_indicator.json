@@ -26,11 +26,11 @@
                 "Flatstyle": [
                     {
                         "Identifier": "output_HH_rcm_tif",
-                        "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_RCM_demo/cog_style.json"
+                        "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polartep_rcm_style.json"
                     },
                     {
                         "Identifier": "output_HV_rcm_tif",
-                        "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_RCM_demo/cog_style.json"
+                        "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polartep_rcm_style.json"
                     }
                 ]
             }
