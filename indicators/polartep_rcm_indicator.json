@@ -12,6 +12,16 @@
     "Collections": [
         "polartep_rcm"
     ],
+    "MapProjection": {
+        "name": "EPSG:4326",
+        "def": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
+        "extent": [
+            -180,
+            -90,
+            180,
+            90
+        ]
+    },
     "Process": {
         "Name": "rcm_processor",
         "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polartep_rcm.json",

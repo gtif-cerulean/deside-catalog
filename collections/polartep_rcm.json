@@ -11,6 +11,16 @@
         ""
     ],
     "Image": "Polartep_SeaIceCharts_demo/thumbnail.png",
+    "MapProjection": {
+        "name": "EPSG:4326",
+        "def": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
+        "extent": [
+            -180,
+            -90,
+            180,
+            90
+        ]
+    },
     "Resources": [
         {
             "Name": "Collection-only",
