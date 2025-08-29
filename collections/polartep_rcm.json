@@ -1,8 +1,8 @@
 {
-    "Name": "Polartep_RCM",
+    "Name": "Polartep_RCM_on_demand",
     "Title": "RADARSAT constellation mission (RCM)",
-    "EodashIdentifier": "polartep_rcm",
-    "CollectionGroup": "Polar TEP demo datasets",
+    "EodashIdentifier": "polartep_rcm_on_demand",
+    "CollectionGroup": "Capabilities",
     "Description": "",
     "Themes": [
         "Shipping"
@@ -11,35 +11,25 @@
         ""
     ],
     "Image": "Polartep_SeaIceCharts_demo/thumbnail.png",
+    "MapProjection": {
+        "name": "EPSG:4326",
+        "def": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
+        "extent": [
+            -180,
+            -90,
+            180,
+            90
+        ]
+    },
     "Resources": [
         {
-            "Name": "COG source",
-            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/collections/Polartep_RCM_demo/cog_style.json",
-            "Bbox": [
-                -50,
-                59,
-                -39,
-                65
-            ], 
-            "TimeEntries": [
-                {
-                    "Time": "20250814T20:47:43Z",
-                    "Assets": [
-                        {
-                            "Identifier": "RCM3 HH 20250814T20:47:43Z",
-                            "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/RCM/RCM3_OK3457306_PK3748749_2_SCLNA_20250814_204743_ARD_HH.tif"
-                        }
-                    ]
-                },
-                {
-                    "Time": "20250814T20:48:43Z",
-                    "Assets": [
-                        {
-                            "Identifier": "RCM3 HV 20250814T20:47:43Z",
-                            "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/test_data_polartep/RCM/RCM3_OK3457306_PK3748749_2_SCLNA_20250814_204743_ARD_HV.tif"
-                        }
-                    ]
-                }
+            "Name": "Collection-only",
+            "EndPoint": "Collection-only",
+            "OverwriteBBox": [
+                -179,
+                55,
+                179,
+                89
             ]
         }
     ]
