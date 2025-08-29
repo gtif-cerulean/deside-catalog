@@ -25,7 +25,17 @@
         ""
       ],
       "subcode": "polartep_rcm_on_demand",
-      "collection_group": "Capabilities"
+      "collection_group": "Capabilities",
+      "eodash:mapProjection": {
+        "name": "EPSG:4326",
+        "def": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
+        "extent": [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      }
     },
     {
       "rel": "service",
@@ -125,6 +135,16 @@
   ],
   "subcode": "rcm",
   "collection_group": "Capabilities",
+  "eodash:mapProjection": {
+    "name": "EPSG:4326",
+    "def": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
+    "extent": [
+      -180,
+      -90,
+      180,
+      90
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polartep_rcm.json",
   "title": "RADARSAT constellation mission (RCM) ",
   "extent": {
@@ -141,8 +161,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-08-28T14:27:29.337101Z",
-          "2025-08-28T14:27:29.337101Z"
+          "2025-08-29T06:52:34.603944Z",
+          "2025-08-29T06:52:34.603944Z"
         ]
       ]
     }

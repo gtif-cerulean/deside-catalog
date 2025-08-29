@@ -46,7 +46,17 @@
       "agency": [
         ""
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "Capabilities",
+      "eodash:mapProjection": {
+        "name": "EPSG:4326",
+        "def": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
+        "extent": [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      }
     },
     {
       "rel": "child",
@@ -64,7 +74,17 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "Capabilities",
+      "eodash:mapProjection": {
+        "name": "EPSG:4326",
+        "def": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
+        "extent": [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      }
     },
     {
       "rel": "self",

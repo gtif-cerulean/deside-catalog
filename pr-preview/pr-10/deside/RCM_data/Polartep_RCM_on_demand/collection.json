@@ -26,6 +26,16 @@
   ],
   "subcode": "polartep_rcm_on_demand",
   "collection_group": "Capabilities",
+  "eodash:mapProjection": {
+    "name": "EPSG:4326",
+    "def": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
+    "extent": [
+      -180,
+      -90,
+      180,
+      90
+    ]
+  },
   "endpointtype": "Collection-only",
   "title": "RADARSAT constellation mission (RCM)",
   "extent": {
@@ -42,7 +52,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-08-28T14:27:29.337101Z",
+          "2025-08-29T06:52:34.603944Z",
           null
         ]
       ]
