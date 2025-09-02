@@ -45,16 +45,7 @@
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
       "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polartep_rcm.json",
-      "eox:flatstyle": [
-        {
-          "id": "output_HH_rcm_tif",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polartep_rcm_style.json"
-        },
-        {
-          "id": "output_HV_rcm_tif",
-          "url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polartep_rcm_style.json"
-        }
-      ]
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polartep_rcm_style.json"
     },
     {
       "rel": "xyz",
@@ -161,8 +152,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-08-29T06:52:34.603944Z",
-          "2025-08-29T06:52:34.603944Z"
+          "2025-09-02T10:17:28.612111Z",
+          "2025-09-02T10:17:28.612111Z"
         ]
       ]
     }
