@@ -167,7 +167,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-09-05T00:00:00Z"
+          "2025-09-06T00:00:00Z"
         ]
       ]
     }
@@ -188,9 +188,9 @@
       "cmems_baltic_water_velocity_north"
     ],
     "themes": [
-      "Aquaculture",
       "Shipping",
-      "Energy"
+      "Energy",
+      "Aquaculture"
     ]
   }
 }
