@@ -12,34 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./sea_ice_charts/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Charts Geometries",
-      "code": "SIC_sea_ice_charts",
-      "id": "sea_ice_charts",
-      "themes": [
-        "cryosphere"
-      ],
-      "subcode": "SIC_sea_ice_charts",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
-      ],
-      "tags": [
-        "placeholder"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
       "href": "./Polaris_algorithm_dmi_demo/collection.json",
       "type": "application/json",
       "title": "POLARIS",
@@ -72,8 +44,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
