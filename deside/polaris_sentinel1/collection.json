@@ -189,10 +189,10 @@
       "SID"
     ],
     "themes": [
-      "shipping",
-      "Energy",
       "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "shipping",
+      "Energy"
     ],
     "satellite": [
       "Sentinel-1"
