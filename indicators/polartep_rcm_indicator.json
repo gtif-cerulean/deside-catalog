@@ -33,16 +33,7 @@
                 "EndPoint": "eoxhub_workspaces",
                 "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polartep_rcm.json",
                 "Type": "text/plain",
-                "Flatstyle": [
-                    {
-                        "Identifier": "output_HH_rcm_tif",
-                        "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polartep_rcm_style.json"
-                    },
-                    {
-                        "Identifier": "output_HV_rcm_tif",
-                        "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polartep_rcm_style.json"
-                    }
-                ]
+                "Flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polartep_rcm_style.json"
             }
         ]
     }
