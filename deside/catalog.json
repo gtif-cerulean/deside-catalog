@@ -737,21 +737,13 @@
       "code": "cmems_baltic_wave_height",
       "id": "cmems_baltic_wave_height",
       "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
+        "Baltic"
       ],
       "subcode": "cmems_baltic_wave_height",
-      "tags": [
-        "Model"
-      ],
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Numerical Model"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "child",

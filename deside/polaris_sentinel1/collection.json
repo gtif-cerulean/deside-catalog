@@ -184,15 +184,15 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "Polaris_algorithm_dmi_demo",
+      "SHS1",
       "SID",
-      "SHS1"
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
-      "Aquaculture",
-      "shipping",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture",
+      "shipping"
     ],
     "satellite": [
       "Sentinel-1"
