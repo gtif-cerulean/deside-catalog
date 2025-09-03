@@ -5,20 +5,9 @@
     "CollectionGroup": "Capabilities",
     "Themes": [
         "Shipping",
-        "Energy"
-    ],
-    "Tags": [
-        "processing",
-        "capability"
-    ],
-    "Satellite": [
-        "multiple"
-    ],
-    "Sensor": [
-        "multiple"
     ],
     "Agency": [
-        "ESA"
+        "DestinE"
     ],
     "Collections": [
         "polartep_dedl_sea_ice_thickness"
