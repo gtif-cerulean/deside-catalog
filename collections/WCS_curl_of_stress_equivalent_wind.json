@@ -2,7 +2,7 @@
   "Name": "curl_of_stress_equivalent_wind",
   "Title": "Curl of stress-equivalent wind",
   "EodashIdentifier": "WCS",
-  "Description": "For the Global Ocean - The product contains hourly Level-4 sea surface wind and stress fields at 0.125 degrees horizontal spatial resolution. Scatterometer observations for Metop-B and Metop-C ASCAT and their collocated European Centre for Medium-Range Weather Forecasts (ECMWF) operational model variables are used to calculate temporally-averaged difference fields. These fields are used to correct for persistent biases in hourly ECMWF operational model fields. The product provides stress-equivalent wind and stress variables as well as their divergence and curl. The applied bias corrections, the standard deviation of the differences (for wind and stress fields) and difference of variances (for divergence and curl fields) are included in the product.,
+  "Description": "For the Global Ocean - The product contains hourly Level-4 sea surface wind and stress fields at 0.125 degrees horizontal spatial resolution. Scatterometer observations for Metop-B and Metop-C ASCAT and their collocated European Centre for Medium-Range Weather Forecasts (ECMWF) operational model variables are used to calculate temporally-averaged difference fields. These fields are used to correct for persistent biases in hourly ECMWF operational model fields. The product provides stress-equivalent wind and stress variables as well as their divergence and curl. The applied bias corrections, the standard deviation of the differences (for wind and stress fields) and difference of variances (for divergence and curl fields) are included in the product.",
   "Themes": [
     "Shipping"
   ],
