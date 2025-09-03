@@ -27,12 +27,12 @@
       "title": "Baltic Sea Ice Concentration"
     }
   ],
-  "sci:doi": "https://doi.org/10.48670/moi-00010",
+  "sci:doi": "10.48670/moi-00010",
   "themes": [
-    "Baltic"
+    "Shipping"
   ],
   "agency": [
-    "SMHI"
+    "SHMI"
   ],
   "subcode": "cmems_baltic_ice_concentration",
   "collection_group": "Baltic",
