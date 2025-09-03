@@ -2,40 +2,16 @@
   "Name": "cmems_baltic_ice_thickness_chart",
   "Title": "Baltic Sea Ice Chart Thickness",
   "EodashIdentifier": "cmems_baltic_ice_thickness_chart",
-  "Subtitle": "",
   "Description": "The operational sea ice service at FMI provides ice parameters over the Baltic Sea. The parameters are based on ice chart produced on daily basis during the Baltic Sea ice season and show the ice concentration in a 1 km grid. Ice thickness chart (ITC) is a product based on the most recent available ice chart (IC) and a SAR image. The SAR data is used to update the ice information in the IC. The ice regions in the IC are updated according to a SAR segmentation and new ice thickness values are assigned to each SAR segment based on the SAR backscattering and the ice IC thickness range at that location.",
   "Themes": [
     "Baltic"
   ],
-  "Tags": [
-    ""
-  ],
-  "DataSource": {
-    "Other": [
-      "Satellite observations"
-    ]
-  },
   "Agency": [
     "CMEMS"
   ],
-  "License": "",
-  "Locations": [],
-  "Provider": [
-    {
-      "Name": "Finnish Meteorological Institute",
-      "Url": "https://en.ilmatieteenlaitos.fi/"
-    },
-    {
-      "Name": "Copernicus Marine Service (CMEMS)",
-      "Url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "Citation": {
-    "DOI": "https://doi.org/10.48670/moi-00132",
-    "Citation": ""
+    "DOI": "10.48670/moi-00132",
   },
-  "Image": "",
-  "Legend": "",
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_THICK-L4-NRT-OBS",
@@ -50,7 +26,6 @@
       "Dimensions": {}
     }
   ],
-  "Services": [],
   "CollectionGroup": "Baltic",
   "Colorlegend": {
     "title": "Chart Sea Ice Thickness [cm]",
