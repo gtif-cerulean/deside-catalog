@@ -528,19 +528,17 @@
       "code": "WCS",
       "id": "curl_of_stress_equivalent_wind",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "WCS",
       "satellite": [
-        "placeholder"
+        ""
       ],
       "sensor": [
-        "placeholder"
+        ""
       ],
       "tags": [
-        "model"
+        ""
       ],
       "agency": [
         "CMEMS"
