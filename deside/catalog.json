@@ -447,20 +447,9 @@
       "code": "VOTIDE",
       "id": "northwad_tide_velocity",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "VOTIDE",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -490,20 +479,9 @@
       "code": "VO",
       "id": "northward_velocity",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "VO",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
