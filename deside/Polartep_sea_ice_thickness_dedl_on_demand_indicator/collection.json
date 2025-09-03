@@ -160,8 +160,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-09-03T21:14:58.450168Z",
-          "2025-09-03T21:14:58.450168Z"
+          "2025-09-03T21:17:08.045746Z",
+          "2025-09-03T21:17:08.045746Z"
         ]
       ]
     }
@@ -169,8 +169,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Shipping",
-      "Energy"
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
       "multiple"
