@@ -234,19 +234,9 @@
       "code": "SWPT",
       "id": "sea_water_potential_temperature",
       "themes": [
-        "Energy",
-        "Aquaculture"
+        "Shipping"
       ],
       "subcode": "SWPT",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],

@@ -188,7 +188,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-09-03T21:20:30.612515Z"
+          "2025-09-03T21:22:28.694517Z"
         ]
       ]
     }
@@ -200,9 +200,9 @@
       "polarwarp"
     ],
     "themes": [
-      "Aquaculture",
-      "Energy",
       "ice",
+      "Energy",
+      "Aquaculture",
       "Shipping"
     ],
     "satellite": [
