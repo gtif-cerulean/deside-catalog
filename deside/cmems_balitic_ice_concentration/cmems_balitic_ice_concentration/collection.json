@@ -37,7 +37,7 @@
   "subcode": "cmems_baltic_ice_concentration",
   "collection_group": "Baltic",
   "eox:colorlegend": {
-    "title": "Chart Sea Ice Concentration [%]",
+    "title": "Sea Ice Concentration [%]",
     "range": [
       "#040615",
       "#457bfc",
