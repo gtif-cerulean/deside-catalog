@@ -2,24 +2,13 @@
   "Name": "eastward_wind",
   "Title": "Stress-equivalent wind eastward component",
   "EodashIdentifier": "EWW",
-  "Description": "N/A\n",
+  "Description": "For the Global Ocean - The product contains hourly Level-4 sea surface wind and stress fields at 0.125 degrees horizontal spatial resolution. Scatterometer observations for Metop-B and Metop-C ASCAT and their collocated European Centre for Medium-Range Weather Forecasts (ECMWF) operational model variables are used to calculate temporally-averaged difference fields. These fields are used to correct for persistent biases in hourly ECMWF operational model fields. The product provides stress-equivalent wind and stress variables as well as their divergence and curl. The applied bias corrections, the standard deviation of the differences (for wind and stress fields) and difference of variances (for divergence and curl fields) are included in the product.",
   "Themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "CollectionGroup": "Wind",
-  "Satellite": [
-    "placeholder"
-  ],
-  "Sensor": [
-    "placeholder"
-  ],
-  "Agency": [
+ "Agency": [
     "CMEMS"
-  ],
-  "Tags": [
-    "model"
   ],
   "Colorlegend": {
     "title": "Stress-equivalent wind eastward component at 10 m [m s-1]",
@@ -35,6 +24,9 @@
       37
     ]
   },
+  "Citation": {
+    "DOI": "https://doi.org/10.48670/moi-00305",
+  },
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207",
@@ -49,12 +41,6 @@
         "elevation": 0,
         "style": "cmap:balance"
       }
-    }
-  ],
-  "Provider": [
-    {
-      "Name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "Url": "https://data.marine.copernicus.eu/"
     }
   ],
   "Process": {
