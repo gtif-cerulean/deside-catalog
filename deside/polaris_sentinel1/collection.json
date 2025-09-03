@@ -189,10 +189,10 @@
       "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
-      "Energy",
-      "Shipping",
       "shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "Energy",
+      "Shipping"
     ],
     "satellite": [
       "Sentinel-1"

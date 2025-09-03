@@ -39,9 +39,11 @@
   "eox:colorlegend": {
     "title": "Water Salinity [1e-3]",
     "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
+      "rgb(36, 16, 105)",
+      "rgb(12, 77, 151)",
+      "rgb(55, 142, 132)",
+      "rgb(135, 207, 97)",
+      "rgb(246, 237, 146)"
     ],
     "domain": [
       2,
