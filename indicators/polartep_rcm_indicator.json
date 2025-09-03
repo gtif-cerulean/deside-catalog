@@ -2,12 +2,10 @@
     "Name": "RCM_data",
     "Title": "RADARSAT constellation mission (RCM) ",
     "EodashIdentifier": "rcm",
-    "Description": "",
+    "Description": "Radarsat Constellation Mission",
     "CollectionGroup": "Capabilities",
     "Themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
+        "Shipping"
     ],
     "Collections": [
         "polartep_rcm"
