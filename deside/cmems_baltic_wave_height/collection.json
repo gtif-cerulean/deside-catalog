@@ -167,7 +167,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-09-09T00:00:00Z"
+          "2025-09-09T12:00:00Z"
         ]
       ]
     }
@@ -188,9 +188,9 @@
       "cmems_baltic_wave_height"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ]
   }
 }
