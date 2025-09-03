@@ -4,7 +4,7 @@
   "EodashIdentifier": "polarwarp_sentinel1",
   "Description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
   "CollectionGroup": "Capabilities",
-  "Themes": ["ice"],
+  "Themes": ["Shipping"],
   "Collections": ["polarwarp", "SHS1_sentinel1_ew_hh"],
   "MapProjection": {
     "name": "EPSG:3413",
