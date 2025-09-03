@@ -2,42 +2,16 @@
   "Name": "cmems_baltic_wave_directon",
   "Title": "Baltic Wave Direction",
   "EodashIdentifier": "cmems_baltic_wave_directon",
-  "Subtitle": "",
   "Description": "This Baltic Sea wave model product provides forecasts for the wave conditions in the Baltic Sea. The Baltic forecast is updated twice daily from a 00Z production proving a 10 days forecast and from a 12Z production providing a 6 days forecast. Data are provided with hourly instantaneous data for significant wave height, wave period and wave direction for total sea, wind sea and swell, the Stokes drift, and two paramters for the maximum wave. The product is based on the wave model WAM cycle 4.7. The wave model is forced with surface currents, sea level anomaly and ice information from the Baltic Sea ocean forecast product (BALTICSEA_ANALYSISFORECAST_PHY_003_006). The product grid has a horizontal resolution of 1 nautical mile. The area covers the Baltic Sea including the transition area towards the North Sea (i.e. the Danish Belts, the Kattegat and Skagerrak).",
   "Themes": [
-    "Shipping",
-    "Energy",
-    "Aquaculture"
+    "Baltic"
   ],
-  "Tags": [
-    "Model"
-  ],
-  "DataSource": {
-    "Other": [
-      "Numerical Model"
-    ]
-  },
   "Agency": [
     "CMEMS"
   ],
-  "License": "",
-  "Locations": [],
-  "Provider": [
-    {
-      "Name": "Mercator Océan International",
-      "Url": "https://www.mercator-ocean.eu/"
-    },
-    {
-      "Name": "Copernicus Marine Service (CMEMS)",
-      "Url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "Citation": {
-    "DOI": "https://doi.org/10.48670/moi-00011",
-    "Citation": ""
+    "DOI": "10.48670/moi-00011",
   },
-  "Image": "",
-  "Legend": "",
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_WAV_003_010/cmems_mod_bal_wav_anfc_PT1H-i_202311",
@@ -52,7 +26,6 @@
       "Dimensions": {}
     }
   ],
-  "Services": [],
   "CollectionGroup": "Baltic",
   "Colorlegend": {
     "title": "Mean wave direction from (Deg.)",
