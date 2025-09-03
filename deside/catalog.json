@@ -44,8 +44,8 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
     },
@@ -708,16 +708,10 @@
         "Baltic"
       ],
       "subcode": "cmems_baltic_ice_thickness_chart",
-      "tags": [
-        ""
-      ],
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Satellite observations"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "child",
@@ -730,16 +724,10 @@
         "Baltic"
       ],
       "subcode": "cmems_baltic_ice_concentration_chart",
-      "tags": [
-        "Model"
-      ],
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Satellite observations"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "child",

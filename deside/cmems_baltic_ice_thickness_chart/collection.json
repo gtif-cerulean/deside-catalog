@@ -21,17 +21,11 @@
       "themes": [
         "Baltic"
       ],
-      "tags": [
-        ""
-      ],
       "agency": [
         "CMEMS"
       ],
       "subcode": "cmems_baltic_ice_thickness_chart",
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Satellite observations"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "service",
@@ -112,21 +106,15 @@
       "title": "DESIDE project catalog"
     }
   ],
-  "sci:doi": "https://doi.org/10.48670/moi-00132",
+  "sci:doi": "10.48670/moi-00132",
   "themes": [
     "Baltic"
-  ],
-  "tags": [
-    ""
   ],
   "agency": [
     "CMEMS"
   ],
   "subcode": "cmems_baltic_ice_thickness_chart",
   "collection_group": "Baltic",
-  "otherSources": [
-    "Satellite observations"
-  ],
   "eox:colorlegend": {
     "title": "Chart Sea Ice Thickness [cm]",
     "range": [
@@ -169,16 +157,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Finnish Meteorological Institute",
-      "url": "https://en.ilmatieteenlaitos.fi/"
-    },
-    {
-      "name": "Copernicus Marine Service (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
     "subcode": [
       "cmems_baltic_ice_thickness_chart"
