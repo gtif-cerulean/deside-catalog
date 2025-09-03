@@ -2,24 +2,13 @@
   "Name": "northward_wind",
   "Title": "Stress-equivalent wind northward component",
   "EodashIdentifier": "NWW",
-  "Description": "N/A\n",
+  "Description": "For the Global Ocean - The product contains hourly Level-4 sea surface wind and stress fields at 0.125 degrees horizontal spatial resolution. Scatterometer observations for Metop-B and Metop-C ASCAT and their collocated European Centre for Medium-Range Weather Forecasts (ECMWF) operational model variables are used to calculate temporally-averaged difference fields. These fields are used to correct for persistent biases in hourly ECMWF operational model fields. The product provides stress-equivalent wind and stress variables as well as their divergence and curl. The applied bias corrections, the standard deviation of the differences (for wind and stress fields) and difference of variances (for divergence and curl fields) are included in the product.",
   "Themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "CollectionGroup": "Wind",
-  "Satellite": [
-    "placeholder"
-  ],
-  "Sensor": [
-    "placeholder"
-  ],
   "Agency": [
     "CMEMS"
-  ],
-  "Tags": [
-    "model"
   ],
   "Colorlegend": {
     "title": "Stress-equivalent wind northward component at 10 m [m s-1]",
@@ -34,6 +23,9 @@
       -37,
       37
     ]
+  },
+  "Citation": {
+    "DOI": "https://doi.org/10.48670/moi-00305",
   },
   "Resources": [
     {
@@ -51,13 +43,7 @@
       }
     }
   ],
-  "Provider": [
-    {
-      "Name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "Url": "https://data.marine.copernicus.eu/"
-    }
-  ],
-  "Process": {
+ "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/northward_wind.json",
