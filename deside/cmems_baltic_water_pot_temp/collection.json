@@ -19,21 +19,13 @@
       "code": "cmems_baltic_water_pot_temp",
       "id": "cmems_baltic_water_pot_temp",
       "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
-      ],
-      "tags": [
-        "Model"
+        "Baltic"
       ],
       "agency": [
-        "CMEMS"
+        "SMHI"
       ],
       "subcode": "cmems_baltic_water_pot_temp",
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Numerical Model"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "service",
@@ -114,23 +106,15 @@
       "title": "DESIDE project catalog"
     }
   ],
-  "sci:doi": "https://doi.org/10.48670/moi-00010",
+  "sci:doi": "10.48670/moi-00010",
   "themes": [
-    "Shipping",
-    "Energy",
-    "Aquaculture"
-  ],
-  "tags": [
-    "Model"
+    "Baltic"
   ],
   "agency": [
-    "CMEMS"
+    "SMHI"
   ],
   "subcode": "cmems_baltic_water_pot_temp",
   "collection_group": "Baltic",
-  "otherSources": [
-    "Numerical Model"
-  ],
   "eox:colorlegend": {
     "title": "Potential Temperature [Deg. Celsius]",
     "range": [
@@ -173,24 +157,12 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Mercator Océan International",
-      "url": "https://www.mercator-ocean.eu/"
-    },
-    {
-      "name": "Copernicus Marine Service (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
     "subcode": [
       "cmems_baltic_water_pot_temp"
     ],
     "themes": [
-      "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Baltic"
     ]
   }
 }
