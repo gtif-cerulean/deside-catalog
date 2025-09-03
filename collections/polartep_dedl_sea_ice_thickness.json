@@ -4,21 +4,10 @@
     "CollectionGroup": "Capabilities",
     "Description": "Sea Ice Thickness from DestinE visualized On Demand. Important note: Displayed is only first time slice of the requested time interval at the moment.",
     "Themes": [
-        "Shipping",
-        "Energy"
+        "Shipping"
     ],
-    "Tags": [
-        "processing",
-        "capability"
-    ],
-    "Satellite": [
-        "multiple"
-    ],
-    "Sensor": [
-        "multiple"
-    ],
-    "Agency": [
-        "ESA"
+   "Agency": [
+        "DestinE"
     ],
     "MapProjection": {
         "name": "EPSG:3413",
