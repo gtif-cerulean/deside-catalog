@@ -557,8 +557,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
@@ -761,21 +761,13 @@
       "code": "cmems_baltic_wave_directon",
       "id": "cmems_baltic_wave_directon",
       "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
+        "Baltic"
       ],
       "subcode": "cmems_baltic_wave_directon",
-      "tags": [
-        "Model"
-      ],
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Numerical Model"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "child",
