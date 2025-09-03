@@ -5,28 +5,12 @@
   "Description": "Collection of Danish Meteorological Institute Ice Charts since start of 2025",
   "CollectionGroup": "Sea Ice",
   "Themes": [
-    "Aquaculture",
-    "Energy",
-    "Shipping"
-  ],
-  "Tags": [
-  ],
-  "Other": [
+   "Shipping"
   ],
   "Agency": [
     "DMI"
   ],
-  "Provider": [
-    {
-        "Name": "Danish Meteorological Institute (DMI)",
-        "Url": "https://www.dmi.dk/"
-    },
-    {
-      "Name": "EOX",
-      "Url": "https://eox.at/"
-    }
-  ],
-  "Colorlegend": {
+ "Colorlegend": {
     "title": "Total Sea Ice Concentration",
     "range": [
       "#96C8FF",
