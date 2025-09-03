@@ -557,8 +557,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "multiple",
-        "Sentinel-1"
+        "Sentinel-1",
+        "multiple"
       ],
       "sensor": [
         "multiple"
@@ -609,7 +609,7 @@
       "code": "cmems_baltic_ice_concentration",
       "id": "cmems_balitic_ice_concentration",
       "themes": [
-        "Shipping"
+        "Baltic"
       ],
       "subcode": "cmems_baltic_ice_concentration",
       "agency": [

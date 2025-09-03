@@ -29,7 +29,7 @@
   ],
   "sci:doi": "10.48670/moi-00010",
   "themes": [
-    "Shipping"
+    "Baltic"
   ],
   "agency": [
     "SHMI"
@@ -37,13 +37,16 @@
   "subcode": "cmems_baltic_ice_concentration",
   "collection_group": "Baltic",
   "eox:colorlegend": {
-    "title": "Sea Ice Concentration [%]",
-    "range": [],
-    "domain": [],
-    "tickFormat": "",
-    "tickValues": [],
-    "scaleType": "continuous",
-    "markType": "rect"
+    "title": "Chart Sea Ice Concentration [%]",
+    "range": [
+      "#040615",
+      "#457bfc",
+      "#e5f8fc"
+    ],
+    "domain": [
+      0,
+      100
+    ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Baltic Sea Ice Concentration",
