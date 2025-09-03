@@ -5,23 +5,11 @@
   "CollectionGroup": "Capabilities",
   "Description": "structureicing/structureicing.md",
   "Themes": [
-    "ice"
-  ],
-  "Tags": [
-    "processing",
-    "capability"
-  ],
-  "Satellite": [
-    "multiple"
-  ],
-  "Sensor": [
-    "multiple"
+    "Shipping",
+    "Climate"
   ],
   "Agency": [
-    "GHRSST",
-    "CMEMS",
-    "CDS",
-    "Met Office"
+    "C-CORE"
   ],
   "Resources": [
     {
