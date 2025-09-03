@@ -3,22 +3,13 @@
   "Title": "Harshness capability",
   "EodashIdentifier": "harshness",
   "CollectionGroup": "Capabilities",
-  "Description": "This is an example of how the harshness calculation capability can be triggered and visualized within the dashboard.",
+  "Description": "The DESIDE Harshness Indicator generates harshness maps based on wave height, sea ice concentration, and iceberg density data. The user can set the magnitude of each variable that is considered "harsh" and the weight that is given the variable.",
   "Themes": [
-    "ice"
-  ],
-  "Tags": [
-    "processing",
-    "capability"
-  ],
-  "Satellite": [
-    "multiple"
-  ],
-  "Sensor": [
-    "multiple"
+    "Shipping",
+    "Climate"
   ],
   "Agency": [
-    "ESA"
+    "C-CORE"
   ],
   "Resources": [
     {
