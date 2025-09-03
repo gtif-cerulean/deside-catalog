@@ -185,14 +185,14 @@
   "summaries": {
     "subcode": [
       "Polaris_algorithm_dmi_demo",
-      "SHS1",
-      "SID"
+      "SID",
+      "SHS1"
     ],
     "themes": [
-      "Aquaculture",
-      "Shipping",
       "Energy",
-      "shipping"
+      "shipping",
+      "Aquaculture",
+      "Shipping"
     ],
     "satellite": [
       "Sentinel-1"
