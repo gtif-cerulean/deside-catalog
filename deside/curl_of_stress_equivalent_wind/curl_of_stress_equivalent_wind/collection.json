@@ -35,15 +35,6 @@
   "themes": [
     "Shipping"
   ],
-  "tags": [
-    ""
-  ],
-  "satellite": [
-    ""
-  ],
-  "sensor": [
-    ""
-  ],
   "agency": [
     "CMEMS"
   ],
@@ -92,12 +83,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "",
-      "url": ""
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

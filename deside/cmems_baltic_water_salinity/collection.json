@@ -188,8 +188,8 @@
       "cmems_baltic_water_salinity"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "Shipping"
     ]
   }

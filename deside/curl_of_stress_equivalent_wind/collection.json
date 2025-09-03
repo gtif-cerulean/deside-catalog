@@ -21,15 +21,6 @@
       "themes": [
         "Shipping"
       ],
-      "tags": [
-        ""
-      ],
-      "satellite": [
-        ""
-      ],
-      "sensor": [
-        ""
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -119,15 +110,6 @@
   "themes": [
     "Shipping"
   ],
-  "tags": [
-    ""
-  ],
-  "satellite": [
-    ""
-  ],
-  "sensor": [
-    ""
-  ],
   "agency": [
     "CMEMS"
   ],
@@ -183,24 +165,12 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "",
-      "url": ""
-    }
-  ],
   "summaries": {
     "subcode": [
       "WCS"
     ],
     "themes": [
       "Shipping"
-    ],
-    "satellite": [
-      ""
-    ],
-    "sensor": [
-      ""
     ]
   }
 }
