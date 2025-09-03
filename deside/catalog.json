@@ -557,8 +557,8 @@
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "Sentinel-1",
-        "multiple"
+        "multiple",
+        "Sentinel-1"
       ],
       "sensor": [
         "multiple"
@@ -689,21 +689,13 @@
       "code": "cmems_baltic_water_velocity_north",
       "id": "cmems_baltic_water_velocity_north",
       "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
+        "Baltic"
       ],
       "subcode": "cmems_baltic_water_velocity_north",
-      "tags": [
-        "Model"
-      ],
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Numerical Model"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "child",

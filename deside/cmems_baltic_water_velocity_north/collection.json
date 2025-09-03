@@ -19,21 +19,13 @@
       "code": "cmems_baltic_water_velocity_north",
       "id": "cmems_baltic_water_velocity_north",
       "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
-      ],
-      "tags": [
-        "Model"
+        "Baltic"
       ],
       "agency": [
         "CMEMS"
       ],
       "subcode": "cmems_baltic_water_velocity_north",
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Numerical Model"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "service",
@@ -116,21 +108,13 @@
   ],
   "sci:doi": "https://doi.org/10.48670/moi-00010",
   "themes": [
-    "Shipping",
-    "Energy",
-    "Aquaculture"
-  ],
-  "tags": [
-    "Model"
+    "Baltic"
   ],
   "agency": [
     "CMEMS"
   ],
   "subcode": "cmems_baltic_water_velocity_north",
   "collection_group": "Baltic",
-  "otherSources": [
-    "Numerical Model"
-  ],
   "eox:colorlegend": {
     "title": "Water Velocity North [m/s]",
     "range": [
@@ -173,24 +157,12 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Mercator Océan International",
-      "url": "https://www.mercator-ocean.eu/"
-    },
-    {
-      "name": "Copernicus Marine Service (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
     "subcode": [
       "cmems_baltic_water_velocity_north"
     ],
     "themes": [
-      "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Baltic"
     ]
   }
 }
