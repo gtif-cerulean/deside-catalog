@@ -2,24 +2,13 @@
   "Name": "sea_ice_thickness",
   "Title": "Sea ice thickness",
   "EodashIdentifier": "SIT",
-  "Description": "N/A\n",
+  "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year\u2019s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
   "Themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "CollectionGroup": "Sea Ice",
-  "Satellite": [
-    "placeholder"
-  ],
-  "Sensor": [
-    "placeholder"
-  ],
   "Agency": [
     "CMEMS"
-  ],
-  "Tags": [
-    "model"
   ],
   "Colorlegend": {
     "title": "Sea ice thickness [m]",
@@ -32,6 +21,9 @@
       0,
       2
     ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00016"
   },
   "Resources": [
     {
@@ -47,12 +39,6 @@
         "elevation": 0,
         "style": "cmap:ice"
       }
-    }
-  ],
-  "Provider": [
-    {
-      "Name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "Url": "https://data.marine.copernicus.eu/"
     }
   ],
   "Process": {
