@@ -22,7 +22,7 @@
         "Baltic"
       ],
       "agency": [
-        "SMHI"
+        "CMEMS"
       ],
       "subcode": "cmems_baltic_water_pot_temp",
       "collection_group": "Baltic"
@@ -111,7 +111,7 @@
     "Baltic"
   ],
   "agency": [
-    "SMHI"
+    "CMEMS"
   ],
   "subcode": "cmems_baltic_water_pot_temp",
   "collection_group": "Baltic",

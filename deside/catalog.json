@@ -613,7 +613,7 @@
       ],
       "subcode": "cmems_baltic_ice_concentration",
       "agency": [
-        "SHMI"
+        "CMEMS"
       ],
       "collection_group": "Baltic"
     },
@@ -629,7 +629,7 @@
       ],
       "subcode": "cmems_baltic_ice_thickness",
       "agency": [
-        "SMHI"
+        "CMEMS"
       ],
       "collection_group": "Baltic"
     },
@@ -645,7 +645,7 @@
       ],
       "subcode": "cmems_baltic_water_pot_temp",
       "agency": [
-        "SMHI"
+        "CMEMS"
       ],
       "collection_group": "Baltic"
     },
