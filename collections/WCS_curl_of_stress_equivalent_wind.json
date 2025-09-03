@@ -7,17 +7,8 @@
     "Shipping"
   ],
   "CollectionGroup": "Wind",
-  "Satellite": [
-    ""
-  ],
-  "Sensor": [
-    ""
-  ],
   "Agency": [
     "CMEMS"
-  ],
-  "Tags": [
-    ""
   ],
   "Colorlegend": {
     "title": "Curl of stress-equivalent [s-1]",
@@ -40,8 +31,7 @@
     ]
   },
   "Citation": {
-    "DOI": "https://doi.org/10.48670/moi-00305",
-    "Citation": ""
+    "DOI": "https://doi.org/10.48670/moi-00305"
   },
   "Resources": [
     {
@@ -59,13 +49,7 @@
       }
     }
   ],
-  "Provider": [
-    {
-      "Name": "",
-      "Url": ""
-    }
-  ],
-  "Process": {
+ "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/wind_curl.json",
