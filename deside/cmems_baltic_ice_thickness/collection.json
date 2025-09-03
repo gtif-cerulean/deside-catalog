@@ -19,20 +19,13 @@
       "code": "cmems_baltic_ice_thickness",
       "id": "cmems_baltic_ice_thickness",
       "themes": [
-        "Shipping",
-        "Energy"
-      ],
-      "tags": [
-        "Model"
+        "Baltic"
       ],
       "agency": [
-        "CMEMS"
+        "SMHI"
       ],
       "subcode": "cmems_baltic_ice_thickness",
-      "collection_group": "Baltic",
-      "otherSources": [
-        "Numerical Model"
-      ]
+      "collection_group": "Baltic"
     },
     {
       "rel": "service",
@@ -113,22 +106,15 @@
       "title": "DESIDE project catalog"
     }
   ],
-  "sci:doi": "https://doi.org/10.48670/moi-00010",
+  "sci:doi": "10.48670/moi-00010",
   "themes": [
-    "Shipping",
-    "Energy"
-  ],
-  "tags": [
-    "Model"
+    "Baltic"
   ],
   "agency": [
-    "CMEMS"
+    "SMHI"
   ],
   "subcode": "cmems_baltic_ice_thickness",
   "collection_group": "Baltic",
-  "otherSources": [
-    "Numerical Model"
-  ],
   "eox:colorlegend": {
     "title": "Sea Ice Thickness [m]",
     "range": [
@@ -171,23 +157,12 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Mercator Océan International",
-      "url": "https://www.mercator-ocean.eu/"
-    },
-    {
-      "name": "Copernicus Marine Service (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
     "subcode": [
       "cmems_baltic_ice_thickness"
     ],
     "themes": [
-      "Energy",
-      "Shipping"
+      "Baltic"
     ]
   }
 }

@@ -188,9 +188,9 @@
       "cmems_baltic_wave_directon"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ]
   }
 }
