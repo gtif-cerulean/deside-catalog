@@ -29,21 +29,13 @@
   ],
   "sci:doi": "https://doi.org/10.48670/moi-00010",
   "themes": [
-    "Shipping",
-    "Energy",
-    "Aquaculture"
-  ],
-  "tags": [
-    "Model"
+    "Baltic"
   ],
   "agency": [
     "CMEMS"
   ],
   "subcode": "cmems_baltic_water_velocity_east",
   "collection_group": "Baltic",
-  "otherSources": [
-    "Numerical Model"
-  ],
   "eox:colorlegend": {
     "title": "Water Velocity East [m/s]",
     "range": [
@@ -79,16 +71,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Mercator Océan International",
-      "url": "https://www.mercator-ocean.eu/"
-    },
-    {
-      "name": "Copernicus Marine Service (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
