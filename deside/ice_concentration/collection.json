@@ -19,21 +19,13 @@
       "code": "SICONC",
       "id": "ice_concentration",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
       ],
       "agency": [
         "CMEMS"
       ],
       "subcode": "SICONC",
-      "collection_group": "Sea Ice",
-      "sensor": [
-        "Numerical model"
-      ]
+      "collection_group": "Sea Ice"
     },
     {
       "rel": "service",
@@ -116,21 +108,13 @@
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
-  ],
-  "tags": [
-    "model"
   ],
   "agency": [
     "CMEMS"
   ],
   "subcode": "SICONC",
   "collection_group": "Sea Ice",
-  "sensor": [
-    "Numerical model"
-  ],
   "eox:colorlegend": {
     "title": "Ice concentration",
     "range": [
@@ -173,37 +157,12 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Mercator Océan International",
-      "url": "https://www.mercator-ocean.eu/"
-    },
-    {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
     "subcode": [
       "SICONC"
     ],
     "themes": [
-      "Shipping",
-      "Aquaculture",
-      "Energy"
-    ],
-    "sensor": [
-      "Numerical model"
+      "Shipping"
     ]
-  },
-  "assets": {
-    "reference_1": {
-      "href": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_PHY_001_024/description",
-      "type": "text/html",
-      "title": "CMEMS Data Description",
-      "roles": [
-        "metadata"
-      ]
-    }
   }
 }
