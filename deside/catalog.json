@@ -726,48 +726,6 @@
     },
     {
       "rel": "child",
-      "href": "./Polartep_RCM/collection.json",
-      "type": "application/json",
-      "title": "RADARSAT constellation mission (RCM)",
-      "code": "polartep_rcm",
-      "id": "Polartep_RCM",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "polartep_rcm",
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
-      ],
-      "agency": [
-        ""
-      ],
-      "collection_group": "Polar TEP demo datasets"
-    },
-    {
-      "rel": "child",
-      "href": "./Polartep_sea_ice_thickness_dedl/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Thickness from DestinE",
-      "code": "polartep_sea_ice_thickness_dedl",
-      "id": "Polartep_sea_ice_thickness_dedl",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "polartep_sea_ice_thickness_dedl",
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
-      ],
-      "agency": [
-        "DestinE"
-      ],
-      "collection_group": "Polar TEP demo datasets",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
       "href": "./Polartep_sea_ice_thickness_dedl_on_demand_indicator/collection.json",
       "type": "application/json",
       "title": "Sea Ice Thickness from DestinE On Demand",
