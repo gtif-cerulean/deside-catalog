@@ -118,9 +118,12 @@
   "eox:colorlegend": {
     "title": "Maximum crest trough wave height [m]",
     "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
+      "#3C0912",
+      "#7F0E29",
+      "#B33826",
+      "#CA775B",
+      "#DCB1A3",
+      "#F1EDEC"
     ],
     "domain": [
       0,
@@ -151,7 +154,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-09-09T12:00:00Z"
+          "2025-09-10T00:00:00Z"
         ]
       ]
     }
