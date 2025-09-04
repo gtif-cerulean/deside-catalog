@@ -115,6 +115,21 @@
   ],
   "subcode": "VHM0",
   "collection_group": "Waves",
+  "eox:colorlegend": {
+    "title": "Spectral significant wave height [m]",
+    "range": [
+      "#3C0912",
+      "#7F0E29",
+      "#B33826",
+      "#CA775B",
+      "#DCB1A3",
+      "#F1EDEC"
+    ],
+    "domain": [
+      0.75,
+      13
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VHM0.json",
   "title": "Spectral significant wave height",
