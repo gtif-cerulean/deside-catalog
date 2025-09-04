@@ -30,9 +30,12 @@
   "Colorlegend": {
     "title": "Potential Temperature [Deg. Celsius]",
     "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
+      "#042333", 
+      "#40349F", 
+      "#8B538D", 
+      "#D66C6C", 
+      "#FCA63C", 
+      "#E8FA5B"
     ],
     "domain": [
       2,
