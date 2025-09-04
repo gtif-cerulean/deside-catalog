@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "polarwarp",
   "stac_version": "1.1.0",
-  "description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
+  "description": "There can be a long wait for the next satellite image to be received during which sea ice can move a considerable distance. The DESIDE Image Warp Capability transforms the current satellite image using a sea ice drift forecast to simulate what the ice in a region should look like in the future. The algorithm uses the neXtSIM model for ice drift forecasts up to six hours ahead.",
   "links": [
     {
       "rel": "root",
@@ -18,20 +18,10 @@
     }
   ],
   "themes": [
-    "ice"
-  ],
-  "tags": [
-    "processing",
-    "capability"
-  ],
-  "satellite": [
-    "multiple"
-  ],
-  "sensor": [
-    "multiple"
+    "Shipping"
   ],
   "agency": [
-    "ESA"
+    "Drift+Noise"
   ],
   "subcode": "polarwarp",
   "collection_group": "Capabilities",
@@ -55,7 +45,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-09-03T23:18:19.247151Z",
+          "2025-09-04T08:38:00.640181Z",
           null
         ]
       ]

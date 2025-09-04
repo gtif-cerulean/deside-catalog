@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "iceberg_concentration",
   "stac_version": "1.1.0",
-  "description": "Number of icebergs per 100 km2\n",
+  "description": "The iceberg product contains 4 datasets (IW and EW modes and mosaic for the two modes) describing iceberg concentration as number of icebergs counted within 10x10 km grid cells. The iceberg concentration is derived by applying a Constant False Alarm Rate (CFAR) algorithm on data from Synthetic Aperture Radar (SAR) satellite sensors. /nThe iceberg product also contains two additional datasets of individual iceberg positions in Greenland-Newfoundland-Labrador Waters. These datasets are in shapefile format to allow the best representation of the icebergs (the 1st dataset contains the iceberg point observations, the 2nd dataset contains the polygonized satellite coverage). These are also derived by applying a Constant False Alarm Rate (CFAR) algorithm on Sentinel-1 SAR imagery. Despite its precision (individual icebergs are proposed), this product is a generic and automated product and needs expertise to be correctly used. For all applications concerning marine navigation, please refer to the national Ice Service of the country concerned.",
   "links": [
     {
       "rel": "root",
@@ -19,18 +19,7 @@
       "code": "IBC",
       "id": "iceberg_concentration",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
-      ],
-      "tags": [
-        "model"
-      ],
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
       ],
       "agency": [
         "CMEMS"
@@ -117,19 +106,9 @@
       "title": "DESIDE project catalog"
     }
   ],
+  "sci:doi": "10.48670/moi-00129",
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
-  ],
-  "tags": [
-    "model"
-  ],
-  "satellite": [
-    "placeholder"
-  ],
-  "sensor": [
-    "placeholder"
   ],
   "agency": [
     "CMEMS"
@@ -172,32 +151,18 @@
       "interval": [
         [
           "2024-01-01T05:43:00Z",
-          "2025-09-02T04:20:00Z"
+          "2025-09-04T04:04:00Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "E.U. Copernicus Marine Service Information (CMEMS)",
-      "url": "https://data.marine.copernicus.eu/"
-    }
-  ],
   "summaries": {
     "subcode": [
       "IBC"
     ],
     "themes": [
-      "Aquaculture",
-      "Shipping",
-      "Energy"
-    ],
-    "satellite": [
-      "placeholder"
-    ],
-    "sensor": [
-      "placeholder"
+      "Shipping"
     ]
   }
 }

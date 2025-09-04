@@ -18,21 +18,10 @@
     }
   ],
   "themes": [
-    "Shipping",
-    "Energy"
-  ],
-  "tags": [
-    "processing",
-    "capability"
-  ],
-  "satellite": [
-    "multiple"
-  ],
-  "sensor": [
-    "multiple"
+    "Shipping"
   ],
   "agency": [
-    "ESA"
+    "DestinE"
   ],
   "collection_group": "Capabilities",
   "eodash:mapProjection": {
@@ -55,7 +44,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-09-03T23:18:46.800398Z",
+          "2025-09-04T08:38:27.560992Z",
           null
         ]
       ]

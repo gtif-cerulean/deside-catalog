@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "RCM_data",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Radarsat Constellation Mission",
   "links": [
     {
       "rel": "root",
@@ -120,9 +120,7 @@
     }
   ],
   "themes": [
-    "Shipping",
-    "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
   "subcode": "rcm",
   "collection_group": "Capabilities",
@@ -152,8 +150,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-09-03T23:18:46.804824Z",
-          "2025-09-03T23:18:46.804824Z"
+          "2025-09-04T08:38:27.565357Z",
+          "2025-09-04T08:38:27.565357Z"
         ]
       ]
     }

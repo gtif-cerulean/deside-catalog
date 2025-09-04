@@ -18,8 +18,6 @@
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "agency": [
@@ -62,22 +60,12 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2025-09-01T00:00:00Z"
+          "2025-09-03T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Danish Meteorological Institute (DMI)",
-      "url": "https://www.dmi.dk/"
-    },
-    {
-      "name": "EOX",
-      "url": "https://eox.at/"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/dmi-ice-charts/flatgeobuf/daily_items.parquet",

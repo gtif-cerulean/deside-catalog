@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Polaris_algorithm_dmi_demo",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "The Polar Operational Limit Assessment Risk Indexing System (POLARIS) is a methodology to assess the risk posed to a ship by ice conditions in relation to the ship's assigned ice class. It uses the WMO standard sea ice charts as the basis for the calculation.",
   "links": [
     {
       "rel": "root",
@@ -22,7 +22,7 @@
         "Shipping"
       ],
       "agency": [
-        "DMI"
+        "IMO"
       ],
       "subcode": "Polaris_algorithm_dmi_demo",
       "collection_group": "Capabilities"
@@ -99,12 +99,11 @@
       "title": "DESIDE project catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
   "themes": [
     "Shipping"
   ],
   "agency": [
-    "DMI"
+    "IMO"
   ],
   "subcode": "Polaris_algorithm_dmi_demo",
   "collection_group": "Capabilities",
@@ -142,18 +141,6 @@
     ],
     "themes": [
       "Shipping"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
-  },
-  "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }

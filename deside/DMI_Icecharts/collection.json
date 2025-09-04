@@ -18,8 +18,6 @@
       "endpointtype": "FlatGeobuf source",
       "id": "DMI_Icecharts",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "agency": [
@@ -80,8 +78,6 @@
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "agency": [
@@ -129,27 +125,15 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2025-09-01T00:00:00Z"
+          "2025-09-03T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Danish Meteorological Institute (DMI)",
-      "url": "https://www.dmi.dk/"
-    },
-    {
-      "name": "EOX",
-      "url": "https://eox.at/"
-    }
-  ],
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Shipping"
     ]
   }
 }

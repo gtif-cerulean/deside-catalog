@@ -19,23 +19,11 @@
       "code": "structureicing",
       "id": "structureicing",
       "themes": [
-        "ice"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
+        "Shipping",
+        "Climate"
       ],
       "agency": [
-        "GHRSST",
-        "CMEMS",
-        "CDS",
-        "Met Office"
+        "C-CORE"
       ],
       "subcode": "structureicing",
       "collection_group": "Capabilities"
@@ -123,23 +111,11 @@
     }
   ],
   "themes": [
-    "ice"
-  ],
-  "tags": [
-    "processing",
-    "capability"
-  ],
-  "satellite": [
-    "multiple"
-  ],
-  "sensor": [
-    "multiple"
+    "Shipping",
+    "Climate"
   ],
   "agency": [
-    "GHRSST",
-    "CMEMS",
-    "CDS",
-    "Met Office"
+    "C-CORE"
   ],
   "subcode": "structureicing",
   "collection_group": "Capabilities",
@@ -159,8 +135,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-09-03T23:18:19.464360Z",
-          "2025-09-03T23:18:19.464360Z"
+          "2025-09-04T08:38:00.903876Z",
+          "2025-09-04T08:38:00.903876Z"
         ]
       ]
     }
@@ -171,13 +147,8 @@
       "structureicing"
     ],
     "themes": [
-      "ice"
-    ],
-    "satellite": [
-      "multiple"
-    ],
-    "sensor": [
-      "multiple"
+      "Shipping",
+      "Climate"
     ]
   }
 }

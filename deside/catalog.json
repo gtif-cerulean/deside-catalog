@@ -21,11 +21,8 @@
         "Shipping"
       ],
       "subcode": "Polaris_algorithm_dmi_demo",
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
-      ],
       "agency": [
-        "DMI"
+        "IMO"
       ],
       "collection_group": "Capabilities"
     },
@@ -44,7 +41,6 @@
         "Sentinel-1"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities"
@@ -57,20 +53,9 @@
       "code": "IBC",
       "id": "iceberg_concentration",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "subcode": "IBC",
-      "satellite": [
-        "placeholder"
-      ],
-      "sensor": [
-        "placeholder"
-      ],
-      "tags": [
-        "model"
-      ],
       "agency": [
         "CMEMS"
       ],
@@ -516,21 +501,12 @@
       "code": "harshness",
       "id": "harshness",
       "themes": [
-        "ice"
+        "Shipping",
+        "Climate"
       ],
       "subcode": "harshness",
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
       "agency": [
-        "ESA"
+        "C-CORE"
       ],
       "collection_group": "Capabilities"
     },
@@ -542,15 +518,11 @@
       "code": "polarwarp_sentinel1",
       "id": "polarwarp_sentinel1",
       "themes": [
-        "ice"
+        "Shipping"
       ],
       "subcode": "polarwarp_sentinel1",
       "satellite": [
-        "Sentinel-1",
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
+        "Sentinel-1"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
@@ -569,24 +541,12 @@
       "code": "structureicing",
       "id": "structureicing",
       "themes": [
-        "ice"
+        "Shipping",
+        "Climate"
       ],
       "subcode": "structureicing",
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "tags": [
-        "processing",
-        "capability"
-      ],
       "agency": [
-        "GHRSST",
-        "CMEMS",
-        "CDS",
-        "Met Office"
+        "C-CORE"
       ],
       "collection_group": "Capabilities"
     },
@@ -757,8 +717,6 @@
       "title": "DMI Ice charts",
       "id": "DMI_Icecharts",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "agency": [
@@ -800,7 +758,7 @@
         "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "agency": [
-        ""
+        "DestinE"
       ],
       "collection_group": "Polar TEP demo datasets",
       "eodash:mapProjection": {
@@ -815,21 +773,10 @@
       "title": "Sea Ice Thickness from DestinE On Demand",
       "id": "Polartep_sea_ice_thickness_dedl_on_demand_indicator",
       "themes": [
-        "Shipping",
-        "Energy"
-      ],
-      "satellite": [
-        "multiple"
-      ],
-      "sensor": [
-        "multiple"
-      ],
-      "tags": [
-        "processing",
-        "capability"
+        "Shipping"
       ],
       "agency": [
-        "ESA"
+        "DestinE"
       ],
       "collection_group": "Capabilities",
       "eodash:mapProjection": {
@@ -845,9 +792,7 @@
       "code": "rcm",
       "id": "RCM_data",
       "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
+        "Shipping"
       ],
       "subcode": "rcm",
       "thumbnail": [
