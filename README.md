@@ -1,11 +1,7 @@
-# Catalog configuration
+# DESIDE Dashboard - Catalog configuration
 
-Catalog configuration point for ESA DESIDE project
+This repository holds the catalog configuration for the [DESIDE Dashboard](https://deside.eox.at/).
 
-Catalog is available under:
+The static catalog itself is available [online](https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json) and can easily be viewed for example in the [STAC browser](https://radiantearth.github.io/stac-browser/#/external/gtif-cerulean.github.io/deside-catalog/deside/catalog.json).
 
-https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json
-
-Using STAC browser, e.g.:
-
-https://radiantearth.github.io/stac-browser/#/external/gtif-cerulean.github.io/deside-catalog/deside/catalog.json
+DISCLAIMER: The content of this repository has been develeped with funding from the [DestinE programme](https://destination-earth.eu/). We wish to thank the [European Union](https://european-union.europa.eu/) and the [European Space Agency (ESA)](https://www.esa.int) for the provided support.
