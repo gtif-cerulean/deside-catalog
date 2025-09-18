@@ -189,10 +189,10 @@
       "SHS1"
     ],
     "themes": [
-      "shipping",
-      "Shipping",
       "Aquaculture",
-      "Energy"
+      "Energy",
+      "Shipping",
+      "shipping"
     ],
     "satellite": [
       "Sentinel-1"
