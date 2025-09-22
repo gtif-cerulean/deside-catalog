@@ -769,6 +769,22 @@
       }
     },
     {
+      "rel": "child",
+      "href": "./DMI_polaris/collection.json",
+      "type": "application/json",
+      "title": "POLARIS (DMI)",
+      "id": "DMI_polaris",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "Sea Ice"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json",
       "type": "application/json"

@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "DMI_Icecharts",
+  "id": "DMI_polaris",
   "stac_version": "1.1.0",
-  "description": "Collection of Danish Meteorological Institute Ice Charts since start of 2025",
+  "description": "Collection of DMI Polaris",
   "links": [
     {
       "rel": "root",
@@ -12,12 +12,14 @@
     },
     {
       "rel": "child",
-      "href": "./DMI_Icecharts/collection.json",
+      "href": "./DMI_polaris/collection.json",
       "type": "application/json",
-      "title": "DMI Ice charts",
+      "title": "POLARIS (DMI)",
       "endpointtype": "FlatGeobuf source",
-      "id": "DMI_Icecharts",
+      "id": "DMI_polaris",
       "themes": [
+        "Aquaculture",
+        "Energy",
         "Shipping"
       ],
       "agency": [
@@ -78,6 +80,8 @@
     }
   ],
   "themes": [
+    "Aquaculture",
+    "Energy",
     "Shipping"
   ],
   "agency": [
@@ -103,21 +107,21 @@
     "scaleType": "categorical",
     "markType": "circle"
   },
-  "title": "DMI Ice charts",
+  "title": "POLARIS (DMI)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -80.24487203697491,
-          55.25698115978713,
-          10.033447326328545,
-          84.84935228034207
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
-          -80.24487203697491,
-          55.25698115978713,
-          10.033447326328545,
-          84.84935228034207
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
@@ -131,8 +135,20 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "DMI",
+      "url": "https://www.dmi.dk"
+    },
+    {
+      "name": "EOX",
+      "url": "https://eox.at/"
+    }
+  ],
   "summaries": {
     "themes": [
+      "Energy",
+      "Aquaculture",
       "Shipping"
     ]
   }
