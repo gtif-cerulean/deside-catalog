@@ -129,7 +129,7 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2025-11-03T00:00:00Z"
+          "2025-11-04T00:00:00Z"
         ]
       ]
     }
@@ -147,8 +147,8 @@
   ],
   "summaries": {
     "themes": [
-      "Shipping",
       "Energy",
+      "Shipping",
       "Aquaculture"
     ]
   }
