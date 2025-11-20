@@ -15,10 +15,6 @@
     {
       "Name": "Collection-only",
       "EndPoint": "Collection-only",
-      "Query": {
-        "Start": "2024-01-01T00:00:00Z",
-        "End": "2030-01-01T00:00:00Z"
-      },
       "OverwriteBBox": [
         -179,
         55,
