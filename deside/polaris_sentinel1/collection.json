@@ -176,7 +176,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-11-20T00:00:00Z"
+          "2025-11-21T00:00:00Z"
         ]
       ]
     }
@@ -189,9 +189,9 @@
       "SID"
     ],
     "themes": [
-      "shipping",
       "Energy",
       "Shipping",
+      "shipping",
       "Aquaculture"
     ],
     "satellite": [
