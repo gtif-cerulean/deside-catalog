@@ -176,7 +176,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-11-21T00:00:00Z"
+          "2025-11-22T00:00:00Z"
         ]
       ]
     }
@@ -184,15 +184,15 @@
   "license": "other",
   "summaries": {
     "subcode": [
+      "SID",
       "SHS1",
-      "Polaris_algorithm_dmi_demo",
-      "SID"
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
       "Energy",
       "Shipping",
-      "shipping",
-      "Aquaculture"
+      "Aquaculture",
+      "shipping"
     ],
     "satellite": [
       "Sentinel-1"
