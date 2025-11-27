@@ -176,7 +176,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-11-26T00:00:00Z"
+          "2025-11-27T00:00:00Z"
         ]
       ]
     }
@@ -184,9 +184,9 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "Polaris_algorithm_dmi_demo",
+      "SID",
       "SHS1",
-      "SID"
+      "Polaris_algorithm_dmi_demo"
     ],
     "themes": [
       "Energy",
