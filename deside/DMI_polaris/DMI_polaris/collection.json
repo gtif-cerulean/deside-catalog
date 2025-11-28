@@ -17,34 +17,6 @@
       "title": "POLARIS (DMI)"
     }
   ],
-  "themes": [
-    "Aquaculture",
-    "Energy",
-    "Shipping"
-  ],
-  "agency": [
-    "DMI"
-  ],
-  "collection_group": "Sea Ice",
-  "eox:colorlegend": {
-    "title": "Total Sea Ice Concentration",
-    "range": [
-      "#96C8FF",
-      "#8CFFA0",
-      "#FFFF00",
-      "#FF7D06",
-      "#FF0000"
-    ],
-    "domain": [
-      "Open Water",
-      "Very open drift ice",
-      "Open Drift Ice",
-      "Close Drift Ice",
-      "Very Close Drift Ice"
-    ],
-    "scaleType": "categorical",
-    "markType": "circle"
-  },
   "endpointtype": "FlatGeobuf source",
   "title": "POLARIS (DMI)",
   "extent": {
@@ -61,31 +33,11 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-11-25T00:00:00Z"
+          "2025-11-28T03:59:35.740762Z",
+          null
         ]
       ]
     }
   },
-  "license": "other",
-  "providers": [
-    {
-      "name": "DMI",
-      "url": "https://www.dmi.dk"
-    },
-    {
-      "name": "EOX",
-      "url": "https://eox.at/"
-    }
-  ],
-  "assets": {
-    "geoparquet": {
-      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/dmi-polaris/daily_items_merged.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    }
-  }
+  "license": "other"
 }
