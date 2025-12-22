@@ -18,7 +18,8 @@
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_WAV_003_010/cmems_mod_bal_wav_anfc_PT1H-i_202311/VCMX",
       "role": [
         "data"
-      ]
+      ],
+      "key": "02a4da1e-f606-4b58-8d43-b6fd64df4e35"
     },
     {
       "rel": "parent",
@@ -68,7 +69,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-12-30T12:00:00Z"
+          "2025-12-31T00:00:00Z"
         ]
       ]
     }

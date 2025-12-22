@@ -22,7 +22,8 @@
       "wmts:dimensions": {
         "elevation": 0,
         "style": "cmap:balance"
-      }
+      },
+      "key": "bff07992-6afd-4de1-a10a-6768e3eeded5"
     },
     {
       "rel": "parent",

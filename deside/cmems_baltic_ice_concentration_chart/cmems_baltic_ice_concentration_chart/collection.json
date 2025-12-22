@@ -18,7 +18,8 @@
       "wmts:layer": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_CONC-L4-NRT-OBS/ice_concentration",
       "role": [
         "data"
-      ]
+      ],
+      "key": "0655e789-e18c-42b4-bfd6-b2d2768804ec"
     },
     {
       "rel": "parent",
@@ -65,7 +66,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-12-21T00:00:00Z"
+          "2025-12-22T00:00:00Z"
         ]
       ]
     }

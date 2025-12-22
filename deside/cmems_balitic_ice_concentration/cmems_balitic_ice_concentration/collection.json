@@ -18,7 +18,8 @@
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/siconc",
       "role": [
         "data"
-      ]
+      ],
+      "key": "8cfa5eff-a6c5-4815-b018-e9b306552020"
     },
     {
       "rel": "parent",
@@ -65,7 +66,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-12-29T00:00:00Z"
+          "2025-12-30T00:00:00Z"
         ]
       ]
     }

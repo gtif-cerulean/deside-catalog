@@ -36,7 +36,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
@@ -44,11 +44,11 @@
         "visible"
       ],
       "id": "cloudless-2024",
-      "attribution": "{ EOxCloudless 2024: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+      "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "wms",
-      "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
       "type": "image/png",
       "title": "Terrain Light Stereographic North",
       "roles": [
@@ -57,15 +57,21 @@
       ],
       "id": "sx-cat_ortho680500",
       "wms:layers": "sx-cat_ortho680500",
-      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
       "eodash:proj4_def": {
         "name": "ORTHO:680500",
-        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
       }
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "Terrain light",
       "roles": [
@@ -73,11 +79,11 @@
         "invisible"
       ],
       "id": "terrain-light",
-      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
@@ -85,19 +91,19 @@
         "invisible"
       ],
       "id": "eox-osm",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "overlay_bright",
-      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
@@ -154,7 +160,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-12-31T00:00:00Z"
+          "2026-01-01T00:00:00Z"
         ]
       ]
     }
