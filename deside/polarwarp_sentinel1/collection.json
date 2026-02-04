@@ -188,7 +188,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-02-03T05:06:26.031721Z"
+          "2026-02-04T04:59:04.192950Z"
         ]
       ]
     }
@@ -196,8 +196,8 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SHS1",
-      "polarwarp"
+      "polarwarp",
+      "SHS1"
     ],
     "themes": [
       "Shipping",
