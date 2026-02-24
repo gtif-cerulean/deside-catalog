@@ -12,10 +12,10 @@
     },
     {
       "rel": "wmts",
-      "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS_202511",
       "type": "image/png",
       "title": "wmts capabilities",
-      "wmts:layer": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS/ibc",
+      "wmts:layer": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS_202511/ibc",
       "role": [
         "data"
       ],
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice,range:0/1"
       },
-      "key": "b1252412-b744-4f4a-a438-428207ee6a34"
+      "key": "5de4878e-22ed-46ce-9d92-53777c0522b0"
     },
     {
       "rel": "parent",
@@ -59,10 +59,10 @@
     "spatial": {
       "bbox": [
         [
-          -120.0,
-          54.75,
-          42.87999999999653,
-          87.45000000000047
+          -180.0,
+          30.0,
+          179.8999999999795,
+          89.93999999999991
         ]
       ]
     },
@@ -70,7 +70,7 @@
       "interval": [
         [
           "2024-01-01T05:43:00Z",
-          "2026-01-08T04:53:00Z"
+          "2026-02-23T04:20:00Z"
         ]
       ]
     }
