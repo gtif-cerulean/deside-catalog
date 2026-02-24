@@ -32,7 +32,7 @@
   "Resources": [
     {
       "Name": "FlatGeobuf source",
-      "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4WaZei3Y-02/dmi-ice-charts/flatgeobuf/daily_items.parquet"
+      "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-ice-charts/flatgeobuf/daily_items.parquet"
     }
   ],
   "BaseLayers": [

@@ -23,14 +23,14 @@
     ]
   },
   "Citation": {
-    "DOI": "10.48670/moi-00129",
+    "DOI": "10.48670/moi-00129"
   },
   "Resources": [
     {
-      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS",
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS_202511",
       "Type": "WMTSCapabilities",
       "Name": "marinedatastore",
-      "LayerId": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS/ibc",
+      "LayerId": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS_202511/ibc",
       "Query": {
         "Start": "2024-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
