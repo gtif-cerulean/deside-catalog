@@ -186,7 +186,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-03-24T00:00:00Z"
+          "2026-03-25T00:00:00Z"
         ]
       ]
     }
@@ -194,13 +194,13 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "SID",
       "Polaris_algorithm_dmi_demo",
-      "SHS1"
+      "SHS1",
+      "SID"
     ],
     "themes": [
-      "Energy",
       "Aquaculture",
+      "Energy",
       "shipping",
       "Shipping"
     ],
