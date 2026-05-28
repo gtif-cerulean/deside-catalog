@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Ice concentration",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siconc",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "462cdcb0-6077-44ae-9d74-c55eb3d598b1"
+      "key": "fa7c3541-10c3-4e66-9666-3918b61a8599"
     },
     {
       "rel": "parent",

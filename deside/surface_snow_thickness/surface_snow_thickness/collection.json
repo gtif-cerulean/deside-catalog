@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Surface snow thickness",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sisnthick",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "e43f8a1a-7d57-4587-9aeb-03f3c57d647c"
+      "key": "fe61cbcc-03e5-4db3-b338-692f19f67d76"
     },
     {
       "rel": "parent",

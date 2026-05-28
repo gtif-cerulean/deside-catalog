@@ -14,12 +14,12 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_WAV_003_010/cmems_mod_bal_wav_anfc_PT1H-i_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Baltic Wave Direction",
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_WAV_003_010/cmems_mod_bal_wav_anfc_PT1H-i_202311/VMDR",
       "role": [
         "data"
       ],
-      "key": "fa4502d3-cc1b-487d-8063-2dbff2592237"
+      "key": "077034e1-4b6d-4625-98f0-b07a034b1d0d"
     },
     {
       "rel": "parent",
@@ -66,7 +66,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-06-05T12:00:00Z"
+          "2026-06-06T00:00:00Z"
         ]
       ]
     }

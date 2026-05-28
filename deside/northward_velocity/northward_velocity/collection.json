@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-cur_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Northward velocity",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-cur_anfc_0.083deg_P1D-m_202406/vo",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:balance"
       },
-      "key": "279bd06d-0de0-4d77-a5bc-7b2a4f5c82dd"
+      "key": "0e30caf8-34bb-4018-bb95-933eef0c79f9"
     },
     {
       "rel": "parent",

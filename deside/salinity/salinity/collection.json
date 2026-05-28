@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-so_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Salinity",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-so_anfc_0.083deg_P1D-m_202406/so",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:haline"
       },
-      "key": "21b6c538-dd8c-4c3f-8fe8-0b644cbd4e31"
+      "key": "c8d7f9d4-bdbd-4f29-a4f2-26e60b0f1b31"
     },
     {
       "rel": "parent",

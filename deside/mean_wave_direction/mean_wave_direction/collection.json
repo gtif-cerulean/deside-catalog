@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Mean wave direction",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411/VMDR",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:cyclic"
       },
-      "key": "fbca74ef-dfd9-4f1a-9f52-7463ee5560c1"
+      "key": "962df3bd-cf79-4581-bdb4-82f14828f26e"
     },
     {
       "rel": "parent",
@@ -58,7 +58,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2026-06-06T00:00:00Z"
+          "2026-06-07T00:00:00Z"
         ]
       ]
     }

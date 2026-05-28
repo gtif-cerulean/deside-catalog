@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Sea ice thickness",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sithick",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "8f454431-f380-44ac-8682-eb0f7f7a4ee2"
+      "key": "6f8eb3aa-2828-4491-a54e-ed2119bfb52e"
     },
     {
       "rel": "parent",

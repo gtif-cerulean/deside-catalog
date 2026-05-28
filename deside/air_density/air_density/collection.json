@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Air density",
       "wmts:layer": "WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207/air_density",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "39d953b4-e441-49af-becd-0eee4bf75a87"
+      "key": "cd8e3a0f-9634-4fc1-a0ad-42972159eae5"
     },
     {
       "rel": "parent",

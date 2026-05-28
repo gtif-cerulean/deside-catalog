@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS_202511",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Iceberg concentration",
       "wmts:layer": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS_202511/ibc",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice,range:0/1"
       },
-      "key": "753cdfa7-0bba-407a-84ed-c115f47ad940"
+      "key": "a607db9d-9c79-42ca-b281-e624cb1cf1fd"
     },
     {
       "rel": "parent",
@@ -70,7 +70,7 @@
       "interval": [
         [
           "2024-01-01T05:43:00Z",
-          "2026-05-27T03:55:00Z"
+          "2026-05-28T03:56:00Z"
         ]
       ]
     }

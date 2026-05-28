@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Stress-equivalent wind northward component",
       "wmts:layer": "WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207/northward_wind",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:balance"
       },
-      "key": "40208ed7-5cec-4bdf-8c16-7f7432434cc0"
+      "key": "c7dfad11-e8aa-4792-8401-e721c35e1847"
     },
     {
       "rel": "parent",

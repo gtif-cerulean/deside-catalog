@@ -14,12 +14,12 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Baltic Water Salinity",
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/so",
       "role": [
         "data"
       ],
-      "key": "a0544bab-e4b1-4fb2-9028-8f9a99641fe5"
+      "key": "c499b995-c0bf-4b85-8a85-e36be8f106ba"
     },
     {
       "rel": "parent",
@@ -68,7 +68,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-06-04T00:00:00Z"
+          "2026-06-05T00:00:00Z"
         ]
       ]
     }

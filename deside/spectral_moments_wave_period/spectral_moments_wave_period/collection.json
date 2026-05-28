@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Spectral moments primary swell wave period",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411/VTM01_SW1",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:tempo"
       },
-      "key": "dd444128-3e20-4f24-89a0-2d75f19f1a54"
+      "key": "d452ea4a-6931-426c-8cfb-bd160c3b2c09"
     },
     {
       "rel": "parent",
@@ -58,7 +58,7 @@
       "interval": [
         [
           "2024-09-01T00:00:00Z",
-          "2026-06-06T00:00:00Z"
+          "2026-06-07T00:00:00Z"
         ]
       ]
     }

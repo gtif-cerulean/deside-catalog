@@ -14,12 +14,12 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_THICK-L4-NRT-OBS",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Baltic Sea Ice Chart Thickness",
       "wmts:layer": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_THICK-L4-NRT-OBS/ice_thickness",
       "role": [
         "data"
       ],
-      "key": "b3ef8a72-10f4-40e2-a5a0-18eed1827216"
+      "key": "920913d0-ca27-444a-9501-b23751e7f86a"
     },
     {
       "rel": "parent",

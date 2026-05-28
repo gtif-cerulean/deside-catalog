@@ -21,6 +21,9 @@
       "themes": [
         "Shipping"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      ],
       "agency": [
         ""
       ],
@@ -156,8 +159,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-05-28T07:10:48.505695Z",
-          "2026-05-28T07:10:48.505695Z"
+          "2026-05-28T09:55:33.325188Z",
+          "2026-05-28T09:55:33.325188Z"
         ]
       ]
     }

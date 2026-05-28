@@ -14,12 +14,12 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Baltic Sea Ice Thickness",
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/sithick",
       "role": [
         "data"
       ],
-      "key": "add9f42c-6f24-475e-a4de-01bcd9fa2f8b"
+      "key": "828fefb2-75da-464d-8b77-7bbcb256a824"
     },
     {
       "rel": "parent",
@@ -66,7 +66,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-06-04T00:00:00Z"
+          "2026-06-05T00:00:00Z"
         ]
       ]
     }

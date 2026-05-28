@@ -14,12 +14,12 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_CONC-L4-NRT-OBS",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Baltic Sea Ice Chart Concentration",
       "wmts:layer": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_CONC-L4-NRT-OBS/ice_concentration",
       "role": [
         "data"
       ],
-      "key": "db0a1250-1f31-4360-b0c7-818ab31c78b2"
+      "key": "0ccb8742-d9df-41c4-8983-9ea188000043"
     },
     {
       "rel": "parent",

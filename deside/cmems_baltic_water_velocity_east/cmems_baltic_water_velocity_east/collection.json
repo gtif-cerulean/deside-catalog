@@ -14,12 +14,12 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Baltic Water Velocity Eastward",
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/uo",
       "role": [
         "data"
       ],
-      "key": "34f237c5-aeab-4fd6-b8c6-0debba1df2e0"
+      "key": "695344b8-8d17-4b3d-9a51-f5d2281367a2"
     },
     {
       "rel": "parent",
@@ -68,7 +68,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-06-04T00:00:00Z"
+          "2026-06-05T00:00:00Z"
         ]
       ]
     }

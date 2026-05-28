@@ -14,12 +14,12 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Baltic Water Potential Temperature",
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/thetao",
       "role": [
         "data"
       ],
-      "key": "d8302dc0-2585-4619-bbbb-d33a8f2a4935"
+      "key": "faba8963-2299-4d68-8448-dc12863280e3"
     },
     {
       "rel": "parent",
@@ -69,7 +69,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-06-04T00:00:00Z"
+          "2026-06-05T00:00:00Z"
         ]
       ]
     }

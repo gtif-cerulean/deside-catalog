@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Curl of stress-equivalent wind",
       "wmts:layer": "WIND_GLO_PHY_L4_NRT_012_004/cmems_obs-wind_glo_phy_nrt_l4_0.125deg_PT1H_202207/wind_curl",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "37dfecf6-36c5-4b44-b498-78c73ca4d0ed"
+      "key": "c01a42bf-23a6-4405-bf59-54c8950f703c"
     },
     {
       "rel": "parent",

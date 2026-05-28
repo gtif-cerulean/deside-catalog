@@ -48,6 +48,9 @@
         "Copernicus",
         "Sentinel-Hub"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+      ],
       "tags": [
         "Sentinel",
         "Open data"
@@ -188,7 +191,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-05-28T07:10:10.441426Z"
+          "2026-05-28T09:55:01.496440Z"
         ]
       ]
     }
@@ -200,9 +203,9 @@
       "polarwarp"
     ],
     "themes": [
-      "Aquaculture",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ],
     "satellite": [
       "Sentinel-1"

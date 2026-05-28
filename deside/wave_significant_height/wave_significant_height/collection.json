@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Spectral significant wave height",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_WAV_001_027/cmems_mod_glo_wav_anfc_0.083deg_PT3H-i_202411/VHM0",
       "role": [
         "data"
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:amp"
       },
-      "key": "ada35e77-908c-4f87-a1d9-f4346ed7a737"
+      "key": "c628da9a-9712-445d-a13a-80088c76a3ff"
     },
     {
       "rel": "parent",
@@ -73,7 +73,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-06-06T00:00:00Z"
+          "2026-06-07T00:00:00Z"
         ]
       ]
     }
