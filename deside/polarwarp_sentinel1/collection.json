@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "polarwarp_sentinel1",
   "stac_version": "1.1.0",
-  "description": "This is an example of how the polar warp capability can be triggered and visualized within the dashboard.",
+  "description": "There can be a long wait for the next satellite image to be received during which sea ice can move a considerable distance. The DESIDE Image Warp Capability transforms the current satellite image using a sea ice drift forecast to simulate what the ice in a region should look like in the future. The algorithm uses the neXtSIM model for ice drift forecasts up to six hours ahead.",
   "links": [
     {
       "rel": "root",
@@ -43,13 +43,6 @@
         "Energy",
         "Aquaculture",
         "Shipping"
-      ],
-      "providers": [
-        "Copernicus",
-        "Sentinel-Hub"
-      ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "tags": [
         "Sentinel",
@@ -191,7 +184,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-06-09T07:04:53.951961Z"
+          "2026-06-09T18:11:53.850105Z"
         ]
       ]
     }
@@ -203,15 +196,12 @@
       "SHS1"
     ],
     "themes": [
-      "Energy",
+      "Shipping",
       "Aquaculture",
-      "Shipping"
+      "Energy"
     ],
     "satellite": [
       "Sentinel-1"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
     ]
   }
 }

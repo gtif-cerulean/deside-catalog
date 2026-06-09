@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "DMI_polaris",
   "stac_version": "1.1.0",
-  "description": "Collection of DMI Polaris",
+  "description": "https://raw.githubusercontent.com/gtif-cerulean/assets/markdowns/POLARIS.md",
   "links": [
     {
       "rel": "root",
@@ -92,25 +92,6 @@
     "DMI"
   ],
   "collection_group": "Sea Ice",
-  "eox:colorlegend": {
-    "title": "Total Sea Ice Concentration",
-    "range": [
-      "#96C8FF",
-      "#8CFFA0",
-      "#FFFF00",
-      "#FF7D06",
-      "#FF0000"
-    ],
-    "domain": [
-      "Open Water",
-      "Very open drift ice",
-      "Open Drift Ice",
-      "Close Drift Ice",
-      "Very Close Drift Ice"
-    ],
-    "scaleType": "categorical",
-    "markType": "circle"
-  },
   "title": "POLARIS (DMI)",
   "extent": {
     "spatial": {
@@ -151,9 +132,9 @@
   ],
   "summaries": {
     "themes": [
-      "Energy",
       "Aquaculture",
-      "Shipping"
+      "Shipping",
+      "Energy"
     ]
   }
 }

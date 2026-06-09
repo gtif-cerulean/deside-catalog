@@ -40,9 +40,6 @@
       "satellite": [
         "Sentinel-1"
       ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
-      ],
       "collection_group": "Capabilities"
     },
     {
@@ -523,9 +520,6 @@
       "subcode": "polarwarp_sentinel1",
       "satellite": [
         "Sentinel-1"
-      ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png"
       ],
       "collection_group": "Capabilities",
       "eodash:mapProjection": {

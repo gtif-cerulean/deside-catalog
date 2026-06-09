@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Sentinel1-EW-HH",
   "stac_version": "1.1.0",
-  "description": "SENTINEL_1_IW_VV",
+  "description": "SENTINEL 1, Extra Wide Swath, HH Polarization",
   "links": [
     {
       "rel": "root",
@@ -12,7 +12,7 @@
     },
     {
       "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/b8c37569-fa44-4f8d-9cfc-0b535ba4e4c3",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ce48ad62-7968-43f2-9008-848c7660f831",
       "type": "image/png",
       "title": "Sentinel 1 EW HH",
       "wms:layers": [
@@ -29,7 +29,6 @@
       "title": "Polar warp capability"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
   "themes": [
     "Energy",
     "Aquaculture",
@@ -71,15 +70,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Copernicus",
-      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "name": "Sentinel-Hub"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -87,13 +77,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Lakes_Sentinel1/thumbnail.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
       ]
     }
   }
