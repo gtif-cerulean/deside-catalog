@@ -2,7 +2,7 @@
     "Name": "DMI_polaris",
     "Title": "POLARIS (DMI)",
     "Subtitle": "",
-    "Description": "Collection of DMI Polaris",
+    "Description": "https://raw.githubusercontent.com/gtif-cerulean/assets/markdowns/POLARIS.md",
     "CollectionGroup": "Sea Ice",
     "Themes": ["Aquaculture", "Energy", "Shipping"],
     "Tags": [],
@@ -12,16 +12,12 @@
         {"Name": "DMI", "Url": "https://www.dmi.dk"},
         {"Name": "EOX", "Url": "https://eox.at/"}
     ],
-    "Colorlegend": {
-        "title": "Total Sea Ice Concentration",
-        "range": ["#96C8FF", "#8CFFA0", "#FFFF00", "#FF7D06", "#FF0000"],
-        "domain": ["Open Water", "Very open drift ice", "Open Drift Ice", "Close Drift Ice", "Very Close Drift Ice"],
-        "scaleType": "categorical",
-        "markType": "circle"
-    },
     "Resources": [{
       "Name": "FlatGeobuf source",
-      "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-polaris/daily_items_merged.parquet"
+      "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-polaris/daily_items_merged.parquet",
+      "MergeAssets": true,
+      "Style": "",
+      "TimeEntries": []
     }],
     "BaseLayers": [
         {
