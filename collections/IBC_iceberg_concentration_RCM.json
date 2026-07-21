@@ -3,11 +3,9 @@
   "Title": "Number of icebergs per unit area (RCM)",
   "Description": "The iceberg product contains two datasets describing iceberg concentration as number of icebergs counted within 10x10 km grid cells; one derived from Sentinel 1 IW mode and the other from Radarsat Constellation Mission data. The iceberg concentration is derived by applying a Constant False Alarm Rate (CFAR) algorithm on data from Synthetic Aperture Radar (SAR) satellite sensors.",
   "Themes": [
-    "Shipping",
-    "Energy",
-    "Aquaculture"
+    "Shipping"
   ],
-  "CollectionGroup": "Icebergs",
+  "CollectionGroup": "D. Icebergs",
   "DataSource": {
     "Spaceborne": {
       "Sensor": "Satellite RCM"

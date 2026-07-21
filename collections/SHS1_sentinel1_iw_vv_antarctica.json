@@ -2,7 +2,7 @@
   "Name": "Sentinel1-IW-VV_antarctica",
   "Title": "Sentinel 1 IW VV Antarctica",
   "Description": "Sentinel 1, Interferometric Wide Swath, VV Polarization",
-  "CollectionGroup": "L. Antarctica",
+  "CollectionGroup": "J. Antarctica",
   "Themes": [
     "Antarctica"
   ],

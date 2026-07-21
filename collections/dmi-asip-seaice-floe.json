@@ -1,10 +1,8 @@
 {
     "Name": "dmi-asip-seaice-floe",
     "Title": "AI: Sea Ice Floe Size",
-    "CollectionGroup": "Sea Ice",
+    "CollectionGroup": "C. Sea Ice",
     "Themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
     ],
     "Description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",

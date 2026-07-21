@@ -7,7 +7,7 @@
     "Energy",
     "Shipping"
   ],
-  "CollectionGroup": "Sea Ice",
+  "CollectionGroup": "C. Sea Ice",
   "DataSource": {
     "Spaceborne": {
       "Sensor": "Numerical model"

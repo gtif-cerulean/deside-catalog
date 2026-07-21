@@ -1,11 +1,9 @@
 {
     "Name": "Fast_Ice_NGI_Strainrate",
     "Title": "Fast Ice NGI Strainrate",
-    "CollectionGroup": "Satellite Data",
+    "CollectionGroup": "C. Sea Ice",
     "Themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Landfast Sea Ice"
     ],
     "Description": "Fast Ice NGI",
     "Resources": [

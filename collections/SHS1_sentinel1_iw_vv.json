@@ -2,10 +2,8 @@
   "Name": "Sentinel1-IW-VV",
   "Title": "Sentinel 1 IW VV",
   "Description": "Sentinel 1, Interferometric Wide Swath, VV Polarization",
-  "CollectionGroup": "Satellite Data",
+  "CollectionGroup": "B. Satellite Data",
   "Themes": [
-    "Energy",
-    "Aquaculture",
     "Shipping"
   ],
   "Agency": [
