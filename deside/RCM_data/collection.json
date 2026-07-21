@@ -22,7 +22,7 @@
         "Shipping"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/Polartep_SeaIceCharts_demo/thumbnail.png"
       ],
       "agency": [
         ""
@@ -159,8 +159,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-07-21T06:15:47.818953Z",
-          "2026-07-21T06:15:47.818953Z"
+          "2026-07-21T13:08:05.699547Z",
+          "2026-07-21T13:08:05.699547Z"
         ]
       ]
     }
@@ -174,7 +174,7 @@
       "Shipping"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png"
+      "https://raw.githubusercontent.com/gtif-cerulean/assets/main/Polartep_SeaIceCharts_demo/thumbnail.png"
     ]
   }
 }

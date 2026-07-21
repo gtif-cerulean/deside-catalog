@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "DMI_polaris",
   "stac_version": "1.1.0",
-  "description": "https://raw.githubusercontent.com/gtif-cerulean/assets/markdowns/POLARIS.md",
+  "description": "POLARIS uses Risk Index Values (RIVs) which are assigned to a ship based on the ice class. The RIVs may be used to evaluate the limitations of the ship operating in an ice regime using input either from historic or current ice charts for voyage planning or in real time from the bridge of the ship.\r\n\r\nRIVs are assigned to the ship based on ice class and ice types present according to lookup tables. For each ice regime encountered, the Risk Index Values are used to determine a Risk Index Outcome (RIO) that forms the basis of the decision to operate or the limitation of operations.\r\n\r\nThe RIO is determined by a summation of the RIVs for each ice type present in the ice regime multiplied by its concentration (expressed in tenths):\r\n\r\nRIO = (C1xRIV1) + (C2 x RIV2) + (C3 x RIV3) + … (Cn x RIVn)\r\n\r\nWhere:\r\n\r\n-   C1…Cn are the concentrations (in tenths) of ice types within the ice regime; and\r\n-   RIV1…RIVn are the corresponding Risk Index Values for each ice type.\r\n\r\nPOLARIS addresses three levels of operation: normal operation, elevated operational risk and operation subject to special consideration. The RIO values in the following table show these three levels of operation.\r\n\r\nRIO Interpretation\r\n\r\n| **RIOSHIP**    | **Ice classes PC1-PC7**                    | **Ice classes below PC 7 and ships not assigned an ice class** |\r\n|----------------|--------------------------------------------|----------------------------------------------------------------|\r\n| RIO ≥ 0        | Normal operation                           | Normal operation                                               |\r\n| -10 ≤ RIO \\< 0 | Elevated operational risk                  | Operation subject to special consideration                     |\r\n| RIO \\< -10     | Operation subject to special consideration | Operation subject to special consideration                     |\r\n",
   "links": [
     {
       "rel": "root",
@@ -18,14 +18,12 @@
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "agency": [
     "DMI"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "A. Algorithms",
   "endpointtype": "FlatGeobuf source",
   "title": "POLARIS (DMI)",
   "extent": {

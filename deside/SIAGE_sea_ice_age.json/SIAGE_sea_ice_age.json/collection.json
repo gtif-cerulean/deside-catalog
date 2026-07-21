@@ -1,0 +1,96 @@
+{
+  "type": "Collection",
+  "id": "SIAGE_sea_ice_age.json",
+  "stac_version": "1.1.0",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
+      "type": "image/png",
+      "title": "Age of sea ice",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siage",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:viridis"
+      },
+      "key": "ef2944ca-b632-471c-bf99-90e8f27780f1"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00016",
+  "themes": [
+    "Shipping"
+  ],
+  "agency": [
+    "Mercator Ocean International "
+  ],
+  "collection_group": "Sea Ice",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
+  ],
+  "eox:colorlegend": {
+    "title": "Age of sea ice [years]",
+    "range": [
+      "rgb(253, 231, 36)",
+      "rgb(121, 209, 81)",
+      "rgb(34, 167, 132)",
+      "rgb(41, 120, 142)",
+      "rgb(64, 67, 135)",
+      "rgb(68, 1, 84)"
+    ],
+    "domain": [
+      0,
+      0.52
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Age of sea ice",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-01T00:00:00Z",
+          "2026-07-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

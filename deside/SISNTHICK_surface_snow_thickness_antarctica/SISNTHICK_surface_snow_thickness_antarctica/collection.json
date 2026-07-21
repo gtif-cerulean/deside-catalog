@@ -1,0 +1,107 @@
+{
+  "type": "Collection",
+  "id": "SISNTHICK_surface_snow_thickness_antarctica",
+  "stac_version": "1.1.0",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
+      "type": "image/png",
+      "title": "Surface snow thickness - Antarctica",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sisnthick",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:ice"
+      },
+      "key": "def1daf6-2b02-4242-8af8-a02cb85a2a6f"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness - Antarctica"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00016",
+  "themes": [
+    "Antarctica"
+  ],
+  "agency": [
+    "Mercator Ocean International "
+  ],
+  "collection_group": "L. Antarctica",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 0.083° × 0.083°",
+    "Frequency: Daily"
+  ],
+  "eodash:mapProjection": {
+    "name": "EPSG:32761",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [
+      -1371213.76,
+      -1405880.72,
+      5371213.76,
+      5405880.72
+    ]
+  },
+  "eox:colorlegend": {
+    "title": "Surface snow thickness [m]",
+    "range": [
+      "rgb(3, 5, 18)",
+      "rgb(48, 46, 95)",
+      "rgb(62, 93, 168)",
+      "rgb(82, 149, 192)",
+      "rgb(140, 203, 213)",
+      "rgb(234, 252, 253)"
+    ],
+    "domain": [
+      0,
+      1
+    ]
+  },
+  "proj:epsg": 3857,
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Surface snow thickness - Antarctica",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -100,
+          -75,
+          -70,
+          -68
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2026-07-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

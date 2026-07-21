@@ -1,0 +1,160 @@
+{
+  "type": "Collection",
+  "id": "NIC_Icecharts_arctic",
+  "stac_version": "1.1.0",
+  "description": "Collection of US Arctic ice charts since start of 2025",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./NIC_Icecharts_arctic/collection.json",
+      "type": "application/json",
+      "title": "NIC Ice charts Arctic",
+      "endpointtype": "GeoJSON source",
+      "id": "NIC_Icecharts_arctic",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "providers": [
+        "U.S. NATIONAL ICE CENTER (USNIC)",
+        "EOX"
+      ],
+      "agency": [
+        "USNIC"
+      ],
+      "collection_group": "Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    }
+  ],
+  "themes": [
+    "Aquaculture",
+    "Energy",
+    "Shipping"
+  ],
+  "agency": [
+    "USNIC"
+  ],
+  "collection_group": "Sea Ice",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
+  "title": "NIC Ice charts Arctic",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -3906762.150073499,
+          -5644039.787309173,
+          3607347.9113053097,
+          6645219.2042379165
+        ],
+        [
+          -3906762.150073499,
+          -5644039.787309173,
+          3607347.9113053097,
+          6645219.2042379165
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-03T00:00:00Z",
+          "2026-07-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "U.S. NATIONAL ICE CENTER (USNIC)",
+      "url": "https://usicecenter.gov/Products/ArcticCharts"
+    },
+    {
+      "name": "EOX",
+      "url": "https://eox.at/"
+    }
+  ],
+  "summaries": {
+    "themes": [
+      "Aquaculture",
+      "Energy",
+      "Shipping"
+    ]
+  }
+}

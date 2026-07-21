@@ -1,0 +1,98 @@
+{
+  "type": "Collection",
+  "id": "IBC_iceberg_concentration_IW",
+  "stac_version": "1.1.0",
+  "description": "The iceberg product contains two datasets describing iceberg concentration as number of icebergs counted within 10x10 km grid cells; one derived from Sentinel 1 IW mode and the other from Radarsat Constellation Mission data. The iceberg concentration is derived by applying a Constant False Alarm Rate (CFAR) algorithm on data from Synthetic Aperture Radar (SAR) satellite sensors.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC_IW-L4-NRT-OBS_202511",
+      "type": "image/png",
+      "title": "Number of icebergs per unit area (S1 IW)",
+      "wmts:layer": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC_IW-L4-NRT-OBS_202511/ibc",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:ice,range:0/1"
+      },
+      "key": "0e1c11ce-f7a9-4078-9c34-f3fe580332c5"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (S1 IW)"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00129",
+  "themes": [
+    "Shipping",
+    "Energy",
+    "Aquaculture"
+  ],
+  "agency": [
+    "DMI"
+  ],
+  "collection_group": "Icebergs",
+  "sensor": "Satellite S1 IW",
+  "otherSources": [
+    "Spatial Resolution: 10 km x 10 km",
+    "Frequency: Daily"
+  ],
+  "eox:colorlegend": {
+    "title": "Number of icebergs per unit area (S1 IW) [#/100 km^2]",
+    "range": [
+      "rgb(3, 5, 18)",
+      "rgb(48, 46, 95)",
+      "rgb(62, 93, 168)",
+      "rgb(82, 149, 192)",
+      "rgb(140, 203, 213)",
+      "rgb(234, 252, 253)"
+    ],
+    "domain": [
+      0,
+      1
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Number of icebergs per unit area (S1 IW)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          30.0,
+          179.8999999999795,
+          89.93999999999991
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-11-25T10:01:00Z",
+          "2026-07-21T08:53:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

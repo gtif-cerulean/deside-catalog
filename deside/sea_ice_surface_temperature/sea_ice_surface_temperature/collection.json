@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sea_ice_surface_temperature",
   "stac_version": "1.1.0",
-  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "d4edf7fc-8479-4780-b20a-69d5f3ee0924"
+      "key": "5f0610d4-e1f4-40d3-99f5-9d82a83a1f3d"
     },
     {
       "rel": "parent",
@@ -34,27 +34,28 @@
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Shipping"
+    "Shipping",
+    "Energy",
+    "Aquaculture"
   ],
   "agency": [
-    "CMEMS"
+    "Mercator Ocean International "
   ],
-  "subcode": "IST",
   "collection_group": "Sea Ice",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 0.083° × 0.083°",
+    "Frequency: Daily"
+  ],
   "eox:colorlegend": {
-    "title": "Sea ice surface temperature [degrees C]",
+    "title": "Sea ice surface temperature [°C]",
     "range": [
-      "rgba(68, 1, 84, 1)",
-      "rgba(72, 35, 116, 1)",
-      "rgba(64, 67, 135, 1)",
-      "rgba(52, 94, 141, 1)",
-      "rgba(41, 120, 142, 1)",
-      "rgba(32, 144, 140, 1)",
-      "rgba(34, 167, 132, 1)",
-      "rgba(68, 190, 112, 1)",
-      "rgba(121, 209, 81, 1)",
-      "rgba(189, 223, 38, 1)",
-      "rgba(253, 231, 37, 1)"
+      "rgb(68, 1, 84)",
+      "rgb(64, 67, 135)",
+      "rgb(41, 120, 142)",
+      "rgb(34, 167, 132)",
+      "rgb(121, 209, 81)",
+      "rgb(253, 231, 36)"
     ],
     "domain": [
       -27.37,
@@ -77,7 +78,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
+          "2022-06-01T00:00:00Z",
           "2026-07-30T00:00:00Z"
         ]
       ]

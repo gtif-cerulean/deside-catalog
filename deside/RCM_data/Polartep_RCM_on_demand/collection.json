@@ -17,7 +17,7 @@
       "title": "RADARSAT constellation mission (RCM) "
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/Polartep_SeaIceCharts_demo/thumbnail.png",
   "themes": [
     "Shipping"
   ],
@@ -52,7 +52,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-07-21T06:15:47.818953Z",
+          "2026-07-21T13:08:05.699547Z",
           null
         ]
       ]
@@ -61,7 +61,7 @@
   "license": "other",
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/collections/Polartep_SeaIceCharts_demo/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/Polartep_SeaIceCharts_demo/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

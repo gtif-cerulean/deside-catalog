@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "Sea_water_velocity",
+  "stac_version": "1.1.0",
+  "description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year's time series sliding window. This product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection. This product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-cur_anfc_0.083deg_P1D-m_202406",
+      "type": "image/png",
+      "title": "Sea water velocity",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-cur_anfc_0.083deg_P1D-m_202406/sea_water_velocity",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/1"
+      },
+      "key": "2af4a910-669c-4d0c-8822-e82060a33dac"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00016",
+  "themes": [
+    "Shipping",
+    "Aquaculture",
+    "Energy"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "collection_group": "Sea Water",
+  "eox:colorlegend": {
+    "title": "Sea water velocity [m/s]",
+    "range": [
+      "rgb(254, 252, 205)",
+      "rgb(216, 196, 95)",
+      "rgb(141, 161, 11)",
+      "rgb(50, 128, 30)",
+      "rgb(15, 83, 44)",
+      "rgb(23, 35, 18)"
+    ],
+    "domain": [
+      0,
+      1
+    ],
+    "tickFormat": ".1f"
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea water velocity",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2026-07-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

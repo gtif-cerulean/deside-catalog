@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "polaris_sentinel1",
   "stac_version": "1.1.0",
-  "description": "The Polar Operational Limit Assessment Risk Indexing System (POLARIS) is a methodology to assess the risk posed to a ship by ice conditions in relation to the ship's assigned ice class. It uses the WMO standard sea ice charts as the basis for the calculation.",
+  "description": "Provides the AI: Sea Ice Concentration, Sentinel 1EW HH, and DMI Ice Charts together so that they can be compared.",
   "links": [
     {
       "rel": "root",
@@ -12,20 +12,18 @@
     },
     {
       "rel": "child",
-      "href": "./Polaris_algorithm_dmi_demo/collection.json",
+      "href": "./DMI_Icecharts/collection.json",
       "type": "application/json",
-      "title": "POLARIS",
+      "title": "DMI Ice charts",
       "endpointtype": "FlatGeobuf source",
-      "code": "Polaris_algorithm_dmi_demo",
-      "id": "Polaris_algorithm_dmi_demo",
+      "id": "DMI_Icecharts",
       "themes": [
         "Shipping"
       ],
       "agency": [
-        "IMO"
+        "DMI"
       ],
-      "subcode": "Polaris_algorithm_dmi_demo",
-      "collection_group": "Capabilities"
+      "collection_group": "Sea Ice"
     },
     {
       "rel": "child",
@@ -33,42 +31,36 @@
       "type": "application/json",
       "title": "Sentinel 1 EW HH",
       "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
       "id": "Sentinel1-EW-HH",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "tags": [
-        "Sentinel",
-        "Open data"
-      ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "Sentinel Hub"
       ],
-      "subcode": "SHS1",
-      "collection_group": "Other data",
-      "satellite": [
-        "Sentinel-1"
-      ]
+      "collection_group": "Satellite Data"
     },
     {
       "rel": "child",
-      "href": "./sea_ice_detections/collection.json",
+      "href": "./dmi-asip-seaice-sic/collection.json",
       "type": "application/json",
-      "title": "Sea Ice Detections",
-      "endpointtype": "COG source",
-      "code": "SID",
-      "id": "sea_ice_detections",
+      "title": "AI: Sea Ice Concentration",
+      "endpointtype": "VEDA_tiles",
+      "id": "dmi-asip-seaice-sic",
       "themes": [
-        "shipping"
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
       ],
       "agency": [
-        "SMI"
+        "CMEMS"
       ],
-      "subcode": "SID",
       "collection_group": "Sea Ice"
     },
     {
@@ -152,9 +144,11 @@
   "themes": [
     "Shipping"
   ],
-  "subcode": "POS1",
-  "collection_group": "Capabilities",
-  "title": "POLARIS combined",
+  "agency": [
+    "DMI"
+  ],
+  "collection_group": "A. Algorithms",
+  "title": "Sea Ice Concentration Comparison",
   "extent": {
     "spatial": {
       "bbox": [
@@ -162,19 +156,25 @@
           -180,
           -85,
           180,
-          85.0
+          90.0
         ],
         [
-          -120.0,
-          14.0,
-          70.0,
-          85.0
+          -80.337264189091,
+          55.252643970043046,
+          10.033447326328545,
+          84.84935228034207
         ],
         [
-          -120.0,
-          14.0,
-          70.0,
-          85.0
+          -180,
+          -85,
+          180,
+          85
+        ],
+        [
+          -180.0,
+          30.979842711050686,
+          180.0,
+          90.0
         ]
       ]
     },
@@ -189,19 +189,10 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "Polaris_algorithm_dmi_demo",
-      "SHS1",
-      "SID"
-    ],
     "themes": [
       "Aquaculture",
       "Energy",
-      "shipping",
       "Shipping"
-    ],
-    "satellite": [
-      "Sentinel-1"
     ]
   }
 }

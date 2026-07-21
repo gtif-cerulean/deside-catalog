@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "DMI_polaris",
   "stac_version": "1.1.0",
-  "description": "https://raw.githubusercontent.com/gtif-cerulean/assets/markdowns/POLARIS.md",
+  "description": "POLARIS uses Risk Index Values (RIVs) which are assigned to a ship based on the ice class. The RIVs may be used to evaluate the limitations of the ship operating in an ice regime using input either from historic or current ice charts for voyage planning or in real time from the bridge of the ship.\r\n\r\nRIVs are assigned to the ship based on ice class and ice types present according to lookup tables. For each ice regime encountered, the Risk Index Values are used to determine a Risk Index Outcome (RIO) that forms the basis of the decision to operate or the limitation of operations.\r\n\r\nThe RIO is determined by a summation of the RIVs for each ice type present in the ice regime multiplied by its concentration (expressed in tenths):\r\n\r\nRIO = (C1xRIV1) + (C2 x RIV2) + (C3 x RIV3) + … (Cn x RIVn)\r\n\r\nWhere:\r\n\r\n-   C1…Cn are the concentrations (in tenths) of ice types within the ice regime; and\r\n-   RIV1…RIVn are the corresponding Risk Index Values for each ice type.\r\n\r\nPOLARIS addresses three levels of operation: normal operation, elevated operational risk and operation subject to special consideration. The RIO values in the following table show these three levels of operation.\r\n\r\nRIO Interpretation\r\n\r\n| **RIOSHIP**    | **Ice classes PC1-PC7**                    | **Ice classes below PC 7 and ships not assigned an ice class** |\r\n|----------------|--------------------------------------------|----------------------------------------------------------------|\r\n| RIO ≥ 0        | Normal operation                           | Normal operation                                               |\r\n| -10 ≤ RIO \\< 0 | Elevated operational risk                  | Operation subject to special consideration                     |\r\n| RIO \\< -10     | Operation subject to special consideration | Operation subject to special consideration                     |\r\n",
   "links": [
     {
       "rel": "root",
@@ -18,8 +18,6 @@
       "endpointtype": "FlatGeobuf source",
       "id": "DMI_polaris",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "providers": [
@@ -29,40 +27,66 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "A. Algorithms"
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "OSM Background",
-      "roles": [
-        "baselayer",
-        "visible"
-      ],
-      "id": "OSM"
-    },
-    {
-      "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "Terrain Light",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "terrain-light"
-    },
-    {
-      "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2024"
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -84,14 +108,12 @@
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "agency": [
     "DMI"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "A. Algorithms",
   "title": "POLARIS (DMI)",
   "extent": {
     "spatial": {
@@ -132,8 +154,6 @@
   ],
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy",
       "Shipping"
     ]
   }

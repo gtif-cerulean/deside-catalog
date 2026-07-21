@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "SICONC_sea_ice_concentration_Baltic",
+  "stac_version": "1.1.0",
+  "description": "The physical model provides forecasts for the conditions in the Baltic Sea. The forecast is for 10 days. Several datasets are provided: ice concentration and thickness, temperature, salinity, and currents. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product. Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
+      "type": "image/png",
+      "title": "Sea ice area fraction - Baltic Sea",
+      "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/siconc",
+      "role": [
+        "data"
+      ],
+      "key": "b585d8d7-0a7b-465e-8f05-17478b11e672"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction - Baltic Sea"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00010",
+  "themes": [
+    "Baltic Sea"
+  ],
+  "agency": [
+    "SMHI"
+  ],
+  "collection_group": "K. Baltic Sea",
+  "sensor": "Numerical models",
+  "otherSources": [
+    "Spatial Resolution: 2 × 2 km",
+    "Frequency: Daily "
+  ],
+  "eox:colorlegend": {
+    "title": "Sea ice area fraction",
+    "range": [
+      "rgb(3, 5, 18)",
+      "rgb(48, 46, 95)",
+      "rgb(62, 93, 168)",
+      "rgb(82, 149, 192)",
+      "rgb(140, 203, 213)",
+      "rgb(234, 252, 253)"
+    ],
+    "domain": [
+      0,
+      100
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea ice area fraction - Baltic Sea",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.041582107543945,
+          53.008296966552734,
+          30.208656311035156,
+          65.8909912109375
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-12-02T00:00:00Z",
+          "2026-07-29T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

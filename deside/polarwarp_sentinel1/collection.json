@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "polarwarp_sentinel1",
   "stac_version": "1.1.0",
-  "description": "There can be a long wait for the next satellite image to be received during which sea ice can move a considerable distance. The DESIDE Image Warp Capability transforms the current satellite image using a sea ice drift forecast to simulate what the ice in a region should look like in the future. The algorithm uses the neXtSIM model for ice drift forecasts up to six hours ahead.",
+  "description": "There can be a long wait for the next satellite image to be received during which sea ice can move a considerable distance. The Sea Ice Motion Animation algorithm transforms a satellite image using a sea ice drift forecast to simulate what the ice in a region should look like in the future. The algorithm uses the neXtSIM model for ice drift forecasts up to six hours ahead.\r\n\r\nThe neXtSIM model is a lagrangian sea ice model designed to address the challenges posed by the highly non-linear and evolving dynamics of Arctic sea ice. It employs an elasto-brittle rheology to capture the fracturing and deformation of sea ice with high fidelity. The model is forced with atmospheric and oceanic inputs from ECMWF and TOPAZ5 respectively and provides detailed forecasts of variables such as ice concentration, thickness, and most importantly, the sea ice drift in u and v components, which is used in the sea ice motion animation.\r\n\r\nThe following parameters are defined by the user:\r\n\r\n-   forecast duration: Number of hours the forecast should run, starting at the timestamp of the input image file,\r\n-   GCP separation: The maximum distance in pixels between the ground control points automatically set throughout the image.\r\n\r\nBy default, ground control points (GCPs) are set in the four corners of the image. However, the number of GCPs can be increased, placing more points across the image and hence increasing the resolution of the following image warping. The procedure uses an hourly time step, until the forecast reaches the end of the forecast time window. The transformation of the image is performed by the Thin Plate Spline (TPS) algorithm, which is a mathematical model used for non-rigid image alignment and deformation, offering a smooth mapping between points in two-dimensional space. It operates by minimizing the bending energy of a smooth surface that passes through a set of control points, making it ideal for warping applications.\r\n",
   "links": [
     {
       "rel": "root",
@@ -14,9 +14,8 @@
       "rel": "child",
       "href": "./polarwarp/collection.json",
       "type": "application/json",
-      "title": "Polar warp capability",
+      "title": "Sea Ice Motion Animation",
       "endpointtype": "Collection-only",
-      "code": "polarwarp",
       "id": "polarwarp",
       "themes": [
         "Shipping"
@@ -24,8 +23,7 @@
       "agency": [
         "Drift+Noise"
       ],
-      "subcode": "polarwarp",
-      "collection_group": "Capabilities",
+      "collection_group": "A. Algorithms",
       "eodash:mapProjection": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -37,26 +35,16 @@
       "type": "application/json",
       "title": "Sentinel 1 EW HH",
       "endpointtype": "Sentinel Hub WMS",
-      "code": "SHS1",
       "id": "Sentinel1-EW-HH",
       "themes": [
         "Energy",
         "Aquaculture",
         "Shipping"
       ],
-      "tags": [
-        "Sentinel",
-        "Open data"
-      ],
       "agency": [
-        "European Commission",
-        "ESA"
+        "Sentinel Hub"
       ],
-      "subcode": "SHS1",
-      "collection_group": "Other data",
-      "satellite": [
-        "Sentinel-1"
-      ]
+      "collection_group": "Satellite Data"
     },
     {
       "rel": "service",
@@ -149,14 +137,16 @@
   "themes": [
     "Shipping"
   ],
-  "subcode": "polarwarp_sentinel1",
-  "collection_group": "Capabilities",
+  "agency": [
+    "Drift+Noise"
+  ],
+  "collection_group": "A. Algorithms",
   "eodash:mapProjection": {
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polarwarp.json",
-  "title": "Polar warp capability",
+  "title": "Sea Ice Motion Animation",
   "extent": {
     "spatial": {
       "bbox": [
@@ -184,24 +174,17 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-07-21T06:15:14.217545Z"
+          "2026-07-21T13:07:18.013902Z"
         ]
       ]
     }
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "SHS1",
-      "polarwarp"
-    ],
     "themes": [
       "Aquaculture",
       "Energy",
       "Shipping"
-    ],
-    "satellite": [
-      "Sentinel-1"
     ]
   }
 }

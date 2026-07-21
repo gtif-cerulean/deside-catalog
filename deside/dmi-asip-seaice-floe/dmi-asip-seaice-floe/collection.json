@@ -1,0 +1,103 @@
+{
+  "type": "Collection",
+  "id": "dmi-asip-seaice-floe",
+  "stac_version": "1.1.0",
+  "description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/asip-seaice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=flz&nodata=-1&colormap=%7B%220%22%3A%20%5B160%2C232%2C91%5D%2C%221%22%3A%5B145%2C89%2C222%5D%2C%222%22%3A%5B91%2C131%2C19%5D%2C%20%223%22%3A%20%5B255%2C125%2C7%5D%7D",
+      "type": "image/png",
+      "title": "AI: Sea Ice Floe Size",
+      "key": "83d51b41-439c-4dce-bea6-32a42782fae1"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "AI: Sea Ice Floe Size"
+    }
+  ],
+  "sci:doi": "10.48670/mds-00343",
+  "themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "collection_group": "Sea Ice",
+  "eox:colorlegend": {
+    "title": "AI: Sea Ice Floe Size (width)",
+    "range": [
+      "rgb(160,232,91)",
+      "rgb(145,89,222)",
+      "rgb(91,131,19)",
+      "rgb(255,125,7)"
+    ],
+    "domain": [
+      "Small (<100m)",
+      "Medium (100m-500m)",
+      "Big (500m-2km)",
+      "Giant (>2 km)"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "AI: Sea Ice Floe Size",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          30.979842711050686,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-01-03T00:00:00Z",
+          "2026-07-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "CMEMS",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://marine.copernicus.eu"
+    },
+    {
+      "name": "EOX",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://eox.at/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

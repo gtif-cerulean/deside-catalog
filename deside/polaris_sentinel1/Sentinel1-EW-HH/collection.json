@@ -20,13 +20,14 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "wms:tilesize": 1024
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "POLARIS combined"
+      "title": "Sea Ice Concentration Comparison"
     }
   ],
   "themes": [
@@ -34,19 +35,10 @@
     "Aquaculture",
     "Shipping"
   ],
-  "tags": [
-    "Sentinel",
-    "Open data"
-  ],
   "agency": [
-    "European Commission",
-    "ESA"
+    "Sentinel Hub"
   ],
-  "subcode": "SHS1",
-  "collection_group": "Other data",
-  "satellite": [
-    "Sentinel-1"
-  ],
+  "collection_group": "Satellite Data",
   "endpointtype": "Sentinel Hub WMS",
   "title": "Sentinel 1 EW HH",
   "extent": {

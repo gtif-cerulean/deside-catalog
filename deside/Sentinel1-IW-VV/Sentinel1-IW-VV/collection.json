@@ -1,0 +1,75 @@
+{
+  "type": "Collection",
+  "id": "Sentinel1-IW-VV",
+  "stac_version": "1.1.0",
+  "description": "Sentinel 1, Interferometric Wide Swath, VV Polarization",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ce48ad62-7968-43f2-9008-848c7660f831",
+      "type": "image/png",
+      "title": "Sentinel 1 IW VV",
+      "wms:layers": [
+        "IW_VV_DB"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:tilesize": 1024
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 IW VV"
+    }
+  ],
+  "themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "agency": [
+    "Sentinel Hub"
+  ],
+  "collection_group": "Satellite Data",
+  "endpointtype": "Sentinel Hub WMS",
+  "title": "Sentinel 1 IW VV",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          85
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2026-07-21T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
