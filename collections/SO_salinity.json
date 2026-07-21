@@ -5,9 +5,11 @@
   "Themes": [
     "Aquaculture"
   ],
-  "CollectionGroup": "E. Sea Water",
+  "CollectionGroup": "Sea Water",
   "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical model"},
+    "Spaceborne": {
+      "Sensor": "Numerical model"
+    },
     "Other": [
       "Spatial Resolution: 0.083° x 0.083°",
       "Frequency: Daily"

@@ -2,7 +2,7 @@
     "Name": "Sentinel2-L2A",
     "Title": "Sentinel 2 L2A",
     "Description": "Sentinel 2, Level 2A",
-    "CollectionGroup": "B. Satellite Data",
+    "CollectionGroup": "Satellite Data",
     "Themes": [
         "Energy",
         "Aquaculture",

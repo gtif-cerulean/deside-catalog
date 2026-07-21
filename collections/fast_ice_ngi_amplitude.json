@@ -1,7 +1,7 @@
 {
     "Name": "Fast_Ice_NGI_Amplitude",
     "Title": "Fast Ice NGI Amplitude",
-    "CollectionGroup": "B. Satellite Data",
+    "CollectionGroup": "Satellite Data",
     "Themes": [
         "Energy",
         "Aquaculture",
@@ -31,8 +31,8 @@
     "Colorlegend": {
         "title": "Amplitude",
         "range": [
-      "#000000",
-      "#ffffff"
+            "#000000",
+            "#ffffff"
         ],
         "domain": [
             0,

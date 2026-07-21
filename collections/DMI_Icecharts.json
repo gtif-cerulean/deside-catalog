@@ -3,9 +3,9 @@
   "Title": "DMI Ice charts",
   "Subtitle": "",
   "Description": "Collection of Danish Meteorological Institute Ice Charts since start of 2025",
-  "CollectionGroup": "C. Sea Ice",
+  "CollectionGroup": "Sea Ice",
   "Themes": [
-   "Shipping"
+    "Shipping"
   ],
   "Agency": [
     "DMI"

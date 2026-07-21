@@ -3,9 +3,13 @@
     "Title": "CIS Ice charts",
     "Subtitle": "",
     "Description": "Collection of Canadian Ice Service since the start of 2025",
-    "CollectionGroup": "C. Sea Ice",
-    "Themes": ["Shipping"],
-    "Agency": ["CIS"],
+    "CollectionGroup": "Sea Ice",
+    "Themes": [
+        "Shipping"
+    ],
+    "Agency": [
+        "CIS"
+    ],
     "Provider": [
         {
             "Name": "Canadian Ice Service (CIS)",

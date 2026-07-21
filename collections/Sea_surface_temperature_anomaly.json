@@ -5,9 +5,11 @@
   "Themes": [
     "Aquaculture"
   ],
-  "CollectionGroup": "E. Sea Water",
+  "CollectionGroup": "Sea Water",
   "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical model"},
+    "Spaceborne": {
+      "Sensor": "Numerical model"
+    },
     "Other": [
       "Spatial Resolution: 0.083° x 0.083°",
       "Frequency: Daily"
@@ -19,7 +21,7 @@
   "Colorlegend": {
     "title": "Sea surface temperature anomaly [°C]",
     "range": [
-     "rgb(68, 1, 84)",
+      "rgb(68, 1, 84)",
       "rgb(64, 67, 135)",
       "rgb(41, 120, 142)",
       "rgb(34, 167, 132)",

@@ -7,20 +7,23 @@
     "Energy",
     "Aquaculture"
   ],
-  "CollectionGroup": "D. Icebergs",
+  "CollectionGroup": "Icebergs",
   "DataSource": {
-    "Spaceborne": {"Sensor": "Satellite S1 IW"},
+    "Spaceborne": {
+      "Sensor": "Satellite S1 IW"
+    },
     "Other": [
       "Spatial Resolution: 10 km x 10 km",
       "Frequency: Daily"
     ]
-  },"Agency": [
+  },
+  "Agency": [
     "DMI"
   ],
   "Colorlegend": {
     "title": "Number of icebergs per unit area (S1 IW) [#/100 km^2]",
     "range": [
-     "rgb(3, 5, 18)",
+      "rgb(3, 5, 18)",
       "rgb(48, 46, 95)",
       "rgb(62, 93, 168)",
       "rgb(82, 149, 192)",
@@ -51,7 +54,7 @@
       }
     }
   ],
- "Process": {
+  "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ibc.json",

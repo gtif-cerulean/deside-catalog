@@ -6,9 +6,11 @@
     "Aquaculture",
     "Shipping"
   ],
-  "CollectionGroup": "E. Sea Water",
+  "CollectionGroup": "Sea Water",
   "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical model"},
+    "Spaceborne": {
+      "Sensor": "Numerical model"
+    },
     "Other": [
       "Spatial Resolution: 0.083° x 0.083°",
       "Frequency: Daily"
@@ -17,10 +19,10 @@
   "Agency": [
     "Mercator Ocean International"
   ],
-   "Colorlegend": {
+  "Colorlegend": {
     "title": "Sea water potential temperature [°C]",
     "range": [
-     "rgb(3, 35, 51)",
+      "rgb(3, 35, 51)",
       "rgb(63, 51, 159)",
       "rgb(138, 82, 140)",
       "rgb(213, 107, 108)",
@@ -31,7 +33,8 @@
       -1.48,
       2.95
     ]
-  },"Citation": {
+  },
+  "Citation": {
     "DOI": "10.48670/moi-00016"
   },
   "Resources": [

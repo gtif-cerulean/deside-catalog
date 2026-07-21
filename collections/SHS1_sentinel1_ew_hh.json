@@ -2,13 +2,13 @@
   "Name": "Sentinel1-EW-HH",
   "Title": "Sentinel 1 EW HH",
   "Description": "SENTINEL 1, Extra Wide Swath, HH Polarization",
-  "CollectionGroup": "B. Satellite Data",
+  "CollectionGroup": "Satellite Data",
   "Themes": [
     "Energy",
     "Aquaculture",
     "Shipping"
   ],
-    "Agency": [
+  "Agency": [
     "Sentinel Hub"
   ],
   "Resources": [
@@ -23,4 +23,4 @@
       }
     }
   ]
- }
+}

@@ -1,8 +1,10 @@
 {
     "Name": "dmi-asip-seaice",
     "Title": "High Resolution Sea Ice Information L3 Arctic",
-    "CollectionGroup": "C. Sea Ice",
-    "Themes": ["Shipping"],
+    "CollectionGroup": "Sea Ice",
+    "Themes": [
+        "Shipping"
+    ],
     "Description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
     "Agency": [
         "DMI"
@@ -23,8 +25,16 @@
         {
             "Name": "CMEMS",
             "Url": "https://marine.copernicus.eu",
-            "Roles": ["producer"]
+            "Roles": [
+                "producer"
+            ]
         },
-        { "Name": "EOX", "Url": "https://eox.at/", "Roles": ["processor"] }
+        {
+            "Name": "EOX",
+            "Url": "https://eox.at/",
+            "Roles": [
+                "processor"
+            ]
+        }
     ]
 }
