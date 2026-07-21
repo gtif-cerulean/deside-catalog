@@ -1,11 +1,9 @@
 {
     "Name": "Fast_Ice_NGI_Amplitude",
     "Title": "Fast Ice NGI Amplitude",
-    "CollectionGroup": "Satellite Data",
+    "CollectionGroup": "C. Sea Ice",
     "Themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Landfast Sea Ice"
     ],
     "Description": "Fast Ice NGI",
     "Resources": [

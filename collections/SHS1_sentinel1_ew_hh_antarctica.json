@@ -2,7 +2,7 @@
   "Name": "Sentinel1-EW-HH_antarctica",
   "Title": "Sentinel 1 EW HH Antarctica",
   "Description": "Sentinel 1, Extra Wide Swath, HH Polarization",
-  "CollectionGroup": "L. Antarctica",
+  "CollectionGroup": "J. Antarctica",
   "Themes": [
     "Antarctica"
   ],

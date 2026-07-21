@@ -1,7 +1,7 @@
 {
     "Name": "dmi-asip-seaice",
     "Title": "High Resolution Sea Ice Information L3 Arctic",
-    "CollectionGroup": "Sea Ice",
+    "CollectionGroup": "C. Sea Ice",
     "Themes": [
         "Shipping"
     ],

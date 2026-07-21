@@ -2,7 +2,7 @@
   "Name": "polarwarp_sentinel1",
   "Title": "Sea Ice Motion Animation",
   "Description": "markdowns/Sea_Ice_Motion_Animation.md",
-  "CollectionGroup": "Capabilites",
+  "CollectionGroup": "A. Algorithms",
   "Themes": [
     "Shipping"
   ],

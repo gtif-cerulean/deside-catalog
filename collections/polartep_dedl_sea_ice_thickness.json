@@ -1,7 +1,7 @@
 {
     "Name": "Polartep_sea_ice_thickness_dedl_on_demand",
     "Title": "Sea Ice Thickness from DestinE On Demand",
-    "CollectionGroup": "Capabilities",
+    "CollectionGroup": "C. Sea Ice",
     "Description": "Sea Ice Thickness from DestinE visualized On Demand. Important note: Displayed is only first time slice of the requested time interval at the moment.",
     "Themes": [
         "Shipping"

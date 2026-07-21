@@ -3,11 +3,9 @@
     "Title": "NIC Ice charts Arctic",
     "Subtitle": "",
     "Description": "Collection of US Arctic ice charts since start of 2025",
-    "CollectionGroup": "Sea Ice",
+    "CollectionGroup": "C. Sea Ice",
     "Themes": [
-        "Aquaculture",
-        "Energy",
-        "Shipping"
+      "Shipping"
     ],
     "Tags": [],
     "Other": [],

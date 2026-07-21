@@ -8,7 +8,7 @@
   ],
   "Agency": ["CMEMS"],
   "Citation": {
-    "DOI": "10.48670/moi-00010",
+    "DOI": "10.48670/moi-00010"
   },
   "Resources": [
     {
@@ -21,7 +21,7 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {},
+      "Dimensions": {}
     }
   ],
   "Colorlegend": {
@@ -48,5 +48,5 @@
       }
     ]
   },
-  "CollectionGroup": "Baltic"
+  "CollectionGroup": "I. Baltic"
 }
