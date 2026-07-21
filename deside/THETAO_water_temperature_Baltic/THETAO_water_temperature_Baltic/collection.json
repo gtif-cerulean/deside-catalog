@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:thermal"
       },
-      "key": "21621fde-4379-45dc-b45e-baa4e464b904"
+      "key": "5f59008e-65f9-4a96-809e-3e537272ad08"
     },
     {
       "rel": "parent",
@@ -38,7 +38,7 @@
   "agency": [
     "SMHI"
   ],
-  "collection_group": "K. Baltic Sea",
+  "collection_group": "Baltic",
   "sensor": "Numerical models",
   "otherSources": [
     "Spatial Resolution: 2 × 2 km",

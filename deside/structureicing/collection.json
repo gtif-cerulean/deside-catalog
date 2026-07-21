@@ -25,7 +25,7 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "A. Algorithms"
+      "collection_group": "Capabilites"
     },
     {
       "rel": "service",
@@ -123,7 +123,7 @@
   "agency": [
     "C-CORE"
   ],
-  "collection_group": "A. Algorithms",
+  "collection_group": "Capabilites",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/structureicing.json",
   "title": "Structure Icing Index",
   "extent": {
@@ -140,8 +140,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-07-21T13:16:25.869416Z",
-          "2026-07-21T13:16:25.869416Z"
+          "2026-07-21T13:33:25.070177Z",
+          "2026-07-21T13:33:25.070177Z"
         ]
       ]
     }

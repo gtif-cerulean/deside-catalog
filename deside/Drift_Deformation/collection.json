@@ -134,7 +134,7 @@
   "agency": [
     "C-CORE"
   ],
-  "collection_group": "A. Algorithms",
+  "collection_group": "Capabilites",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/drift_deformation.json",
   "title": "Sea Ice Drift and Deformation",
   "extent": {

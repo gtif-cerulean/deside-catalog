@@ -38,7 +38,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "A. Algorithms"
+      "collection_group": "Capabilites"
     },
     {
       "rel": "child",
@@ -469,7 +469,7 @@
       "agency": [
         "Drift+Noise"
       ],
-      "collection_group": "A. Algorithms",
+      "collection_group": "Capabilites",
       "eodash:mapProjection": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -709,7 +709,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "A. Algorithms"
+      "collection_group": "Capabilites"
     },
     {
       "rel": "child",
@@ -800,7 +800,7 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "A. Algorithms"
+      "collection_group": "Capabilites"
     },
     {
       "rel": "child",
@@ -864,63 +864,6 @@
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
       ]
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_surface_temperature_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea ice surface temperature - Antarctica",
-      "id": "sea_ice_surface_temperature_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "L. Antarctica",
-      "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Daily"
-      ],
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./NIC_Icecharts_Antarctica/collection.json",
-      "type": "application/json",
-      "title": "NIC Ice charts Antarctica",
-      "id": "NIC_Icecharts_Antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "providers": [
-        "U.S. NATIONAL ICE CENTER (USNIC)",
-        "EOX"
-      ],
-      "agency": [
-        "USNIC"
-      ],
-      "collection_group": "L. Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
     },
     {
       "rel": "child",
@@ -994,7 +937,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "K. Baltic Sea",
+      "collection_group": "Baltic",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
@@ -1018,30 +961,6 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel1-EW-HH_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sentinel 1 EW HH Antarctica",
-      "id": "Sentinel1-EW-HH_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "agency": [
-        "Sentinel Hub"
-      ],
-      "collection_group": "L. Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
       "href": "./Sentinel1-IW-VV/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 IW VV",
@@ -1055,30 +974,6 @@
         "Sentinel Hub"
       ],
       "collection_group": "Satellite Data"
-    },
-    {
-      "rel": "child",
-      "href": "./Sentinel1-IW-VV_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sentinel 1 IW VV Antarctica",
-      "id": "Sentinel1-IW-VV_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "agency": [
-        "Sentinel Hub"
-      ],
-      "collection_group": "L. Antarctica",
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
     },
     {
       "rel": "child",
@@ -1117,35 +1012,6 @@
     },
     {
       "rel": "child",
-      "href": "./SIAGE_sea_ice_age_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Age of sea ice - Antarctica",
-      "id": "SIAGE_sea_ice_age_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International "
-      ],
-      "collection_group": "L. Antarctica",
-      "otherSources": [
-        "Spatial Resolution: 0.083° x 0.083°",
-        "Frequency: Daily"
-      ],
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
       "href": "./SICONC_sea_ice_concentration/collection.json",
       "type": "application/json",
       "title": "Sea ice area fraction",
@@ -1167,25 +1033,6 @@
     },
     {
       "rel": "child",
-      "href": "./SICONC_sea_ice_concentration_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea ice area fraction - Antarctica",
-      "id": "SICONC_sea_ice_concentration_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International "
-      ],
-      "collection_group": "L. Antarctica",
-      "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
       "href": "./SICONC_sea_ice_concentration_Baltic/collection.json",
       "type": "application/json",
       "title": "Sea ice area fraction - Baltic Sea",
@@ -1197,7 +1044,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "K. Baltic Sea",
+      "collection_group": "Baltic",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
@@ -1224,35 +1071,6 @@
     },
     {
       "rel": "child",
-      "href": "./SISNTHICK_surface_snow_thickness_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Surface snow thickness - Antarctica",
-      "id": "SISNTHICK_surface_snow_thickness_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International "
-      ],
-      "collection_group": "L. Antarctica",
-      "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Daily"
-      ],
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
       "href": "./SITHICK_sea_ice_thickness/collection.json",
       "type": "application/json",
       "title": "Sea ice thickness",
@@ -1274,35 +1092,6 @@
     },
     {
       "rel": "child",
-      "href": "./SITHICK_sea_ice_thickness_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea ice thickness - Antarctica",
-      "id": "SITHICK_sea_ice_thickness_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International "
-      ],
-      "collection_group": "L. Antarctica",
-      "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Daily"
-      ],
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
-    },
-    {
-      "rel": "child",
       "href": "./SITHICK_sea_ice_thickness_Baltic/collection.json",
       "type": "application/json",
       "title": "Sea ice thickness - Baltic Sea",
@@ -1314,7 +1103,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "K. Baltic Sea",
+      "collection_group": "Baltic",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
@@ -1340,35 +1129,6 @@
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
       ]
-    },
-    {
-      "rel": "child",
-      "href": "./SIVELO_sea_ice_speed_antarctica/collection.json",
-      "type": "application/json",
-      "title": "Sea ice speed - Antarctica",
-      "id": "SIVELO_sea_ice_speed_antarctica",
-      "themes": [
-        "Antarctica"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International "
-      ],
-      "collection_group": "L. Antarctica",
-      "otherSources": [
-        "Spatial Resolution: 0.083° × 0.083°",
-        "Frequency: Daily"
-      ],
-      "eodash:mapProjection": {
-        "name": "EPSG:32761",
-        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
-        "extent": [
-          -1371213.76,
-          -1405880.72,
-          5371213.76,
-          5405880.72
-        ]
-      }
     },
     {
       "rel": "child",
@@ -1402,7 +1162,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "K. Baltic Sea",
+      "collection_group": "Baltic",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
@@ -1422,7 +1182,7 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "A. Algorithms"
+      "collection_group": "Capabilites"
     },
     {
       "rel": "child",
@@ -1457,7 +1217,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "K. Baltic Sea",
+      "collection_group": "Baltic",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "

@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "b585d8d7-0a7b-465e-8f05-17478b11e672"
+      "key": "6d8ee441-241a-4761-a0da-7660259a8aef"
     },
     {
       "rel": "parent",
@@ -35,7 +35,7 @@
   "agency": [
     "SMHI"
   ],
-  "collection_group": "K. Baltic Sea",
+  "collection_group": "Baltic",
   "sensor": "Numerical models",
   "otherSources": [
     "Spatial Resolution: 2 × 2 km",
