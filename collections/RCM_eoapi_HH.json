@@ -1,0 +1,41 @@
+{
+  "Name": "RCM_eoapi_HH",
+  "Title": "RCM scenes HH",
+  "CollectionGroup": "B. Satellite Data",
+  "Themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "Description": "RCM Data collection",
+  "Resources": [
+    {
+      "EndPoint": "https://eoapi.workspace.cif.hub-otc.eox.at/stac/",
+      "Name": "VEDA",
+      "Type": "tiles",
+      "CollectionId": "RCM",
+      "ColormapName": "gray",
+      "Rescale": [
+        0,
+        0.05
+      ],
+      "Assets": [
+        "HH"
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Colorlegend": {
+    "title": "HH sigma0",
+    "range": [
+      "#000000",
+      "#ffffff"
+    ],
+    "domain": [
+      0,
+      0.05
+    ]
+  }
+}

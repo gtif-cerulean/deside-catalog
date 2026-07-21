@@ -1,0 +1,66 @@
+{
+  "Name": "IBC_iceberg_concentration_IW",
+  "Title": "Number of icebergs per unit area (S1 IW)",
+  "Description": "The iceberg product contains two datasets describing iceberg concentration as number of icebergs counted within 10x10 km grid cells; one derived from Sentinel 1 IW mode and the other from Radarsat Constellation Mission data. The iceberg concentration is derived by applying a Constant False Alarm Rate (CFAR) algorithm on data from Synthetic Aperture Radar (SAR) satellite sensors.",
+  "Themes": [
+    "Shipping",
+    "Energy",
+    "Aquaculture"
+  ],
+  "CollectionGroup": "D. Icebergs",
+  "DataSource": {
+    "Spaceborne": {"Sensor": "Satellite S1 IW"},
+    "Other": [
+      "Spatial Resolution: 10 km x 10 km",
+      "Frequency: Daily"
+    ]
+  },"Agency": [
+    "DMI"
+  ],
+  "Colorlegend": {
+    "title": "Number of icebergs per unit area (S1 IW) [#/100 km^2]",
+    "range": [
+     "rgb(3, 5, 18)",
+      "rgb(48, 46, 95)",
+      "rgb(62, 93, 168)",
+      "rgb(82, 149, 192)",
+      "rgb(140, 203, 213)",
+      "rgb(234, 252, 253)"
+    ],
+    "domain": [
+      0,
+      1
+    ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00129"
+  },
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC_IW-L4-NRT-OBS_202511",
+      "Type": "WMTSCapabilities",
+      "Name": "marinedatastore",
+      "LayerId": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/DMI-ARC-SEAICE_BERG_MOSAIC_IW-L4-NRT-OBS_202511/ibc",
+      "Query": {
+        "Start": "2021-01-01T00:00:00Z",
+        "End": "2030-01-01T00:00:00Z"
+      },
+      "Dimensions": {
+        "elevation": 0,
+        "style": "cmap:ice,range:0/1"
+      }
+    }
+  ],
+ "Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ibc.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=DMI-ARC-SEAICE_BERG_MOSAIC-L4-NRT-OBS&variables=ibc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  }
+}

@@ -1,11 +1,13 @@
 {
   "Name": "polarwarp_sentinel1",
-  "Title": "Polar warp capability",
-  "EodashIdentifier": "polarwarp_sentinel1",
-  "Description": "There can be a long wait for the next satellite image to be received during which sea ice can move a considerable distance. The DESIDE Image Warp Capability transforms the current satellite image using a sea ice drift forecast to simulate what the ice in a region should look like in the future. The algorithm uses the neXtSIM model for ice drift forecasts up to six hours ahead.",
-  "CollectionGroup": "Capabilities",
+  "Title": "Sea Ice Motion Animation",
+  "Description": "markdowns/Sea_Ice_Motion_Animation.md",
+  "CollectionGroup": "A. Algorithms",
   "Themes": ["Shipping"],
   "Collections": ["polarwarp", "SHS1_sentinel1_ew_hh"],
+  "Agency": [
+        "Drift+Noise"
+    ],
   "MapProjection": {
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"

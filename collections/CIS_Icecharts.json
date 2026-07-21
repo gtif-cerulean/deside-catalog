@@ -1,0 +1,23 @@
+{
+    "Name": "CIS_Icecharts",
+    "Title": "CIS Ice charts",
+    "Subtitle": "",
+    "Description": "Collection of Canadian Ice Service since the start of 2025",
+    "CollectionGroup": "C. Sea Ice",
+    "Themes": ["Shipping"],
+    "Agency": ["CIS"],
+    "Provider": [
+        {
+            "Name": "Canadian Ice Service (CIS)",
+            "Url": "https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/about-ice-service.html"
+        }
+    ],
+    "Resources": [
+        {
+            "Name": "FlatGeobuf source",
+            "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/cis-ice-charts/geojsons/daily_items.parquet",
+            "Style": "",
+            "TimeEntries": []
+        }
+    ]
+}

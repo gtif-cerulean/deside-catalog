@@ -1,0 +1,42 @@
+{
+    "Name": "Fast_Ice_NGI_Strainrate",
+    "Title": "Fast Ice NGI Strainrate",
+    "CollectionGroup": "B. Satellite Data",
+    "Themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+    ],
+    "Description": "Fast Ice NGI",
+    "Resources": [
+        {
+            "EndPoint": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/stac/",
+            "Name": "VEDA",
+            "Type": "tiles",
+            "CollectionId": "Fast_Ice",
+            "ColormapName": "spring_r",
+            "Assets": [
+                "StrainRate"
+            ],
+            "Rescale": [
+                0,
+                0.0001
+            ],
+            "NoData": "NaN"
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Colorlegend": {
+        "title": "Apparent look-directional average strain rate (in mm/km/day)",
+        "range": [
+            "#FFFF00",
+            "#FF00FF"
+        ],
+        "domain": [
+            0,
+            100
+        ]
+    }
+}

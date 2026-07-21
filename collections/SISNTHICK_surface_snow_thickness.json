@@ -1,10 +1,8 @@
 {
-  "Name": "SIVELO_sea_ice_speed",
-  "Title": "Sea ice speed",
+  "Name": "SISNTHICK_surface_snow_thickness",
+  "Title": "Surface snow thickness",
   "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "Themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "CollectionGroup": "C. Sea Ice",
@@ -19,14 +17,14 @@
     "Mercator Ocean International"
   ],
   "Colorlegend": {
-    "title": "Sea ice speed [m/s]",
+    "title": "Surface snow thickness [m]",
     "range": [
-      "rgb(254, 252, 205)",
-      "rgb(216, 196, 95)",
-      "rgb(141, 161, 11)",
-      "rgb(50, 128, 30)",
-      "rgb(15, 83, 44)",
-      "rgb(23, 35, 18)"
+      "rgb(3, 5, 18)",
+      "rgb(48, 46, 95)",
+      "rgb(62, 93, 168)",
+      "rgb(82, 149, 192)",
+      "rgb(140, 203, 213)",
+      "rgb(234, 252, 253)"
     ],
     "domain": [
       0,
@@ -41,25 +39,25 @@
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "Type": "WMTSCapabilities",
       "Name": "marinedatastore",
-      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sea_ice_velocity",
+      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sisnthick",
       "Query": {
         "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
         "elevation": 0,
-        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.3"
+        "style": "cmap:ice"
       }
     }
   ],
   "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sivelo.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sisnthick.json",
     "EndPoints": [
       {
         "Identifier": "process_cmems",
-        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sivelo&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sisnthick&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
         "Type": "application/json"
       }
     ]

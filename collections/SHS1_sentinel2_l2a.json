@@ -1,0 +1,26 @@
+{
+    "Name": "Sentinel2-L2A",
+    "Title": "Sentinel 2 L2A",
+    "Description": "Sentinel 2, Level 2A",
+    "CollectionGroup": "B. Satellite Data",
+    "Themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+    ],
+    "Agency": [
+        "Sentinel Hub"
+    ],
+    "Resources": [
+        {
+            "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
+            "Name": "Sentinel Hub WMS",
+            "LayerId": "S2_L2A",
+            "TileSize": 1024,
+            "DateTimeInterval": {
+                "Start": "2022-01-01T00:00:00Z",
+                "End": "today"
+            }
+        }
+    ]
+}
