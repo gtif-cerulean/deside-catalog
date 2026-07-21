@@ -1,0 +1,39 @@
+{
+  "Name": "Drift_Deformation",
+  "Title": "Sea Ice Drift and Deformation",
+  "Description": "markdowns/Sea_Ice_Drift_and_Deformation.md",
+  "Themes": ["Shipping"],
+  "CollectionGroup": "A. Algorithms",
+  "Agency": [
+        "C-CORE"
+    ],
+  "Collections": ["SHS1_sentinel1_ew_hh"],
+  "Process": {
+    "Name": "drift_deformation",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/drift_deformation.json",
+    "EndPoints": [
+      {
+        "Identifier": "drift_deformation",
+        "Url": "https://harshness-map.gtif.eox.at/processes/execute-deformation/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/drift_deformation.json",
+        "Type": "text/plain",
+        "Flatstyle": [
+          {
+            "Identifier": "output_feature_tracking",
+            "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_ft_style.json"
+          },
+          {
+            "Identifier": "output_deformation",
+            "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_deformation_style.json"
+          },
+          {
+            "Identifier": "output_pm",
+            "Url": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/drift_deformation_pm_style.json"
+          }
+        ]
+      }
+    ]
+  }
+}

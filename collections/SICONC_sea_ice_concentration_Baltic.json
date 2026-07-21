@@ -1,0 +1,62 @@
+{
+  "Name": "SICONC_sea_ice_concentration_Baltic",
+  "Title": "Sea ice area fraction - Baltic Sea",
+  "Description": "The physical model provides forecasts for the conditions in the Baltic Sea. The forecast is for 10 days. Several datasets are provided: ice concentration and thickness, temperature, salinity, and currents. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product. Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
+  "Themes": [
+    "Baltic Sea"
+  ],
+  "CollectionGroup": "K. Baltic Sea",
+    "DataSource": {
+    "Spaceborne": {"Sensor": "Numerical models"},
+    "Other": [
+      "Spatial Resolution: 2 × 2 km",
+      "Frequency: Daily "
+    ]
+  },"Agency": [
+    "SMHI"
+  ],
+  "Colorlegend": {
+    "title": "Sea ice area fraction",
+    "range": [
+      "rgb(3, 5, 18)",
+      "rgb(48, 46, 95)",
+      "rgb(62, 93, 168)",
+      "rgb(82, 149, 192)",
+      "rgb(140, 203, 213)",
+      "rgb(234, 252, 253)"
+    ],
+    "domain": [
+     0,
+      100
+    ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00010"
+  },
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
+      "Name": "marinedatastore",
+      "Type": "WMTSCapabilities",
+      "LayerId": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/siconc",
+      "Query": {
+        "Start": "2021-01-01T00:00:00Z",
+        "End": "2030-01-01T00:00:00Z"
+      },
+      "Variable": "",
+      "Dimensions": {}
+    }
+  ],
+    "Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_bal_phy_anfc_P1D-m&variables=siconc&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  }
+}

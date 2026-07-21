@@ -1,0 +1,63 @@
+{
+    "Name": "dmi-asip-seaice-floe",
+    "Title": "AI: Sea Ice Floe Size",
+    "CollectionGroup": "Sea Ice",
+    "Themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+    ],
+    "Description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
+    "Resources": [
+        {
+            "EndPoint": "https://eoapi.workspace.cif.hub-otc.eox.at/stac/",
+            "Name": "VEDA",
+            "Type": "tiles",
+            "NoData": -1,
+            "CollectionId": "asip-seaice",
+            "Colormap": "%7B%220%22%3A%20%5B160%2C232%2C91%5D%2C%221%22%3A%5B145%2C89%2C222%5D%2C%222%22%3A%5B91%2C131%2C19%5D%2C%20%223%22%3A%20%5B255%2C125%2C7%5D%7D",
+            "Assets": [
+                "flz"
+            ]
+        }
+    ],
+    "Citation": {
+        "DOI": "10.48670/mds-00343"
+    },
+    "Provider": [
+        {
+            "Name": "CMEMS",
+            "Url": "https://marine.copernicus.eu",
+            "Roles": [
+                "producer"
+            ]
+        },
+        {
+            "Name": "EOX",
+            "Url": "https://eox.at/",
+            "Roles": [
+                "processor"
+            ]
+        }
+    ],
+    "Agency": [
+        "CMEMS"
+    ],
+    "Colorlegend": {
+        "title": "AI: Sea Ice Floe Size (width)",
+        "range": [
+            "rgb(160,232,91)",
+            "rgb(145,89,222)",
+            "rgb(91,131,19)",
+            "rgb(255,125,7)"
+        ],
+        "domain": [
+            "Small (<100m)",
+            "Medium (100m-500m)",
+            "Big (500m-2km)",
+            "Giant (>2 km)"
+        ],
+        "scaleType": "categorical",
+        "markType": "circle"
+    }
+}

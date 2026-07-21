@@ -1,7 +1,7 @@
 {
-  "Name": "Sentinel1-EW-HH",
-  "Title": "Sentinel 1 EW HH",
-  "Description": "SENTINEL 1, Extra Wide Swath, HH Polarization",
+  "Name": "Sentinel1-IW-VV",
+  "Title": "Sentinel 1 IW VV",
+  "Description": "Sentinel 1, Interferometric Wide Swath, VV Polarization",
   "CollectionGroup": "Satellite Data",
   "Themes": [
     "Energy",
@@ -15,7 +15,7 @@
     {
       "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
       "Name": "Sentinel Hub WMS",
-      "LayerId": "EW_HH_DB",
+      "LayerId": "IW_VV_DB",
       "TileSize": 1024,
       "DateTimeInterval": {
         "Start": "2022-01-01T00:00:00Z",

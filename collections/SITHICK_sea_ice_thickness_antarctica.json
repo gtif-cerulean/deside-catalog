@@ -1,0 +1,116 @@
+{
+  "Name": "SITHICK_sea_ice_thickness_antarctica",
+  "Title": "Sea ice thickness - Antarctica",
+ "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
+  "Themes": [
+    "Antarctica"
+  ],
+  "CollectionGroup": "L. Antarctica",
+  "DataSource": {
+    "Spaceborne": {"Sensor": "Numerical model"},
+    "Other": [
+      "Spatial Resolution: 0.083° × 0.083°",
+      "Frequency: Daily"
+    ]
+  },
+  "Agency": [
+    "Mercator Ocean International "
+  ],
+  "Colorlegend": {
+    "title": "Sea ice thickness [m]",
+    "range": [
+      "rgb(3, 5, 18)",
+      "rgb(48, 46, 95)",
+      "rgb(62, 93, 168)",
+      "rgb(82, 149, 192)",
+      "rgb(140, 203, 213)",
+      "rgb(234, 252, 253)"
+    ],
+    "domain": [
+      0,
+      1
+    ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00016"
+  },
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
+      "Type": "WMTSCapabilities",
+      "Name": "marinedatastore",
+      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sithick",
+      "Query": {
+        "Start": "2021-01-01T00:00:00Z",
+        "End": "2030-01-01T00:00:00Z"
+      },
+      "Dimensions": {
+        "elevation": 0,
+        "style": "cmap:ice"
+      },
+      "OverwriteBBox": [
+        -100,
+        -75,
+        -70,
+        -68
+      ],
+      "DataProjection": 3857
+    }
+  ],
+  "Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy_anfc_0.083deg_P1D-m&variables=sithick&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  },
+  "MapProjection": {
+    "name": "EPSG:32761",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [
+      -1371213.76,
+      -1405880.72,
+      5371213.76,
+      5405880.72
+    ]
+  },
+  "BaseLayers": [
+    {
+      "id": "cloudless-2023",
+      "name": "EOxCloudless 2023",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ EOxCloudless 2023: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2023) }",
+      "maxNativeZoom": 17,
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "OSM",
+      "name": "OSM Background",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "sx-cat_ortho320500",
+      "name": "Terrain Light Stereographic South",
+      "url": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "layers": "sx-cat_ortho320500",
+      "visible": true,
+      "protocol": "wms",
+      "DataProjection": {
+        "name": "ORTHO:320500",
+        "def": "+proj=ortho +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
+      },
+      "Attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    }
+  ]
+}

@@ -1,23 +1,32 @@
 {
-  "Name": "salinity",
-  "Title": "Salinity",
-  "EodashIdentifier": "SO",
-  "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year\u2019s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "Name": "SO_salinity",
+  "Title": "Sea water salinity",
+  "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "Themes": [
-    "Shipping"
+    "Aquaculture"
   ],
   "CollectionGroup": "Sea Water",
+  "DataSource": {
+    "Spaceborne": {
+      "Sensor": "Numerical model"
+    },
+    "Other": [
+      "Spatial Resolution: 0.083° x 0.083°",
+      "Frequency: Daily"
+    ]
+  },
   "Agency": [
-    "CMEMS"
+    "Mercator Ocean International"
   ],
   "Colorlegend": {
-    "title": "Salinity [1e-3]",
+    "title": "Salinity [/10^3]",
     "range": [
-      "rgb(36, 16, 105)",
-      "rgb(12, 77, 151)",
-      "rgb(55, 142, 132)",
-      "rgb(135, 207, 97)",
-      "rgb(246, 237, 146)"
+      "rgb(41, 24, 107)",
+      "rgb(12, 77, 150)",
+      "rgb(44, 124, 136)",
+      "rgb(74, 169, 128)",
+      "rgb(148, 211, 93)",
+      "rgb(253, 238, 153)"
     ],
     "domain": [
       30,
@@ -34,7 +43,7 @@
       "Name": "marinedatastore",
       "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-so_anfc_0.083deg_P1D-m_202406/so",
       "Query": {
-        "Start": "2024-01-01T00:00:00Z",
+        "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
