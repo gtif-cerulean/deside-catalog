@@ -1,15 +1,17 @@
 {
   "Name": "polaris_sentinel1",
-  "Title": "POLARIS combined",
-  "EodashIdentifier": "POS1",
-  "Description": "The Polar Operational Limit Assessment Risk Indexing System (POLARIS) is a methodology to assess the risk posed to a ship by ice conditions in relation to the ship's assigned ice class. It uses the WMO standard sea ice charts as the basis for the calculation.",
-  "CollectionGroup": "Capabilities",
+  "Title": "Sea Ice Concentration Comparison",
+  "Description": "Provides the AI: Sea Ice Concentration, Sentinel 1EW HH, and DMI Ice Charts together so that they can be compared.",
+  "CollectionGroup": "A. Algorithms",
+  "Agency": [
+        "DMI"
+    ],
   "Themes": [
     "Shipping"
   ],
   "Collections": [
-    "polaris",
+    "DMI_Icecharts",
     "SHS1_sentinel1_ew_hh",
-    "SID_sea_ice_detections"
+    "dmi-asip-seaice-sic"
   ]
 }

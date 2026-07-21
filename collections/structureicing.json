@@ -1,12 +1,12 @@
 {
   "Name": "structureicing",
-  "Title": "Icing Predictor Index",
-  "EodashIdentifier": "structureicing",
-  "CollectionGroup": "Capabilities",
-  "Description": "structureicing/structureicing.md",
+  "Title": "Structure Icing Index",
+  "CollectionGroup": "A. Algorithms",
+  "Description": "markdowns/Structure_Icing_Index.md",
   "Themes": [
     "Shipping",
-    "Climate"
+    "Aquaculture",
+    "Energy"
   ],
   "Agency": [
     "C-CORE"
@@ -14,8 +14,10 @@
   "Resources": [
     {
       "Name": "Collection-only",
-      "EndPoint": "Collection-only",
-      "OverwriteBBox": [
+      "Query": {
+        "Start": "2020-01-01T00:00:00Z",
+        "End": "2022-12-31T00:00:00Z"
+      },"OverwriteBBox": [
         -179,
         55,
         179,

@@ -1,0 +1,19 @@
+{
+  "Name": "RCM_eoapi",
+  "Title": "RCM scenes",
+  "CollectionGroup": "Satellite Data",
+  "Themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "Description": "RCM Data collection",
+  "Collections": [
+    "RCM_eoapi_mix",
+    "RCM_eoapi_HH",
+    "RCM_eoapi_HV"
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

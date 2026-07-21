@@ -1,0 +1,65 @@
+{
+    "Name": "dmi-asip-seaice-sod",
+    "Title": "AI: Sea Ice Stage of Development",
+    "CollectionGroup": "Sea Ice",
+    "Themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+    ],
+    "Description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
+    "Resources": [
+        {
+            "EndPoint": "https://eoapi.workspace.cif.hub-otc.eox.at/stac/",
+            "Name": "VEDA",
+            "Type": "tiles",
+            "NoData": -1,
+            "CollectionId": "asip-seaice",
+            "Colormap": "%7B%220%22%3A%20%5B240%2C210%2C250%5D%2C%221%22%3A%5B155%2C210%2C0%5D%2C%222%22%3A%5B0%2C120%2C0%5D%2C%223%22%3A%5B200%2C0%2C0%5D%2C%224%22%3A%5B150%2C150%2C150%5D%7D",
+            "Assets": [
+                "sod"
+            ]
+        }
+    ],
+    "Citation": {
+        "DOI": "10.48670/mds-00343"
+    },
+    "Provider": [
+        {
+            "Name": "CMEMS",
+            "Url": "https://marine.copernicus.eu",
+            "Roles": [
+                "producer"
+            ]
+        },
+        {
+            "Name": "EOX",
+            "Url": "https://eox.at/",
+            "Roles": [
+                "processor"
+            ]
+        }
+    ],
+    "Agency": [
+        "CMEMS"
+    ],
+    "Colorlegend": {
+        "title": "AI: Sea Ice Stage of Development",
+        "range": [
+            "rgb(240,210,250)",
+            "rgb(155,210,0)",
+            "rgb(0,120,0)",
+            "rgb(200,0,0)",
+            "rgb(150,150,150)"
+        ],
+        "domain": [
+            "New and Young Ice (<30 cm)",
+            "Thin First Year Ice (30 cm - 70 cm)",
+            "Thick First Year Ice (>70 cm)",
+            "Multi-Year Ice",
+            "Glacier Ice"
+        ],
+        "scaleType": "categorical",
+        "markType": "circle"
+    }
+}

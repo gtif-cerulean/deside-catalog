@@ -1,34 +1,22 @@
 {
   "Name": "Sentinel1-EW-HH",
   "Title": "Sentinel 1 EW HH",
-  "EodashIdentifier": "SHS1",
   "Description": "SENTINEL 1, Extra Wide Swath, HH Polarization",
-  "CollectionGroup": "Other data",
+  "CollectionGroup": "Satellite Data",
   "Themes": [
     "Energy",
     "Aquaculture",
     "Shipping"
   ],
-  "Tags": [
-    "Sentinel",
-    "Open data"
-  ],
-  "DataSource": {
-    "Spaceborne": {
-      "Satellite": [
-        "Sentinel-1"
-      ]
-    }
-  },
   "Agency": [
-    "European Commission",
-    "ESA"
+    "Sentinel Hub"
   ],
   "Resources": [
     {
       "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
       "Name": "Sentinel Hub WMS",
       "LayerId": "EW_HH_DB",
+      "TileSize": 1024,
       "DateTimeInterval": {
         "Start": "2022-01-01T00:00:00Z",
         "End": "today"

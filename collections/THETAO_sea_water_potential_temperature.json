@@ -1,0 +1,68 @@
+{
+  "Name": "THETAO_sea_water_potential_temperature",
+  "Title": "Sea water potential temperature",
+  "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
+  "Themes": [
+    "Aquaculture",
+    "Shipping"
+  ],
+  "CollectionGroup": "Sea Water",
+  "DataSource": {
+    "Spaceborne": {
+      "Sensor": "Numerical model"
+    },
+    "Other": [
+      "Spatial Resolution: 0.083° x 0.083°",
+      "Frequency: Daily"
+    ]
+  },
+  "Agency": [
+    "Mercator Ocean International"
+  ],
+  "Colorlegend": {
+    "title": "Sea water potential temperature [°C]",
+    "range": [
+      "rgb(3, 35, 51)",
+      "rgb(63, 51, 159)",
+      "rgb(138, 82, 140)",
+      "rgb(213, 107, 108)",
+      "rgb(251, 165, 60)",
+      "rgb(231, 250, 90)"
+    ],
+    "domain": [
+      -1.48,
+      2.95
+    ]
+  },
+  "Citation": {
+    "DOI": "10.48670/moi-00016"
+  },
+  "Resources": [
+    {
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406",
+      "Type": "WMTSCapabilities",
+      "Name": "marinedatastore",
+      "LayerId": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406/thetao",
+      "Query": {
+        "Start": "2021-06-01T00:00:00Z",
+        "End": "2025-01-05T00:00:00Z"
+      },
+      "Dimensions": {
+        "elevation": 0,
+        "style": "cmap:thermal,range:-3/30"
+      }
+    }
+  ],
+  "Process": {
+    "Name": "process_cmems",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/thetao.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_cmems",
+        "Url": "https://cmems.gtif.eox.at/cmems?dataset_id=cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m&variables=thetao&start_datetime={{date_start}}&end_datetime={{date_end}}&minimum_longitude={{bbox.0}}&minimum_latitude={{bbox.1}}&maximum_longitude={{bbox.2}}&maximum_latitude={{bbox.3}}&minimum_depth={{depth}}&maximum_depth={{depth}}",
+        "Type": "application/json"
+      }
+    ]
+  }
+}
