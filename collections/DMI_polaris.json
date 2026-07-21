@@ -3,20 +3,32 @@
     "Title": "POLARIS (DMI)",
     "Subtitle": "",
     "Description": "markdowns/POLARIS.md",
-    "CollectionGroup": "A. Algorithms",
-    "Themes": ["Shipping"],
+    "CollectionGroup": "Capabilites",
+    "Themes": [
+        "Shipping"
+    ],
     "Tags": [],
     "Other": [],
-    "Agency": ["DMI"],
-    "Provider": [
-        {"Name": "DMI", "Url": "https://www.dmi.dk"},
-        {"Name": "EOX", "Url": "https://eox.at/"}
+    "Agency": [
+        "DMI"
     ],
-    "Resources": [{
-      "Name": "FlatGeobuf source",
-      "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-polaris/daily_items_merged.parquet",
-      "MergeAssets": true,
-      "Style": "",
-      "TimeEntries": []
-    }]
+    "Provider": [
+        {
+            "Name": "DMI",
+            "Url": "https://www.dmi.dk"
+        },
+        {
+            "Name": "EOX",
+            "Url": "https://eox.at/"
+        }
+    ],
+    "Resources": [
+        {
+            "Name": "FlatGeobuf source",
+            "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-polaris/daily_items_merged.parquet",
+            "MergeAssets": true,
+            "Style": "",
+            "TimeEntries": []
+        }
+    ]
 }

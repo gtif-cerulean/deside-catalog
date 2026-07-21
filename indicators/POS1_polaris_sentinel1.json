@@ -2,10 +2,10 @@
   "Name": "polaris_sentinel1",
   "Title": "Sea Ice Concentration Comparison",
   "Description": "Provides the AI: Sea Ice Concentration, Sentinel 1EW HH, and DMI Ice Charts together so that they can be compared.",
-  "CollectionGroup": "A. Algorithms",
+  "CollectionGroup": "Capabilites",
   "Agency": [
-        "DMI"
-    ],
+    "DMI"
+  ],
   "Themes": [
     "Shipping"
   ],

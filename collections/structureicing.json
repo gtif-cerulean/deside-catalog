@@ -1,7 +1,7 @@
 {
   "Name": "structureicing",
   "Title": "Structure Icing Index",
-  "CollectionGroup": "A. Algorithms",
+  "CollectionGroup": "Capabilites",
   "Description": "markdowns/Structure_Icing_Index.md",
   "Themes": [
     "Shipping",
@@ -17,7 +17,8 @@
       "Query": {
         "Start": "2020-01-01T00:00:00Z",
         "End": "2022-12-31T00:00:00Z"
-      },"OverwriteBBox": [
+      },
+      "OverwriteBBox": [
         -179,
         55,
         179,

@@ -5,14 +5,17 @@
   "Themes": [
     "Baltic Sea"
   ],
-  "CollectionGroup": "K. Baltic Sea",
-    "DataSource": {
-    "Spaceborne": {"Sensor": "Numerical models"},
+  "CollectionGroup": "Baltic",
+  "DataSource": {
+    "Spaceborne": {
+      "Sensor": "Numerical models"
+    },
     "Other": [
       "Spatial Resolution: 2 × 2 km",
       "Frequency: Daily "
     ]
-  },"Agency": [
+  },
+  "Agency": [
     "SMHI"
   ],
   "Colorlegend": {
@@ -26,7 +29,7 @@
       "rgb(234, 252, 253)"
     ],
     "domain": [
-     0,
+      0,
       1.25
     ]
   },
@@ -39,7 +42,7 @@
       "Name": "marinedatastore",
       "Type": "WMTSCapabilities",
       "LayerId": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/sithick",
-       "Query": {
+      "Query": {
         "Start": "2021-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
