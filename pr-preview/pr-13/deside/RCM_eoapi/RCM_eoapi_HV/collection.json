@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "id": "RCM_eoapi_HV",
+  "stac_version": "1.1.0",
+  "description": "RCM Data collection",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HV&colormap_name=gray&rescale=0,0.005",
+      "type": "image/png",
+      "title": "RCM scenes HV",
+      "key": "9c428045-2765-4faa-8652-2367243b851c"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "RCM scenes"
+    }
+  ],
+  "themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "B. Satellite Data",
+  "eox:colorlegend": {
+    "title": "HV sigma0",
+    "range": [
+      "#000000",
+      "#ffffff"
+    ],
+    "domain": [
+      0,
+      0.005
+    ]
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "RCM scenes HV",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -122.35463340633562,
+          -80.55667822824233,
+          -13.807054847991763,
+          83.15401074902994
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-08-14T09:15:39Z",
+          "2026-07-18T23:15:58Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

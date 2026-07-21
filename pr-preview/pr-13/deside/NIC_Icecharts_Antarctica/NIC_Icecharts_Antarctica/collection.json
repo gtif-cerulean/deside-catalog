@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "id": "NIC_Icecharts_Antarctica",
+  "stac_version": "1.1.0",
+  "description": "Collection of US Antarctica ice charts since start of 2025",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "NIC Ice charts Antarctica"
+    }
+  ],
+  "themes": [
+    "Antarctica"
+  ],
+  "agency": [
+    "USNIC"
+  ],
+  "collection_group": "L. Antarctica",
+  "eodash:mapProjection": {
+    "name": "EPSG:32761",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [
+      -1371213.76,
+      -1405880.72,
+      5371213.76,
+      5405880.72
+    ]
+  },
+  "endpointtype": "GeoJSON source",
+  "title": "NIC Ice charts Antarctica",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.99590861517464,
+          -78.73707592332723,
+          179.99999999983606,
+          -49.99999983750487
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-03T00:00:00Z",
+          "2026-07-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "U.S. NATIONAL ICE CENTER (USNIC)",
+      "url": "https://usicecenter.gov/Products/AntarcData"
+    },
+    {
+      "name": "EOX",
+      "url": "https://eox.at/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/nic-ice-charts/geojsons/daily_items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "type": "Collection",
+  "id": "dmi-asip-seaice-sod",
+  "stac_version": "1.1.0",
+  "description": "Arctic L3 sea ice product providing concentration, stage-of-development and floe size information retrieved from Sentinel-1 and RCM SAR imagery and GCOM-W AMSR2 microwave radiometer data using a deep learning algorithm and delivered on a 0.5 km grid.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/asip-seaice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=sod&nodata=-1&colormap=%7B%220%22%3A%20%5B240%2C210%2C250%5D%2C%221%22%3A%5B155%2C210%2C0%5D%2C%222%22%3A%5B0%2C120%2C0%5D%2C%223%22%3A%5B200%2C0%2C0%5D%2C%224%22%3A%5B150%2C150%2C150%5D%7D",
+      "type": "image/png",
+      "title": "AI: Sea Ice Stage of Development",
+      "key": "fa475eca-e991-425a-b0c9-a575a38598b3"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "High Resolution Sea Ice Information L3 Arctic"
+    }
+  ],
+  "sci:doi": "10.48670/mds-00343",
+  "themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "collection_group": "C. Sea Ice",
+  "eox:colorlegend": {
+    "title": "AI: Sea Ice Stage of Development",
+    "range": [
+      "rgb(240,210,250)",
+      "rgb(155,210,0)",
+      "rgb(0,120,0)",
+      "rgb(200,0,0)",
+      "rgb(150,150,150)"
+    ],
+    "domain": [
+      "New and Young Ice (<30 cm)",
+      "Thin First Year Ice (30 cm - 70 cm)",
+      "Thick First Year Ice (>70 cm)",
+      "Multi-Year Ice",
+      "Glacier Ice"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "AI: Sea Ice Stage of Development",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          30.979842711050686,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-01-03T00:00:00Z",
+          "2026-07-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "CMEMS",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://marine.copernicus.eu"
+    },
+    {
+      "name": "EOX",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://eox.at/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

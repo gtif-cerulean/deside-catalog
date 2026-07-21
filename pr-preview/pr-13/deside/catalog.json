@@ -1,0 +1,998 @@
+{
+  "type": "Catalog",
+  "id": "deside",
+  "stac_version": "1.1.0",
+  "description": "Catalog providing description to available datasets to the DESIDE project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./CIS_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "CIS Ice charts",
+      "id": "CIS_Icecharts",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "Canadian Ice Service (CIS)"
+      ],
+      "agency": [
+        "CIS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./IBC_iceberg_concentration_IW/collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (S1 IW)",
+      "id": "IBC_iceberg_concentration_IW",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "sensor": "Satellite S1 IW",
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "D. Icebergs",
+      "otherSources": [
+        "Spatial Resolution: 10 km x 10 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IBC_iceberg_concentration_RCM/collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (RCM)",
+      "id": "IBC_iceberg_concentration_RCM",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "sensor": "Satellite RCM",
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "D. Icebergs",
+      "otherSources": [
+        "Spatial Resolution: 10 km x 10 km",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature - Antarctica",
+      "id": "sea_ice_surface_temperature_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./NIC_Icecharts_Antarctica/collection.json",
+      "type": "application/json",
+      "title": "NIC Ice charts Antarctica",
+      "id": "NIC_Icecharts_Antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "providers": [
+        "U.S. NATIONAL ICE CENTER (USNIC)",
+        "EOX"
+      ],
+      "agency": [
+        "USNIC"
+      ],
+      "collection_group": "L. Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./NIC_Icecharts_arctic/collection.json",
+      "type": "application/json",
+      "title": "NIC Ice charts Arctic",
+      "id": "NIC_Icecharts_arctic",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "providers": [
+        "U.S. NATIONAL ICE CENTER (USNIC)",
+        "EOX"
+      ],
+      "agency": [
+        "USNIC"
+      ],
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./RCM_eoapi_HH/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes HH",
+      "id": "RCM_eoapi_HH",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./RCM_eoapi_HV/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes HV",
+      "id": "RCM_eoapi_HV",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./RCM_eoapi_mix/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes rendering HH/HV",
+      "id": "RCM_eoapi_mix",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH Antarctica",
+      "id": "Sentinel1-EW-HH_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "L. Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-IW-VV/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 IW VV",
+      "id": "Sentinel1-IW-VV",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-IW-VV_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 IW VV Antarctica",
+      "id": "Sentinel1-IW-VV_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "L. Antarctica",
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel2-L2A/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 2 L2A",
+      "id": "Sentinel2-L2A",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./SIAGE_sea_ice_age.json/collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice",
+      "id": "SIAGE_sea_ice_age.json",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SIAGE_sea_ice_age_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Age of sea ice - Antarctica",
+      "id": "SIAGE_sea_ice_age_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction",
+      "id": "SICONC_sea_ice_concentration",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction - Baltic Sea",
+      "id": "SICONC_sea_ice_concentration_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction - Antarctica",
+      "id": "SICONC_sea_ice_concentration_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SISNTHICK_surface_snow_thickness/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness",
+      "id": "SISNTHICK_surface_snow_thickness",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SISNTHICK_surface_snow_thickness_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Surface snow thickness - Antarctica",
+      "id": "SISNTHICK_surface_snow_thickness_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness",
+      "id": "SITHICK_sea_ice_thickness",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness - Baltic Sea",
+      "id": "SITHICK_sea_ice_thickness_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness - Antarctica",
+      "id": "SITHICK_sea_ice_thickness_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SIVELO_sea_ice_speed_antarctica/collection.json",
+      "type": "application/json",
+      "title": "Sea ice speed - Antarctica",
+      "id": "SIVELO_sea_ice_speed_antarctica",
+      "themes": [
+        "Antarctica"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "L. Antarctica",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:32761",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SO_salinity_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water salinity - Baltic Sea",
+      "id": "SO_salinity_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Sea_surface_temperature_anomaly/collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature anomaly",
+      "id": "Sea_surface_temperature_anomaly",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "E. Sea Water",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Sea_water_velocity/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity",
+      "id": "Sea_water_velocity",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "E. Sea Water"
+    },
+    {
+      "rel": "child",
+      "href": "./Sea_water_velocity_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity - Baltic Sea",
+      "id": "Sea_water_velocity_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./THETAO_sea_water_potential_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature",
+      "id": "THETAO_sea_water_potential_temperature",
+      "themes": [
+        "Aquaculture",
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "E. Sea Water",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./THETAO_water_temperature_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature - Baltic Sea",
+      "id": "THETAO_water_temperature_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "K. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-floe/collection.json",
+      "type": "application/json",
+      "title": "AI: Sea Ice Floe Size",
+      "id": "dmi-asip-seaice-floe",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-sic/collection.json",
+      "type": "application/json",
+      "title": "AI: Sea Ice Concentration",
+      "id": "dmi-asip-seaice-sic",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-sod/collection.json",
+      "type": "application/json",
+      "title": "AI: Sea Ice Stage of Development",
+      "id": "dmi-asip-seaice-sod",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_Amplitude/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Amplitude",
+      "id": "Fast_Ice_NGI_Amplitude",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_Coherence/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Coherence",
+      "id": "Fast_Ice_NGI_Coherence",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_Strainrate/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Strainrate",
+      "id": "Fast_Ice_NGI_Strainrate",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./DMI_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "DMI Ice charts",
+      "id": "DMI_Icecharts",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./DMI_polaris/collection.json",
+      "type": "application/json",
+      "title": "POLARIS (DMI)",
+      "id": "DMI_polaris",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "DMI",
+        "EOX"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "A. Algorithms"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature",
+      "id": "sea_ice_surface_temperature",
+      "themes": [
+        "Shipping",
+        "Energy",
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH",
+      "id": "Sentinel1-EW-HH",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./SIVELO_sea_ice_speed/collection.json",
+      "type": "application/json",
+      "title": "Sea ice speed",
+      "id": "SIVELO_sea_ice_speed",
+      "themes": [
+        "Aquaculture",
+        "Energy",
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SO_salinity/collection.json",
+      "type": "application/json",
+      "title": "Sea water salinity",
+      "id": "SO_salinity",
+      "themes": [
+        "Aquaculture"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "E. Sea Water",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./polarwarp/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Motion Animation",
+      "id": "polarwarp",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "Drift+Noise"
+      ],
+      "collection_group": "A. Algorithms",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./structureicing/collection.json",
+      "type": "application/json",
+      "title": "Structure Icing Index",
+      "id": "structureicing",
+      "themes": [
+        "Shipping",
+        "Aquaculture",
+        "Energy"
+      ],
+      "agency": [
+        "C-CORE"
+      ],
+      "collection_group": "A. Algorithms"
+    },
+    {
+      "rel": "child",
+      "href": "./RCM_eoapi/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes",
+      "id": "RCM_eoapi",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice/collection.json",
+      "type": "application/json",
+      "title": "High Resolution Sea Ice Information L3 Arctic",
+      "id": "dmi-asip-seaice",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./Drift_Deformation/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Drift and Deformation",
+      "id": "Drift_Deformation",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "C-CORE"
+      ],
+      "collection_group": "A. Algorithms"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_EOAPI/collection.json",
+      "type": "application/json",
+      "title": "Landfast Sea Ice Motion",
+      "id": "Fast_Ice_NGI_EOAPI",
+      "themes": [
+        "Landfast Sea Ice"
+      ],
+      "agency": [
+        "Norwegian Geotechnical Institute (NGI)"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./polaris_sentinel1/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration Comparison",
+      "id": "polaris_sentinel1",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "A. Algorithms"
+    },
+    {
+      "rel": "child",
+      "href": "./polarwarp_sentinel1/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Motion Animation",
+      "id": "polarwarp_sentinel1",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "Drift+Noise"
+      ],
+      "collection_group": "A. Algorithms",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "DESIDE project catalog"
+}

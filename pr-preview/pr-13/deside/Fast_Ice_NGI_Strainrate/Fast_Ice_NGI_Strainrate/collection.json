@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "id": "Fast_Ice_NGI_Strainrate",
+  "stac_version": "1.1.0",
+  "description": "Fast Ice NGI",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=StrainRate&colormap_name=spring_r&nodata=NaN&rescale=0,0.0001",
+      "type": "image/png",
+      "title": "Fast Ice NGI Strainrate",
+      "key": "3260e7bf-9344-4fb2-b6a8-15a5b58600bc"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Strainrate"
+    }
+  ],
+  "themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "B. Satellite Data",
+  "eox:colorlegend": {
+    "title": "Apparent look-directional average strain rate (in mm/km/day)",
+    "range": [
+      "#FFFF00",
+      "#FF00FF"
+    ],
+    "domain": [
+      0,
+      100
+    ]
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Fast Ice NGI Strainrate",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.298672190549782,
+          75.56991874545032,
+          37.31176214566098,
+          81.21642164222924
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-11-01T00:00:00Z",
+          "2026-04-10T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

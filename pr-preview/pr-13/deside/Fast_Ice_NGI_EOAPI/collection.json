@@ -1,0 +1,203 @@
+{
+  "type": "Collection",
+  "id": "Fast_Ice_NGI_EOAPI",
+  "stac_version": "1.1.0",
+  "description": "markdowns/Landfast_Ice.md",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_Amplitude/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Amplitude",
+      "endpointtype": "VEDA_tiles",
+      "id": "Fast_Ice_NGI_Amplitude",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "roles": [
+        "disable"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_Coherence/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Coherence",
+      "endpointtype": "VEDA_tiles",
+      "id": "Fast_Ice_NGI_Coherence",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "roles": [
+        "disable"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_Strainrate/collection.json",
+      "type": "application/json",
+      "title": "Fast Ice NGI Strainrate",
+      "endpointtype": "VEDA_tiles",
+      "id": "Fast_Ice_NGI_Strainrate",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    }
+  ],
+  "sci:doi": "10.5194/tc-13-557-2019",
+  "themes": [
+    "Landfast Sea Ice"
+  ],
+  "agency": [
+    "Norwegian Geotechnical Institute (NGI)"
+  ],
+  "collection_group": "C. Sea Ice",
+  "title": "Landfast Sea Ice Motion",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.298672190549782,
+          75.56991874545032,
+          37.31176214566098,
+          81.21642164222924
+        ],
+        [
+          6.298672190549782,
+          75.56991874545032,
+          37.31176214566098,
+          81.21642164222924
+        ],
+        [
+          6.298672190549782,
+          75.56991874545032,
+          37.31176214566098,
+          81.21642164222924
+        ],
+        [
+          6.298672190549782,
+          75.56991874545032,
+          37.31176214566098,
+          81.21642164222924
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-11-01T00:00:00Z",
+          "2026-04-10T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Aquaculture",
+      "Shipping",
+      "Energy"
+    ]
+  }
+}

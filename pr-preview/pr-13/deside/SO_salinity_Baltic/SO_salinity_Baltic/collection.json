@@ -1,0 +1,96 @@
+{
+  "type": "Collection",
+  "id": "SO_salinity_Baltic",
+  "stac_version": "1.1.0",
+  "description": "The physical model provides forecasts for the conditions in the Baltic Sea. The forecast is for 10 days. Several datasets are provided: ice concentration and thickness, temperature, salinity, and currents. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product. Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
+      "type": "image/png",
+      "title": "Sea water salinity - Baltic Sea",
+      "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/so",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:haline"
+      },
+      "key": "e1c86ffd-0783-4fd2-bf9a-938641027b26"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea water salinity - Baltic Sea"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00016",
+  "themes": [
+    "Baltic Sea"
+  ],
+  "agency": [
+    "SMHI"
+  ],
+  "collection_group": "K. Baltic Sea",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 2 × 2 km",
+    "Frequency: Daily "
+  ],
+  "eox:colorlegend": {
+    "title": "Salinity [/10^3]",
+    "range": [
+      "rgb(41, 24, 107)",
+      "rgb(12, 77, 150)",
+      "rgb(44, 124, 136)",
+      "rgb(74, 169, 128)",
+      "rgb(148, 211, 93)",
+      "rgb(253, 238, 153)"
+    ],
+    "domain": [
+      30,
+      36.8
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea water salinity - Baltic Sea",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.041582107543945,
+          53.008296966552734,
+          30.208656311035156,
+          65.8909912109375
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-12-02T00:00:00Z",
+          "2026-07-29T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

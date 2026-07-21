@@ -1,0 +1,74 @@
+{
+  "type": "Collection",
+  "id": "Sentinel2-L2A",
+  "stac_version": "1.1.0",
+  "description": "Sentinel 2, Level 2A",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ce48ad62-7968-43f2-9008-848c7660f831",
+      "type": "image/png",
+      "title": "Sentinel 2 L2A",
+      "wms:layers": [
+        "S2_L2A"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel 2 L2A"
+    }
+  ],
+  "themes": [
+    "Energy",
+    "Aquaculture",
+    "Shipping"
+  ],
+  "agency": [
+    "Sentinel Hub"
+  ],
+  "collection_group": "B. Satellite Data",
+  "endpointtype": "Sentinel Hub WMS",
+  "title": "Sentinel 2 L2A",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          85
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2026-07-21T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

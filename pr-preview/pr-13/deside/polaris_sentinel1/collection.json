@@ -1,0 +1,198 @@
+{
+  "type": "Collection",
+  "id": "polaris_sentinel1",
+  "stac_version": "1.1.0",
+  "description": "Provides the AI: Sea Ice Concentration, Sentinel 1EW HH, and DMI Ice Charts together so that they can be compared.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./DMI_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "DMI Ice charts",
+      "endpointtype": "FlatGeobuf source",
+      "id": "DMI_Icecharts",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH",
+      "endpointtype": "Sentinel Hub WMS",
+      "id": "Sentinel1-EW-HH",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-sic/collection.json",
+      "type": "application/json",
+      "title": "AI: Sea Ice Concentration",
+      "endpointtype": "VEDA_tiles",
+      "id": "dmi-asip-seaice-sic",
+      "themes": [
+        "Energy",
+        "Aquaculture",
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    }
+  ],
+  "themes": [
+    "Shipping"
+  ],
+  "agency": [
+    "DMI"
+  ],
+  "collection_group": "A. Algorithms",
+  "title": "Sea Ice Concentration Comparison",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          90.0
+        ],
+        [
+          -80.337264189091,
+          55.252643970043046,
+          10.033447326328545,
+          84.84935228034207
+        ],
+        [
+          -180,
+          -85,
+          180,
+          85
+        ],
+        [
+          -180.0,
+          30.979842711050686,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2026-07-21T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Aquaculture",
+      "Shipping",
+      "Energy"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "type": "Collection",
+  "id": "Sea_water_velocity_Baltic",
+  "stac_version": "1.1.0",
+  "description": "The physical model provides forecasts for the conditions in the Baltic Sea. The forecast is for 10 days. Several datasets are provided: ice concentration and thickness, temperature, salinity, and currents. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product. Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
+      "type": "image/png",
+      "title": "Sea water velocity - Baltic Sea",
+      "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/sea_water_velocity",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.5"
+      },
+      "key": "dfa11a91-a500-448c-9b99-560591f5dafd"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity - Baltic Sea"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00016",
+  "themes": [
+    "Baltic Sea"
+  ],
+  "agency": [
+    "SMHI"
+  ],
+  "collection_group": "K. Baltic Sea",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 2 × 2 km",
+    "Frequency: Daily "
+  ],
+  "eox:colorlegend": {
+    "title": "Sea water velocity [m/s]",
+    "range": [
+      "rgb(254, 252, 205)",
+      "rgb(216, 196, 95)",
+      "rgb(141, 161, 11)",
+      "rgb(50, 128, 30)",
+      "rgb(15, 83, 44)",
+      "rgb(23, 35, 18)"
+    ],
+    "domain": [
+      0,
+      0.5
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea water velocity - Baltic Sea",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.041582107543945,
+          53.008296966552734,
+          30.208656311035156,
+          65.8909912109375
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-12-02T00:00:00Z",
+          "2026-07-29T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

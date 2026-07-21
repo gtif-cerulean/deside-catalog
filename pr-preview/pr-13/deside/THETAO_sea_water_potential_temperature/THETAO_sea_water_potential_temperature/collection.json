@@ -1,0 +1,97 @@
+{
+  "type": "Collection",
+  "id": "THETAO_sea_water_potential_temperature",
+  "stac_version": "1.1.0",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406",
+      "type": "image/png",
+      "title": "Sea water potential temperature",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406/thetao",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": 0,
+        "style": "cmap:thermal,range:-3/30"
+      },
+      "key": "46863e28-ff29-4f0b-a2c0-75893cf05af5"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature"
+    }
+  ],
+  "sci:doi": "10.48670/moi-00016",
+  "themes": [
+    "Aquaculture",
+    "Shipping"
+  ],
+  "agency": [
+    "Mercator Ocean International"
+  ],
+  "collection_group": "E. Sea Water",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
+  ],
+  "eox:colorlegend": {
+    "title": "Sea water potential temperature [°C]",
+    "range": [
+      "rgb(3, 35, 51)",
+      "rgb(63, 51, 159)",
+      "rgb(138, 82, 140)",
+      "rgb(213, 107, 108)",
+      "rgb(251, 165, 60)",
+      "rgb(231, 250, 90)"
+    ],
+    "domain": [
+      -1.48,
+      2.95
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea water potential temperature",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-01T00:00:00Z",
+          "2025-01-04T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
