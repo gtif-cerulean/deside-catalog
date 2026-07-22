@@ -25,7 +25,7 @@
         "CMEMS"
       ],
       "subcode": "cmems_baltic_water_velocity_east",
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "service",
@@ -120,7 +120,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_water_velocity_east",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Water Velocity East [m/s]",
     "range": [

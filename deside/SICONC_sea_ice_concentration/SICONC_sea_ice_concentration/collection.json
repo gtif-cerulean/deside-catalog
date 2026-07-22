@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "791a7811-87bd-4dcc-8419-0387d0f4ac4a"
+      "key": "6a2c4dd5-ac20-4ef2-b674-eb4789d5c540"
     },
     {
       "rel": "parent",
@@ -41,7 +41,7 @@
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° x 0.083°",
@@ -79,7 +79,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-07-30T00:00:00Z"
+          "2026-07-31T00:00:00Z"
         ]
       ]
     }

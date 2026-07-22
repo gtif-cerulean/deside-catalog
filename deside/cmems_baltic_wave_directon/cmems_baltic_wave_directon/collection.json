@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "f2704005-eed4-4ec1-bf5c-7a26e9bef2da"
+      "key": "4c222ef2-d39d-497d-894e-56623f6d7529"
     },
     {
       "rel": "parent",
@@ -36,7 +36,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_wave_directon",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Mean wave direction from (Deg.)",
     "range": [
@@ -66,7 +66,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-07-30T00:00:00Z"
+          "2026-07-30T12:00:00Z"
         ]
       ]
     }

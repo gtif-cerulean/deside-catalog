@@ -24,7 +24,7 @@
       "agency": [
         "IMO"
       ],
-      "collection_group": "Capabilities"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -38,7 +38,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "Capabilites"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -54,7 +54,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Icebergs"
+      "collection_group": "D. Icebergs"
     },
     {
       "rel": "child",
@@ -70,7 +70,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -86,7 +86,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -150,7 +150,7 @@
       "agency": [
         "SMI"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -234,38 +234,6 @@
     },
     {
       "rel": "child",
-      "href": "./eastward_wind/collection.json",
-      "type": "application/json",
-      "title": "Stress-equivalent wind eastward component",
-      "code": "EWW",
-      "id": "eastward_wind",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "EWW",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./northward_wind/collection.json",
-      "type": "application/json",
-      "title": "Stress-equivalent wind northward component",
-      "code": "NWW",
-      "id": "northward_wind",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "NWW",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
       "href": "./wind_stress_eastward/collection.json",
       "type": "application/json",
       "title": "Surface wind stress eastward component",
@@ -307,22 +275,6 @@
         "Shipping"
       ],
       "subcode": "WCS",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./air_density/collection.json",
-      "type": "application/json",
-      "title": "Air density",
-      "code": "AD",
-      "id": "air_density",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "AD",
       "agency": [
         "CMEMS"
       ],
@@ -469,7 +421,7 @@
       "agency": [
         "Drift+Noise"
       ],
-      "collection_group": "Capabilites",
+      "collection_group": "A. Algorithms",
       "eodash:mapProjection": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -489,7 +441,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -505,7 +457,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -521,7 +473,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -537,7 +489,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -553,7 +505,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -569,7 +521,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -585,7 +537,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -601,7 +553,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -617,7 +569,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -633,7 +585,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "child",
@@ -647,7 +599,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -709,7 +661,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "Capabilites"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -726,7 +678,7 @@
       "agency": [
         "CIS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -735,8 +687,6 @@
       "title": "AI: Sea Ice Floe Size",
       "id": "dmi-asip-seaice-floe",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "providers": [
@@ -746,7 +696,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -755,8 +705,6 @@
       "title": "AI: Sea Ice Concentration",
       "id": "dmi-asip-seaice-sic",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "providers": [
@@ -766,7 +714,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -775,8 +723,6 @@
       "title": "AI: Sea Ice Stage of Development",
       "id": "dmi-asip-seaice-sod",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "providers": [
@@ -786,7 +732,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -809,15 +755,13 @@
       "title": "Number of icebergs per unit area (S1 IW)",
       "id": "IBC_iceberg_concentration_IW",
       "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
+        "Shipping"
       ],
       "sensor": "Satellite S1 IW",
       "agency": [
         "DMI"
       ],
-      "collection_group": "Icebergs",
+      "collection_group": "D. Icebergs",
       "otherSources": [
         "Spatial Resolution: 10 km x 10 km",
         "Frequency: Daily"
@@ -830,15 +774,13 @@
       "title": "Number of icebergs per unit area (RCM)",
       "id": "IBC_iceberg_concentration_RCM",
       "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
+        "Shipping"
       ],
       "sensor": "Satellite RCM",
       "agency": [
         "DMI"
       ],
-      "collection_group": "Icebergs",
+      "collection_group": "D. Icebergs",
       "otherSources": [
         "Spatial Resolution: 10 km x 10 km",
         "Frequency: Daily"
@@ -851,15 +793,13 @@
       "title": "Sea ice surface temperature",
       "id": "sea_ice_surface_temperature",
       "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
+        "Shipping"
       ],
       "sensor": "Numerical model",
       "agency": [
         "Mercator Ocean International "
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
@@ -872,8 +812,6 @@
       "title": "NIC Ice charts Arctic",
       "id": "NIC_Icecharts_arctic",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "providers": [
@@ -883,7 +821,7 @@
       "agency": [
         "USNIC"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "eodash:mapProjection": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -896,14 +834,12 @@
       "title": "RCM scenes",
       "id": "RCM_eoapi",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -937,7 +873,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "Baltic",
+      "collection_group": "I. Baltic",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
@@ -950,14 +886,12 @@
       "title": "Sentinel 1 EW HH",
       "id": "Sentinel1-EW-HH",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -966,14 +900,12 @@
       "title": "Sentinel 1 IW VV",
       "id": "Sentinel1-IW-VV",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -982,14 +914,12 @@
       "title": "Sentinel 2 L2A",
       "id": "Sentinel2-L2A",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -1004,7 +934,7 @@
       "agency": [
         "Mercator Ocean International "
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
@@ -1025,7 +955,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
@@ -1044,7 +974,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "Baltic",
+      "collection_group": "I. Baltic",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
@@ -1230,14 +1160,12 @@
       "title": "Sea water velocity",
       "id": "Sea_water_velocity",
       "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
+        "Shipping"
       ],
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Water"
+      "collection_group": "E. Sea Water"
     },
     {
       "rel": "child",
@@ -1251,7 +1179,7 @@
       "agency": [
         "Norwegian Geotechnical Institute (NGI)"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "self",

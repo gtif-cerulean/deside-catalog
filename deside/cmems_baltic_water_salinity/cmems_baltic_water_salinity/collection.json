@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "01db0600-9931-439f-a9cd-36e9883bcdb7"
+      "key": "1a20ea80-9a9e-4823-a3ba-21d6128d0150"
     },
     {
       "rel": "parent",
@@ -36,7 +36,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_water_salinity",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Water Salinity [1e-3]",
     "range": [

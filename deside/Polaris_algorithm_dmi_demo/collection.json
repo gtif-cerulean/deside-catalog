@@ -25,7 +25,7 @@
         "IMO"
       ],
       "subcode": "Polaris_algorithm_dmi_demo",
-      "collection_group": "Capabilities"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "xyz",
@@ -112,7 +112,7 @@
     "IMO"
   ],
   "subcode": "Polaris_algorithm_dmi_demo",
-  "collection_group": "Capabilities",
+  "collection_group": "C. Sea Ice",
   "title": "POLARIS",
   "extent": {
     "spatial": {

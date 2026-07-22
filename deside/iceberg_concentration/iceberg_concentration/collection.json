@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice,range:0/1"
       },
-      "key": "31242480-1bbd-4a56-b64d-30d8839158e3"
+      "key": "c97a7e2e-36be-4efc-8e5a-270ae0eefd3d"
     },
     {
       "rel": "parent",
@@ -40,7 +40,7 @@
     "CMEMS"
   ],
   "subcode": "IBC",
-  "collection_group": "Icebergs",
+  "collection_group": "D. Icebergs",
   "eox:colorlegend": {
     "title": "Iceberg concentration (number of icebergs per 100 km2) [1e-2 km-2]",
     "range": [

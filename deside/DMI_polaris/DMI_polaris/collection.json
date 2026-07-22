@@ -23,7 +23,7 @@
   "agency": [
     "DMI"
   ],
-  "collection_group": "Capabilites",
+  "collection_group": "C. Sea Ice",
   "endpointtype": "FlatGeobuf source",
   "title": "POLARIS (DMI)",
   "extent": {
@@ -41,7 +41,7 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2026-07-19T00:00:00Z"
+          "2026-07-21T00:00:00Z"
         ]
       ]
     }

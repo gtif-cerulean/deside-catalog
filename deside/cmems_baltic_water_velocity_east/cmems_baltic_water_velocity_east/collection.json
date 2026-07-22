@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "9c805ca5-187c-4bea-85e4-ac29a7f920de"
+      "key": "641f71dd-913c-40aa-b81a-492f28f2e58b"
     },
     {
       "rel": "parent",
@@ -36,7 +36,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_water_velocity_east",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Water Velocity East [m/s]",
     "range": [

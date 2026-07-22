@@ -32,7 +32,7 @@
     "IMO"
   ],
   "subcode": "Polaris_algorithm_dmi_demo",
-  "collection_group": "Capabilities",
+  "collection_group": "C. Sea Ice",
   "endpointtype": "FlatGeobuf source",
   "title": "POLARIS",
   "extent": {

@@ -32,7 +32,7 @@
     "SMI"
   ],
   "subcode": "SID",
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "endpointtype": "COG source",
   "title": "Sea Ice Detections",
   "extent": {

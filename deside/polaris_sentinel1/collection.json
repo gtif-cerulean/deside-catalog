@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "polaris_sentinel1",
   "stac_version": "1.1.0",
-  "description": "Provides the AI: Sea Ice Concentration, Sentinel 1EW HH, and DMI Ice Charts together so that they can be compared.",
+  "description": "Provides the AI: Sea Ice Concentration, Sentinel 1 EW HH, and DMI Ice Charts together so that they can be compared.",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -33,14 +33,12 @@
       "endpointtype": "Sentinel Hub WMS",
       "id": "Sentinel1-EW-HH",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -50,8 +48,6 @@
       "endpointtype": "VEDA_tiles",
       "id": "dmi-asip-seaice-sic",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "providers": [
@@ -61,7 +57,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "xyz",
@@ -147,7 +143,7 @@
   "agency": [
     "DMI"
   ],
-  "collection_group": "Capabilites",
+  "collection_group": "C. Sea Ice",
   "title": "Sea Ice Concentration Comparison",
   "extent": {
     "spatial": {
@@ -182,7 +178,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-07-21T00:00:00Z"
+          "2026-07-22T00:00:00Z"
         ]
       ]
     }
@@ -190,8 +186,6 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy",
       "Shipping"
     ]
   }

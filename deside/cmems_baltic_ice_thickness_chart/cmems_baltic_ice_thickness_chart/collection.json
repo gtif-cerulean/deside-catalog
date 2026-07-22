@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "1636703c-13d4-4fa0-8d54-800b8dfe943b"
+      "key": "29d56777-8518-4d46-9eb9-b8c32fac8d41"
     },
     {
       "rel": "parent",
@@ -36,7 +36,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_ice_thickness_chart",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Chart Sea Ice Thickness [cm]",
     "range": [
@@ -66,7 +66,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-07-20T00:00:00Z"
+          "2026-07-21T00:00:00Z"
         ]
       ]
     }

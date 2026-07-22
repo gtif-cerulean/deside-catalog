@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "68462f83-ab2c-4fb9-8dec-c55146053252"
+      "key": "2518d39f-230c-4335-a99e-0cc4d9d46996"
     },
     {
       "rel": "parent",
@@ -36,7 +36,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_wave_height",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Maximum crest trough wave height [m]",
     "range": [
@@ -69,7 +69,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-07-30T00:00:00Z"
+          "2026-07-30T12:00:00Z"
         ]
       ]
     }

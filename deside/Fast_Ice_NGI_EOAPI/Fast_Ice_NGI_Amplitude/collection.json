@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Amplitude&colormap_name=gray&nodata=NaN&rescale=0,80",
       "type": "image/png",
       "title": "Fast Ice NGI Amplitude",
-      "key": "ff127eff-d305-49bb-9128-5112e92d372c"
+      "key": "94fb80a4-8e4f-4505-92dd-4700234523a4"
     },
     {
       "rel": "parent",
@@ -25,14 +25,12 @@
     }
   ],
   "themes": [
-    "Energy",
-    "Aquaculture",
-    "Shipping"
+    "Landfast Sea Ice"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Satellite Data",
+  "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
     "title": "Amplitude",
     "range": [

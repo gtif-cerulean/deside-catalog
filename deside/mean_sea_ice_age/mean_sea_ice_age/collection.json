@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "a196b02a-2ac9-4dc6-99c7-b1f32c82b9a1"
+      "key": "046d8825-ee61-4af0-bb43-d463f2a913ee"
     },
     {
       "rel": "parent",
@@ -40,7 +40,7 @@
     "CMEMS"
   ],
   "subcode": "MSIA",
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
     "title": "Mean sea ice age [years]",
     "range": [
@@ -78,7 +78,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-07-30T00:00:00Z"
+          "2026-07-31T00:00:00Z"
         ]
       ]
     }

@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "6a72f731-62a7-432e-9fc6-4ec280a14ce6"
+      "key": "45044516-5947-4797-84a9-6ce0ae303062"
     },
     {
       "rel": "parent",
@@ -36,7 +36,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_ice_thickness",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Sea Ice Thickness [m]",
     "range": [

@@ -25,7 +25,7 @@
         "SMI"
       ],
       "subcode": "SID",
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "xyz",
@@ -112,7 +112,7 @@
     "SMI"
   ],
   "subcode": "SID",
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "title": "Sea Ice Detections",
   "extent": {
     "spatial": {

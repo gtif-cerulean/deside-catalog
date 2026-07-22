@@ -23,7 +23,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "Baltic",
+      "collection_group": "I. Baltic",
       "sensor": "Numerical model",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
@@ -115,7 +115,7 @@
   "agency": [
     "SMHI"
   ],
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 2 × 2 km",

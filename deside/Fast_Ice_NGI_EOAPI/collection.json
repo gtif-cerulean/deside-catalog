@@ -18,9 +18,7 @@
       "endpointtype": "VEDA_tiles",
       "id": "Fast_Ice_NGI_Amplitude",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Landfast Sea Ice"
       ],
       "roles": [
         "disable"
@@ -28,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -38,9 +36,7 @@
       "endpointtype": "VEDA_tiles",
       "id": "Fast_Ice_NGI_Coherence",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Landfast Sea Ice"
       ],
       "roles": [
         "disable"
@@ -48,7 +44,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -58,14 +54,12 @@
       "endpointtype": "VEDA_tiles",
       "id": "Fast_Ice_NGI_Strainrate",
       "themes": [
-        "Energy",
-        "Aquaculture",
-        "Shipping"
+        "Landfast Sea Ice"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "xyz",
@@ -152,7 +146,7 @@
   "agency": [
     "Norwegian Geotechnical Institute (NGI)"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "title": "Landfast Sea Ice Motion",
   "extent": {
     "spatial": {
@@ -195,9 +189,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy",
-      "Shipping"
+      "Landfast Sea Ice"
     ]
   }
 }

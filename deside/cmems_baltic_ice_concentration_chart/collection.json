@@ -25,7 +25,7 @@
         "CMEMS"
       ],
       "subcode": "cmems_baltic_ice_concentration_chart",
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "service",
@@ -120,7 +120,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_ice_concentration_chart",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Chart Sea Ice Concentration [%]",
     "range": [
@@ -157,7 +157,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-07-20T00:00:00Z"
+          "2026-07-21T00:00:00Z"
         ]
       ]
     }

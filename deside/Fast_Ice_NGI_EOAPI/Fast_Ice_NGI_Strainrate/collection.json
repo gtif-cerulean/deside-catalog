@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=StrainRate&colormap_name=spring_r&nodata=NaN&rescale=0,0.0001",
       "type": "image/png",
       "title": "Fast Ice NGI Strainrate",
-      "key": "dfcd0372-9972-4e75-b7db-34612fb560ef"
+      "key": "83fc835a-8683-4e68-a721-dda4e6645fe8"
     },
     {
       "rel": "parent",
@@ -25,14 +25,12 @@
     }
   ],
   "themes": [
-    "Energy",
-    "Aquaculture",
-    "Shipping"
+    "Landfast Sea Ice"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Satellite Data",
+  "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
     "title": "Apparent look-directional average strain rate (in mm/km/day)",
     "range": [

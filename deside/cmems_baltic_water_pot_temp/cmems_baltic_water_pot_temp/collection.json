@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "4f5092d8-44e3-4647-9d37-7b94a0ce2547"
+      "key": "47e19101-e53b-459d-b576-99d5add6fd2d"
     },
     {
       "rel": "parent",
@@ -36,7 +36,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_water_pot_temp",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Potential Temperature [Deg. Celsius]",
     "range": [

@@ -18,14 +18,12 @@
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "IBC_iceberg_concentration_RCM",
       "themes": [
-        "Shipping",
-        "Energy",
-        "Aquaculture"
+        "Shipping"
       ],
       "agency": [
         "DMI"
       ],
-      "collection_group": "Icebergs",
+      "collection_group": "D. Icebergs",
       "sensor": "Satellite RCM",
       "otherSources": [
         "Spatial Resolution: 10 km x 10 km",
@@ -119,14 +117,12 @@
   ],
   "sci:doi": "10.48670/moi-00129",
   "themes": [
-    "Shipping",
-    "Energy",
-    "Aquaculture"
+    "Shipping"
   ],
   "agency": [
     "DMI"
   ],
-  "collection_group": "Icebergs",
+  "collection_group": "D. Icebergs",
   "sensor": "Satellite RCM",
   "otherSources": [
     "Spatial Resolution: 10 km x 10 km",
@@ -171,7 +167,7 @@
       "interval": [
         [
           "2025-10-31T23:45:00Z",
-          "2026-07-21T00:35:00Z"
+          "2026-07-22T00:43:00Z"
         ]
       ]
     }
@@ -179,8 +175,6 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy",
       "Shipping"
     ],
     "sensor": [

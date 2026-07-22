@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "889c9ebc-9902-4942-a6cb-f32e2b463b54"
+      "key": "43411fc4-c3cd-4489-aadc-d3a8ec8d2358"
     },
     {
       "rel": "parent",
@@ -34,14 +34,12 @@
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Shipping",
-    "Energy",
-    "Aquaculture"
+    "Shipping"
   ],
   "agency": [
     "Mercator Ocean International "
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° × 0.083°",
@@ -79,7 +77,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-07-30T00:00:00Z"
+          "2026-07-31T00:00:00Z"
         ]
       ]
     }

@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "6d8ee441-241a-4761-a0da-7660259a8aef"
+      "key": "57d6077f-93fb-4f0f-9160-f776afefeddc"
     },
     {
       "rel": "parent",
@@ -35,7 +35,7 @@
   "agency": [
     "SMHI"
   ],
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "sensor": "Numerical models",
   "otherSources": [
     "Spatial Resolution: 2 × 2 km",

@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "9e60c087-efac-4e6d-81aa-d29769be58bf"
+      "key": "33d4ee32-bab3-4393-b07a-c7d2ce719979"
     },
     {
       "rel": "parent",
@@ -40,7 +40,7 @@
     "CMEMS"
   ],
   "subcode": "SICONC",
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
     "title": "Ice concentration",
     "range": [
@@ -70,7 +70,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-07-30T00:00:00Z"
+          "2026-07-31T00:00:00Z"
         ]
       ]
     }

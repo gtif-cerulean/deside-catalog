@@ -25,7 +25,7 @@
         "CMEMS"
       ],
       "subcode": "cmems_baltic_wave_height",
-      "collection_group": "Baltic"
+      "collection_group": "I. Baltic"
     },
     {
       "rel": "service",
@@ -120,7 +120,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_wave_height",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Maximum crest trough wave height [m]",
     "range": [
@@ -160,7 +160,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-07-30T00:00:00Z"
+          "2026-07-30T12:00:00Z"
         ]
       ]
     }

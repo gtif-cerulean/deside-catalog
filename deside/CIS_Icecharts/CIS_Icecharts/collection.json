@@ -23,7 +23,7 @@
   "agency": [
     "CIS"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "endpointtype": "FlatGeobuf source",
   "title": "CIS Ice charts",
   "extent": {

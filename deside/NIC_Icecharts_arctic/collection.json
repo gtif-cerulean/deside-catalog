@@ -18,8 +18,6 @@
       "endpointtype": "GeoJSON source",
       "id": "NIC_Icecharts_arctic",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "providers": [
@@ -29,7 +27,7 @@
       "agency": [
         "USNIC"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "eodash:mapProjection": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -100,14 +98,12 @@
     }
   ],
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "agency": [
     "USNIC"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "eodash:mapProjection": {
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -152,8 +148,6 @@
   ],
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy",
       "Shipping"
     ]
   }

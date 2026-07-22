@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/1"
       },
-      "key": "5e20cd85-0f41-4ca8-9ebf-e52dd03e73c6"
+      "key": "9a894a69-ccf3-4864-86f3-fd9bd15559ff"
     },
     {
       "rel": "parent",
@@ -34,14 +34,12 @@
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Shipping",
-    "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
   "agency": [
     "CMEMS"
   ],
-  "collection_group": "Sea Water",
+  "collection_group": "E. Sea Water",
   "eox:colorlegend": {
     "title": "Sea water velocity [m/s]",
     "range": [
@@ -75,7 +73,7 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2026-07-30T00:00:00Z"
+          "2026-07-31T00:00:00Z"
         ]
       ]
     }

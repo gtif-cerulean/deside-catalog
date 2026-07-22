@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:ice,range:0/1"
       },
-      "key": "9308aea0-524c-4e8f-b834-1c09445816b0"
+      "key": "3753a56e-4af2-4e38-a6a2-6d14904b3ac1"
     },
     {
       "rel": "parent",
@@ -34,14 +34,12 @@
   ],
   "sci:doi": "10.48670/moi-00129",
   "themes": [
-    "Shipping",
-    "Energy",
-    "Aquaculture"
+    "Shipping"
   ],
   "agency": [
     "DMI"
   ],
-  "collection_group": "Icebergs",
+  "collection_group": "D. Icebergs",
   "sensor": "Satellite RCM",
   "otherSources": [
     "Spatial Resolution: 10 km x 10 km",
@@ -79,7 +77,7 @@
       "interval": [
         [
           "2025-10-31T23:45:00Z",
-          "2026-07-21T00:35:00Z"
+          "2026-07-22T00:43:00Z"
         ]
       ]
     }

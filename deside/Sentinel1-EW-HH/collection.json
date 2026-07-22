@@ -18,14 +18,12 @@
       "endpointtype": "Sentinel Hub WMS",
       "id": "Sentinel1-EW-HH",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "xyz",
@@ -106,14 +104,12 @@
     }
   ],
   "themes": [
-    "Energy",
-    "Aquaculture",
     "Shipping"
   ],
   "agency": [
     "Sentinel Hub"
   ],
-  "collection_group": "Satellite Data",
+  "collection_group": "B. Satellite Data",
   "title": "Sentinel 1 EW HH",
   "extent": {
     "spatial": {
@@ -130,7 +126,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-07-21T00:00:00Z"
+          "2026-07-22T00:00:00Z"
         ]
       ]
     }
@@ -138,8 +134,6 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy",
       "Shipping"
     ]
   }

@@ -23,7 +23,7 @@
       "agency": [
         "Mercator Ocean International "
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "sensor": "Numerical model",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
@@ -122,7 +122,7 @@
   "agency": [
     "Mercator Ocean International "
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° x 0.083°",
@@ -167,7 +167,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-07-30T00:00:00Z"
+          "2026-07-31T00:00:00Z"
         ]
       ]
     }

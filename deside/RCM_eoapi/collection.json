@@ -18,14 +18,12 @@
       "endpointtype": "VEDA_tiles",
       "id": "RCM_eoapi_mix",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -35,14 +33,12 @@
       "endpointtype": "VEDA_tiles",
       "id": "RCM_eoapi_HH",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "child",
@@ -52,14 +48,12 @@
       "endpointtype": "VEDA_tiles",
       "id": "RCM_eoapi_HV",
       "themes": [
-        "Energy",
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Satellite Data"
+      "collection_group": "B. Satellite Data"
     },
     {
       "rel": "xyz",
@@ -140,14 +134,12 @@
     }
   ],
   "themes": [
-    "Energy",
-    "Aquaculture",
     "Shipping"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Satellite Data",
+  "collection_group": "B. Satellite Data",
   "title": "RCM scenes",
   "extent": {
     "spatial": {
@@ -182,7 +174,7 @@
       "interval": [
         [
           "2025-08-14T09:15:39Z",
-          "2026-07-18T23:15:58Z"
+          "2026-07-20T23:33:05Z"
         ]
       ]
     }
@@ -190,8 +182,6 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Energy",
       "Shipping"
     ]
   }

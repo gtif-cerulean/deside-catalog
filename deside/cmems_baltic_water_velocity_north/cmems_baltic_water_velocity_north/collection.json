@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "36beb48e-045e-482f-a01b-de8a2c985901"
+      "key": "59d2e8d6-d8f7-4260-b932-0f1002c95864"
     },
     {
       "rel": "parent",
@@ -36,7 +36,7 @@
     "CMEMS"
   ],
   "subcode": "cmems_baltic_water_velocity_north",
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic",
   "eox:colorlegend": {
     "title": "Water Velocity North [m/s]",
     "range": [

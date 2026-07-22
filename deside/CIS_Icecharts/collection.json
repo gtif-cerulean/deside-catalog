@@ -26,7 +26,7 @@
       "agency": [
         "CIS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "xyz",
@@ -112,7 +112,7 @@
   "agency": [
     "CIS"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "title": "CIS Ice charts",
   "extent": {
     "spatial": {
