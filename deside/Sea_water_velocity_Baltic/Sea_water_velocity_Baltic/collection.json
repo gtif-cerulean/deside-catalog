@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.5"
       },
-      "key": "4f894c40-fc7f-4322-a9a4-48b927702087"
+      "key": "7b93354c-4657-4f8c-bf6f-29573427f198"
     },
     {
       "rel": "parent",
@@ -39,7 +39,7 @@
   "agency": [
     "SMHI"
   ],
-  "collection_group": "I. Baltic",
+  "collection_group": "I. Baltic Sea",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 2 × 2 km",

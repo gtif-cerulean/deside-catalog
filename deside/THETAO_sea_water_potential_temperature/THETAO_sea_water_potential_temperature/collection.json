@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:thermal,range:-3/30"
       },
-      "key": "0eb75eea-a033-47c4-8653-b0b17040c7c4"
+      "key": "9ed50b08-0fd4-4864-9510-df0b668ad973"
     },
     {
       "rel": "parent",
@@ -34,13 +34,12 @@
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Aquaculture",
     "Shipping"
   ],
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "Sea Water",
+  "collection_group": "E. Sea Water",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° x 0.083°",

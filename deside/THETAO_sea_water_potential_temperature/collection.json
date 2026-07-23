@@ -18,13 +18,12 @@
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "THETAO_sea_water_potential_temperature",
       "themes": [
-        "Aquaculture",
         "Shipping"
       ],
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Water",
+      "collection_group": "E. Sea Water",
       "sensor": "Numerical model",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
@@ -118,13 +117,12 @@
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Aquaculture",
     "Shipping"
   ],
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "Sea Water",
+  "collection_group": "E. Sea Water",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° x 0.083°",
@@ -177,7 +175,6 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
       "Shipping"
     ],
     "sensor": [

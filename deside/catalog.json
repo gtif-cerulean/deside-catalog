@@ -435,13 +435,13 @@
       "code": "cmems_baltic_ice_concentration",
       "id": "cmems_balitic_ice_concentration",
       "themes": [
-        "Baltic"
+        "Baltic Sea"
       ],
       "subcode": "cmems_baltic_ice_concentration",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "I. Baltic"
+      "collection_group": "I. Baltic Sea"
     },
     {
       "rel": "child",
@@ -451,13 +451,13 @@
       "code": "cmems_baltic_ice_thickness",
       "id": "cmems_baltic_ice_thickness",
       "themes": [
-        "Baltic"
+        "Baltic Sea"
       ],
       "subcode": "cmems_baltic_ice_thickness",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "I. Baltic"
+      "collection_group": "I. Baltic Sea"
     },
     {
       "rel": "child",
@@ -467,13 +467,13 @@
       "code": "cmems_baltic_water_pot_temp",
       "id": "cmems_baltic_water_pot_temp",
       "themes": [
-        "Baltic"
+        "Baltic Sea"
       ],
       "subcode": "cmems_baltic_water_pot_temp",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "I. Baltic"
+      "collection_group": "I. Baltic Sea"
     },
     {
       "rel": "child",
@@ -483,13 +483,13 @@
       "code": "cmems_baltic_water_salinity",
       "id": "cmems_baltic_water_salinity",
       "themes": [
-        "Baltic"
+        "Baltic Sea"
       ],
       "subcode": "cmems_baltic_water_salinity",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "I. Baltic"
+      "collection_group": "I. Baltic Sea"
     },
     {
       "rel": "child",
@@ -531,13 +531,13 @@
       "code": "cmems_baltic_ice_thickness_chart",
       "id": "cmems_baltic_ice_thickness_chart",
       "themes": [
-        "Baltic"
+        "Baltic Sea"
       ],
       "subcode": "cmems_baltic_ice_thickness_chart",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "I. Baltic"
+      "collection_group": "I. Baltic Sea"
     },
     {
       "rel": "child",
@@ -547,13 +547,13 @@
       "code": "cmems_baltic_ice_concentration_chart",
       "id": "cmems_baltic_ice_concentration_chart",
       "themes": [
-        "Baltic"
+        "Baltic Sea"
       ],
       "subcode": "cmems_baltic_ice_concentration_chart",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "I. Baltic"
+      "collection_group": "I. Baltic Sea"
     },
     {
       "rel": "child",
@@ -563,13 +563,13 @@
       "code": "cmems_baltic_wave_height",
       "id": "cmems_baltic_wave_height",
       "themes": [
-        "Baltic"
+        "Baltic Sea"
       ],
       "subcode": "cmems_baltic_wave_height",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "I. Baltic"
+      "collection_group": "I. Baltic Sea"
     },
     {
       "rel": "child",
@@ -579,13 +579,13 @@
       "code": "cmems_baltic_wave_directon",
       "id": "cmems_baltic_wave_directon",
       "themes": [
-        "Baltic"
+        "Baltic Sea"
       ],
       "subcode": "cmems_baltic_wave_directon",
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "I. Baltic"
+      "collection_group": "I. Baltic Sea"
     },
     {
       "rel": "child",
@@ -873,7 +873,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "I. Baltic",
+      "collection_group": "I. Baltic Sea",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
@@ -1119,14 +1119,13 @@
       "title": "Sea water potential temperature",
       "id": "THETAO_sea_water_potential_temperature",
       "themes": [
-        "Aquaculture",
         "Shipping"
       ],
       "sensor": "Numerical model",
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Water",
+      "collection_group": "E. Sea Water",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
@@ -1145,7 +1144,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "Baltic",
+      "collection_group": "I. Baltic Sea",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "

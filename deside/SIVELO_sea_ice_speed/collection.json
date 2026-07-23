@@ -179,9 +179,9 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
       "Energy",
-      "Shipping"
+      "Shipping",
+      "Aquaculture"
     ],
     "sensor": [
       "Numerical model"

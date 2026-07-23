@@ -19,7 +19,7 @@
       "role": [
         "data"
       ],
-      "key": "ab2cae36-604e-4ce7-855c-08405bb73226"
+      "key": "917b2ecf-dca4-4da2-a12c-54e11eec0cea"
     },
     {
       "rel": "parent",
@@ -30,13 +30,13 @@
   ],
   "sci:doi": "10.48670/moi-00011",
   "themes": [
-    "Baltic"
+    "Baltic Sea"
   ],
   "agency": [
     "CMEMS"
   ],
   "subcode": "cmems_baltic_wave_directon",
-  "collection_group": "I. Baltic",
+  "collection_group": "I. Baltic Sea",
   "eox:colorlegend": {
     "title": "Mean wave direction from (Deg.)",
     "range": [
