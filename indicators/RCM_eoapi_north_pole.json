@@ -1,0 +1,16 @@
+{
+    "Name": "RCM_eoapi_north_pole",
+    "Title": "RCM scenes North Pole route",
+    "CollectionGroup": "B. Satellite Data",
+    "Themes": [
+        "Shipping"
+    ],
+    "Description": "RCM Data collection - North Pole route",
+    "Collections": [
+        "RCM_eoapi_north_pole_HH",
+        "RCM_eoapi_north_pole_HV"
+    ],
+    "Agency": [
+        "ESA"
+    ]
+}
