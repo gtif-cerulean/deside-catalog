@@ -1,12 +1,10 @@
 {
   "Name": "structureicing",
   "Title": "Structure Icing Index",
-  "CollectionGroup": "Capabilites",
+  "CollectionGroup": "A. Algorithms",
   "Description": "markdowns/Structure_Icing_Index.md",
   "Themes": [
-    "Shipping",
-    "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
   "Agency": [
     "C-CORE"
