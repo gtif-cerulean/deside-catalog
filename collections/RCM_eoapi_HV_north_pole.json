@@ -1,0 +1,39 @@
+{
+    "Name": "RCM_eoapi_north_pole_HV",
+    "Title": "RCM scenes HV - North Pole route",
+    "CollectionGroup": "B. Satellite Data",
+    "Themes": [
+        "Shipping"
+    ],
+    "Description": "RCM Data collection HV - North Pole route",
+    "Resources": [
+        {
+            "EndPoint": "https://eoapi.workspace.cif.hub-otc.eox.at/stac/",
+            "Name": "VEDA",
+            "Type": "tiles",
+            "CollectionId": "RCM_NERSC",
+            "ColormapName": "gray",
+            "Rescale": [
+                0,
+                0.005
+            ],
+            "Assets": [
+                "HV"
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Colorlegend": {
+        "title": "HV sigma0",
+        "range": [
+            "#000000",
+            "#ffffff"
+        ],
+        "domain": [
+            0,
+            0.005
+        ]
+    }
+}

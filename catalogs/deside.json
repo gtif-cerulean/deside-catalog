@@ -75,6 +75,7 @@
     "THETAO_sea_water_potential_temperature",
     "THETAO_water_temperature_Baltic",
     "Sea_water_velocity",
-    "fast_ice_ngi_eoapi"
+    "fast_ice_ngi_eoapi",
+    "RCM_eoapi_north_pole"
   ]
 }
