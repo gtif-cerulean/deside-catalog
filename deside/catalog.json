@@ -166,7 +166,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Water"
+      "collection_group": "E. Sea Water"
     },
     {
       "rel": "child",
@@ -294,7 +294,7 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -591,7 +591,7 @@
       "rel": "child",
       "href": "./DMI_Icecharts/collection.json",
       "type": "application/json",
-      "title": "DMI Ice charts",
+      "title": "Ice charts (DMI)",
       "id": "DMI_Icecharts",
       "themes": [
         "Shipping"
@@ -661,13 +661,13 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "A. Algorithms"
     },
     {
       "rel": "child",
       "href": "./CIS_Icecharts/collection.json",
       "type": "application/json",
-      "title": "CIS Ice charts",
+      "title": "Ice charts (CIS)",
       "id": "CIS_Icecharts",
       "themes": [
         "Shipping"
@@ -809,7 +809,7 @@
       "rel": "child",
       "href": "./NIC_Icecharts_arctic/collection.json",
       "type": "application/json",
-      "title": "NIC Ice charts Arctic",
+      "title": "Ice charts (NIC)",
       "id": "NIC_Icecharts_arctic",
       "themes": [
         "Shipping"
@@ -925,7 +925,7 @@
       "rel": "child",
       "href": "./SIAGE_sea_ice_age.json/collection.json",
       "type": "application/json",
-      "title": "Age of sea ice",
+      "title": "Sea Ice Age",
       "id": "SIAGE_sea_ice_age.json",
       "themes": [
         "Shipping"
@@ -944,11 +944,9 @@
       "rel": "child",
       "href": "./SICONC_sea_ice_concentration/collection.json",
       "type": "application/json",
-      "title": "Sea ice area fraction",
+      "title": "Sea Ice Concentration",
       "id": "SICONC_sea_ice_concentration",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "sensor": "Numerical model",
@@ -1033,7 +1031,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "Baltic",
+      "collection_group": "I. Baltic Sea",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
@@ -1043,18 +1041,16 @@
       "rel": "child",
       "href": "./SIVELO_sea_ice_speed/collection.json",
       "type": "application/json",
-      "title": "Sea ice speed",
+      "title": "Sea ice velocity",
       "id": "SIVELO_sea_ice_speed",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "sensor": "Numerical model",
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
@@ -1092,7 +1088,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "Baltic",
+      "collection_group": "I. Baltic Sea",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
@@ -1168,7 +1164,7 @@
       "rel": "child",
       "href": "./Fast_Ice_NGI_EOAPI/collection.json",
       "type": "application/json",
-      "title": "Landfast Sea Ice Motion",
+      "title": "Landfast Sea Ice (Svalbard)",
       "id": "Fast_Ice_NGI_EOAPI",
       "themes": [
         "Landfast Sea Ice"

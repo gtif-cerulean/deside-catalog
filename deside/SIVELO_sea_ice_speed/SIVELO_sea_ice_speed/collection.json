@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "Sea ice speed",
+      "title": "Sea ice velocity",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sea_ice_velocity",
       "role": [
         "data"
@@ -23,25 +23,23 @@
         "elevation": 0,
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.3"
       },
-      "key": "70fddfe0-b850-4379-a690-c57cd256f620"
+      "key": "5935bb2f-c62a-49e6-a0bd-2148f5272f82"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sea ice speed"
+      "title": "Sea ice velocity"
     }
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° x 0.083°",
@@ -63,7 +61,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Sea ice speed",
+  "title": "Sea ice velocity",
   "extent": {
     "spatial": {
       "bbox": [

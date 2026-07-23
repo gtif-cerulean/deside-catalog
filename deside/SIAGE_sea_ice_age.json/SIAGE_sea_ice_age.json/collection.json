@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "Age of sea ice",
+      "title": "Sea Ice Age",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siage",
       "role": [
         "data"
@@ -23,13 +23,13 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "f4a0cd5b-c0a9-4bb0-958a-e1ea00825129"
+      "key": "a1fccdd6-985c-459d-b1b4-f19adc28b859"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Age of sea ice"
+      "title": "Sea Ice Age"
     }
   ],
   "sci:doi": "10.48670/moi-00016",
@@ -61,7 +61,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Age of sea ice",
+  "title": "Sea Ice Age",
   "extent": {
     "spatial": {
       "bbox": [

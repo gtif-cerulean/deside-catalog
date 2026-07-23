@@ -23,7 +23,7 @@
   "agency": [
     "DMI"
   ],
-  "collection_group": "C. Sea Ice",
+  "collection_group": "A. Algorithms",
   "endpointtype": "FlatGeobuf source",
   "title": "POLARIS (DMI)",
   "extent": {

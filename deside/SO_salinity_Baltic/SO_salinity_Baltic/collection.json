@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:haline"
       },
-      "key": "a3b76ed2-e8aa-41f5-b6b6-db014dd305e6"
+      "key": "1eb4561b-caf4-44b4-aec0-3ca19fe4b367"
     },
     {
       "rel": "parent",
@@ -39,7 +39,7 @@
   "agency": [
     "SMHI"
   ],
-  "collection_group": "Baltic",
+  "collection_group": "I. Baltic Sea",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 2 × 2 km",

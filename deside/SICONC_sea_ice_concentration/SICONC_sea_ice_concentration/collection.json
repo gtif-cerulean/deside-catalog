@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "Sea ice area fraction",
+      "title": "Sea Ice Concentration",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siconc",
       "role": [
         "data"
@@ -23,19 +23,17 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "1d050b4f-af85-4eb5-9d41-9906849b5d16"
+      "key": "a4b12afb-6bbf-4c7b-aadf-1d59ea38bea3"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sea ice area fraction"
+      "title": "Sea Ice Concentration"
     }
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "agency": [
@@ -63,7 +61,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Sea ice area fraction",
+  "title": "Sea Ice Concentration",
   "extent": {
     "spatial": {
       "bbox": [

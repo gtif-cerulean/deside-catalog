@@ -25,7 +25,7 @@
         "CMEMS"
       ],
       "subcode": "SST",
-      "collection_group": "Sea Ice"
+      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "service",
@@ -120,7 +120,7 @@
     "CMEMS"
   ],
   "subcode": "SST",
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "eox:colorlegend": {
     "title": "Surface snow thickness [m]",
     "range": [

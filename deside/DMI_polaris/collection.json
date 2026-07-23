@@ -27,7 +27,7 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "A. Algorithms"
     },
     {
       "rel": "xyz",
@@ -113,7 +113,7 @@
   "agency": [
     "DMI"
   ],
-  "collection_group": "C. Sea Ice",
+  "collection_group": "A. Algorithms",
   "title": "POLARIS (DMI)",
   "extent": {
     "spatial": {

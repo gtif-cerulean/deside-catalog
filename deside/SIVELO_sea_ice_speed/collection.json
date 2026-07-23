@@ -14,18 +14,16 @@
       "rel": "child",
       "href": "./SIVELO_sea_ice_speed/collection.json",
       "type": "application/json",
-      "title": "Sea ice speed",
+      "title": "Sea ice velocity",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "SIVELO_sea_ice_speed",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "sensor": "Numerical model",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
@@ -119,14 +117,12 @@
   ],
   "sci:doi": "10.48670/moi-00016",
   "themes": [
-    "Aquaculture",
-    "Energy",
     "Shipping"
   ],
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° x 0.083°",
@@ -149,7 +145,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sivelo.json",
-  "title": "Sea ice speed",
+  "title": "Sea ice velocity",
   "extent": {
     "spatial": {
       "bbox": [
@@ -179,9 +175,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Energy",
-      "Shipping",
-      "Aquaculture"
+      "Shipping"
     ],
     "sensor": [
       "Numerical model"

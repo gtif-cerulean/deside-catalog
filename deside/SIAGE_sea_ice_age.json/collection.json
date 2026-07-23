@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./SIAGE_sea_ice_age.json/collection.json",
       "type": "application/json",
-      "title": "Age of sea ice",
+      "title": "Sea Ice Age",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "SIAGE_sea_ice_age.json",
       "themes": [
@@ -145,7 +145,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siage.json",
-  "title": "Age of sea ice",
+  "title": "Sea Ice Age",
   "extent": {
     "spatial": {
       "bbox": [

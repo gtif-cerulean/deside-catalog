@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "DMI Ice charts"
+      "title": "Ice charts (DMI)"
     }
   ],
   "themes": [
@@ -25,7 +25,7 @@
   ],
   "collection_group": "C. Sea Ice",
   "endpointtype": "FlatGeobuf source",
-  "title": "DMI Ice charts",
+  "title": "Ice charts (DMI)",
   "extent": {
     "spatial": {
       "bbox": [

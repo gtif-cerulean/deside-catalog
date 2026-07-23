@@ -15,13 +15,13 @@
       "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Coherence&colormap_name=viridis&nodata=NaN&rescale=0,1",
       "type": "image/png",
       "title": "Fast Ice NGI Coherence",
-      "key": "ad6c3ef5-d412-4059-a78c-f00e6a2b5e5a"
+      "key": "b8909a4d-b892-44f2-8a20-26b2802681db"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Landfast Sea Ice Motion"
+      "title": "Landfast Sea Ice (Svalbard)"
     }
   ],
   "themes": [

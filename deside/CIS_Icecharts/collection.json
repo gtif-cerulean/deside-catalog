@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./CIS_Icecharts/collection.json",
       "type": "application/json",
-      "title": "CIS Ice charts",
+      "title": "Ice charts (CIS)",
       "endpointtype": "FlatGeobuf source",
       "id": "CIS_Icecharts",
       "themes": [
@@ -113,7 +113,7 @@
     "CIS"
   ],
   "collection_group": "C. Sea Ice",
-  "title": "CIS Ice charts",
+  "title": "Ice charts (CIS)",
   "extent": {
     "spatial": {
       "bbox": [

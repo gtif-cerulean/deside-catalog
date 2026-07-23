@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:thermal,range:-3/30"
       },
-      "key": "6bfbb3d9-cf62-42b5-8f81-bdf743b183bc"
+      "key": "3acbc3f4-62bc-48c8-9fa9-4e33623d4c68"
     },
     {
       "rel": "parent",
@@ -40,7 +40,7 @@
     "CMEMS"
   ],
   "subcode": "SWPT",
-  "collection_group": "Sea Water",
+  "collection_group": "E. Sea Water",
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea water potential temperature",
   "extent": {

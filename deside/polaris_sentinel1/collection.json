@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./DMI_Icecharts/collection.json",
       "type": "application/json",
-      "title": "DMI Ice charts",
+      "title": "Ice charts (DMI)",
       "endpointtype": "FlatGeobuf source",
       "id": "DMI_Icecharts",
       "themes": [

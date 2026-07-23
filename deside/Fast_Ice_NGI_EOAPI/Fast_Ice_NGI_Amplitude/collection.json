@@ -15,13 +15,13 @@
       "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Amplitude&colormap_name=gray&nodata=NaN&rescale=0,80",
       "type": "image/png",
       "title": "Fast Ice NGI Amplitude",
-      "key": "5a264af7-2c27-4844-93d2-32df553e716b"
+      "key": "8e48fc32-a2bb-4f80-b207-bc69a5eb6080"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Landfast Sea Ice Motion"
+      "title": "Landfast Sea Ice (Svalbard)"
     }
   ],
   "themes": [
