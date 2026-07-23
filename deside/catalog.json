@@ -12,22 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./Polaris_algorithm_dmi_demo/collection.json",
-      "type": "application/json",
-      "title": "POLARIS",
-      "code": "Polaris_algorithm_dmi_demo",
-      "id": "Polaris_algorithm_dmi_demo",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "Polaris_algorithm_dmi_demo",
-      "agency": [
-        "IMO"
-      ],
-      "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
       "href": "./polaris_sentinel1/collection.json",
       "type": "application/json",
       "title": "Sea Ice Concentration Comparison",
@@ -37,38 +21,6 @@
       ],
       "agency": [
         "DMI"
-      ],
-      "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./iceberg_concentration/collection.json",
-      "type": "application/json",
-      "title": "Iceberg concentration",
-      "code": "IBC",
-      "id": "iceberg_concentration",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "IBC",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "D. Icebergs"
-    },
-    {
-      "rel": "child",
-      "href": "./mean_sea_ice_age/collection.json",
-      "type": "application/json",
-      "title": "Mean sea ice age",
-      "code": "MSIA",
-      "id": "mean_sea_ice_age",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "MSIA",
-      "agency": [
-        "CMEMS"
       ],
       "collection_group": "C. Sea Ice"
     },
@@ -103,54 +55,6 @@
         "CMEMS"
       ],
       "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_eastward_velocity/collection.json",
-      "type": "application/json",
-      "title": "Sea ice eastward velocity",
-      "code": "USI",
-      "id": "sea_ice_eastward_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "USI",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_northward_velocity/collection.json",
-      "type": "application/json",
-      "title": "Sea ice northward velocity",
-      "code": "VSI",
-      "id": "sea_ice_northward_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VSI",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_detections/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Detections",
-      "code": "SID",
-      "id": "sea_ice_detections",
-      "themes": [
-        "shipping"
-      ],
-      "subcode": "SID",
-      "agency": [
-        "SMI"
-      ],
-      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -234,54 +138,6 @@
     },
     {
       "rel": "child",
-      "href": "./wind_stress_eastward/collection.json",
-      "type": "application/json",
-      "title": "Surface wind stress eastward component",
-      "code": "WSE",
-      "id": "wind_stress_eastward",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "WSE",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./wind_stress_northward/collection.json",
-      "type": "application/json",
-      "title": "Surface wind stress northward component",
-      "code": "WSN",
-      "id": "wind_stress_northward",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "WSN",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
-      "href": "./curl_of_stress_equivalent_wind/collection.json",
-      "type": "application/json",
-      "title": "Curl of stress-equivalent wind",
-      "code": "WCS",
-      "id": "curl_of_stress_equivalent_wind",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "WCS",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Wind"
-    },
-    {
-      "rel": "child",
       "href": "./surface_snow_thickness/collection.json",
       "type": "application/json",
       "title": "Surface snow thickness",
@@ -311,103 +167,6 @@
         "CMEMS"
       ],
       "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./eastward_tide_velocity/collection.json",
-      "type": "application/json",
-      "title": "Eastward tide-induced velocity",
-      "code": "UOTIDE",
-      "id": "eastward_tide_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "UOTIDE",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./northwad_tide_velocity/collection.json",
-      "type": "application/json",
-      "title": "Northward tide-induced velocity",
-      "code": "VOTIDE",
-      "id": "northwad_tide_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VOTIDE",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./eastward_velocity/collection.json",
-      "type": "application/json",
-      "title": "Eastward velocity",
-      "code": "UO",
-      "id": "eastward_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "UO",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./northward_velocity/collection.json",
-      "type": "application/json",
-      "title": "Northward velocity",
-      "code": "VO",
-      "id": "northward_velocity",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VO",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./climate_indicator/collection.json",
-      "type": "application/json",
-      "title": "Climate indicator",
-      "code": "CI",
-      "id": "climate_indicator",
-      "themes": [
-        "Climate Change"
-      ],
-      "subcode": "CI",
-      "agency": [
-        "Various"
-      ],
-      "collection_group": "Capabilities"
-    },
-    {
-      "rel": "child",
-      "href": "./harshness/collection.json",
-      "type": "application/json",
-      "title": "Harshness capability",
-      "code": "harshness",
-      "id": "harshness",
-      "themes": [
-        "Shipping",
-        "Climate"
-      ],
-      "subcode": "harshness",
-      "agency": [
-        "C-CORE"
-      ],
-      "collection_group": "Capabilities"
     },
     {
       "rel": "child",
@@ -493,38 +252,6 @@
     },
     {
       "rel": "child",
-      "href": "./cmems_baltic_water_velocity_east/collection.json",
-      "type": "application/json",
-      "title": "Baltic Water Velocity Eastward",
-      "code": "cmems_baltic_water_velocity_east",
-      "id": "cmems_baltic_water_velocity_east",
-      "themes": [
-        "Baltic"
-      ],
-      "subcode": "cmems_baltic_water_velocity_east",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "I. Baltic"
-    },
-    {
-      "rel": "child",
-      "href": "./cmems_baltic_water_velocity_north/collection.json",
-      "type": "application/json",
-      "title": "Baltic Water Velocity North",
-      "code": "cmems_baltic_water_velocity_north",
-      "id": "cmems_baltic_water_velocity_north",
-      "themes": [
-        "Baltic"
-      ],
-      "subcode": "cmems_baltic_water_velocity_north",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "I. Baltic"
-    },
-    {
-      "rel": "child",
       "href": "./cmems_baltic_ice_thickness_chart/collection.json",
       "type": "application/json",
       "title": "Baltic Sea Ice Chart Thickness",
@@ -589,6 +316,118 @@
     },
     {
       "rel": "child",
+      "href": "./Sea_water_velocity_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity - Baltic Sea",
+      "id": "Sea_water_velocity_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice area fraction - Baltic Sea",
+      "id": "SICONC_sea_ice_concentration_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness - Baltic Sea",
+      "id": "SITHICK_sea_ice_thickness_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SO_salinity_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water salinity - Baltic Sea",
+      "id": "SO_salinity_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./THETAO_water_temperature_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature - Baltic Sea",
+      "id": "THETAO_water_temperature_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CIS_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "Ice charts (CIS)",
+      "id": "CIS_Icecharts",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "Canadian Ice Service (CIS)"
+      ],
+      "agency": [
+        "CIS"
+      ],
+      "collection_group": "C. Sea Ice"
+    },
+    {
+      "rel": "child",
       "href": "./DMI_Icecharts/collection.json",
       "type": "application/json",
       "title": "Ice charts (DMI)",
@@ -600,50 +439,6 @@
         "DMI"
       ],
       "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./Polartep_sea_ice_thickness_dedl_on_demand_indicator/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Thickness from DestinE On Demand",
-      "id": "Polartep_sea_ice_thickness_dedl_on_demand_indicator",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "DestinE"
-      ],
-      "collection_group": "Capabilities",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./RCM_data/collection.json",
-      "type": "application/json",
-      "title": "RADARSAT constellation mission (RCM) ",
-      "code": "rcm",
-      "id": "RCM_data",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "rcm",
-      "thumbnail": [
-        "https://raw.githubusercontent.com/gtif-cerulean/assets/main/Polartep_SeaIceCharts_demo/thumbnail.png"
-      ],
-      "collection_group": "Capabilities",
-      "eodash:mapProjection": {
-        "name": "EPSG:4326",
-        "def": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
-        "extent": [
-          -180,
-          -90,
-          180,
-          90
-        ]
-      }
     },
     {
       "rel": "child",
@@ -665,20 +460,25 @@
     },
     {
       "rel": "child",
-      "href": "./CIS_Icecharts/collection.json",
+      "href": "./NIC_Icecharts_arctic/collection.json",
       "type": "application/json",
-      "title": "Ice charts (CIS)",
-      "id": "CIS_Icecharts",
+      "title": "Ice charts (NIC)",
+      "id": "NIC_Icecharts_arctic",
       "themes": [
         "Shipping"
       ],
       "providers": [
-        "Canadian Ice Service (CIS)"
+        "U.S. NATIONAL ICE CENTER (USNIC)",
+        "EOX"
       ],
       "agency": [
-        "CIS"
+        "USNIC"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -733,20 +533,6 @@
         "CMEMS"
       ],
       "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./Drift_Deformation/collection.json",
-      "type": "application/json",
-      "title": "Sea Ice Drift and Deformation",
-      "id": "Drift_Deformation",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "C-CORE"
-      ],
-      "collection_group": "Capabilites"
     },
     {
       "rel": "child",
@@ -807,42 +593,6 @@
     },
     {
       "rel": "child",
-      "href": "./NIC_Icecharts_arctic/collection.json",
-      "type": "application/json",
-      "title": "Ice charts (NIC)",
-      "id": "NIC_Icecharts_arctic",
-      "themes": [
-        "Shipping"
-      ],
-      "providers": [
-        "U.S. NATIONAL ICE CENTER (USNIC)",
-        "EOX"
-      ],
-      "agency": [
-        "USNIC"
-      ],
-      "collection_group": "C. Sea Ice",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./RCM_eoapi/collection.json",
-      "type": "application/json",
-      "title": "RCM scenes",
-      "id": "RCM_eoapi",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "B. Satellite Data"
-    },
-    {
-      "rel": "child",
       "href": "./Sea_surface_temperature_anomaly/collection.json",
       "type": "application/json",
       "title": "Sea surface temperature anomaly",
@@ -858,25 +608,6 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./Sea_water_velocity_Baltic/collection.json",
-      "type": "application/json",
-      "title": "Sea water velocity - Baltic Sea",
-      "id": "Sea_water_velocity_Baltic",
-      "themes": [
-        "Baltic Sea"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "SMHI"
-      ],
-      "collection_group": "I. Baltic Sea",
-      "otherSources": [
-        "Spatial Resolution: 2 × 2 km",
-        "Frequency: Daily "
       ]
     },
     {
@@ -961,25 +692,6 @@
     },
     {
       "rel": "child",
-      "href": "./SICONC_sea_ice_concentration_Baltic/collection.json",
-      "type": "application/json",
-      "title": "Sea ice area fraction - Baltic Sea",
-      "id": "SICONC_sea_ice_concentration_Baltic",
-      "themes": [
-        "Baltic Sea"
-      ],
-      "sensor": "Numerical models",
-      "agency": [
-        "SMHI"
-      ],
-      "collection_group": "I. Baltic",
-      "otherSources": [
-        "Spatial Resolution: 2 × 2 km",
-        "Frequency: Daily "
-      ]
-    },
-    {
-      "rel": "child",
       "href": "./SISNTHICK_surface_snow_thickness/collection.json",
       "type": "application/json",
       "title": "Surface snow thickness",
@@ -1016,25 +728,6 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./SITHICK_sea_ice_thickness_Baltic/collection.json",
-      "type": "application/json",
-      "title": "Sea ice thickness - Baltic Sea",
-      "id": "SITHICK_sea_ice_thickness_Baltic",
-      "themes": [
-        "Baltic Sea"
-      ],
-      "sensor": "Numerical models",
-      "agency": [
-        "SMHI"
-      ],
-      "collection_group": "I. Baltic Sea",
-      "otherSources": [
-        "Spatial Resolution: 2 × 2 km",
-        "Frequency: Daily "
       ]
     },
     {
@@ -1077,25 +770,6 @@
     },
     {
       "rel": "child",
-      "href": "./SO_salinity_Baltic/collection.json",
-      "type": "application/json",
-      "title": "Sea water salinity - Baltic Sea",
-      "id": "SO_salinity_Baltic",
-      "themes": [
-        "Baltic Sea"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "SMHI"
-      ],
-      "collection_group": "I. Baltic Sea",
-      "otherSources": [
-        "Spatial Resolution: 2 × 2 km",
-        "Frequency: Daily "
-      ]
-    },
-    {
-      "rel": "child",
       "href": "./structureicing/collection.json",
       "type": "application/json",
       "title": "Structure Icing Index",
@@ -1125,25 +799,6 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./THETAO_water_temperature_Baltic/collection.json",
-      "type": "application/json",
-      "title": "Sea water potential temperature - Baltic Sea",
-      "id": "THETAO_water_temperature_Baltic",
-      "themes": [
-        "Baltic Sea"
-      ],
-      "sensor": "Numerical models",
-      "agency": [
-        "SMHI"
-      ],
-      "collection_group": "I. Baltic Sea",
-      "otherSources": [
-        "Spatial Resolution: 2 × 2 km",
-        "Frequency: Daily "
       ]
     },
     {
