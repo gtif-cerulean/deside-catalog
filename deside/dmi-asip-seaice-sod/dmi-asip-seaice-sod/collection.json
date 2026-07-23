@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/asip-seaice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=sod&nodata=-1&colormap=%7B%220%22%3A%20%5B240%2C210%2C250%5D%2C%221%22%3A%5B155%2C210%2C0%5D%2C%222%22%3A%5B0%2C120%2C0%5D%2C%223%22%3A%5B200%2C0%2C0%5D%2C%224%22%3A%5B150%2C150%2C150%5D%7D",
       "type": "image/png",
       "title": "AI: Sea Ice Stage of Development",
-      "key": "0114f6ad-cd98-4463-bba8-dd92122a719f"
+      "key": "2fc3bdd3-73c2-423c-8351-e402406a8a9d"
     },
     {
       "rel": "parent",

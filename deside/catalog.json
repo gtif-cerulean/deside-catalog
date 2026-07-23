@@ -1105,14 +1105,12 @@
       "title": "Structure Icing Index",
       "id": "structureicing",
       "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
+        "Shipping"
       ],
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "Capabilites"
+      "collection_group": "A. Algorithms"
     },
     {
       "rel": "child",

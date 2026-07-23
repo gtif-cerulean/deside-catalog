@@ -18,14 +18,12 @@
       "endpointtype": "Collection-only",
       "id": "structureicing",
       "themes": [
-        "Shipping",
-        "Aquaculture",
-        "Energy"
+        "Shipping"
       ],
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "Capabilites"
+      "collection_group": "A. Algorithms"
     },
     {
       "rel": "service",
@@ -116,14 +114,12 @@
     }
   ],
   "themes": [
-    "Shipping",
-    "Aquaculture",
-    "Energy"
+    "Shipping"
   ],
   "agency": [
     "C-CORE"
   ],
-  "collection_group": "Capabilites",
+  "collection_group": "A. Algorithms",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/structureicing.json",
   "title": "Structure Icing Index",
   "extent": {
@@ -140,8 +136,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-07-23T14:08:07.712913Z",
-          "2026-07-23T14:08:07.712913Z"
+          "2026-07-23T16:57:49.629360Z",
+          "2026-07-23T16:57:49.629360Z"
         ]
       ]
     }
@@ -149,9 +145,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Aquaculture",
-      "Shipping",
-      "Energy"
+      "Shipping"
     ]
   }
 }
