@@ -4,7 +4,7 @@
   "EodashIdentifier": "cmems_baltic_wave_height",
   "Description": "This Baltic Sea wave model product provides forecasts for the wave conditions in the Baltic Sea. The Baltic forecast is updated twice daily from a 00Z production proving a 10 days forecast and from a 12Z production providing a 6 days forecast. Data are provided with hourly instantaneous data for significant wave height, wave period and wave direction for total sea, wind sea and swell, the Stokes drift, and two paramters for the maximum wave. The product is based on the wave model WAM cycle 4.7. The wave model is forced with surface currents, sea level anomaly and ice information from the Baltic Sea ocean forecast product (BALTICSEA_ANALYSISFORECAST_PHY_003_006). The product grid has a horizontal resolution of 1 nautical mile. The area covers the Baltic Sea including the transition area towards the North Sea (i.e. the Danish Belts, the Kattegat and Skagerrak).",
   "Themes": [
-    "Baltic"
+    "Baltic Sea"
   ],
   "Agency": [
     "CMEMS"
@@ -26,7 +26,7 @@
       "Dimensions": {}
     }
   ],
-  "CollectionGroup": "I. Baltic",
+  "CollectionGroup": "I. Baltic Sea",
   "Colorlegend": {
     "title": "Maximum crest trough wave height [m]",
     "range": [
