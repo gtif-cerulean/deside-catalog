@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/asip-seaice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=flz&nodata=-1&colormap=%7B%220%22%3A%20%5B160%2C232%2C91%5D%2C%221%22%3A%5B145%2C89%2C222%5D%2C%222%22%3A%5B91%2C131%2C19%5D%2C%20%223%22%3A%20%5B255%2C125%2C7%5D%7D",
       "type": "image/png",
       "title": "AI: Sea Ice Floe Size",
-      "key": "49367ebc-e21c-42fa-993e-8cfd88019a2c"
+      "key": "9dfa9f3c-752f-4a07-9b76-f8f62dbf6bd6"
     },
     {
       "rel": "parent",
