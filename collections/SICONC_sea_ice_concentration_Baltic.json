@@ -1,11 +1,11 @@
 {
   "Name": "SICONC_sea_ice_concentration_Baltic",
-  "Title": "Sea ice area fraction - Baltic Sea",
+  "Title": "Sea ice concentration - Baltic Sea",
   "Description": "The physical model provides forecasts for the conditions in the Baltic Sea. The forecast is for 10 days. Several datasets are provided: ice concentration and thickness, temperature, salinity, and currents. The product is produced by a Baltic Sea set up of the NEMOv4.2.1 ocean model. The ocean model is forced with Stokes drift data from the Baltic Sea Wave forecast product. Satellite SST, sea ice concentrations and in-situ T and S profiles are assimilated into the model's analysis field.",
   "Themes": [
     "Baltic Sea"
   ],
-  "CollectionGroup": "I. Baltic",
+  "CollectionGroup": "I. Baltic Sea",
   "DataSource": {
     "Spaceborne": {
       "Sensor": "Numerical models"
