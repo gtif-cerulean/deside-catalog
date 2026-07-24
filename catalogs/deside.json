@@ -9,7 +9,6 @@
   "collections": [
     "POS1_polaris_sentinel1",
     "SIT_sea_ice_thickness",
-    "SWPT_sea_water_potential_temperature",
     "VCMX_maximum_crest_wave",
     "VHM0_wave_significant_height",
     "VMDR_mean_wave_direction",
