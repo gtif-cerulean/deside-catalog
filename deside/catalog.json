@@ -26,22 +26,6 @@
     },
     {
       "rel": "child",
-      "href": "./sea_water_potential_temperature/collection.json",
-      "type": "application/json",
-      "title": "Sea water potential temperature",
-      "code": "SWPT",
-      "id": "sea_water_potential_temperature",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "SWPT",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "E. Sea Water"
-    },
-    {
-      "rel": "child",
       "href": "./wave_significant_height/collection.json",
       "type": "application/json",
       "title": "Spectral significant wave height",
@@ -71,22 +55,6 @@
         "CMEMS"
       ],
       "collection_group": "Waves"
-    },
-    {
-      "rel": "child",
-      "href": "./surface_snow_thickness/collection.json",
-      "type": "application/json",
-      "title": "Surface snow thickness",
-      "code": "SST",
-      "id": "surface_snow_thickness",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "SST",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "C. Sea Ice"
     },
     {
       "rel": "child",
@@ -630,7 +598,7 @@
       "rel": "child",
       "href": "./SISNTHICK_surface_snow_thickness/collection.json",
       "type": "application/json",
-      "title": "Surface snow thickness",
+      "title": "Sea Ice Surface Snow Thickness",
       "id": "SISNTHICK_surface_snow_thickness",
       "themes": [
         "Shipping"
@@ -639,7 +607,7 @@
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
@@ -649,18 +617,16 @@
       "rel": "child",
       "href": "./SITHICK_sea_ice_thickness/collection.json",
       "type": "application/json",
-      "title": "Sea ice thickness",
+      "title": "Sea Ice Thickness",
       "id": "SITHICK_sea_ice_thickness",
       "themes": [
-        "Aquaculture",
-        "Energy",
         "Shipping"
       ],
       "sensor": "Numerical model",
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Ice",
+      "collection_group": "C. Sea Ice",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
@@ -722,7 +688,7 @@
       "rel": "child",
       "href": "./THETAO_sea_water_potential_temperature/collection.json",
       "type": "application/json",
-      "title": "Sea water potential temperature",
+      "title": "Sea Water Potential Temperature",
       "id": "THETAO_sea_water_potential_temperature",
       "themes": [
         "Shipping"

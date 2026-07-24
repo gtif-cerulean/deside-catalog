@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "Sea water potential temperature",
+      "title": "Sea Water Potential Temperature",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m_202406/thetao",
       "role": [
         "data"
@@ -23,13 +23,13 @@
         "elevation": 0,
         "style": "cmap:thermal,range:-3/30"
       },
-      "key": "cdbd201a-7128-4abb-a311-ff84e6258691"
+      "key": "32936ba6-0d48-477b-8715-1d53cf378fbc"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sea water potential temperature"
+      "title": "Sea Water Potential Temperature"
     }
   ],
   "sci:doi": "10.48670/moi-00016",
@@ -61,7 +61,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Sea water potential temperature",
+  "title": "Sea Water Potential Temperature",
   "extent": {
     "spatial": {
       "bbox": [

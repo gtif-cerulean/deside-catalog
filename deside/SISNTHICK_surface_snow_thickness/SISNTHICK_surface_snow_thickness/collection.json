@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
       "type": "image/png",
-      "title": "Surface snow thickness",
+      "title": "Sea Ice Surface Snow Thickness",
       "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sisnthick",
       "role": [
         "data"
@@ -23,13 +23,13 @@
         "elevation": 0,
         "style": "cmap:ice"
       },
-      "key": "19226758-423c-4fd4-89f5-b8ffeff469d4"
+      "key": "c5e4c3b5-b818-4f41-a194-6555b0f155a1"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Surface snow thickness"
+      "title": "Sea Ice Surface Snow Thickness"
     }
   ],
   "sci:doi": "10.48670/moi-00016",
@@ -39,7 +39,7 @@
   "agency": [
     "Mercator Ocean International"
   ],
-  "collection_group": "Sea Ice",
+  "collection_group": "C. Sea Ice",
   "sensor": "Numerical model",
   "otherSources": [
     "Spatial Resolution: 0.083° x 0.083°",
@@ -61,7 +61,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Surface snow thickness",
+  "title": "Sea Ice Surface Snow Thickness",
   "extent": {
     "spatial": {
       "bbox": [

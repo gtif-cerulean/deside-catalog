@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./THETAO_sea_water_potential_temperature/collection.json",
       "type": "application/json",
-      "title": "Sea water potential temperature",
+      "title": "Sea Water Potential Temperature",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "THETAO_sea_water_potential_temperature",
       "themes": [
@@ -145,7 +145,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/thetao.json",
-  "title": "Sea water potential temperature",
+  "title": "Sea Water Potential Temperature",
   "extent": {
     "spatial": {
       "bbox": [
