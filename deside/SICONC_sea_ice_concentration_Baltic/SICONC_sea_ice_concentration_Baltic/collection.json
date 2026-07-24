@@ -14,18 +14,18 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411",
       "type": "image/png",
-      "title": "Sea ice area fraction - Baltic Sea",
+      "title": "Sea ice concentration - Baltic Sea",
       "wmts:layer": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/siconc",
       "role": [
         "data"
       ],
-      "key": "51c35b1d-209b-4f11-9499-0dcfa6fa1668"
+      "key": "44c1a0c3-6264-41db-ba5a-7f6f5086d3c4"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sea ice area fraction - Baltic Sea"
+      "title": "Sea ice concentration - Baltic Sea"
     }
   ],
   "sci:doi": "10.48670/moi-00010",
@@ -35,7 +35,7 @@
   "agency": [
     "SMHI"
   ],
-  "collection_group": "I. Baltic",
+  "collection_group": "I. Baltic Sea",
   "sensor": "Numerical models",
   "otherSources": [
     "Spatial Resolution: 2 × 2 km",
@@ -57,7 +57,7 @@
     ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Sea ice area fraction - Baltic Sea",
+  "title": "Sea ice concentration - Baltic Sea",
   "extent": {
     "spatial": {
       "bbox": [

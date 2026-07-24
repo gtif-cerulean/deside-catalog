@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./SICONC_sea_ice_concentration_Baltic/collection.json",
       "type": "application/json",
-      "title": "Sea ice area fraction - Baltic Sea",
+      "title": "Sea ice concentration - Baltic Sea",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "id": "SICONC_sea_ice_concentration_Baltic",
       "themes": [
@@ -23,7 +23,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "I. Baltic",
+      "collection_group": "I. Baltic Sea",
       "sensor": "Numerical models",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
@@ -122,7 +122,7 @@
   "agency": [
     "SMHI"
   ],
-  "collection_group": "I. Baltic",
+  "collection_group": "I. Baltic Sea",
   "sensor": "Numerical models",
   "otherSources": [
     "Spatial Resolution: 2 × 2 km",
@@ -145,7 +145,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
-  "title": "Sea ice area fraction - Baltic Sea",
+  "title": "Sea ice concentration - Baltic Sea",
   "extent": {
     "spatial": {
       "bbox": [

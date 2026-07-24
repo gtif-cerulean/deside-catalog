@@ -26,38 +26,6 @@
     },
     {
       "rel": "child",
-      "href": "./ice_concentration/collection.json",
-      "type": "application/json",
-      "title": "Ice concentration",
-      "code": "SICONC",
-      "id": "ice_concentration",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "SICONC",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "C. Sea Ice"
-    },
-    {
-      "rel": "child",
-      "href": "./sea_ice_thickness/collection.json",
-      "type": "application/json",
-      "title": "Sea ice thickness",
-      "code": "SIT",
-      "id": "sea_ice_thickness",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "SIT",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Ice"
-    },
-    {
-      "rel": "child",
       "href": "./sea_water_potential_temperature/collection.json",
       "type": "application/json",
       "title": "Sea water potential temperature",
@@ -71,22 +39,6 @@
         "CMEMS"
       ],
       "collection_group": "E. Sea Water"
-    },
-    {
-      "rel": "child",
-      "href": "./maximum_crest_wave/collection.json",
-      "type": "application/json",
-      "title": "Maximum crest trough wave height",
-      "code": "VCMX",
-      "id": "maximum_crest_wave",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VCMX",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Waves"
     },
     {
       "rel": "child",
@@ -115,22 +67,6 @@
         "Shipping"
       ],
       "subcode": "VMDR",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Waves"
-    },
-    {
-      "rel": "child",
-      "href": "./spectral_moments_wave_period/collection.json",
-      "type": "application/json",
-      "title": "Spectral moments primary swell wave period",
-      "code": "VTM01",
-      "id": "spectral_moments_wave_period",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VTM01",
       "agency": [
         "CMEMS"
       ],
@@ -337,7 +273,7 @@
       "rel": "child",
       "href": "./SICONC_sea_ice_concentration_Baltic/collection.json",
       "type": "application/json",
-      "title": "Sea ice area fraction - Baltic Sea",
+      "title": "Sea ice concentration - Baltic Sea",
       "id": "SICONC_sea_ice_concentration_Baltic",
       "themes": [
         "Baltic Sea"
@@ -346,7 +282,7 @@
       "agency": [
         "SMHI"
       ],
-      "collection_group": "I. Baltic",
+      "collection_group": "I. Baltic Sea",
       "otherSources": [
         "Spatial Resolution: 2 × 2 km",
         "Frequency: Daily "
