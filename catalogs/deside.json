@@ -8,7 +8,6 @@
   "assets_endpoint": "https://raw.githubusercontent.com/gtif-cerulean/assets/main",
   "collections": [
     "POS1_polaris_sentinel1",
-    "SICONC_ice_concentration",
     "SIT_sea_ice_thickness",
     "SWPT_sea_water_potential_temperature",
     "VCMX_maximum_crest_wave",
