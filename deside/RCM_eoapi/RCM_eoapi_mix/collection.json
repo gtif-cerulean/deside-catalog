@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Fast_Ice_NGI_Strainrate",
+  "id": "RCM_eoapi_mix",
   "stac_version": "1.1.0",
-  "description": "Fast Ice NGI",
+  "description": "RCM Data collection",
   "links": [
     {
       "rel": "root",
@@ -12,54 +12,58 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=StrainRate&colormap_name=spring_r&nodata=NaN&rescale=0,0.0001",
+      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&assets=HV&colormap_name=magma&rescale=0,20&expression=HH_b1/HV_b1",
       "type": "image/png",
-      "title": "Fast Ice NGI Strainrate",
-      "key": "19d2e904-daf9-46cf-abd2-138334e5234b"
+      "title": "RCM scenes rendering HH/HV",
+      "key": "564a84b9-cfff-43df-98d0-a3f6d7c0235e"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Landfast Sea Ice (Svalbard)"
+      "title": "RCM scenes"
     }
   ],
   "themes": [
-    "Landfast Sea Ice"
+    "Shipping"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "C. Sea Ice",
+  "collection_group": "B. Satellite Data",
   "eox:colorlegend": {
-    "title": "Apparent look-directional average strain rate (in mm/km/day)",
+    "title": "HH sigma0/HV sigma0",
     "range": [
-      "#FFFF00",
-      "#FF00FF"
+      "#0B0724",
+      "#2C115F",
+      "#61136E",
+      "#A11A5B",
+      "#E7523C",
+      "#FCF189"
     ],
     "domain": [
       0,
-      100
+      20
     ]
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Fast Ice NGI Strainrate",
+  "title": "RCM scenes rendering HH/HV",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          6.298672190549782,
-          75.56991874545032,
-          37.31176214566098,
-          81.21642164222924
+          -122.35463340633562,
+          -80.55667822824233,
+          -13.807054847991763,
+          83.15401074902994
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2016-11-01T00:00:00Z",
-          "2026-04-10T00:00:00Z"
+          "2025-08-14T09:15:39Z",
+          "2026-07-24T23:32:19Z"
         ]
       ]
     }

@@ -746,6 +746,20 @@
       "collection_group": "B. Satellite Data"
     },
     {
+      "rel": "child",
+      "href": "./RCM_eoapi/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes",
+      "id": "RCM_eoapi",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json",
       "type": "application/json"
