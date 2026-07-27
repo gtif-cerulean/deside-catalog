@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Fast_Ice_NGI_Coherence",
+  "id": "RCM_eoapi_north_pole_HV",
   "stac_version": "1.1.0",
-  "description": "Fast Ice NGI",
+  "description": "RCM Data collection HV - North Pole route",
   "links": [
     {
       "rel": "root",
@@ -12,58 +12,54 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at/raster/collections/Fast_Ice/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=Coherence&colormap_name=viridis&nodata=NaN&rescale=0,1",
+      "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM_NERSC/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HV&colormap_name=gray&rescale=0,0.005",
       "type": "image/png",
-      "title": "Fast Ice NGI Coherence",
-      "key": "baaf1e32-838f-4c03-9da0-028d4114cbcf"
+      "title": "RCM scenes HV - North Pole route",
+      "key": "f891623c-050c-4fde-835e-9a3439e5dda7"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Landfast Sea Ice (Svalbard)"
+      "title": "RCM scenes North Pole route"
     }
   ],
   "themes": [
-    "Landfast Sea Ice"
+    "Shipping"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "C. Sea Ice",
+  "collection_group": "B. Satellite Data",
   "eox:colorlegend": {
-    "title": "Coherence",
+    "title": "HV sigma0",
     "range": [
-      "#440154",
-      "#414487",
-      "#2A788E",
-      "#22A884",
-      "#7AD151",
-      "#FDE725"
+      "#000000",
+      "#ffffff"
     ],
     "domain": [
       0,
-      1
+      0.005
     ]
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Fast Ice NGI Coherence",
+  "title": "RCM scenes HV - North Pole route",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          6.298672190549782,
-          75.56991874545032,
-          37.31176214566098,
-          81.21642164222924
+          -67.14583675067885,
+          76.77491170039333,
+          160.02461131104556,
+          89.19056208286561
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2016-11-01T00:00:00Z",
-          "2026-04-10T00:00:00Z"
+          "2026-07-20T05:54:38Z",
+          "2026-07-24T16:37:22Z"
         ]
       ]
     }

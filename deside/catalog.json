@@ -732,6 +732,20 @@
       "collection_group": "C. Sea Ice"
     },
     {
+      "rel": "child",
+      "href": "./RCM_eoapi_north_pole/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes North Pole route",
+      "id": "RCM_eoapi_north_pole",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json",
       "type": "application/json"
