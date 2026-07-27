@@ -7,8 +7,8 @@
     ],
     "Description": "RCM Data collection - North Pole route",
     "Collections": [
-        "RCM_eoapi_north_pole_HH",
-        "RCM_eoapi_north_pole_HV"
+        "RCM_eoapi_HH_north_pole",
+        "RCM_eoapi_HV_north_pole"
     ],
     "Agency": [
         "ESA"
