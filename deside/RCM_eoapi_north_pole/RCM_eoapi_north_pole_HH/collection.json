@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM_NERSC/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=HH&colormap_name=gray&rescale=0,0.05",
       "type": "image/png",
       "title": "RCM scenes HH - North Pole route",
-      "key": "7e303807-04c3-44f8-a6c0-8b8100ea89c9"
+      "key": "6146e15c-283b-4535-8f1c-bf04cc0d2c87"
     },
     {
       "rel": "parent",
@@ -51,7 +51,7 @@
           -67.14583675067885,
           76.77491170039333,
           160.02461131104556,
-          89.19056208286561
+          89.62348718413915
         ]
       ]
     },
@@ -59,7 +59,7 @@
       "interval": [
         [
           "2026-07-20T05:54:38Z",
-          "2026-07-24T16:37:22Z"
+          "2026-07-26T16:52:21Z"
         ]
       ]
     }
