@@ -126,18 +126,24 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -99.23757113680828,
+          41.50884334734237,
+          -38.8276172498024,
+          68.24709802535261
+        ],
+        [
+          -99.23757113680828,
+          41.50884334734237,
+          -38.8276172498024,
+          68.24709802535261
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-07-29T12:02:02.619052Z",
-          "2026-07-29T12:02:02.619052Z"
+          "2025-01-06T00:00:00Z",
+          "2026-07-20T00:00:00Z"
         ]
       ]
     }
@@ -148,5 +154,10 @@
       "name": "Canadian Ice Service (CIS)",
       "url": "https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/about-ice-service.html"
     }
-  ]
+  ],
+  "summaries": {
+    "themes": [
+      "Shipping"
+    ]
+  }
 }
