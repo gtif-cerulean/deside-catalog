@@ -17,44 +17,27 @@
       "title": "Sea Ice Concentration Comparison"
     }
   ],
-  "themes": [
-    "Shipping"
-  ],
-  "agency": [
-    "DMI"
-  ],
-  "collection_group": "C. Sea Ice",
   "endpointtype": "FlatGeobuf source",
   "title": "Ice charts (DMI)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -80.337264189091,
-          55.252643970043046,
-          10.033447326328545,
-          84.84935228034207
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2026-07-26T00:00:00Z"
+          "2026-07-29T06:16:44.181550Z",
+          null
         ]
       ]
     }
   },
-  "license": "other",
-  "assets": {
-    "geoparquet": {
-      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-ice-charts/flatgeobuf/daily_items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    }
-  }
+  "license": "other"
 }
