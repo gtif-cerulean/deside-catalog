@@ -11,7 +11,7 @@
     "CMEMS"
   ],
   "Citation": {
-    "DOI": "https://doi.org/10.48670/moi-00017",
+    "DOI": "https://doi.org/10.48670/moi-00017"
   },
   "Resources": [
     {
@@ -32,18 +32,19 @@
   "Colorlegend": {
     "title": "Spectral significant wave height [m]",
     "range": [
-      "#3C0912", 
-      "#7F0E29", 
-      "#B33826", 
-      "#CA775B", 
-      "#DCB1A3", 
+      "#3C0912",
+      "#7F0E29",
+      "#B33826",
+      "#CA775B",
+      "#DCB1A3",
       "#F1EDEC"
     ],
     "domain": [
       0.75,
       13
     ]
-  },"Process": {
+  },
+  "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/VHM0.json",
@@ -54,5 +55,9 @@
         "Type": "application/json"
       }
     ]
+  },
+  "MapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   }
 }
