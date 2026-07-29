@@ -21,7 +21,7 @@
                 "HH",
                 "HV"
             ],
-            "Expression": "HH_b1/HV_b1"
+            "Expression": "b1/b2"
         }
     ],
     "Agency": [
