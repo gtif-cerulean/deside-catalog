@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:cyclic"
       },
-      "key": "8a37352b-f5c1-4773-9fc0-5977c2057604"
+      "key": "e920b272-6b4c-49c2-8689-0b831a9db43b"
     },
     {
       "rel": "parent",
@@ -41,6 +41,10 @@
   ],
   "subcode": "VMDR",
   "collection_group": "Waves",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Mean wave direction",
   "extent": {
@@ -58,7 +62,7 @@
       "interval": [
         [
           "2024-12-01T00:00:00Z",
-          "2026-08-07T00:00:00Z"
+          "2026-08-08T00:00:00Z"
         ]
       ]
     }

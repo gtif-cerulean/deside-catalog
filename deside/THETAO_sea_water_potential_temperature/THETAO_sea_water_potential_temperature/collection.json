@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:thermal,range:-3/30"
       },
-      "key": "02e6fd08-3359-4863-8e9b-0ad4c131ed43"
+      "key": "0ff6a602-238f-4745-b6c6-6349b1cbc9db"
     },
     {
       "rel": "parent",
@@ -45,6 +45,10 @@
     "Spatial Resolution: 0.083° x 0.083°",
     "Frequency: Daily"
   ],
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "eox:colorlegend": {
     "title": "Sea water potential temperature [°C]",
     "range": [

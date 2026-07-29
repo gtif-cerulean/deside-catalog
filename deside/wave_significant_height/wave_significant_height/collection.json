@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:amp"
       },
-      "key": "df8005fc-a6a3-48b0-99a0-f2407d9e6a3c"
+      "key": "b4bb2bd0-467b-4e66-8a8a-b58af0ee905d"
     },
     {
       "rel": "parent",
@@ -41,6 +41,10 @@
   ],
   "subcode": "VHM0",
   "collection_group": "Waves",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "eox:colorlegend": {
     "title": "Spectral significant wave height [m]",
     "range": [
@@ -73,7 +77,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-08-07T00:00:00Z"
+          "2026-08-08T00:00:00Z"
         ]
       ]
     }

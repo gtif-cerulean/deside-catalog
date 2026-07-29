@@ -23,7 +23,11 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "xyz",
@@ -110,6 +114,10 @@
     "DMI"
   ],
   "collection_group": "C. Sea Ice",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "title": "Ice charts (DMI)",
   "extent": {
     "spatial": {
@@ -125,8 +133,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-07-29T06:17:27.951091Z",
-          "2026-07-29T06:17:27.951091Z"
+          "2026-07-29T12:02:03.297731Z",
+          "2026-07-29T12:02:03.297731Z"
         ]
       ]
     }

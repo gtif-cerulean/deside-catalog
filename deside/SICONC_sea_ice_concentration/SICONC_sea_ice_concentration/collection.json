@@ -23,7 +23,7 @@
         "elevation": "0",
         "style": "cmap:ice"
       },
-      "key": "a27819f7-67f6-4409-aad6-048a5eb4211b"
+      "key": "3ea159ba-d35a-4be4-a9ff-d6de2a851eb5"
     },
     {
       "rel": "parent",
@@ -45,6 +45,10 @@
     "Spatial Resolution: 0.083° x 0.083°",
     "Frequency: Daily"
   ],
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "eox:colorlegend": {
     "title": "Sea ice area fraction",
     "range": [

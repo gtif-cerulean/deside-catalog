@@ -22,7 +22,11 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -38,7 +42,11 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Waves"
+      "collection_group": "Waves",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -54,7 +62,11 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Waves"
+      "collection_group": "Waves",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -70,7 +82,11 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "Sea Water"
+      "collection_group": "Sea Water",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -328,7 +344,11 @@
       "agency": [
         "CIS"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -342,7 +362,11 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -360,7 +384,11 @@
       "agency": [
         "DMI"
       ],
-      "collection_group": "A. Algorithms"
+      "collection_group": "A. Algorithms",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -400,7 +428,11 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -418,7 +450,11 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -436,7 +472,11 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -455,7 +495,11 @@
       "otherSources": [
         "Spatial Resolution: 10 km x 10 km",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -474,7 +518,11 @@
       "otherSources": [
         "Spatial Resolution: 10 km x 10 km",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -493,7 +541,11 @@
       "otherSources": [
         "Spatial Resolution: 0.083° × 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -512,7 +564,11 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -526,7 +582,11 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "B. Satellite Data"
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -540,7 +600,11 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "B. Satellite Data"
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -554,7 +618,11 @@
       "agency": [
         "Sentinel Hub"
       ],
-      "collection_group": "B. Satellite Data"
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -573,7 +641,11 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -592,7 +664,11 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -611,7 +687,11 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -630,7 +710,11 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -649,7 +733,11 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -668,7 +756,11 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -682,7 +774,11 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "A. Algorithms"
+      "collection_group": "A. Algorithms",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -701,7 +797,11 @@
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -715,7 +815,11 @@
       "agency": [
         "CMEMS"
       ],
-      "collection_group": "E. Sea Water"
+      "collection_group": "E. Sea Water",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -729,7 +833,11 @@
       "agency": [
         "Norwegian Geotechnical Institute (NGI)"
       ],
-      "collection_group": "C. Sea Ice"
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -743,7 +851,11 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "B. Satellite Data"
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -757,7 +869,11 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "B. Satellite Data"
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "self",

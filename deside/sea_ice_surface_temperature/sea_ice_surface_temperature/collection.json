@@ -23,7 +23,7 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "523f7901-41ad-4f64-aa27-98fa5455a8a7"
+      "key": "108dabe7-0a9b-4f4b-a1b1-e59055b57377"
     },
     {
       "rel": "parent",
@@ -45,6 +45,10 @@
     "Spatial Resolution: 0.083° × 0.083°",
     "Frequency: Daily"
   ],
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "eox:colorlegend": {
     "title": "Sea ice surface temperature [°C]",
     "range": [
