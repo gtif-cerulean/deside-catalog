@@ -1,24 +1,28 @@
 {
-    "Name": "Sentinel2-L2A",
-    "Title": "Sentinel 2 L2A",
-    "Description": "Sentinel 2, Level 2A",
-    "CollectionGroup": "B. Satellite Data",
-    "Themes": [
-        "Shipping"
-    ],
-    "Agency": [
-        "Sentinel Hub"
-    ],
-    "Resources": [
-        {
-            "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
-            "Name": "Sentinel Hub WMS",
-            "LayerId": "S2_L2A",
-            "TileSize": 1024,
-            "DateTimeInterval": {
-                "Start": "2022-01-01T00:00:00Z",
-                "End": "today"
-            }
-        }
-    ]
+  "Name": "Sentinel2-L2A",
+  "Title": "Sentinel 2 L2A",
+  "Description": "Sentinel 2, Level 2A",
+  "CollectionGroup": "B. Satellite Data",
+  "Themes": [
+    "Shipping"
+  ],
+  "Agency": [
+    "Sentinel Hub"
+  ],
+  "Resources": [
+    {
+      "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
+      "Name": "Sentinel Hub WMS",
+      "LayerId": "S2_L2A",
+      "TileSize": 1024,
+      "DateTimeInterval": {
+        "Start": "2022-01-01T00:00:00Z",
+        "End": "today"
+      }
+    }
+  ],
+  "MapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  }
 }

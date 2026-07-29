@@ -1,27 +1,31 @@
 {
-    "Name": "CIS_Icecharts",
-    "Title": "Ice charts (CIS)",
-    "Subtitle": "",
-    "Description": "Collection of Canadian Ice Service since the start of 2025",
-    "CollectionGroup": "C. Sea Ice",
-    "Themes": [
-        "Shipping"
-    ],
-    "Agency": [
-        "CIS"
-    ],
-    "Provider": [
-        {
-            "Name": "Canadian Ice Service (CIS)",
-            "Url": "https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/about-ice-service.html"
-        }
-    ],
-    "Resources": [
-        {
-            "Name": "FlatGeobuf source",
-            "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/cis-ice-charts/geojsons/daily_items.parquet",
-            "Style": "",
-            "TimeEntries": []
-        }
-    ]
+  "Name": "CIS_Icecharts",
+  "Title": "Ice charts (CIS)",
+  "Subtitle": "",
+  "Description": "Collection of Canadian Ice Service since the start of 2025",
+  "CollectionGroup": "C. Sea Ice",
+  "Themes": [
+    "Shipping"
+  ],
+  "Agency": [
+    "CIS"
+  ],
+  "Provider": [
+    {
+      "Name": "Canadian Ice Service (CIS)",
+      "Url": "https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/about-ice-service.html"
+    }
+  ],
+  "Resources": [
+    {
+      "Name": "FlatGeobuf source",
+      "ParquetSource": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/cis-ice-charts/geojsons/daily_items.parquet",
+      "Style": "",
+      "TimeEntries": []
+    }
+  ],
+  "MapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  }
 }
