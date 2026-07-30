@@ -23,22 +23,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {}
+      "Dimensions": {},
+      "Unit": "Chart Sea Ice Thickness [cm]"
     }
   ],
   "CollectionGroup": "I. Baltic Sea",
-  "Colorlegend": {
-    "title": "Chart Sea Ice Thickness [cm]",
-    "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
-    ],
-    "domain": [
-      0,
-      40
-    ]
-  },
   "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",

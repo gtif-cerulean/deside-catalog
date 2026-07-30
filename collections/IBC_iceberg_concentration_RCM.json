@@ -18,21 +18,6 @@
   "Agency": [
     "DMI"
   ],
-  "Colorlegend": {
-    "title": "Number of icebergs per unit area (RCM) [#/100 km^2]",
-    "range": [
-      "rgb(3, 5, 18)",
-      "rgb(48, 46, 95)",
-      "rgb(62, 93, 168)",
-      "rgb(82, 149, 192)",
-      "rgb(140, 203, 213)",
-      "rgb(234, 252, 253)"
-    ],
-    "domain": [
-      0,
-      1
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00129"
   },
@@ -47,9 +32,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:ice,range:0/1"
-      }
+      },
+      "Unit": "Number of icebergs per unit area (RCM) [#/100 km^2]"
     }
   ],
   "Process": {
