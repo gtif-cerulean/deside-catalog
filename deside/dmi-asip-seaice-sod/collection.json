@@ -123,25 +123,6 @@
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
-  "eox:colorlegend": {
-    "title": "AI: Sea Ice Stage of Development",
-    "range": [
-      "rgb(240,210,250)",
-      "rgb(155,210,0)",
-      "rgb(0,120,0)",
-      "rgb(200,0,0)",
-      "rgb(150,150,150)"
-    ],
-    "domain": [
-      "New and Young Ice (<30 cm)",
-      "Thin First Year Ice (30 cm - 70 cm)",
-      "Thick First Year Ice (>70 cm)",
-      "Multi-Year Ice",
-      "Glacier Ice"
-    ],
-    "scaleType": "categorical",
-    "markType": "circle"
-  },
   "title": "AI: Sea Ice Stage of Development",
   "extent": {
     "spatial": {
@@ -164,7 +145,7 @@
       "interval": [
         [
           "2026-01-03T00:00:00Z",
-          "2026-07-29T00:00:00Z"
+          "2026-07-30T00:00:00Z"
         ]
       ]
     }

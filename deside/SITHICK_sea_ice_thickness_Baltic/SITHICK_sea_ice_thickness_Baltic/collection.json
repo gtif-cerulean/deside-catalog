@@ -19,7 +19,85 @@
       "role": [
         "data"
       ],
-      "key": "e1e9dd44-f8e1-4908-b044-5696a4679462"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "ice"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 0.0,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 0.01,
+                  "format": "range",
+                  "maximum": 0.015
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "m",
+          "scaleType": "continuous",
+          "tickFormat": ".2f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -41,21 +119,6 @@
     "Spatial Resolution: 2 × 2 km",
     "Frequency: Daily "
   ],
-  "eox:colorlegend": {
-    "title": "Sea ice thickness [m]",
-    "range": [
-      "rgb(3, 5, 18)",
-      "rgb(48, 46, 95)",
-      "rgb(62, 93, 168)",
-      "rgb(82, 149, 192)",
-      "rgb(140, 203, 213)",
-      "rgb(234, 252, 253)"
-    ],
-    "domain": [
-      0,
-      1.25
-    ]
-  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea ice thickness - Baltic Sea",
   "extent": {

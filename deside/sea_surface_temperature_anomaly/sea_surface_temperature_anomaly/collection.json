@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "08639b8e-6f22-479e-9672-010fa5119eba"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "viridis"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": -1.488,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 2.953,
+                  "format": "range",
+                  "maximum": 4.429
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "degrees_C",
+          "scaleType": "continuous",
+          "tickFormat": ".1f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -45,26 +123,6 @@
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
-  "eox:colorlegend": {
-    "title": "Sea surface temperature anomaly [degrees C]",
-    "range": [
-      "rgba(68, 1, 84, 1)",
-      "rgba(72, 35, 116, 1)",
-      "rgba(64, 67, 135, 1)",
-      "rgba(52, 94, 141, 1)",
-      "rgba(41, 120, 142, 1)",
-      "rgba(32, 144, 140, 1)",
-      "rgba(34, 167, 132, 1)",
-      "rgba(68, 190, 112, 1)",
-      "rgba(121, 209, 81, 1)",
-      "rgba(189, 223, 38, 1)",
-      "rgba(253, 231, 37, 1)"
-    ],
-    "domain": [
-      -1.48,
-      2.95
-    ]
-  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea surface temperature anomaly",
   "extent": {
@@ -82,7 +140,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-09T00:00:00Z"
         ]
       ]
     }

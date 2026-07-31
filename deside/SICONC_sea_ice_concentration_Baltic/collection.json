@@ -128,21 +128,6 @@
     "Spatial Resolution: 2 × 2 km",
     "Frequency: Daily "
   ],
-  "eox:colorlegend": {
-    "title": "Sea ice area fraction",
-    "range": [
-      "rgb(3, 5, 18)",
-      "rgb(48, 46, 95)",
-      "rgb(62, 93, 168)",
-      "rgb(82, 149, 192)",
-      "rgb(140, 203, 213)",
-      "rgb(234, 252, 253)"
-    ],
-    "domain": [
-      0,
-      100
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/siconc.json",
   "title": "Sea ice concentration - Baltic Sea",

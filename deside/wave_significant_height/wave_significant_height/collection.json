@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:amp"
       },
-      "key": "d156a1da-2b4c-40ba-afcb-c234b8517a55"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "amp"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 0.41,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 6.87,
+                  "format": "range",
+                  "maximum": 10.305
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "m",
+          "scaleType": "continuous",
+          "tickFormat": ".1f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -44,21 +122,6 @@
   "eodash:mapProjection": {
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-  },
-  "eox:colorlegend": {
-    "title": "Spectral significant wave height [m]",
-    "range": [
-      "#3C0912",
-      "#7F0E29",
-      "#B33826",
-      "#CA775B",
-      "#DCB1A3",
-      "#F1EDEC"
-    ],
-    "domain": [
-      0.75,
-      13
-    ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Spectral significant wave height",

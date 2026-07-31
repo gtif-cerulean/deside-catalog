@@ -123,23 +123,6 @@
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
-  "eox:colorlegend": {
-    "title": "AI: Sea Ice Floe Size (width)",
-    "range": [
-      "rgb(160,232,91)",
-      "rgb(145,89,222)",
-      "rgb(91,131,19)",
-      "rgb(255,125,7)"
-    ],
-    "domain": [
-      "Small (<100m)",
-      "Medium (100m-500m)",
-      "Big (500m-2km)",
-      "Giant (>2 km)"
-    ],
-    "scaleType": "categorical",
-    "markType": "circle"
-  },
   "title": "AI: Sea Ice Floe Size",
   "extent": {
     "spatial": {
@@ -162,7 +145,7 @@
       "interval": [
         [
           "2026-01-03T00:00:00Z",
-          "2026-07-29T00:00:00Z"
+          "2026-07-30T00:00:00Z"
         ]
       ]
     }

@@ -121,21 +121,6 @@
   ],
   "subcode": "cmems_baltic_wave_height",
   "collection_group": "I. Baltic Sea",
-  "eox:colorlegend": {
-    "title": "Maximum crest trough wave height [m]",
-    "range": [
-      "#3C0912",
-      "#7F0E29",
-      "#B33826",
-      "#CA775B",
-      "#DCB1A3",
-      "#F1EDEC"
-    ],
-    "domain": [
-      0,
-      2.5
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
   "title": "Baltic Wave Height",
@@ -160,7 +145,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-08T12:00:00Z"
         ]
       ]
     }

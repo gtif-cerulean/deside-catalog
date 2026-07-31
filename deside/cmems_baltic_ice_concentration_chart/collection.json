@@ -121,18 +121,6 @@
   ],
   "subcode": "cmems_baltic_ice_concentration_chart",
   "collection_group": "I. Baltic Sea",
-  "eox:colorlegend": {
-    "title": "Chart Sea Ice Concentration [%]",
-    "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
-    ],
-    "domain": [
-      0,
-      100
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
   "title": "Baltic Sea Ice Chart Concentration",
@@ -157,7 +145,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-07-29T00:00:00Z"
+          "2026-07-30T00:00:00Z"
         ]
       ]
     }

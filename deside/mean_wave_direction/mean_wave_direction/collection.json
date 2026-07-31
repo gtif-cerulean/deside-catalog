@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:cyclic"
       },
-      "key": "00069983-65b2-4c4d-b3af-4d4cfa5e4d36"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "cyclic"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 25.41,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 343.75,
+                  "format": "range",
+                  "maximum": 515.625
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "degree",
+          "scaleType": "continuous",
+          "tickFormat": ".0f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",

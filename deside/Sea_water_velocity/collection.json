@@ -119,22 +119,6 @@
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
-  "eox:colorlegend": {
-    "title": "Sea water velocity [m/s]",
-    "range": [
-      "rgb(254, 252, 205)",
-      "rgb(216, 196, 95)",
-      "rgb(141, 161, 11)",
-      "rgb(50, 128, 30)",
-      "rgb(15, 83, 44)",
-      "rgb(23, 35, 18)"
-    ],
-    "domain": [
-      0,
-      1
-    ],
-    "tickFormat": ".1f"
-  },
   "title": "Sea water velocity",
   "extent": {
     "spatial": {
@@ -157,7 +141,7 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-09T00:00:00Z"
         ]
       ]
     }

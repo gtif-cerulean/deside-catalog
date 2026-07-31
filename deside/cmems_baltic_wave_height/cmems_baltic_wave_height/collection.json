@@ -19,7 +19,85 @@
       "role": [
         "data"
       ],
-      "key": "bd901a16-494e-46ae-bd72-31bdd930ac42"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "amp"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 0.083,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 2.48,
+                  "format": "range",
+                  "maximum": 3.72
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "m",
+          "scaleType": "continuous",
+          "tickFormat": ".1f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -37,21 +115,6 @@
   ],
   "subcode": "cmems_baltic_wave_height",
   "collection_group": "I. Baltic Sea",
-  "eox:colorlegend": {
-    "title": "Maximum crest trough wave height [m]",
-    "range": [
-      "#3C0912",
-      "#7F0E29",
-      "#B33826",
-      "#CA775B",
-      "#DCB1A3",
-      "#F1EDEC"
-    ],
-    "domain": [
-      0,
-      2.5
-    ]
-  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Baltic Wave Height",
   "extent": {
@@ -69,7 +132,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-08T12:00:00Z"
         ]
       ]
     }

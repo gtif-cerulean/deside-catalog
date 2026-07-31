@@ -128,21 +128,6 @@
     "Spatial Resolution: 2 × 2 km",
     "Frequency: Daily "
   ],
-  "eox:colorlegend": {
-    "title": "Salinity [/10^3]",
-    "range": [
-      "rgb(41, 24, 107)",
-      "rgb(12, 77, 150)",
-      "rgb(44, 124, 136)",
-      "rgb(74, 169, 128)",
-      "rgb(148, 211, 93)",
-      "rgb(253, 238, 153)"
-    ],
-    "domain": [
-      30,
-      36.8
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/so.json",
   "title": "Sea water salinity - Baltic Sea",

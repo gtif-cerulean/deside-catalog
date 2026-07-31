@@ -19,7 +19,85 @@
       "role": [
         "data"
       ],
-      "key": "83101533-e13c-4341-a844-8712d2221a41"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "ice"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": -59.0,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 98.0,
+                  "format": "range",
+                  "maximum": 147.0
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "%",
+          "scaleType": "continuous",
+          "tickFormat": ".0f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -37,18 +115,6 @@
   ],
   "subcode": "cmems_baltic_ice_concentration_chart",
   "collection_group": "I. Baltic Sea",
-  "eox:colorlegend": {
-    "title": "Chart Sea Ice Concentration [%]",
-    "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
-    ],
-    "domain": [
-      0,
-      100
-    ]
-  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Baltic Sea Ice Chart Concentration",
   "extent": {
@@ -66,7 +132,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-07-29T00:00:00Z"
+          "2026-07-30T00:00:00Z"
         ]
       ]
     }

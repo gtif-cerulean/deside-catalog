@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:viridis"
       },
-      "key": "8582f6d9-0bed-46e7-80ed-43c97d3c124b"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "viridis"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": -27.368,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 0.0,
+                  "format": "range",
+                  "maximum": 1
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "degrees_C",
+          "scaleType": "continuous",
+          "tickFormat": ".0f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -49,21 +127,6 @@
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
-  "eox:colorlegend": {
-    "title": "Sea ice surface temperature [°C]",
-    "range": [
-      "rgb(68, 1, 84)",
-      "rgb(64, 67, 135)",
-      "rgb(41, 120, 142)",
-      "rgb(34, 167, 132)",
-      "rgb(121, 209, 81)",
-      "rgb(253, 231, 36)"
-    ],
-    "domain": [
-      -27.37,
-      0
-    ]
-  },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea ice surface temperature",
   "extent": {
@@ -81,7 +144,7 @@
       "interval": [
         [
           "2022-06-01T00:00:00Z",
-          "2026-08-08T00:00:00Z"
+          "2026-08-09T00:00:00Z"
         ]
       ]
     }

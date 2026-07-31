@@ -23,7 +23,85 @@
         "elevation": 0,
         "style": "cmap:ice,range:0/1"
       },
-      "key": "8726ef67-5a7c-4466-a858-6f88c0e31f08"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "ice"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 0.0,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 1.0,
+                  "format": "range",
+                  "maximum": 1.5
+                }
+              },
+              "format": "minmax"
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap"
+          ]
+        },
+        "legend": {
+          "title": "1e-2 km-2",
+          "scaleType": "continuous",
+          "tickFormat": ".1f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -48,21 +126,6 @@
   "eodash:mapProjection": {
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-  },
-  "eox:colorlegend": {
-    "title": "Number of icebergs per unit area (RCM) [#/100 km^2]",
-    "range": [
-      "rgb(3, 5, 18)",
-      "rgb(48, 46, 95)",
-      "rgb(62, 93, 168)",
-      "rgb(82, 149, 192)",
-      "rgb(140, 203, 213)",
-      "rgb(234, 252, 253)"
-    ],
-    "domain": [
-      0,
-      1
-    ]
   },
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Number of icebergs per unit area (RCM)",

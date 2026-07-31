@@ -128,21 +128,6 @@
     "Spatial Resolution: 2 × 2 km",
     "Frequency: Daily "
   ],
-  "eox:colorlegend": {
-    "title": "Sea water potential temperature [°C]",
-    "range": [
-      "rgb(3, 35, 51)",
-      "rgb(63, 51, 159)",
-      "rgb(138, 82, 140)",
-      "rgb(213, 107, 108)",
-      "rgb(251, 165, 60)",
-      "rgb(231, 250, 90)"
-    ],
-    "domain": [
-      2.8,
-      10.2
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/thetao.json",
   "title": "Sea water potential temperature - Baltic Sea",

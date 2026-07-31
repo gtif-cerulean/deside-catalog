@@ -121,20 +121,6 @@
   ],
   "subcode": "cmems_baltic_water_salinity",
   "collection_group": "I. Baltic Sea",
-  "eox:colorlegend": {
-    "title": "Water Salinity [1e-3]",
-    "range": [
-      "rgb(36, 16, 105)",
-      "rgb(12, 77, 151)",
-      "rgb(55, 142, 132)",
-      "rgb(135, 207, 97)",
-      "rgb(246, 237, 146)"
-    ],
-    "domain": [
-      2,
-      35
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
   "title": "Baltic Water Salinity",

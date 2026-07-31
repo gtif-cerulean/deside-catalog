@@ -121,21 +121,6 @@
   ],
   "subcode": "cmems_baltic_water_pot_temp",
   "collection_group": "I. Baltic Sea",
-  "eox:colorlegend": {
-    "title": "Potential Temperature [Deg. Celsius]",
-    "range": [
-      "#042333",
-      "#40349F",
-      "#8B538D",
-      "#D66C6C",
-      "#FCA63C",
-      "#E8FA5B"
-    ],
-    "domain": [
-      2,
-      10
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
   "title": "Baltic Water Potential Temperature",

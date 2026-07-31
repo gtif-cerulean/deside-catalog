@@ -136,21 +136,6 @@
     "name": "EPSG:3413",
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
-  "eox:colorlegend": {
-    "title": "Number of icebergs per unit area (S1 IW) [#/100 km^2]",
-    "range": [
-      "rgb(3, 5, 18)",
-      "rgb(48, 46, 95)",
-      "rgb(62, 93, 168)",
-      "rgb(82, 149, 192)",
-      "rgb(140, 203, 213)",
-      "rgb(234, 252, 253)"
-    ],
-    "domain": [
-      0,
-      1
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ibc.json",
   "title": "Number of icebergs per unit area (S1 IW)",
@@ -175,7 +160,7 @@
       "interval": [
         [
           "2023-11-25T10:01:00Z",
-          "2026-07-29T08:39:59Z"
+          "2026-07-30T10:07:00Z"
         ]
       ]
     }

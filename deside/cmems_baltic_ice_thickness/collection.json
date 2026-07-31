@@ -121,18 +121,6 @@
   ],
   "subcode": "cmems_baltic_ice_thickness",
   "collection_group": "I. Baltic Sea",
-  "eox:colorlegend": {
-    "title": "Sea Ice Thickness [m]",
-    "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
-    ],
-    "domain": [
-      0,
-      2
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
   "title": "Baltic Sea Ice Thickness",

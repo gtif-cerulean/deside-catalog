@@ -121,21 +121,6 @@
     "Spatial Resolution: 2 × 2 km",
     "Frequency: Daily "
   ],
-  "eox:colorlegend": {
-    "title": "Sea water velocity [m/s]",
-    "range": [
-      "rgb(254, 252, 205)",
-      "rgb(216, 196, 95)",
-      "rgb(141, 161, 11)",
-      "rgb(50, 128, 30)",
-      "rgb(15, 83, 44)",
-      "rgb(23, 35, 18)"
-    ],
-    "domain": [
-      0,
-      0.5
-    ]
-  },
   "title": "Sea water velocity - Baltic Sea",
   "extent": {
     "spatial": {
