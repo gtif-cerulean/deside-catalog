@@ -23,22 +23,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {}
+      "Dimensions": {},
+      "Unit": "Mean wave direction from (Deg.)"
     }
   ],
   "CollectionGroup": "I. Baltic Sea",
-  "Colorlegend": {
-    "title": "Mean wave direction from (Deg.)",
-    "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
-    ],
-    "domain": [
-      55,
-      256
-    ]
-  },
   "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",

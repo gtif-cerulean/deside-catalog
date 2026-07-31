@@ -11,28 +11,13 @@
       "Sensor": "Numerical model"
     },
     "Other": [
-      "Spatial Resolution: 0.083° x 0.083°",
+      "Spatial Resolution: 0.083\u00b0 x 0.083\u00b0",
       "Frequency: Daily"
     ]
   },
   "Agency": [
     "Mercator Ocean International"
   ],
-  "Colorlegend": {
-    "title": "Sea water potential temperature [°C]",
-    "range": [
-      "rgb(3, 35, 51)",
-      "rgb(63, 51, 159)",
-      "rgb(138, 82, 140)",
-      "rgb(213, 107, 108)",
-      "rgb(251, 165, 60)",
-      "rgb(231, 250, 90)"
-    ],
-    "domain": [
-      -1.48,
-      2.95
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00016"
   },
@@ -47,9 +32,9 @@
         "End": "2025-01-05T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:thermal,range:-3/30"
-      }
+      },
+      "Unit": "Sea water potential temperature [\u00b0C]"
     }
   ],
   "Process": {

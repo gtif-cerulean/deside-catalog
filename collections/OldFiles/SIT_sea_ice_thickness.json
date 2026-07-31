@@ -2,7 +2,7 @@
   "Name": "sea_ice_thickness",
   "Title": "Sea ice thickness",
   "EodashIdentifier": "SIT",
-  "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year’s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
+  "Description": "The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time in order to reach a two full year\u2019s time series sliding window.\nThis product includes daily and monthly mean files of temperature, salinity, currents, sea level, mixed layer depth and ice parameters from the top to the bottom over the global ocean. It also includes hourly mean surface fields for sea level height, temperature and currents. The global ocean output files are displayed with a 1/12 degree horizontal resolution with regular longitude/latitude equirectangular projection.\n50 vertical levels are ranging from 0 to 5500 meters.\nThis product also delivers a special dataset for surface current which also includes wave and tidal drift called SMOC (Surface merged Ocean Current).\n",
   "Themes": [
     "Shipping"
   ],
@@ -10,18 +10,6 @@
   "Agency": [
     "CMEMS"
   ],
-  "Colorlegend": {
-    "title": "Sea ice thickness [m]",
-    "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
-    ],
-    "domain": [
-      0,
-      2
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00016"
   },
@@ -36,9 +24,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:ice"
-      }
+      },
+      "Unit": "Sea ice thickness [m]"
     }
   ],
   "Process": {

@@ -4,8 +4,8 @@
   "EodashIdentifier": "cmems_baltic_ice_concentration_chart",
   "Description": "The operational sea ice service at FMI provides ice parameters over the Baltic Sea. The parameters are based on ice chart produced on daily basis during the Baltic Sea ice season and show the ice concentration in a 1 km grid. Ice thickness chart (ITC) is a product based on the most recent available ice chart (IC) and a SAR image. The SAR data is used to update the ice information in the IC. The ice regions in the IC are updated according to a SAR segmentation and new ice thickness values are assigned to each SAR segment based on the SAR backscattering and the ice IC thickness range at that location.",
   "Themes": [
-        "Baltic Sea"
-    ],
+    "Baltic Sea"
+  ],
   "Agency": [
     "CMEMS"
   ],
@@ -19,27 +19,16 @@
       "Name": "marinedatastore",
       "Type": "WMTSCapabilities",
       "LayerId": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_CONC-L4-NRT-OBS/ice_concentration",
-       "Query": {
+      "Query": {
         "Start": "2024-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {}
+      "Dimensions": {},
+      "Unit": "Chart Sea Ice Concentration [%]"
     }
   ],
   "CollectionGroup": "I. Baltic Sea",
-  "Colorlegend": {
-    "title": "Chart Sea Ice Concentration [%]",
-    "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
-    ],
-    "domain": [
-      0,
-      100
-    ]
-  },
   "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",

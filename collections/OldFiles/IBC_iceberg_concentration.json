@@ -10,18 +10,6 @@
   "Agency": [
     "CMEMS"
   ],
-  "Colorlegend": {
-    "title": "Iceberg concentration (number of icebergs per 100 km2) [1e-2 km-2]",
-    "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
-    ],
-    "domain": [
-      0,
-      1
-    ]
-  },
   "Citation": {
     "DOI": "10.48670/moi-00129"
   },
@@ -36,12 +24,12 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:ice,range:0/1"
-      }
+      },
+      "Unit": "Iceberg concentration (number of icebergs per 100 km2) [1e-2 km-2]"
     }
   ],
- "Process": {
+  "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/ibc.json",

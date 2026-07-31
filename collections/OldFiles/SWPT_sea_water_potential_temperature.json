@@ -24,7 +24,6 @@
         "End": "2025-01-05T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:thermal,range:-3/30"
       }
     }
