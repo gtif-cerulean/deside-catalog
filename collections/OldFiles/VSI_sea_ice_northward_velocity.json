@@ -24,7 +24,6 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:delta"
       }
     }

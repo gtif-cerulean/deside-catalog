@@ -23,25 +23,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {}
+      "Dimensions": {},
+      "Unit": "Maximum crest trough wave height [m]"
     }
   ],
   "CollectionGroup": "I. Baltic Sea",
-  "Colorlegend": {
-    "title": "Maximum crest trough wave height [m]",
-    "range": [
-      "#3C0912", 
-      "#7F0E29", 
-      "#B33826", 
-      "#CA775B", 
-      "#DCB1A3", 
-      "#F1EDEC"
-    ],
-    "domain": [
-      0,
-      2.5
-    ]
-  },
   "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",

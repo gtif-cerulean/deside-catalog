@@ -10,18 +10,6 @@
   "Agency": [
     "CMEMS"
   ],
-  "Colorlegend": {
-    "title": "Ice concentration",
-    "range": [
-      "rgb(4, 6, 21)",
-      "rgb(69, 123, 185)",
-      "rgb(229, 248, 252)"
-    ],
-    "domain": [
-      0,
-      1
-    ]
-  },
   "Resources": [
     {
       "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
@@ -33,9 +21,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:ice"
-      }
+      },
+      "Unit": "Ice concentration"
     }
   ],
   "Citation": {

@@ -10,20 +10,6 @@
   "Agency": [
     "CMEMS"
   ],
-  "Colorlegend": {
-    "title": "Surface wind stress eastward component [N m-2]",
-    "range": [
-      "rgb(16, 24, 63)",
-      "rgb(41, 127, 185)",
-      "rgb(234, 234, 234)",
-      "rgb(170, 41, 36)",
-      "rgb(59, 6, 14)"
-    ],
-    "domain": [
-      -1.5,
-      1.5
-    ]
-  },
   "Citation": {
     "DOI": "https://doi.org/10.48670/moi-00305"
   },
@@ -38,9 +24,9 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "elevation": 0,
         "style": "cmap:balance"
-      }
+      },
+      "Unit": "Surface wind stress eastward component [N m-2]"
     }
   ],
   "Process": {

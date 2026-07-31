@@ -23,25 +23,11 @@
       },
       "LayerId": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/thetao",
       "Variable": "",
-      "Dimensions": {}
+      "Dimensions": {},
+      "Unit": "Potential Temperature [Deg. Celsius]"
     }
   ],
   "CollectionGroup": "I. Baltic Sea",
-  "Colorlegend": {
-    "title": "Potential Temperature [Deg. Celsius]",
-    "range": [
-      "#042333", 
-      "#40349F", 
-      "#8B538D", 
-      "#D66C6C", 
-      "#FCA63C", 
-      "#E8FA5B"
-    ],
-    "domain": [
-      2,
-      10
-    ]
-  },
   "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",

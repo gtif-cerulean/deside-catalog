@@ -19,27 +19,16 @@
       "Name": "marinedatastore",
       "Type": "WMTSCapabilities",
       "LayerId": "BALTICSEA_ANALYSISFORECAST_PHY_003_006/cmems_mod_bal_phy_anfc_P1D-m_202411/sithick",
-       "Query": {
+      "Query": {
         "Start": "2024-01-01T00:00:00Z",
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {}
+      "Dimensions": {},
+      "Unit": "Sea Ice Thickness [m]"
     }
   ],
   "Services": [],
-  "Colorlegend": {
-    "title": "Sea Ice Thickness [m]",
-    "range": [
-      "#040615",
-      "#457bfc",
-      "#e5f8fc"
-    ],
-    "domain": [
-      0,
-      2
-    ]
-  },
   "Process": {
     "Name": "process_cmems",
     "JsonForm": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
