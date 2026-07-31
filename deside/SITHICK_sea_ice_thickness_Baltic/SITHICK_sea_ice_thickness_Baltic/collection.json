@@ -88,7 +88,7 @@
           ]
         },
         "legend": {
-          "title": "m",
+          "title": "Sea ice thickness [m]",
           "scaleType": "continuous",
           "tickFormat": ".2f",
           "rangeProperty": "cmap",

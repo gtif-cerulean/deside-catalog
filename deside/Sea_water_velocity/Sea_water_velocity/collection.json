@@ -20,7 +20,6 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/1"
       },
       "eodash:rasterform": {
@@ -216,7 +215,7 @@
           ]
         },
         "legend": {
-          "title": "m s-1",
+          "title": "Sea water velocity [m/s]",
           "scaleType": "continuous",
           "tickFormat": ".1f",
           "rangeProperty": "cmap",

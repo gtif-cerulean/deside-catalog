@@ -212,7 +212,7 @@
           ]
         },
         "legend": {
-          "title": "degree_Celsius",
+          "title": "Potential Temperature [Deg. Celsius]",
           "scaleType": "continuous",
           "tickFormat": ".1f",
           "rangeProperty": "cmap",

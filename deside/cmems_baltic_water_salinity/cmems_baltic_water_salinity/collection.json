@@ -212,7 +212,7 @@
           ]
         },
         "legend": {
-          "title": "1e-3",
+          "title": "Water Salinity [1e-3]",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "rangeProperty": "cmap",

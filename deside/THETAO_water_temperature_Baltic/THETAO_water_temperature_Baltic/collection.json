@@ -215,7 +215,7 @@
           ]
         },
         "legend": {
-          "title": "degree_Celsius",
+          "title": "Sea water potential temperature [°C]",
           "scaleType": "continuous",
           "tickFormat": ".1f",
           "rangeProperty": "cmap",

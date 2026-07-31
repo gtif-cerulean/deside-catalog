@@ -88,7 +88,7 @@
           ]
         },
         "legend": {
-          "title": "degree",
+          "title": "Mean wave direction from (Deg.)",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "rangeProperty": "cmap",

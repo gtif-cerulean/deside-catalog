@@ -88,7 +88,7 @@
           ]
         },
         "legend": {
-          "title": "1",
+          "title": "Sea Ice Concentration [%]",
           "scaleType": "continuous",
           "tickFormat": ".3f",
           "rangeProperty": "cmap",

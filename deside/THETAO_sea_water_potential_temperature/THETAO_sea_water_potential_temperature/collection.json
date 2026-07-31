@@ -20,7 +20,6 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
         "style": "cmap:thermal,range:-3/30"
       },
       "eodash:rasterform": {
@@ -204,7 +203,7 @@
           ]
         },
         "legend": {
-          "title": "degrees_C",
+          "title": "Sea water potential temperature [°C]",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "rangeProperty": "cmap",

@@ -20,7 +20,6 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
         "style": "cmap:amp"
       },
       "eodash:rasterform": {
@@ -92,7 +91,7 @@
           ]
         },
         "legend": {
-          "title": "m",
+          "title": "Spectral significant wave height [m]",
           "scaleType": "continuous",
           "tickFormat": ".1f",
           "rangeProperty": "cmap",

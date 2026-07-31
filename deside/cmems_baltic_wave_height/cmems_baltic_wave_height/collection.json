@@ -88,7 +88,7 @@
           ]
         },
         "legend": {
-          "title": "m",
+          "title": "Maximum crest trough wave height [m]",
           "scaleType": "continuous",
           "tickFormat": ".1f",
           "rangeProperty": "cmap",

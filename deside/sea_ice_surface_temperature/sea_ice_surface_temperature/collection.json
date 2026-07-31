@@ -20,7 +20,6 @@
         "data"
       ],
       "wmts:dimensions": {
-        "elevation": 0,
         "style": "cmap:viridis"
       },
       "eodash:rasterform": {
@@ -92,7 +91,7 @@
           ]
         },
         "legend": {
-          "title": "degrees_C",
+          "title": "Sea ice surface temperature [°C]",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "rangeProperty": "cmap",

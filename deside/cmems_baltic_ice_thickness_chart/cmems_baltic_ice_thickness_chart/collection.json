@@ -88,7 +88,7 @@
           ]
         },
         "legend": {
-          "title": "cm",
+          "title": "Chart Sea Ice Thickness [cm]",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "rangeProperty": "cmap",
