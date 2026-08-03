@@ -65,7 +65,7 @@
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "cloudless-2024",
       "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
@@ -77,7 +77,7 @@
       "title": "Terrain Light Stereographic North",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "sx-cat_ortho680500",
       "wms:layers": "sx-cat_ortho680500",
@@ -176,7 +176,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-08-03T15:49:47.001753Z"
+          "2026-08-03T16:21:15.882293Z"
         ]
       ]
     }
