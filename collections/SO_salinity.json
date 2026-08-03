@@ -1,11 +1,11 @@
 {
   "Name": "SO_salinity",
-  "Title": "Sea water salinity",
+  "Title": "Sea Water Salinity",
   "Description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
   "Themes": [
-    "Aquaculture"
+    "Shipping"
   ],
-  "CollectionGroup": "Sea Water",
+  "CollectionGroup": "E. Sea Water",
   "DataSource": {
     "Spaceborne": {
       "Sensor": "Numerical model"
