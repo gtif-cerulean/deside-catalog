@@ -32,9 +32,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.5"
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.5",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Sea water velocity [m/s]"
+      "Unit": "Sea water velocity [m/s]",
+      "DataProjection": "EPSG:4326"
     }
   ]
 }

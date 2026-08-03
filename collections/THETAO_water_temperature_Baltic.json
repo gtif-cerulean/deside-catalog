@@ -33,9 +33,11 @@
       },
       "Variable": "",
       "Dimensions": {
-        "style": "cmap:thermal"
+        "style": "cmap:thermal",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Sea water potential temperature [\u00b0C]"
+      "Unit": "Sea water potential temperature [\u00b0C]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

@@ -24,9 +24,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:ice,range:0/1"
+        "style": "cmap:ice,range:0/1",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Iceberg concentration (number of icebergs per 100 km2) [1e-2 km-2]"
+      "Unit": "Iceberg concentration (number of icebergs per 100 km2) [1e-2 km-2]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

@@ -32,9 +32,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:ice,range:0/1"
+        "style": "cmap:ice,range:0/1",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Number of icebergs per unit area (RCM) [#/100 km^2]"
+      "Unit": "Number of icebergs per unit area (RCM) [#/100 km^2]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

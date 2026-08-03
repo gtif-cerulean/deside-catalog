@@ -23,8 +23,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {},
-      "Unit": "Sea Ice Concentration [%]"
+      "Dimensions": {
+        "matrixSet": "EPSG:4326@2x"
+      },
+      "Unit": "Sea Ice Concentration [%]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

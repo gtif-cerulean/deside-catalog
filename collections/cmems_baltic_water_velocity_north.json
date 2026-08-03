@@ -24,8 +24,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {},
-      "Unit": "Water Velocity North [m/s]"
+      "Dimensions": {
+        "matrixSet": "EPSG:4326@2x"
+      },
+      "Unit": "Water Velocity North [m/s]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "CollectionGroup": "I. Baltic",
