@@ -660,16 +660,16 @@
       "rel": "child",
       "href": "./SO_salinity/collection.json",
       "type": "application/json",
-      "title": "Sea water salinity",
+      "title": "Sea Water Salinity",
       "id": "SO_salinity",
       "themes": [
-        "Aquaculture"
+        "Shipping"
       ],
       "sensor": "Numerical model",
       "agency": [
         "Mercator Ocean International"
       ],
-      "collection_group": "Sea Water",
+      "collection_group": "E. Sea Water",
       "otherSources": [
         "Spatial Resolution: 0.083° x 0.083°",
         "Frequency: Daily"
