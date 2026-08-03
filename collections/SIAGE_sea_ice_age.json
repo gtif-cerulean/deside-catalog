@@ -32,9 +32,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:viridis"
+        "style": "cmap:viridis",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Age of sea ice [years]"
+      "Unit": "Age of sea ice [years]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

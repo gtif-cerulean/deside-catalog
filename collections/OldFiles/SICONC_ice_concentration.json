@@ -21,9 +21,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:ice"
+        "style": "cmap:ice",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Ice concentration"
+      "Unit": "Ice concentration",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Citation": {

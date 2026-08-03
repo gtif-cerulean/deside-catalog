@@ -24,9 +24,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:viridis"
+        "style": "cmap:viridis",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Air density [kg m-3]"
+      "Unit": "Air density [kg m-3]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

@@ -24,9 +24,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:amp"
+        "style": "cmap:amp",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Spectral significant wave height [m]"
+      "Unit": "Spectral significant wave height [m]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

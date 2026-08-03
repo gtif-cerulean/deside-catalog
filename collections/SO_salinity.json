@@ -32,9 +32,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:haline"
+        "style": "cmap:haline",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Salinity [/10^3]"
+      "Unit": "Salinity [/10^3]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

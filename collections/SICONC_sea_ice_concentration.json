@@ -32,11 +32,13 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:ice"
+        "style": "cmap:ice",
+        "matrixSet": "EPSG:4326@2x"
       },
       "Variable": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/siconc",
       "CollectionId": "Test",
-      "Unit": "Sea ice area fraction"
+      "Unit": "Sea ice area fraction",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

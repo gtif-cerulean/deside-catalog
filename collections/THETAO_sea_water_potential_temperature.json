@@ -32,9 +32,11 @@
         "End": "2025-01-05T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:thermal,range:-3/30"
+        "style": "cmap:thermal,range:-3/30",
+        "matrixSet": "EPSG:4326@2x"
       },
-      "Unit": "Sea water potential temperature [\u00b0C]"
+      "Unit": "Sea water potential temperature [\u00b0C]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "Process": {

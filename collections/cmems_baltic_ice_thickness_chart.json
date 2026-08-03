@@ -23,8 +23,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {},
-      "Unit": "Chart Sea Ice Thickness [cm]"
+      "Dimensions": {
+        "matrixSet": "EPSG:4326@2x"
+      },
+      "Unit": "Chart Sea Ice Thickness [cm]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "CollectionGroup": "I. Baltic Sea",

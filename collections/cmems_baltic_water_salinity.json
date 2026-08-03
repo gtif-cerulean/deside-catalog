@@ -23,8 +23,11 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Variable": "",
-      "Dimensions": {},
-      "Unit": "Water Salinity [1e-3]"
+      "Dimensions": {
+        "matrixSet": "EPSG:4326@2x"
+      },
+      "Unit": "Water Salinity [1e-3]",
+      "DataProjection": "EPSG:4326"
     }
   ],
   "CollectionGroup": "I. Baltic Sea",
