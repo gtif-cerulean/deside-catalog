@@ -20,8 +20,10 @@
         "data"
       ],
       "wmts:dimensions": {
-        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.5"
+        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.5",
+        "matrixSet": "EPSG:4326@2x"
       },
+      "proj:epsg": 4326,
       "eodash:rasterform": {
         "jsonform": {
           "type": "object",
@@ -258,6 +260,7 @@
     "Spatial Resolution: 2 × 2 km",
     "Frequency: Daily "
   ],
+  "proj:epsg": 4326,
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea water velocity - Baltic Sea",
   "extent": {

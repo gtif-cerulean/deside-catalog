@@ -19,6 +19,10 @@
       "role": [
         "data"
       ],
+      "wmts:dimensions": {
+        "matrixSet": "EPSG:4326@2x"
+      },
+      "proj:epsg": 4326,
       "eodash:rasterform": {
         "jsonform": {
           "type": "object",
@@ -119,6 +123,7 @@
     "Spatial Resolution: 2 × 2 km",
     "Frequency: Daily "
   ],
+  "proj:epsg": 4326,
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea ice thickness - Baltic Sea",
   "extent": {

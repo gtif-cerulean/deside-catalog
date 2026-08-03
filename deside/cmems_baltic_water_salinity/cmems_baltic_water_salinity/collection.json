@@ -19,6 +19,10 @@
       "role": [
         "data"
       ],
+      "wmts:dimensions": {
+        "matrixSet": "EPSG:4326@2x"
+      },
+      "proj:epsg": 4326,
       "eodash:rasterform": {
         "jsonform": {
           "type": "object",
@@ -239,6 +243,7 @@
   ],
   "subcode": "cmems_baltic_water_salinity",
   "collection_group": "I. Baltic Sea",
+  "proj:epsg": 4326,
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Baltic Water Salinity",
   "extent": {
