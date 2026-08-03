@@ -30,66 +30,6 @@
     },
     {
       "rel": "child",
-      "href": "./wave_significant_height/collection.json",
-      "type": "application/json",
-      "title": "Spectral significant wave height",
-      "code": "VHM0",
-      "id": "wave_significant_height",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VHM0",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Waves",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./mean_wave_direction/collection.json",
-      "type": "application/json",
-      "title": "Mean wave direction",
-      "code": "VMDR",
-      "id": "mean_wave_direction",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "VMDR",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Waves",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./sea_surface_temperature_anomaly/collection.json",
-      "type": "application/json",
-      "title": "Sea surface temperature anomaly",
-      "code": "SSTA",
-      "id": "sea_surface_temperature_anomaly",
-      "themes": [
-        "Shipping"
-      ],
-      "subcode": "SSTA",
-      "agency": [
-        "CMEMS"
-      ],
-      "collection_group": "Sea Water",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
       "href": "./polarwarp_sentinel1/collection.json",
       "type": "application/json",
       "title": "Sea Ice Motion Animation",
@@ -549,29 +489,6 @@
     },
     {
       "rel": "child",
-      "href": "./Sea_surface_temperature_anomaly/collection.json",
-      "type": "application/json",
-      "title": "Sea surface temperature anomaly",
-      "id": "Sea_surface_temperature_anomaly",
-      "themes": [
-        "Aquaculture"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "Sea Water",
-      "otherSources": [
-        "Spatial Resolution: 0.083° x 0.083°",
-        "Frequency: Daily"
-      ],
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
       "href": "./Sentinel1-EW-HH/collection.json",
       "type": "application/json",
       "title": "Sentinel 1 EW HH",
@@ -775,29 +692,6 @@
         "C-CORE"
       ],
       "collection_group": "A. Algorithms",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
-    },
-    {
-      "rel": "child",
-      "href": "./THETAO_sea_water_potential_temperature/collection.json",
-      "type": "application/json",
-      "title": "Sea Water Potential Temperature",
-      "id": "THETAO_sea_water_potential_temperature",
-      "themes": [
-        "Shipping"
-      ],
-      "sensor": "Numerical model",
-      "agency": [
-        "Mercator Ocean International"
-      ],
-      "collection_group": "E. Sea Water",
-      "otherSources": [
-        "Spatial Resolution: 0.083° x 0.083°",
-        "Frequency: Daily"
-      ],
       "eodash:mapProjection": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
