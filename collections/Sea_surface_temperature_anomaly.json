@@ -32,7 +32,7 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:viridis",
+        "style": "cmap:viridis,range:-1.5/3",
         "matrixSet": "EPSG:4326@2x"
       },
       "Unit": "Sea surface temperature anomaly [\u00b0C]",
