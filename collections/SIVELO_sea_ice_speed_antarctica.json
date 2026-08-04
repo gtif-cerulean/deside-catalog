@@ -33,7 +33,7 @@
       },
       "Dimensions": {
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/1",
-        "matrixSet": "EPSG:4326@2x"
+        "matrixSet": "EPSG:3857@2x"
       },
       "OverwriteBBox": [
         -100,
@@ -41,7 +41,7 @@
         -70,
         -68
       ],
-      "DataProjection": "EPSG:4326",
+      "DataProjection": "EPSG:3857",
       "Unit": "Sea ice speed [m/s]"
     }
   ],
