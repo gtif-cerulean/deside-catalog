@@ -239,6 +239,17 @@
           ],
           "rangeProperty": "colormap_name"
         }
+      },
+      "eox:colorlegend": {
+        "title": "Apparent look-directional average strain rate (in mm/km/day)",
+        "range": [
+          "#FFFF00",
+          "#FF00FF"
+        ],
+        "domain": [
+          0,
+          100
+        ]
       }
     },
     {

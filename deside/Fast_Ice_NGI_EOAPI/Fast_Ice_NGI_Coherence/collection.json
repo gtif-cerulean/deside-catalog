@@ -239,6 +239,21 @@
           ],
           "rangeProperty": "colormap_name"
         }
+      },
+      "eox:colorlegend": {
+        "title": "Coherence",
+        "range": [
+          "#440154",
+          "#414487",
+          "#2A788E",
+          "#22A884",
+          "#7AD151",
+          "#FDE725"
+        ],
+        "domain": [
+          0,
+          1
+        ]
       }
     },
     {

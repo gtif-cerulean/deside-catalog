@@ -239,6 +239,18 @@
           ],
           "rangeProperty": "colormap_name"
         }
+      },
+      "eox:colorlegend": {
+        "title": "HV sigma0",
+        "range": [
+          "#000000",
+          "#ffffff"
+        ],
+        "tickFormat": ".3f",
+        "domain": [
+          0,
+          0.005
+        ]
       }
     },
     {

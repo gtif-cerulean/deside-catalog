@@ -239,6 +239,17 @@
           ],
           "rangeProperty": "colormap_name"
         }
+      },
+      "eox:colorlegend": {
+        "title": "Amplitude",
+        "range": [
+          "#000000",
+          "#ffffff"
+        ],
+        "domain": [
+          0,
+          100
+        ]
       }
     },
     {
