@@ -31,10 +31,7 @@
       "TimeEntries": []
     }
   ],
-  "MapProjection": {
-    "name": "EPSG:3413",
-    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-  },
+  "MapProjection": "EPSG:3857",
   "BaseLayers": [
     {
       "id": "cloudless-2024",
