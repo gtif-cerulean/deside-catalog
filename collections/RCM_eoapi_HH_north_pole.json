@@ -24,16 +24,5 @@
     ],
     "Agency": [
         "ESA"
-    ],
-    "Colorlegend": {
-        "title": "HH sigma0",
-        "range": [
-            "#000000",
-            "#ffffff"
-        ],
-        "domain": [
-            0,
-            0.05
-        ]
-    }
+    ]
 }
