@@ -21,9 +21,9 @@
       ],
       "wmts:dimensions": {
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.5",
-        "matrixSet": "EPSG:4326@2x"
+        "matrixSet": "EPSG:3857@2x"
       },
-      "proj:epsg": 4326,
+      "proj:epsg": 3857,
       "eodash:rasterform": {
         "jsonform": {
           "type": "object",
@@ -64,13 +64,15 @@
                   "type": "number",
                   "default": 0.0,
                   "format": "range",
-                  "minimum": 0
+                  "minimum": 0.0,
+                  "step": 0.01
                 },
                 "vmax": {
                   "type": "number",
                   "default": 0.5,
                   "format": "range",
-                  "maximum": 0.75
+                  "maximum": 0.75,
+                  "step": 0.01
                 }
               },
               "format": "minmax"
@@ -260,7 +262,7 @@
     "Spatial Resolution: 2 × 2 km",
     "Frequency: Daily "
   ],
-  "proj:epsg": 4326,
+  "proj:epsg": 3857,
   "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "Sea water velocity - Baltic Sea",
   "extent": {
@@ -278,7 +280,7 @@
       "interval": [
         [
           "2022-12-02T00:00:00Z",
-          "2026-08-11T00:00:00Z"
+          "2026-08-12T00:00:00Z"
         ]
       ]
     }

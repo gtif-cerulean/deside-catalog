@@ -64,13 +64,15 @@
                   "type": "number",
                   "default": 2.712,
                   "format": "range",
-                  "minimum": 0
+                  "minimum": 2.712,
+                  "step": 1
                 },
                 "vmax": {
                   "type": "number",
                   "default": 35.001,
                   "format": "range",
-                  "maximum": 52.501
+                  "maximum": 52.501,
+                  "step": 1
                 }
               },
               "format": "minmax"
@@ -266,7 +268,7 @@
       "interval": [
         [
           "2022-12-02T00:00:00Z",
-          "2026-08-11T00:00:00Z"
+          "2026-08-12T00:00:00Z"
         ]
       ]
     }

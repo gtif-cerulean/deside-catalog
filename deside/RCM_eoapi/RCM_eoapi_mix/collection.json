@@ -27,13 +27,15 @@
                   "type": "number",
                   "default": 0,
                   "format": "range",
-                  "minimum": 0
+                  "minimum": 0,
+                  "step": 1
                 },
                 "vmax": {
                   "type": "number",
                   "default": 20,
                   "format": "range",
-                  "maximum": 30.0
+                  "maximum": 30.0,
+                  "step": 1
                 }
               },
               "format": "minmax"
