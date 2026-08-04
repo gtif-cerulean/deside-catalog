@@ -130,6 +130,14 @@
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "North_Pole_Journey"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -148,6 +156,7 @@
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polarwarp.json",
+  "eodash:merge_assets": false,
   "title": "Sea Ice Motion Animation",
   "extent": {
     "spatial": {
@@ -176,7 +185,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-08-04T11:42:09.757825Z"
+          "2026-08-04T13:36:52.433371Z"
         ]
       ]
     }
@@ -186,5 +195,16 @@
     "themes": [
       "Shipping"
     ]
+  },
+  "assets": {
+    "North_Pole_Journey": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/north_pole_journey.geojson",
+      "type": "application/geo+json",
+      "title": "North Pole Journey Area",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    }
   }
 }

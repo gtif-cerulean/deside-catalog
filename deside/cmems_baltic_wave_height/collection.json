@@ -106,6 +106,14 @@
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "North_Pole_Journey"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -123,6 +131,7 @@
   "collection_group": "I. Baltic Sea",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/cmems_jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/chartdefs/sithick.json",
+  "eodash:merge_assets": false,
   "title": "Baltic Wave Height",
   "extent": {
     "spatial": {
@@ -158,5 +167,16 @@
     "themes": [
       "Baltic Sea"
     ]
+  },
+  "assets": {
+    "North_Pole_Journey": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/north_pole_journey.geojson",
+      "type": "application/geo+json",
+      "title": "North Pole Journey Area",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    }
   }
 }
