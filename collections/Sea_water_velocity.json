@@ -24,10 +24,10 @@
       },
       "Dimensions": {
         "style": "cmap:speed,vectorStyle:solidAndVector,range:0/1",
-        "matrixSet": "EPSG:4326@2x"
+        "matrixSet": "EPSG:3857@2x"
       },
       "Unit": "Sea water velocity [m/s]",
-      "DataProjection": "EPSG:4326"
+      "DataProjection": "EPSG:3857"
     }
   ],
   "MapProjection": {
