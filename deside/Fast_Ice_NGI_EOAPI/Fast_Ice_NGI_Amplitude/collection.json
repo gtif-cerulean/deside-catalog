@@ -230,7 +230,7 @@
           ]
         },
         "legend": {
-          "title": "Value Range",
+          "title": "Amplitude",
           "scaleType": "continuous",
           "tickFormat": ".0f",
           "domainProperties": [
@@ -239,17 +239,6 @@
           ],
           "rangeProperty": "colormap_name"
         }
-      },
-      "eox:colorlegend": {
-        "title": "Amplitude",
-        "range": [
-          "#000000",
-          "#ffffff"
-        ],
-        "domain": [
-          0,
-          100
-        ]
       }
     },
     {

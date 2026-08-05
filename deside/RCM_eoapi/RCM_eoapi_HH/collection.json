@@ -230,7 +230,7 @@
           ]
         },
         "legend": {
-          "title": "Value Range",
+          "title": "HH sigma0",
           "scaleType": "continuous",
           "tickFormat": ".2f",
           "domainProperties": [
@@ -239,18 +239,6 @@
           ],
           "rangeProperty": "colormap_name"
         }
-      },
-      "eox:colorlegend": {
-        "title": "HH sigma0",
-        "range": [
-          "#000000",
-          "#ffffff"
-        ],
-        "tickFormat": ".2f",
-        "domain": [
-          0,
-          0.05
-        ]
       }
     },
     {
