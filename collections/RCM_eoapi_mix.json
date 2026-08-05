@@ -21,25 +21,11 @@
                 "HH",
                 "HV"
             ],
-            "Expression": "b1/b2"
+            "Expression": "b1/b2",
+            "Unit": "HH sigma0/HV sigma0"
         }
     ],
     "Agency": [
         "ESA"
-    ],
-    "Colorlegend": {
-        "title": "HH sigma0/HV sigma0",
-        "range": [
-            "#0B0724",
-            "#2C115F",
-            "#61136E",
-            "#A11A5B",
-            "#E7523C",
-            "#FCF189"
-        ],
-        "domain": [
-            0,
-            20
-        ]
-    }
+    ]
 }

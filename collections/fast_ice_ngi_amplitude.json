@@ -20,21 +20,11 @@
                 0,
                 80
             ],
-            "NoData": "NaN"
+            "NoData": "NaN",
+            "Unit": "Amplitude"
         }
     ],
     "Agency": [
         "ESA"
-    ],
-    "Colorlegend": {
-        "title": "Amplitude",
-        "range": [
-            "#000000",
-            "#ffffff"
-        ],
-        "domain": [
-            0,
-            100
-        ]
-    }
+    ]
 }

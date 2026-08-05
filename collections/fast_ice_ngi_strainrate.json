@@ -20,21 +20,11 @@
                 0,
                 0.0001
             ],
-            "NoData": "NaN"
+            "NoData": "NaN",
+            "Unit": "Apparent look-directional average strain rate (in 0-100 mm/km/day)"
         }
     ],
     "Agency": [
         "ESA"
-    ],
-    "Colorlegend": {
-        "title": "Apparent look-directional average strain rate (in mm/km/day)",
-        "range": [
-            "#FFFF00",
-            "#FF00FF"
-        ],
-        "domain": [
-            0,
-            100
-        ]
-    }
+    ]
 }
