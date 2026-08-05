@@ -15,7 +15,6 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/RCM_NERSC/items/{item}/tiles/UPSArcticWGS84Quad/{z}/{x}/{y}?&assets=HV&colormap_name=gray&rescale=0,0.005",
       "type": "image/png",
       "title": "RCM scenes HV - North Pole route",
-      "eodash:tilematrixset": "UPSArcticWGS84Quad",
       "eodash:proj4_def": {
         "name": "EPSG:5041",
         "def": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"

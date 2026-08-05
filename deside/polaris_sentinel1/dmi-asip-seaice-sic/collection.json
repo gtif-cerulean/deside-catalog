@@ -15,7 +15,6 @@
       "href": "https://eoapi.workspace.cif.hub-otc.eox.at/raster/collections/asip-seaice/items/{item}/tiles/UPSArcticWGS84Quad/{z}/{x}/{y}?&assets=sic&nodata=-1&colormap=%5B%5B%5B-9999%2C10%5D%2C%5B0%2C0%2C0%2C0%5D%5D%2C%5B%5B10%2C40%5D%2C%5B140%2C255%2C160%2C255%5D%5D%2C%5B%5B40%2C70%5D%2C%5B255%2C255%2C0%2C255%5D%5D%2C%5B%5B70%2C90%5D%2C%5B255%2C125%2C7%2C255%5D%5D%2C%5B%5B90%2C111%5D%2C%5B255%2C0%2C0%2C255%5D%5D%2C%5B%5B111%2C9999%5D%2C%5B0%2C0%2C0%2C0%5D%5D%5D",
       "type": "image/png",
       "title": "AI: Sea Ice Concentration",
-      "eodash:tilematrixset": "UPSArcticWGS84Quad",
       "eodash:proj4_def": {
         "name": "EPSG:5041",
         "def": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
