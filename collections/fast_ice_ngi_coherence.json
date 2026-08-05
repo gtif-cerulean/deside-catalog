@@ -20,25 +20,11 @@
                 0,
                 1
             ],
-            "NoData": "NaN"
+            "NoData": "NaN",
+            "Unit": "Coherence"
         }
     ],
     "Agency": [
         "ESA"
-    ],
-    "Colorlegend": {
-        "title": "Coherence",
-        "range": [
-            "#440154",
-            "#414487",
-            "#2A788E",
-            "#22A884",
-            "#7AD151",
-            "#FDE725"
-        ],
-        "domain": [
-            0,
-            1
-        ]
-    }
+    ]
 }
