@@ -32,11 +32,20 @@
         "End": "2030-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "cmap:speed,vectorStyle:solidAndVector,range:0/0.3",
-        "matrixSet": "EPSG:3857@2x"
+        "style": "cmap:speed,vectorStyle:solid,range:0/0.3",
+        "matrixSet": "EPSG:32661"
       },
       "Unit": "Sea ice speed [m/s]",
-      "DataProjection": "EPSG:3857"
+      "DataProjection": {
+        "name": "EPSG:32661",
+        "def": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
     }
   ],
   "Process": {
@@ -57,13 +66,13 @@
   },
   "BaseLayers": [
     {
-      "id": "cloudless-2024",
-      "name": "EOxCloudless 2024",
-      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "id": "cloudless-2025",
+      "name": "EOxCloudless 2025",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "media_type": "image/jpeg",
       "protocol": "xyz",
       "visible": false,
-      "Attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+      "Attribution": "{ EOxCloudless 2025: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
     },
     {
       "id": "sx-cat_ortho680500",
