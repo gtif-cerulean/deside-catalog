@@ -42,15 +42,15 @@
     },
     {
       "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2024",
+      "title": "EOxCloudless 2025",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2024",
-      "attribution": "{ EOxCloudless 2024: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+      "id": "cloudless-2025",
+      "attribution": "{ EOxCloudless 2025: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
     },
     {
       "rel": "wms",
@@ -144,19 +144,19 @@
       "bbox": [
         [
           -94.55212664051933,
-          74.95266722333902,
+          74.39079405700993,
           161.3497374118205,
           89.62542975146452
         ],
         [
           -94.55212664051933,
-          74.95266722333902,
+          74.39079405700993,
           161.3497374118205,
           89.62542975146452
         ],
         [
           -94.55212664051933,
-          74.95266722333902,
+          74.39079405700993,
           161.3497374118205,
           89.62542975146452
         ]
@@ -166,7 +166,7 @@
       "interval": [
         [
           "2026-07-01T06:37:07Z",
-          "2026-08-02T16:43:54Z"
+          "2026-08-04T16:29:22Z"
         ]
       ]
     }
