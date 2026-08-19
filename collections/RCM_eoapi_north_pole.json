@@ -23,7 +23,8 @@
           "type": "object",
           "title": "Asset",
           "options": {
-            "no_additional_properties": true
+            "no_additional_properties": true,
+            "keep_oneof_values": false
           },
           "anyOf": [
             {

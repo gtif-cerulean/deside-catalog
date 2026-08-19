@@ -19,7 +19,8 @@
           "type": "object",
           "title": "Asset",
           "options": {
-            "no_additional_properties": true
+            "no_additional_properties": true,
+            "keep_oneof_values": false
           },
           "anyOf": [
             {
@@ -462,9 +463,6 @@
               "properties": {
                 "assets": {
                   "type": "array",
-                  "items": {
-                    "type": "string"
-                  },
                   "default": ["HH", "HV"],
                   "options": { "hidden": true }
                 },
