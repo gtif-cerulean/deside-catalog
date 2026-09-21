@@ -23,11 +23,7 @@
       "agency": [
         "C-CORE"
       ],
-      "collection_group": "A. Algorithms",
-      "eodash:mapProjection": {
-        "name": "EPSG:3413",
-        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-      }
+      "collection_group": "A. Algorithms"
     },
     {
       "rel": "service",
@@ -46,7 +42,7 @@
       "title": "EOxCloudless 2025",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "cloudless-2025",
       "attribution": "{ EOxCloudless 2025: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
@@ -58,7 +54,7 @@
       "title": "Terrain Light Stereographic North",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "sx-cat_ortho680500",
       "wms:layers": "sx-cat_ortho680500",
@@ -132,10 +128,6 @@
     "C-CORE"
   ],
   "collection_group": "A. Algorithms",
-  "eodash:mapProjection": {
-    "name": "EPSG:3413",
-    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/structureicing.json",
   "eodash:merge_assets": false,
   "title": "Structure Icing Index",
@@ -153,8 +145,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-09-21T09:17:22.920158Z",
-          "2026-09-21T09:17:22.920158Z"
+          "2026-09-21T17:30:09.219390Z",
+          "2026-09-21T17:30:09.219390Z"
         ]
       ]
     }
