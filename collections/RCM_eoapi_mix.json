@@ -3,7 +3,7 @@
     "Title": "RCM scenes rendering HH/HV",
     "CollectionGroup": "B. Satellite Data",
     "Themes": [
-       "Shipping"
+        "Shipping"
     ],
     "Description": "RCM Data collection",
     "Resources": [
@@ -17,6 +17,10 @@
                 0,
                 20
             ],
+            "Query": {
+                "Start": "2026-07-01T00:00:00Z",
+                "End": "2026-12-31T00:00:00Z"
+            },
             "Assets": [
                 "HH",
                 "HV"
