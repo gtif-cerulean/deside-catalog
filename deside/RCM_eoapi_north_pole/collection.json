@@ -12,33 +12,22 @@
     },
     {
       "rel": "child",
-      "href": "./RCM_eoapi_north_pole_HH/collection.json",
+      "href": "./RCM_eoapi_north_pole/collection.json",
       "type": "application/json",
-      "title": "RCM scenes HH - North Pole route",
+      "title": "RCM scenes - North Pole route",
       "endpointtype": "VEDA_tiles",
-      "id": "RCM_eoapi_north_pole_HH",
+      "id": "RCM_eoapi_north_pole",
       "themes": [
         "Shipping"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "B. Satellite Data"
-    },
-    {
-      "rel": "child",
-      "href": "./RCM_eoapi_north_pole_HV/collection.json",
-      "type": "application/json",
-      "title": "RCM scenes HV - North Pole route",
-      "endpointtype": "VEDA_tiles",
-      "id": "RCM_eoapi_north_pole_HV",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "B. Satellite Data"
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "xyz",
@@ -138,16 +127,10 @@
     "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
   "eodash:merge_assets": false,
-  "title": "RCM scenes North Pole route",
+  "title": "RCM scenes - North Pole route",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -94.55212664051933,
-          74.25876545549832,
-          161.3497374118205,
-          89.62542975146452
-        ],
         [
           -94.55212664051933,
           74.25876545549832,

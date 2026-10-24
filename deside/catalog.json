@@ -733,7 +733,7 @@
       "rel": "child",
       "href": "./RCM_eoapi_north_pole/collection.json",
       "type": "application/json",
-      "title": "RCM scenes North Pole route",
+      "title": "RCM scenes - North Pole route",
       "id": "RCM_eoapi_north_pole",
       "themes": [
         "Shipping"

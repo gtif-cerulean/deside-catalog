@@ -22,88 +22,7 @@
       "wmts:dimensions": {
         "matrixSet": "EPSG:4326@2x"
       },
-      "proj:epsg": 4326,
-      "eodash:rasterform": {
-        "jsonform": {
-          "type": "object",
-          "properties": {
-            "cmap": {
-              "type": "string",
-              "title": "Colormap",
-              "enum": [
-                "algae",
-                "amp",
-                "balance",
-                "cividis",
-                "cyclic",
-                "delta",
-                "dense",
-                "gray",
-                "haline",
-                "ice",
-                "inferno",
-                "magma",
-                "matter",
-                "phase",
-                "plasma",
-                "rainbow",
-                "solar",
-                "speed",
-                "tempo",
-                "thermal",
-                "viridis"
-              ],
-              "default": "cyclic"
-            },
-            "vminmax": {
-              "type": "object",
-              "title": "Value Range",
-              "properties": {
-                "vmin": {
-                  "type": "number",
-                  "default": 55.041,
-                  "format": "range",
-                  "minimum": 55.041,
-                  "step": 1
-                },
-                "vmax": {
-                  "type": "number",
-                  "default": 255.686,
-                  "format": "range",
-                  "maximum": 383.529,
-                  "step": 1
-                }
-              },
-              "format": "minmax"
-            },
-            "style": {
-              "type": "string",
-              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
-              "watch": {
-                "cmap": "cmap",
-                "vminmax": "vminmax"
-              },
-              "options": {
-                "hidden": true
-              }
-            }
-          },
-          "required": [
-            "vminmax",
-            "cmap"
-          ]
-        },
-        "legend": {
-          "title": "Mean wave direction from (Deg.)",
-          "scaleType": "continuous",
-          "tickFormat": ".0f",
-          "rangeProperty": "cmap",
-          "domainProperties": [
-            "vmin",
-            "vmax"
-          ]
-        }
-      }
+      "proj:epsg": 4326
     },
     {
       "rel": "parent",
@@ -112,6 +31,87 @@
       "title": "Baltic Wave Direction"
     }
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "cyclic"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 55.041,
+              "format": "range",
+              "minimum": 55.041,
+              "step": 1
+            },
+            "vmax": {
+              "type": "number",
+              "default": 255.686,
+              "format": "range",
+              "maximum": 383.529,
+              "step": 1
+            }
+          },
+          "format": "minmax"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap"
+      ]
+    },
+    "legend": {
+      "title": "Mean wave direction from (Deg.)",
+      "scaleType": "continuous",
+      "tickFormat": ".0f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
   "sci:doi": "10.48670/moi-00011",
   "themes": [
     "Baltic Sea"

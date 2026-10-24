@@ -120,6 +120,25 @@
     }
   ],
   "sci:doi": "10.48670/mds-00343",
+  "eox:colorlegend": {
+    "title": "AI: Sea Ice Concentration [%]",
+    "range": [
+      "rgb(150,200,255)",
+      "rgb(140,255,160)",
+      "rgb(255,255,0)",
+      "rgb(255,125,7)",
+      "rgb(255,0,0)"
+    ],
+    "domain": [
+      "Open Water",
+      "1/10 - 3/10",
+      "4/10 - 6/10",
+      "7/10 - 8/10",
+      "9/10 - 10/10"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  },
   "themes": [
     "Shipping"
   ],

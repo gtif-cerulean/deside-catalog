@@ -32,99 +32,6 @@
           5371213.76,
           5405880.72
         ]
-      },
-      "eodash:rasterform": {
-        "jsonform": {
-          "type": "object",
-          "properties": {
-            "cmap": {
-              "type": "string",
-              "title": "Colormap",
-              "enum": [
-                "algae",
-                "amp",
-                "balance",
-                "cividis",
-                "cyclic",
-                "delta",
-                "dense",
-                "gray",
-                "haline",
-                "ice",
-                "inferno",
-                "magma",
-                "matter",
-                "phase",
-                "plasma",
-                "rainbow",
-                "solar",
-                "speed",
-                "tempo",
-                "thermal",
-                "viridis"
-              ],
-              "default": "speed"
-            },
-            "vminmax": {
-              "type": "object",
-              "title": "Value Range",
-              "properties": {
-                "vmin": {
-                  "type": "number",
-                  "default": 0.0,
-                  "format": "range",
-                  "minimum": 0.0,
-                  "step": 0.01
-                },
-                "vmax": {
-                  "type": "number",
-                  "default": 0.3,
-                  "format": "range",
-                  "maximum": 0.45,
-                  "step": 0.01
-                }
-              },
-              "format": "minmax"
-            },
-            "vectorStyle": {
-              "type": "string",
-              "title": "Vector Style",
-              "enum": [
-                "solid",
-                "solidAndVector",
-                "vector"
-              ],
-              "default": "solid"
-            },
-            "style": {
-              "type": "string",
-              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}},vectorStyle:{{vectorStyle}}",
-              "watch": {
-                "cmap": "cmap",
-                "vminmax": "vminmax",
-                "vectorStyle": "vectorStyle"
-              },
-              "options": {
-                "hidden": true
-              }
-            }
-          },
-          "required": [
-            "vminmax",
-            "cmap",
-            "vectorStyle"
-          ]
-        },
-        "legend": {
-          "title": "Sea ice speed [m/s]",
-          "scaleType": "continuous",
-          "tickFormat": ".2f",
-          "rangeProperty": "cmap",
-          "domainProperties": [
-            "vmin",
-            "vmax"
-          ]
-        }
       }
     },
     {
@@ -134,6 +41,99 @@
       "title": "Sea ice velocity"
     }
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "speed"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 0.0,
+              "format": "range",
+              "minimum": 0.0,
+              "step": 0.01
+            },
+            "vmax": {
+              "type": "number",
+              "default": 0.3,
+              "format": "range",
+              "maximum": 0.45,
+              "step": 0.01
+            }
+          },
+          "format": "minmax"
+        },
+        "vectorStyle": {
+          "type": "string",
+          "title": "Vector Style",
+          "enum": [
+            "solid",
+            "solidAndVector",
+            "vector"
+          ],
+          "default": "solid"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}},vectorStyle:{{vectorStyle}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax",
+            "vectorStyle": "vectorStyle"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap",
+        "vectorStyle"
+      ]
+    },
+    "legend": {
+      "title": "Sea ice speed [m/s]",
+      "scaleType": "continuous",
+      "tickFormat": ".2f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
   "sci:doi": "10.48670/moi-00016",
   "themes": [
     "Shipping"

@@ -12,48 +12,22 @@
     },
     {
       "rel": "child",
-      "href": "./RCM_eoapi_mix/collection.json",
+      "href": "./RCM_eoapi/collection.json",
       "type": "application/json",
-      "title": "RCM scenes rendering HH/HV",
+      "title": "RCM scenes",
       "endpointtype": "VEDA_tiles",
-      "id": "RCM_eoapi_mix",
+      "id": "RCM_eoapi",
       "themes": [
         "Shipping"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "B. Satellite Data"
-    },
-    {
-      "rel": "child",
-      "href": "./RCM_eoapi_HH/collection.json",
-      "type": "application/json",
-      "title": "RCM scenes HH",
-      "endpointtype": "VEDA_tiles",
-      "id": "RCM_eoapi_HH",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "B. Satellite Data"
-    },
-    {
-      "rel": "child",
-      "href": "./RCM_eoapi_HV/collection.json",
-      "type": "application/json",
-      "title": "RCM scenes HV",
-      "endpointtype": "VEDA_tiles",
-      "id": "RCM_eoapi_HV",
-      "themes": [
-        "Shipping"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "B. Satellite Data"
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "xyz",
@@ -157,18 +131,6 @@
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -119.13099625295649,
-          -78.82286010746411,
-          -13.013447637362757,
-          82.83501773547283
-        ],
-        [
-          -119.13099625295649,
-          -78.82286010746411,
-          -13.013447637362757,
-          82.83501773547283
-        ],
         [
           -119.13099625295649,
           -78.82286010746411,
