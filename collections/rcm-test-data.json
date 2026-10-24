@@ -1,0 +1,29 @@
+{
+    "Name": "rcm-test-data",
+    "Title": "RCM scenes HH - North Pole route (Test Data)",
+    "CollectionGroup": "B. Satellite Data",
+    "Themes": [
+        "Shipping"
+    ],
+    "Description": "RCM Data collection HH - North Pole route",
+    "Resources": [
+        {
+            "Name": "COG source",
+            "Style": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/polartep_rcm_style.json",
+            "TimeEntries": [
+                {
+                    "Time": "20260729T16:11:54Z",
+                    "Assets": [
+                        {
+                            "Identifier": "RCM3 HH 20260729T16:11:54Z",
+                            "File": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/examples/RCM3_OK4143203_PK4287691_1_SCLNC_20260729_161154_ARD_HH.tif"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "CSA"
+    ]
+}
