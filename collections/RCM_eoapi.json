@@ -14,10 +14,6 @@
       "Rescale": [0, 0.005],
       "Assets": ["HV"],
       "Unit": "HV sigma0",
-      "Query": {
-        "Start": "2026-07-01T00:00:00Z",
-        "End": "2026-12-31T00:00:00Z"
-      },
       "Rasterform": {
         "jsonform": {
           "type": "object",
