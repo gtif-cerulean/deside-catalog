@@ -1,9 +1,13 @@
 name: PR Preview
 
 on:
-  pull_request_target:
-    types: [opened, synchronize, reopened]
-
+  pull_request:
+    branches:
+      - staging
+    types:
+      - opened
+      - reopened
+      - synchronize
 jobs:
   comment:
     runs-on: ubuntu-24.04
