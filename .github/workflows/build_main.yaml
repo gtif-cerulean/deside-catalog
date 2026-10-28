@@ -41,6 +41,5 @@ jobs:
           folder: ./build
           branch: gh-pages
           clean-exclude: |
-            pr-preview
             staging
           force: false
