@@ -1,0 +1,162 @@
+{
+  "type": "Collection",
+  "id": "cmems_baltic_ice_concentration_chart",
+  "stac_version": "1.1.0",
+  "description": "The operational sea ice service at FMI provides ice parameters over the Baltic Sea. The parameters are based on ice chart produced on daily basis during the Baltic Sea ice season and show the ice concentration in a 1 km grid. Ice thickness chart (ITC) is a product based on the most recent available ice chart (IC) and a SAR image. The SAR data is used to update the ice information in the IC. The ice regions in the IC are updated according to a SAR segmentation and new ice thickness values are assigned to each SAR segment based on the SAR backscattering and the ice IC thickness range at that location.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_CONC-L4-NRT-OBS",
+      "type": "image/png",
+      "title": "Baltic Sea Ice Chart Concentration",
+      "wmts:layer": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/FMI-BAL-SEAICE_CONC-L4-NRT-OBS/ice_concentration",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "matrixSet": "EPSG:4326@2x"
+      },
+      "proj:epsg": 4326
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Chart Concentration"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "ice"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": -59.0,
+              "format": "range",
+              "minimum": -59.0,
+              "step": 1
+            },
+            "vmax": {
+              "type": "number",
+              "default": 98.0,
+              "format": "range",
+              "maximum": 147.0,
+              "step": 1
+            }
+          },
+          "format": "minmax"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap"
+      ]
+    },
+    "legend": {
+      "title": "Chart Sea Ice Concentration [%]",
+      "scaleType": "continuous",
+      "tickFormat": ".0f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
+  "sci:doi": "10.48670/moi-00132",
+  "themes": [
+    "Baltic Sea"
+  ],
+  "agency": [
+    "CMEMS"
+  ],
+  "subcode": "cmems_baltic_ice_concentration_chart",
+  "collection_group": "I. Baltic Sea",
+  "proj:epsg": 4326,
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Baltic Sea Ice Chart Concentration",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.0,
+          53.20000076293945,
+          31.0,
+          66.19999694824219
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2026-10-28T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "file:size": 36333,
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

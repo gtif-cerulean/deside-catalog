@@ -1,0 +1,50 @@
+{
+  "type": "Collection",
+  "id": "structureicing",
+  "stac_version": "1.1.0",
+  "description": "The structure icing index is a single parameter which considers sea surface temperature, wind speed, air temperature, and sea ice concentration data to provide a prediction of structure icing rates in different ocean regions.\r\n\r\nThe Icing Predictor Index is calculated using the following formula: [Va \\* (Tf-Ta)] / [1 + 0.3\\*(Tw-Tf)], where parameters are:\r\n\r\n-   Va - wind speed (ms-1)\r\n-   Tf - seawater freezing temperature (°C)\r\n-   Ta - ambient air temperature (°C)\r\n-   Tw - sea surface temperature (°C)\r\n\r\nIcing Predictor values are categorized into the following levels:\r\n\r\n-   PR less than or equal to 0 - no icing\r\n-   PR between 0 and 22 - light icing (icing rate \\< 0.7 cm/hour)\r\n-   PR between 22 and 53 - moderate icing (icing rate between 0.7-2.0 cm/hour)\r\n-   PR between 53 and 83 - heavy icing (icing rate between 2.0-4.0 cm/hour)\r\n-   PR greater than 83 - extreme icing (icing rate \\> 4.0 cm/hour)\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Structure Icing Index"
+    }
+  ],
+  "themes": [
+    "Shipping"
+  ],
+  "agency": [
+    "C-CORE"
+  ],
+  "collection_group": "A. Algorithms",
+  "endpointtype": "Collection-only",
+  "title": "Structure Icing Index",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179,
+          55,
+          179,
+          89
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-10-29T08:36:44.630759Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

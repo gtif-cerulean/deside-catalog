@@ -1,0 +1,171 @@
+{
+  "type": "Collection",
+  "id": "IBC_iceberg_concentration_RCM",
+  "stac_version": "1.1.0",
+  "description": "The iceberg product contains two datasets describing iceberg concentration as number of icebergs counted within 10x10 km grid cells; one derived from Sentinel 1 IW mode and the other from Radarsat Constellation Mission data. The iceberg concentration is derived by applying a Constant False Alarm Rate (CFAR) algorithm on data from Synthetic Aperture Radar (SAR) satellite sensors.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/cmems_obs-si_arc_phy_berg-mos-rcmln_nrt_l3-10km_P1D_irr_202511",
+      "type": "image/png",
+      "title": "Number of icebergs per unit area (RCM)",
+      "wmts:layer": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007/cmems_obs-si_arc_phy_berg-mos-rcmln_nrt_l3-10km_P1D_irr_202511/ibc",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "style": "cmap:ice,range:0/1",
+        "matrixSet": "EPSG:4326@2x"
+      },
+      "proj:epsg": 4326
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (RCM)"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "ice"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 0.0,
+              "format": "range",
+              "minimum": 0.0,
+              "step": 0.1
+            },
+            "vmax": {
+              "type": "number",
+              "default": 1.0,
+              "format": "range",
+              "maximum": 1.5,
+              "step": 0.1
+            }
+          },
+          "format": "minmax"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap"
+      ]
+    },
+    "legend": {
+      "title": "Number of icebergs per unit area (RCM) [#/100 km^2]",
+      "scaleType": "continuous",
+      "tickFormat": ".1f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
+  "sci:doi": "10.48670/moi-00129",
+  "themes": [
+    "Shipping"
+  ],
+  "agency": [
+    "DMI"
+  ],
+  "collection_group": "D. Icebergs",
+  "sensor": "Satellite RCM",
+  "otherSources": [
+    "Spatial Resolution: 10 km x 10 km",
+    "Frequency: Daily"
+  ],
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
+  "proj:epsg": 4326,
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Number of icebergs per unit area (RCM)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          30.0,
+          179.8999999999795,
+          89.93999999999991
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-10-31T23:45:00Z",
+          "2026-10-28T00:24:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "file:size": 26456,
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
