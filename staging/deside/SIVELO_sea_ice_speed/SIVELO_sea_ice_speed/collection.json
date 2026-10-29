@@ -1,0 +1,201 @@
+{
+  "type": "Collection",
+  "id": "SIVELO_sea_ice_speed",
+  "stac_version": "1.1.0",
+  "description": "The global ocean analysis and forecast system provides 10 days of 3D global ocean forecasts updated daily. The time series is aggregated in time to provide a two-year time series sliding window. The output files are displayed with a 1/12 degree horizontal resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406",
+      "type": "image/png",
+      "title": "Sea ice velocity",
+      "wmts:layer": "GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_P1D-m_202406/sea_ice_velocity",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "style": "cmap:speed,vectorStyle:solid,range:0/0.3",
+        "matrixSet": "EPSG:32661"
+      },
+      "eodash:proj4_def": {
+        "name": "EPSG:32661",
+        "def": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -1371213.76,
+          -1405880.72,
+          5371213.76,
+          5405880.72
+        ]
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea ice velocity"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "speed"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 0.0,
+              "format": "range",
+              "minimum": 0.0,
+              "step": 0.01
+            },
+            "vmax": {
+              "type": "number",
+              "default": 0.3,
+              "format": "range",
+              "maximum": 0.45,
+              "step": 0.01
+            }
+          },
+          "format": "minmax"
+        },
+        "vectorStyle": {
+          "type": "string",
+          "title": "Vector Style",
+          "enum": [
+            "solid",
+            "solidAndVector",
+            "vector"
+          ],
+          "default": "solid"
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}},vectorStyle:{{vectorStyle}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax",
+            "vectorStyle": "vectorStyle"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap",
+        "vectorStyle"
+      ]
+    },
+    "legend": {
+      "title": "Sea ice speed [m/s]",
+      "scaleType": "continuous",
+      "tickFormat": ".2f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
+  "sci:doi": "10.48670/moi-00016",
+  "themes": [
+    "Shipping"
+  ],
+  "agency": [
+    "Mercator Ocean International"
+  ],
+  "collection_group": "C. Sea Ice",
+  "sensor": "Numerical model",
+  "otherSources": [
+    "Spatial Resolution: 0.083° x 0.083°",
+    "Frequency: Daily"
+  ],
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
+  "eodash:proj4_def": {
+    "name": "EPSG:32661",
+    "def": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [
+      -1371213.76,
+      -1405880.72,
+      5371213.76,
+      5405880.72
+    ]
+  },
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sea ice velocity",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -80.0,
+          179.91668701171875,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-01T00:00:00Z",
+          "2026-11-07T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "file:size": 51147,
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

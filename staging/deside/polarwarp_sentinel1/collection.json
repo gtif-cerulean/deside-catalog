@@ -1,0 +1,210 @@
+{
+  "type": "Collection",
+  "id": "polarwarp_sentinel1",
+  "stac_version": "1.1.0",
+  "description": "There can be a long wait for the next satellite image to be received during which sea ice can move a considerable distance. The Sea Ice Motion Animation algorithm transforms a satellite image using a sea ice drift forecast to simulate what the ice in a region should look like in the future. The algorithm uses the neXtSIM model for ice drift forecasts up to six hours ahead.\r\n\r\nThe neXtSIM model is a lagrangian sea ice model designed to address the challenges posed by the highly non-linear and evolving dynamics of Arctic sea ice. It employs an elasto-brittle rheology to capture the fracturing and deformation of sea ice with high fidelity. The model is forced with atmospheric and oceanic inputs from ECMWF and TOPAZ5 respectively and provides detailed forecasts of variables such as ice concentration, thickness, and most importantly, the sea ice drift in u and v components, which is used in the sea ice motion animation.\r\n\r\nThe following parameters are defined by the user:\r\n\r\n-   forecast duration: Number of hours the forecast should run, starting at the timestamp of the input image file,\r\n-   GCP separation: The maximum distance in pixels between the ground control points automatically set throughout the image.\r\n\r\nBy default, ground control points (GCPs) are set in the four corners of the image. However, the number of GCPs can be increased, placing more points across the image and hence increasing the resolution of the following image warping. The procedure uses an hourly time step, until the forecast reaches the end of the forecast time window. The transformation of the image is performed by the Thin Plate Spline (TPS) algorithm, which is a mathematical model used for non-rigid image alignment and deformation, offering a smooth mapping between points in two-dimensional space. It operates by minimizing the bending energy of a smooth surface that passes through a set of control points, making it ideal for warping applications.\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./polarwarp/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Motion Animation",
+      "endpointtype": "Collection-only",
+      "id": "polarwarp",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "Drift+Noise"
+      ],
+      "collection_group": "A. Algorithms",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH",
+      "endpointtype": "Sentinel Hub WMS",
+      "id": "Sentinel1-EW-HH",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "service",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-polarwarp-gcps/execution",
+      "type": "image/tiff",
+      "id": "polarwarpcollection",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/polarwarp.json",
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/polarwarp.json"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2025",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2025",
+      "attribution": "{ EOxCloudless 2025: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "North_Pole_Journey"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    }
+  ],
+  "themes": [
+    "Shipping"
+  ],
+  "agency": [
+    "Drift+Noise"
+  ],
+  "collection_group": "A. Algorithms",
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/polarwarp.json",
+  "eodash:merge_assets": false,
+  "title": "Sea Ice Motion Animation",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          89
+        ],
+        [
+          -179,
+          55,
+          179,
+          89
+        ],
+        [
+          -180,
+          -85,
+          180,
+          85
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2026-10-29T08:35:34.351378Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Shipping"
+    ]
+  },
+  "assets": {
+    "North_Pole_Journey": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/north_pole_journey.geojson",
+      "type": "application/geo+json",
+      "title": "North Pole Journey Area",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    }
+  }
+}

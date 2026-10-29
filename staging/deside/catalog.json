@@ -1,0 +1,775 @@
+{
+  "type": "Catalog",
+  "id": "deside",
+  "stac_version": "1.1.0",
+  "description": "Catalog providing description to available datasets to the DESIDE project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./polaris_sentinel1/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration Comparison",
+      "id": "polaris_sentinel1",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./polarwarp_sentinel1/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Motion Animation",
+      "id": "polarwarp_sentinel1",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "Drift+Noise"
+      ],
+      "collection_group": "A. Algorithms",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_balitic_ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Concentration",
+      "code": "cmems_baltic_ice_concentration",
+      "id": "cmems_balitic_ice_concentration",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "subcode": "cmems_baltic_ice_concentration",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "I. Baltic Sea"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Thickness",
+      "code": "cmems_baltic_ice_thickness",
+      "id": "cmems_baltic_ice_thickness",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "subcode": "cmems_baltic_ice_thickness",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "I. Baltic Sea"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_water_pot_temp/collection.json",
+      "type": "application/json",
+      "title": "Baltic Water Potential Temperature",
+      "code": "cmems_baltic_water_pot_temp",
+      "id": "cmems_baltic_water_pot_temp",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "subcode": "cmems_baltic_water_pot_temp",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "I. Baltic Sea"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_water_salinity/collection.json",
+      "type": "application/json",
+      "title": "Baltic Water Salinity",
+      "code": "cmems_baltic_water_salinity",
+      "id": "cmems_baltic_water_salinity",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "subcode": "cmems_baltic_water_salinity",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "I. Baltic Sea"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_ice_thickness_chart/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Chart Thickness",
+      "code": "cmems_baltic_ice_thickness_chart",
+      "id": "cmems_baltic_ice_thickness_chart",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "subcode": "cmems_baltic_ice_thickness_chart",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "I. Baltic Sea"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_ice_concentration_chart/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Ice Chart Concentration",
+      "code": "cmems_baltic_ice_concentration_chart",
+      "id": "cmems_baltic_ice_concentration_chart",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "subcode": "cmems_baltic_ice_concentration_chart",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "I. Baltic Sea"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_wave_height/collection.json",
+      "type": "application/json",
+      "title": "Baltic Wave Height",
+      "code": "cmems_baltic_wave_height",
+      "id": "cmems_baltic_wave_height",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "subcode": "cmems_baltic_wave_height",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "I. Baltic Sea"
+    },
+    {
+      "rel": "child",
+      "href": "./cmems_baltic_wave_directon/collection.json",
+      "type": "application/json",
+      "title": "Baltic Wave Direction",
+      "code": "cmems_baltic_wave_directon",
+      "id": "cmems_baltic_wave_directon",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "subcode": "cmems_baltic_wave_directon",
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "I. Baltic Sea"
+    },
+    {
+      "rel": "child",
+      "href": "./Sea_water_velocity_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity - Baltic Sea",
+      "id": "Sea_water_velocity_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice concentration - Baltic Sea",
+      "id": "SICONC_sea_ice_concentration_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice thickness - Baltic Sea",
+      "id": "SITHICK_sea_ice_thickness_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SO_salinity_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water salinity - Baltic Sea",
+      "id": "SO_salinity_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./THETAO_water_temperature_Baltic/collection.json",
+      "type": "application/json",
+      "title": "Sea water potential temperature - Baltic Sea",
+      "id": "THETAO_water_temperature_Baltic",
+      "themes": [
+        "Baltic Sea"
+      ],
+      "sensor": "Numerical models",
+      "agency": [
+        "SMHI"
+      ],
+      "collection_group": "I. Baltic Sea",
+      "otherSources": [
+        "Spatial Resolution: 2 × 2 km",
+        "Frequency: Daily "
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CIS_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "Ice charts (CIS)",
+      "id": "CIS_Icecharts",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "Canadian Ice Service (CIS)"
+      ],
+      "agency": [
+        "CIS"
+      ],
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./DMI_Icecharts/collection.json",
+      "type": "application/json",
+      "title": "Ice charts (DMI)",
+      "id": "DMI_Icecharts",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./DMI_polaris/collection.json",
+      "type": "application/json",
+      "title": "POLARIS (DMI)",
+      "id": "DMI_polaris",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "DMI",
+        "EOX"
+      ],
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "A. Algorithms",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./NIC_Icecharts_arctic/collection.json",
+      "type": "application/json",
+      "title": "Ice charts (NIC)",
+      "id": "NIC_Icecharts_arctic",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "U.S. NATIONAL ICE CENTER (USNIC)",
+        "EOX"
+      ],
+      "agency": [
+        "USNIC"
+      ],
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-floe/collection.json",
+      "type": "application/json",
+      "title": "AI: Sea Ice Floe Size",
+      "id": "dmi-asip-seaice-floe",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-sic/collection.json",
+      "type": "application/json",
+      "title": "AI: Sea Ice Concentration",
+      "id": "dmi-asip-seaice-sic",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./dmi-asip-seaice-sod/collection.json",
+      "type": "application/json",
+      "title": "AI: Sea Ice Stage of Development",
+      "id": "dmi-asip-seaice-sod",
+      "themes": [
+        "Shipping"
+      ],
+      "providers": [
+        "CMEMS",
+        "EOX"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./IBC_iceberg_concentration_IW/collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (S1 IW)",
+      "id": "IBC_iceberg_concentration_IW",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Satellite S1 IW",
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "D. Icebergs",
+      "otherSources": [
+        "Spatial Resolution: 10 km x 10 km",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./IBC_iceberg_concentration_RCM/collection.json",
+      "type": "application/json",
+      "title": "Number of icebergs per unit area (RCM)",
+      "id": "IBC_iceberg_concentration_RCM",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Satellite RCM",
+      "agency": [
+        "DMI"
+      ],
+      "collection_group": "D. Icebergs",
+      "otherSources": [
+        "Spatial Resolution: 10 km x 10 km",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./sea_ice_surface_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea ice surface temperature",
+      "id": "sea_ice_surface_temperature",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° × 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-EW-HH/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 EW HH",
+      "id": "Sentinel1-EW-HH",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel1-IW-VV/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 1 IW VV",
+      "id": "Sentinel1-IW-VV",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel2-L2A/collection.json",
+      "type": "application/json",
+      "title": "Sentinel 2 L2A",
+      "id": "Sentinel2-L2A",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "Sentinel Hub"
+      ],
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SIAGE_sea_ice_age.json/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Age",
+      "id": "SIAGE_sea_ice_age.json",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International "
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SICONC_sea_ice_concentration/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Concentration",
+      "id": "SICONC_sea_ice_concentration",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SISNTHICK_surface_snow_thickness/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Surface Snow Thickness",
+      "id": "SISNTHICK_surface_snow_thickness",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SITHICK_sea_ice_thickness/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Thickness",
+      "id": "SITHICK_sea_ice_thickness",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SIVELO_sea_ice_speed/collection.json",
+      "type": "application/json",
+      "title": "Sea ice velocity",
+      "id": "SIVELO_sea_ice_speed",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "C. Sea Ice",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./SO_salinity/collection.json",
+      "type": "application/json",
+      "title": "Sea Water Salinity",
+      "id": "SO_salinity",
+      "themes": [
+        "Shipping"
+      ],
+      "sensor": "Numerical model",
+      "agency": [
+        "Mercator Ocean International"
+      ],
+      "collection_group": "E. Sea Water",
+      "otherSources": [
+        "Spatial Resolution: 0.083° x 0.083°",
+        "Frequency: Daily"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./structureicing/collection.json",
+      "type": "application/json",
+      "title": "Structure Icing Index",
+      "id": "structureicing",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "C-CORE"
+      ],
+      "collection_group": "A. Algorithms"
+    },
+    {
+      "rel": "child",
+      "href": "./Sea_water_velocity/collection.json",
+      "type": "application/json",
+      "title": "Sea water velocity",
+      "id": "Sea_water_velocity",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "CMEMS"
+      ],
+      "collection_group": "E. Sea Water",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Fast_Ice_NGI_EOAPI/collection.json",
+      "type": "application/json",
+      "title": "Landfast Sea Ice (Svalbard)",
+      "id": "Fast_Ice_NGI_EOAPI",
+      "themes": [
+        "Landfast Sea Ice"
+      ],
+      "agency": [
+        "Norwegian Geotechnical Institute (NGI)"
+      ],
+      "collection_group": "C. Sea Ice",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./RCM_eoapi_north_pole/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes - North Pole route",
+      "id": "RCM_eoapi_north_pole",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./RCM_eoapi/collection.json",
+      "type": "application/json",
+      "title": "RCM scenes",
+      "id": "RCM_eoapi",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "B. Satellite Data",
+      "eodash:mapProjection": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-cerulean.github.io/deside-catalog/deside/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "DESIDE project catalog"
+}

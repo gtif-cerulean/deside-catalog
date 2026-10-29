@@ -1,0 +1,171 @@
+{
+  "type": "Collection",
+  "id": "structureicing",
+  "stac_version": "1.1.0",
+  "description": "The structure icing index is a single parameter which considers sea surface temperature, wind speed, air temperature, and sea ice concentration data to provide a prediction of structure icing rates in different ocean regions.\r\n\r\nThe Icing Predictor Index is calculated using the following formula: [Va \\* (Tf-Ta)] / [1 + 0.3\\*(Tw-Tf)], where parameters are:\r\n\r\n-   Va - wind speed (ms-1)\r\n-   Tf - seawater freezing temperature (°C)\r\n-   Ta - ambient air temperature (°C)\r\n-   Tw - sea surface temperature (°C)\r\n\r\nIcing Predictor values are categorized into the following levels:\r\n\r\n-   PR less than or equal to 0 - no icing\r\n-   PR between 0 and 22 - light icing (icing rate \\< 0.7 cm/hour)\r\n-   PR between 22 and 53 - moderate icing (icing rate between 0.7-2.0 cm/hour)\r\n-   PR between 53 and 83 - heavy icing (icing rate between 2.0-4.0 cm/hour)\r\n-   PR greater than 83 - extreme icing (icing rate \\> 4.0 cm/hour)\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./structureicing/collection.json",
+      "type": "application/json",
+      "title": "Structure Icing Index",
+      "endpointtype": "Collection-only",
+      "id": "structureicing",
+      "themes": [
+        "Shipping"
+      ],
+      "agency": [
+        "C-CORE"
+      ],
+      "collection_group": "A. Algorithms"
+    },
+    {
+      "rel": "service",
+      "href": "https://harshness-map.gtif.eox.at/processes/execute-structure-icing-0.5/execution",
+      "type": "image/tiff",
+      "id": "structureicing",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/body/structureicing.json",
+      "eox:flatstyle": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/styles/structureicing.json"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2025",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2025",
+      "attribution": "{ EOxCloudless 2025: <a href=\"https://s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"https://eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
+      "type": "image/png",
+      "title": "Terrain Light Stereographic North",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "sx-cat_ortho680500",
+      "wms:layers": "sx-cat_ortho680500",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "eodash:proj4_def": {
+        "name": "ORTHO:680500",
+        "def": "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+        "extent": [
+          -6422528,
+          -6422528,
+          6422528,
+          6422528
+        ]
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-cerulean/assets/main/styles/wind_energy_polygon.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "North_Pole_Journey"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DESIDE project catalog"
+    }
+  ],
+  "themes": [
+    "Shipping"
+  ],
+  "agency": [
+    "C-CORE"
+  ],
+  "collection_group": "A. Algorithms",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-cerulean/assets/refs/heads/main/jsonforms/structureicing.json",
+  "eodash:merge_assets": false,
+  "title": "Structure Icing Index",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179,
+          55,
+          179,
+          89
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-10-29T08:36:26.270299Z",
+          "2026-10-29T08:36:26.270299Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Shipping"
+    ]
+  },
+  "assets": {
+    "North_Pole_Journey": {
+      "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/north_pole_journey.geojson",
+      "type": "application/geo+json",
+      "title": "North Pole Journey Area",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    }
+  }
+}
