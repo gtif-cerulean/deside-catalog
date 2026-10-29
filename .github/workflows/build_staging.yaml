@@ -2,7 +2,7 @@
 # catalog when pushing to main branch
 
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy staging
 
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
