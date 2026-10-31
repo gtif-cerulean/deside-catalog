@@ -48,7 +48,7 @@
       "interval": [
         [
           "2025-01-01T00:00:00Z",
-          "2026-10-29T00:00:00Z"
+          "2026-10-30T00:00:00Z"
         ]
       ]
     }
@@ -69,7 +69,7 @@
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/dmi-polaris/daily_items_merged.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
-      "file:size": 66692,
+      "file:size": 66727,
       "roles": [
         "collection-mirror"
       ]
