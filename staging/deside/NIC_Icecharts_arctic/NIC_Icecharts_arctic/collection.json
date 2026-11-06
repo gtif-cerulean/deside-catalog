@@ -48,7 +48,7 @@
       "interval": [
         [
           "2025-01-03T00:00:00Z",
-          "2026-10-22T00:00:00Z"
+          "2026-11-05T00:00:00Z"
         ]
       ]
     }
@@ -69,7 +69,7 @@
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/nic-ice-charts-arctic/geojsons/daily_items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
-      "file:size": 16732,
+      "file:size": 16750,
       "roles": [
         "collection-mirror"
       ]
