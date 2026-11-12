@@ -48,7 +48,7 @@
       "interval": [
         [
           "2025-01-06T00:00:00Z",
-          "2026-11-02T00:00:00Z"
+          "2026-11-09T00:00:00Z"
         ]
       ]
     }
@@ -65,7 +65,7 @@
       "href": "https://workspace-ui-public.cif.gtif.eox.at/api/public/share/public-4wazei3y-02/cis-ice-charts/geojsons/daily_items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
-      "file:size": 20083,
+      "file:size": 20119,
       "roles": [
         "collection-mirror"
       ]
