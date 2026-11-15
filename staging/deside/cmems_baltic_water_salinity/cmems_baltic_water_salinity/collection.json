@@ -266,7 +266,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-11-22T00:00:00Z"
+          "2026-11-23T00:00:00Z"
         ]
       ]
     }
@@ -277,7 +277,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
-      "file:size": 36686,
+      "file:size": 36701,
       "roles": [
         "collection-mirror"
       ]
