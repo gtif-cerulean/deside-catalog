@@ -109,7 +109,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
-      "file:size": 155798,
+      "file:size": 155804,
       "roles": [
         "collection-mirror"
       ]
